@@ -1,0 +1,116 @@
+{
+    "general": {
+        "path": "/contacto",
+        "siteurl": "https://guarapomedia.com/contacto",
+        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "ua": "",
+        "lang": "es"
+    },
+    "navigation": {
+        "title": "Guarapo Media • Agencia de Marketing Digital en Barcelona",
+        "logo-active": true,
+        "logo-url": "./images/logo.svg",
+        "cta-button": "Chat",
+        "cta-link": "https://wa.me/34622531989",
+        "menu": [
+            {
+                "nav": "Inicio",
+                "anchor": "/",
+                "link": "/"
+            },
+            {
+                "nav": "Marketing Digital",
+                "anchor": "/",
+                "link": "/marketing-digital"
+            },
+            {
+                "nav": "Desarrollo Web",
+                "anchor": "/",
+                "link": "/desarrollo-web"
+            },
+            {
+                "nav": "El Equipo",
+                "anchor": "/",
+                "link": "/equipo"
+            },
+            {
+                "nav": "Contacto",
+                "anchor": "/",
+                "link": "/contacto"
+            }
+        ]
+    },
+    "cover": {
+        "title": "Nuestro <strong>Contacto</strong>",
+        "subtitle": "",
+        "bgimage": "./images/bg_hero.jpg",
+        "logo-url": "./images/logo.svg",
+        "button-text": "Conoce más",
+        "button-url": "mailto:contacto@guarapomedia.com"
+    },
+    "form": {
+        "title":"¿Necesitas ayuda en tu proyecto?",
+        "description":"Si has llegado hasta aquí es que tienes alguna pregunta, escribenos un mensaje y nos pondremos en contacto.",
+        "name": "Nombre y Apellido",
+        "email": "Email",
+        "phone": "Phone",
+        "message": "Mensaje",
+        "send": "Enviar",
+        "success": "¡Gracias por tu mensaje!",
+        "contacts": [
+            {
+                "id":"1",
+                "city": "España - Barcelona",
+                "name": "Walter Mazzariol",
+                "number": "+34 622 531 989",
+                "email": "walter@guarapomedia.com"
+            },
+            {
+                "id":"2",
+                "city": "Miami - Usa",
+                "name": "Christian Uzcategui",
+                "number": "",
+                "email": "christian@guarapomedia.com"
+            },
+            {
+                "id":"3",
+                "city": "Caracas - Venezuela",
+                "name": "Natassha Rodriguez",
+                "number": "+58 424 294 1213",
+                "email": "natassha@guarapomedia.com"
+            }
+        ]
+    },
+    "contact": {
+        "phone": "+34622531989",
+        "email": "contacto@guarapomedia.com",
+        "address": "Barcelona, España",
+        "socialmedia": [
+            {
+                "link": "https://www.instagram.com/GuarapoMedia/",
+                "name": "instagram"
+            },
+            {
+                "link": "https://twitter.com/GuarapoMedia",
+                "name": "twitter"
+            },
+            {
+                "link": "https://facebook.com/GuarapoMedia/",
+                "name": "facebook"
+            }
+        ],
+        "image": "./images/footer.jpg"
+    },
+    "tags": {
+        "viewmore": "Ver más",
+        "viewless": "Ver menos",
+        "cookie-message": "Usamos cookies propias y de terceros para mejorar tu experiencia como usuario.",
+        "cookie-accept": "Aceptar",
+        "event": "Título",
+        "date": "Fecha",
+        "location": "Locación",
+        "not-found-title": "404 not found",
+        "not-found-message": "You are in a wrong page.. Go back to our home",
+        "not-found-btn": "Home"
+    }
+}

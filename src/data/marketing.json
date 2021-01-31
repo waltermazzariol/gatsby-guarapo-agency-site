@@ -1,0 +1,263 @@
+{
+    "general": {
+        "path": "/marketing",
+        "siteurl": "https://guarapomedia.com/marketing",
+        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "ua": "",
+        "lang": "es"
+    },
+    "navigation": {
+        "title": "Guarapo Media • Agencia de Marketing Digital en Barcelona",
+        "logo-active": true,
+        "logo-url": "./images/logo.svg",
+        "cta-button": "Chat",
+        "cta-link": "https://wa.me/34622531989",
+        "menu": [
+            {
+                "nav": "Inicio",
+                "anchor": "/",
+                "link": "/"
+            },
+            {
+                "nav": "Marketing Digital",
+                "anchor": "/",
+                "link": "/marketing-digital"
+            },
+            {
+                "nav": "Desarrollo Web",
+                "anchor": "/",
+                "link": "/desarrollo-web"
+            },
+            {
+                "nav": "El Equipo",
+                "anchor": "/",
+                "link": "/equipo"
+            },
+            {
+                "nav": "Contacto",
+                "anchor": "/",
+                "link": "/contacto"
+            }
+        ]
+    },
+    "hero": {
+        "title": "<strong>SOCIALIZAR</strong> El secreto de tu negocio en el futuro",
+        "subtitle": "Posicionamos tu negocio en el Mundo Digital. ",
+        "image": "./images/hero_marketing.png",
+        "bgimage": "./images/bg_hero.jpg",
+        "logo-url": "./images/logo.svg",
+        "button-text": "Conoce más",
+        "button-url": "mailto:contacto@guarapomedia.com"
+    },
+    "about": {
+        "id": 3,
+        "title": "Saca el mayor provecho de tu Proyecto digital",
+        "text": "Conectar con tu audiencia en el mundo digital es la clave. Nosotros lo hacemos por ti \n<strong>Contenido. Interacción.</strong>",
+        "image": "./images/profile_maketing.png"
+    },
+    "banner": {
+        "text": "El momento es ahora. ¿Estás listo para posicionar tu proyecto?",
+        "button-text": "¡Estoy listo!",
+        "button-link": "#contact",
+        "image": "./images/bg_banner.jpg"
+    },
+    "banner-2": {
+        "text": "te acompañamos en todo el camino ayudandote a crecer",
+        "image": "./images/plant.png"
+    },
+    "portfolio": {
+        "title": "Showcase",
+        "tags": {
+            "client": "Cliente",
+            "city": "Ciudad",
+            "url": "Dominio",
+            "year": "Año",
+            "tags": "Etiquetas",
+            "close": "Cerrar"
+        },
+        "list": [
+            {
+                "id": 0,
+                "client": "Piel de Oro",
+                "city": "Miami",
+                "url": "https://pieldeoro.com",
+                "year": "2020",
+                "tags": "Pequeña Empresa, multi-idioma",
+                "image": "./images/portfolio/1.jpg",
+                "thumbnail": "./images/portfolio/d1.jpg",
+                "alt": "Piel de oro"
+            },{
+                "id": 1,
+                "client": "Norma Pasteles",
+                "city": "Barcelona",
+                "url": "https://normapasteles.com",
+                "year": "2020",
+                "tags": "Pequeña Empresa, Respostería",
+                "image": "./images/portfolio/2.jpg",
+                "thumbnail": "./images/portfolio/d2.jpg",
+                "alt": "Norma Pasteles"
+            },{
+                "id": 2,
+                "client": "Burbowl",
+                "city": "Miami",
+                "url": "https://burbowl.com",
+                "year": "2018",
+                "tags": "Pequeña Empresa, Restaurant",
+                "image": "./images/portfolio/3.jpg",
+                "thumbnail": "./images/portfolio/d3.jpg",
+                "alt": "Burbowl"
+            },{
+                "id": 3,
+                "client": "Cultura Nanos",
+                "city": "Madrid",
+                "url": "https://culturalnanos.com",
+                "year": "2020",
+                "tags": "Pequeña Empresa, Escuela infantil",
+                "image": "./images/portfolio/4.jpg",
+                "thumbnail": "./images/portfolio/d4.jpg",
+                "alt": "Cultura Nanos"
+            },{
+                "id": 4,
+                "client": "Picarpolos",
+                "city": "Madrid",
+                "url": "https://picarpolos.com",
+                "year": "2017",
+                "tags": "Pequeña Empresa, Escuela de natación",
+                "image": "./images/portfolio/5.jpg",
+                "thumbnail": "./images/portfolio/d5.jpg",
+                "alt": "Picarpolos"
+            },{
+                "id": 5,
+                "client": "Lifeinvest Wealth",
+                "city": "Panamá",
+                "url": "https://lifeinvestwealth.com",
+                "year": "2020",
+                "tags": "Empresa, multi-idioma",
+                "image": "./images/portfolio/6.jpg",
+                "thumbnail": "./images/portfolio/d6.jpg",
+                "alt": "Lifeinvest"
+            },{
+                "id": 6,
+                "client": "Fundacion BOD",
+                "city": "Caracas",
+                "url": "https://fundacionbod.com.ve",
+                "year": "2017",
+                "tags": "Fundación, blog",
+                "image": "./images/portfolio/7.jpg",
+                "thumbnail": "./images/portfolio/d7.jpg",
+                "alt": "Fundación BOD"
+            },{
+                "id": 7,
+                "client": "Latin Grammy Winnner, Miguel Siso",
+                "city": "Dublin",
+                "url": "https://miguelsiso.com",
+                "year": "2018",
+                "tags": "Portafolio, multi-idioma",
+                "image": "./images/portfolio/8.jpg",
+                "thumbnail": "./images/portfolio/d8.jpg",
+                "alt": "Miguel Siso"
+            }
+        ]
+    },
+    "services": {
+        "id": 1,
+        "title": "Servicios",
+        "subtitle": "",
+        "slogan": "",
+        "projects": [
+            {
+                "name": "Desarrollo de Campañas",
+                "type": "Desarrollo planes estratégico y campañas de Ads para Facebook y Google, manejo de suscriptores, desarrollo de marcas ",
+                "image": "./images/services/s1.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Administración de Anuncios",
+                "type": "Maquetación, Desarrollo y mantenimiento web. Trabajamos con CMS como Wordpress, Shopify, PrestaShop. También te ayudamos en la creación de Lanndings page para captar leas y creación de Microsites para páginas personales ",
+                "image": "./images/services/s6.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Generación de Contenidos",
+                "type": "Consigue el nombre de tu próxima página web y hospédalo en nuestra plataforma. También gestionamos tus correos en Google o Microsoft 360. Todo en un sólo lugar.",
+                "image": "./images/services/s7.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Email Marketing",
+                "type": "Consigue el nombre de tu próxima página web y hospédalo en nuestra plataforma. También gestionamos tus correos en Google o Microsoft 360. Todo en un sólo lugar.",
+                "image": "./images/services/s5.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Desarrollo de Marca",
+                "type": "Consigue el nombre de tu próxima página web y hospédalo en nuestra plataforma. También gestionamos tus correos en Google o Microsoft 360. Todo en un sólo lugar.",
+                "image": "./images/services/s4.svg",
+                "alt": "imagen 1"
+            }
+        ]
+    },
+    "client-type": {
+        "id": 1,
+        "title": "¿A quién esta dirigido?",
+        "subtitle": "",
+        "services": [
+            {
+                "name": "Pequeña Empresa",
+                "type": "¿Presupuestos ajustados? tenemos la respuesta, nos ajustamos a tu presupuesto y ofrecemos soluciones para todos los tamaños. Cuéntanos sobre tu idea y podremos ayudarte a dar el siguiente paso.",
+                "image": "./images/services/5.jpg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Branding Personal",
+                "type": "¿Influencers, artistas, o simplemente un proyecto personal? Con nuestra experiencia te ayudamos a destacar tu talento con esa web que tanto has soñado.",
+                "image": "./images/services/6.jpg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Restaurante o comercios",
+                "type": "¿Quieres presentar tu trabajo profesional? Con nuestras soluciones para portafafolios podrás exponer tu trabajo y estará disponible a un click de distancia",
+                "image": "./images/services/7.jpg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Tienda Online (e-commerce)",
+                "type": "¿Vender online? no problema. Te ayudaremos desde inicio a fin para que puedas tener el total control de tu tienda virtual y sacar el máximo provecho.",
+                "image": "./images/services/8.jpg",
+                "alt": "imagen 1"
+            }
+        ]
+    },
+    "contact": {
+        "phone": "+34622531989",
+        "email": "contacto@guarapomedia.com",
+        "address": "Barcelona, España",
+        "socialmedia": [
+            {
+                "link": "https://www.instagram.com/GuarapoMedia/",
+                "name": "instagram"
+            },
+            {
+                "link": "https://twitter.com/GuarapoMedia",
+                "name": "twitter"
+            },
+            {
+                "link": "https://facebook.com/GuarapoMedia/",
+                "name": "facebook"
+            }
+        ],
+        "image": "./images/footer.jpg"
+    },
+    "tags": {
+        "viewmore": "Ver más",
+        "viewless": "Ver menos",
+        "cookie-message": "Usamos cookies propias y de terceros para mejorar tu experiencia como usuario.",
+        "cookie-accept": "Aceptar",
+        "event": "Título",
+        "date": "Fecha",
+        "location": "Locación",
+        "not-found-title": "404 not found",
+        "not-found-message": "You are in a wrong page.. Go back to our home",
+        "not-found-btn": "Home"
+    }
+}

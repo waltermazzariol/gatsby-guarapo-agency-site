@@ -1,0 +1,153 @@
+// Styling for the masthead
+.hero {
+	background-color: $yellow;
+	margin-top: 60px;
+	.logo{
+		max-width: 150px;
+		&-wrapper{
+			display: flex;
+			justify-content: center;
+			padding-top: 1rem;
+			padding-bottom: 2rem;
+		}
+	}
+	&-wrapper {
+		max-width: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: auto;
+		padding: 1rem 0 3rem;
+	}
+	&-item {
+		max-width: 100%;
+		img {
+			max-width: 100%;
+			max-height: 500px;
+		}
+		h1.hero-title {
+			font-size: 2.4rem;
+			font-weight: 300;
+			margin-bottom: 1rem;
+			strong{
+				font-weight: 700;
+			}
+		}
+		.hero-subtitle {
+			color: $primary;
+			font-size: 1.2rem;
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		.logo{
+			max-width: 200px;
+			&-wrapper{
+				display: flex;
+				justify-content: center;
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+			}
+		}
+		&-item {
+			max-width: calc(100% / 2);
+			img {
+				max-width: 90%;
+			}
+			h1.hero-title {
+				font-size: 2.5rem;
+			}
+			.hero-subtitle {
+				font-size: 1.15rem;
+			}
+		}
+	}
+
+	@include media-breakpoint-up(lg) {
+		background-attachment: fixed !important;
+		&-item {
+			h1.hero-title {
+				font-size: 3.5rem;
+			}
+			.hero-subtitle {
+				font-size: 1rem;
+			}
+		}
+	}
+	@include media-breakpoint-up(xl) {
+		&-item {
+			h1.hero-title {
+				font-size: 4rem;
+				max-width: 100%;
+			}
+		}
+	}
+}
+
+.cover{
+	background-color: $yellow;
+	margin-top: 60px;
+	min-height: 350px;
+	display: flex;
+	width: 100%;
+	&-wrapper {
+		max-width: 90%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		margin: auto;
+		padding: 1rem 0 3rem;
+	}
+	&-item {
+		max-width: 100%;
+		h1.cover-title {
+			font-size: 2.4rem;
+			font-weight: 300;
+			margin-bottom: 1rem;
+			strong{
+				font-weight: 700;
+			}
+		}
+		.cover-subtitle {
+			color: $primary;
+			font-size: 1rem;
+		}
+	}
+
+	@include media-breakpoint-up(md) {
+		&-item {
+			max-width: calc(100% / 2);
+			img {
+				max-width: 90%;
+			}
+			h1.cover-title {
+				font-size: 2.5rem;
+			}
+			.cover-subtitle {
+				font-size: 1.15rem;
+			}
+		}
+	}
+
+	@include media-breakpoint-up(lg) {
+		background-attachment: fixed !important;
+		&-item {
+			h1.cover-title {
+				font-size: 3.5rem;
+			}
+			.cover-subtitle {
+				font-size: 1rem;
+			}
+		}
+	}
+	@include media-breakpoint-up(xl) {
+		&-item {
+			h1.cover-title {
+				font-size: 4rem;
+				max-width: 100%;
+			}
+		}
+	}
+}

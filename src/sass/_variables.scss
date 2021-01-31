@@ -1,0 +1,56 @@
+// Variables
+
+// Color overrides
+
+// Set a custom color
+$orange: #f4623a !default;
+$brown: #5c4d42 !default;
+$blue:#525D7D;
+$green: #CCEC80;
+$light-green: #F7FAE1;
+$purple: #DBBCDC;
+$light-pink: #fff5f4;
+$red: #D0011B;
+$light-blue: #E9F8FF;
+$dark-blue: #142850;
+$dark-black: #444;
+$darker-black: #333;
+$dark-gray: #777;
+$light-gray: #dbdbdb;
+$yellow: #FFEA7C;
+
+// Set primary color to orange
+$primary: $blue !default;
+$secundary: darken( $primary, 10% ) !default;
+
+// Font overrides
+$font-family-sans-serif: 'Noto Sans', sans-serif, !default;
+$font-family-serif: 'Roboto', sans-serif !default;
+
+$headings-font-family: $font-family-serif !default;
+$font-family-base: $font-family-serif !default;
+
+$font-heading-color: $primary;
+$font-text-color: $dark-black;
+$body-background: white;
+$divider-color: $primary;
+
+// Custom variables
+$navbar-height: 60px;
+
+$text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+$text-shadow-2: 0 1px 2px rgba(0, 0, 0, 0.5);
+
+$image-color-hover: fade-out($dark-black, 0.6);
+
+$navbar-color: white;
+$navbar-cta-color: $font-heading-color;
+$navbar-cta-bg-color: $primary;
+$navbar-text-color: $font-heading-color;
+$navbar-text-color-hover: rgba(200, 200, 200, 0.2);
+$navbar-font-family: $headings-font-family;
+$navbar-shadow: none;
+
+
+$navbar-togle-collapse: white;
+$navbar-togle-collapse-line: #ddd;

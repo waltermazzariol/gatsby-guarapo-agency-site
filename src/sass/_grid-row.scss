@@ -1,0 +1,28 @@
+.grid-row {
+  &-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem 0 4rem 0;
+  }
+  &-item {
+    text-align: center;
+    max-width: 50%;
+    padding: 1rem;
+  }
+  &-box {
+    text-align: center;
+    img {
+      max-width: 100%;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    &-item {
+      text-align: center;
+      max-width: 25%;
+      padding: 1rem;
+    }
+  }
+}

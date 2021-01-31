@@ -1,0 +1,127 @@
+{
+    "general": {
+        "path": "/equipo",
+        "siteurl": "https://guarapomedia.com/equipo",
+        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "ua": "",
+        "lang": "es"
+    },
+    "navigation": {
+        "title": "Guarapo Media • Agencia de Marketing Digital en Barcelona",
+        "logo-active": true,
+        "logo-url": "./images/logo.svg",
+        "cta-button": "Chat",
+        "cta-link": "https://wa.me/34622531989",
+        "menu": [
+            {
+                "nav": "Inicio",
+                "anchor": "/",
+                "link": "/"
+            },
+            {
+                "nav": "Marketing Digital",
+                "anchor": "/",
+                "link": "/marketing-digital"
+            },
+            {
+                "nav": "Desarrollo Web",
+                "anchor": "/",
+                "link": "/desarrollo-web"
+            },
+            {
+                "nav": "El Equipo",
+                "anchor": "/",
+                "link": "/equipo"
+            },
+            {
+                "nav": "Contacto",
+                "anchor": "/",
+                "link": "/contacto"
+            }
+        ]
+    },
+    "cover": {
+        "title": "El <strong>Equipo</strong>",
+        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
+        "bgimage": "./images/bg_hero.jpg",
+        "logo-url": "./images/logo.svg",
+        "button-text": "Conoce más",
+        "button-url": "mailto:contacto@guarapomedia.com"
+    },
+    "team": [
+        {
+            "name": "Walter Mazzariol",
+            "role": "Cofundador - Project Manager",
+            "description": "Es nuestro “IT Guy”, formado en Ing. de Sistemas, es la cabeza de todos los proyectos que incluyan Desarrollo Web. Esa “magia” que los clientes definen como “haz que se mueva más el menú y con un colorcito”. Es también apasionado por la música venezolana y acostumbra perder sus Smartphones con frecuencia.",
+            "image": "./images/team/1.jpg"
+        },
+        {
+            "name": "Christian Uzcategui",
+            "role": "Cofundador - Social Media Manager",
+            "description": "Formado en Comunicación Digital y Publicidad, es la cabeza de Social Media en la agencia desde nuestros inicios. Próximo a ser un adulto contemporáneo (aunque se niega a aceptarlo) ama las motos y nunca sabemos dónde está aunque siempre está “en línea”. Sin una locación en específico.",
+            "image": "./images/team/2.jpg"
+        },
+        {
+            "name": "Sergio Mazzariol",
+            "role": "Confundador - Web Developer",
+            "description": "Sergio… ¡Ay, Sergio! Es nuestro segundo al mando en el departamento de Desarrollo Web, actualmente finalizando su carrera en Ingeniería en computación,tiene ideas y soluciones únicas. Es un duro en su área y en su vida cotidiana (aunque a veces ninguno la tenemos) no se pierde ningún festival electrónico donde a veces dura días bailando…",
+            "image": "./images/team/3.jpg"
+        },
+        {
+            "name": "Natassha Rodriguez",
+            "role": "Content Manager",
+            "description": "Especialista en Comunicación Social, Natassha es todo un personaje (Te sugerimos ver su Instagram) Es uno de nuestros mejores creativos en la agencia y está a cargo de las principales marcas del área musical en nuestro portafolio. Siempre está buscando cualquier excusa para tomar un café y ser una “Social Media Hack”.",
+            "image": "./images/team/4.jpg"
+        },
+        {
+            "name": "Yelitza Murillo",
+            "role": "Fotógrafa",
+            "description": "Formada en la academia Roberto Mata en Caracas. Su propuesta fotográfica no necesita juegos de luces adicionales, pues con todo la que ella refleja, basta. Dicen que los mejores perfumes vienen en frascos pequeños, y ella es un concentrado de creatividad y picardía. Está obsesionada con la ortografía y es nuestra “typo hunter”.",
+            "image": "./images/team/5.jpg"
+        },
+        {
+            "name": "Mariangela Peluso",
+            "role": "Graphic Designer",
+            "description": "Mari está a cargo de nuestro departamento de Diseño Gráfico para Social Media, ama los GIF y se especializó en Gráfica Publicitaria en Italia en 2014. Ama sus mascotas y está en la dulce espera de una nena llamada Lucía.",
+            "image": "./images/team/6.jpg"
+        },
+        {
+            "name": "Argenis Alvarez",
+            "role": "UX Designer/ Consultant",
+            "description": "Formado en Diseño Gráfico en los 90’s, especializado en UX - UI es quien siempre atiende a nuestras consultas de Millenials. Siempre actualizado y pensando “¿Ahora con qué me van a salir?”",
+            "image": "./images/team/7.jpg"
+        }
+    ],
+    "contact": {
+        "phone": "+34622531989",
+        "email": "contacto@guarapomedia.com",
+        "address": "Barcelona, España",
+        "socialmedia": [
+            {
+                "link": "https://www.instagram.com/GuarapoMedia/",
+                "name": "instagram"
+            },
+            {
+                "link": "https://twitter.com/GuarapoMedia",
+                "name": "twitter"
+            },
+            {
+                "link": "https://facebook.com/GuarapoMedia/",
+                "name": "facebook"
+            }
+        ],
+        "image": "./images/footer.jpg"
+    },
+    "tags": {
+        "viewmore": "Ver más",
+        "viewless": "Ver menos",
+        "cookie-message": "Usamos cookies propias y de terceros para mejorar tu experiencia como usuario.",
+        "cookie-accept": "Aceptar",
+        "event": "Título",
+        "date": "Fecha",
+        "location": "Locación",
+        "not-found-title": "404 not found",
+        "not-found-message": "You are in a wrong page.. Go back to our home",
+        "not-found-btn": "Home"
+    }
+}

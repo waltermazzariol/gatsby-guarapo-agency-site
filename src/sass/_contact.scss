@@ -1,0 +1,48 @@
+.contact {
+  padding: 1rem 1rem;
+  h3, p, a{
+    color: #ffffff;
+  }
+  .social-contact {
+    a i {
+      margin: 1rem;
+      color: #ffffff;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      color: $font-text-color;
+      list-style-type: none;
+      text-align: left;
+      padding-bottom: 10px;
+      i {
+        margin-right: 1rem;
+        color: #ffffff;
+      }
+    }
+  }
+}
+
+//footer
+.footer {
+  background-color: $primary;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  &-text {
+    color: #ffffff;
+    line-height: 1.1rem;
+    a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+  }
+  .icon-logo {
+    max-height: 20px;
+  }
+}
