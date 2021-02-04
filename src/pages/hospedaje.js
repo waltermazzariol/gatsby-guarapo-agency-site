@@ -19,6 +19,8 @@ import Title from "../components/Common/Title"
 
 function TeamPage(props) {
     const contentJson = props.data.allDataJson.edges[0].node
+    const generalJson = props.data.dataJson
+
     return (
         <Layout nav={contentJson.navigation}>
 
@@ -35,10 +37,10 @@ function TeamPage(props) {
                 <PriceTable data={contentJson.packages.items} />
             </Section>
             <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
-                <Contact data={contentJson.contact} />
+                <Contact data={generalJson.contact} />
             </Section>
             <CookiesProvider>
-                <CookiesConsent data={contentJson.tags} />
+                <CookiesConsent data={generalJson.tags} />
             </CookiesProvider>
         </Layout>
     )
@@ -56,10 +58,12 @@ export const data = graphql`
             ...navigationFields
             ...coverFields
             ...packagesFields
-            ...contactFields
-            ...tagsFields
         }  
       }
     }
+    dataJson(general: {path: {eq: "/"}}) {
+        ...contactFields
+        ...tagsFields
+      }
   }
 `

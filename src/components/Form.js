@@ -28,7 +28,6 @@ function FormContact(props) {
             .then(result => {
                 setMailsent(result.data.sent)
                 setError(result.data.error)
-                console.log(result)
                 setName('')
                 setEmail('')
                 setSubject('')
@@ -37,7 +36,6 @@ function FormContact(props) {
     }
     function onChange(value) {
         setCaptcha(value)
-        console.log("Captcha value:", value);
     }
 
     return (

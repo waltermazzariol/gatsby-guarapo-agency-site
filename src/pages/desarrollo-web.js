@@ -22,8 +22,8 @@ import Contact from "../components/Contact.js"
 import Portfolio from "../components/Portfolio/Portfolio.js"
 
 function WebPage(props) {
-  console.log(props.data)
   const contentJson = props.data.allDataJson.edges[0].node
+  const generalJson = props.data.dataJson
 
   return (
     <Layout nav={contentJson.navigation}>
@@ -43,13 +43,13 @@ function WebPage(props) {
       <Services data={contentJson.services} />
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
         <Title title="Nuestros Proyectos" />
-        <Portfolio data={contentJson.portfolio} />
+        <Portfolio data={generalJson.portfolio} />
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
-        <Contact data={contentJson.contact} />
+        <Contact data={generalJson.contact} />
       </Section>
       <CookiesProvider>
-        <CookiesConsent data={contentJson.tags} />
+        <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>
     </Layout>
   )
@@ -76,6 +76,11 @@ export const imageData = graphql`
         ...tagsFields
         }  
       }
+    }
+    dataJson(general: {path: {eq: "/"}}) {
+      ...contactFields
+      ...tagsFields
+      ...portfolioFields
     }
   }
 `

@@ -19,6 +19,8 @@ import Contact from "../components/Contact.js"
 
 function ContactPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
+  const generalJson = props.data.dataJson
+
   return (
     <Layout nav={contentJson.navigation}>
 
@@ -47,10 +49,10 @@ function ContactPage(props) {
         </Col>
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
-        <Contact data={contentJson.contact} />
+        <Contact data={generalJson.contact} />
       </Section>
       <CookiesProvider>
-        <CookiesConsent data={contentJson.tags} />
+        <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>
     </Layout>
   )
@@ -72,6 +74,10 @@ export const data = graphql`
             ...tagsFields
         }  
       }
+    }
+    dataJson(general: {path: {eq: "/"}}) {
+      ...contactFields
+      ...tagsFields
     }
   }
 `
