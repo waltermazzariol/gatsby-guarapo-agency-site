@@ -3,6 +3,7 @@
         "path": "/hospedaje-web",
         "siteurl": "https://guarapomedia.com/hospedaje-web",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-image": "./images/seo.jpg",
         "ua": "",
         "lang": "es"
     },
@@ -15,27 +16,32 @@
         "menu": [
             {
                 "nav": "Inicio",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/"
             },
             {
                 "nav": "Marketing Digital",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/marketing-digital"
             },
             {
                 "nav": "Desarrollo Web",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/desarrollo-web"
             },
             {
                 "nav": "El Equipo",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/equipo"
             },
             {
+                "nav": "Hospedaje",
+                "anchor": "active",
+                "link": "/hospedaje"
+            },
+            {
                 "nav": "Contacto",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/contacto"
             }
         ]
@@ -47,6 +53,83 @@
         "logo-url": "./images/logo.svg",
         "button-text": "Conoce más",
         "button-url": "mailto:contacto@guarapomedia.com"
+    },
+    "packages": {
+        "title": "¿Necesitas ayuda en tu proyecto?",
+        "items": [
+            {
+                "name": "Plan Light",
+                "price": "20$ ",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "Hospedaje para sitios estáticos"
+                    },
+                    {
+                        "text": "Correos Eléctronicos con Zoho"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    }
+                ],
+                "button-text": "reservar",
+                "button-url": ""
+            },
+            {
+                "name": "Plan Basic",
+                "price": "60$ ",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "Hospedaje de 500mb"
+                    },
+                    {
+                        "text": "10gb de Transferencia mensual"
+                    },
+                    {
+                        "text": "Hasta 10 correos electrónicos"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    },
+                    {
+                        "text": "Instalación Wordpress 1 click"
+                    },
+                    {
+                        "text": "Bases de datos MySQL ilimitadas"
+                    }
+                ],
+                "button-text": "reservar",
+                "button-url": ""
+            },
+            {
+                "name": "Plan Medium",
+                "price": "90$ ",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "Hospedaje de 1gb"
+                    },
+                    {
+                        "text": "20gb de Transferencia mensual"
+                    },
+                    {
+                        "text": "Hasta 20 correos electrónicos"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    },
+                    {
+                        "text": "Instalación Wordpress 1 click"
+                    },
+                    {
+                        "text": "Bases de datos MySQL ilimitadas"
+                    }
+                ],
+                "button-text": "reservar",
+                "button-url": ""
+            }
+        ]
     },
     "contact": {
         "phone": "+34622531989",

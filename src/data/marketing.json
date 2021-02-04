@@ -3,6 +3,7 @@
         "path": "/marketing",
         "siteurl": "https://guarapomedia.com/marketing",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-image": "./images/seo.jpg",
         "ua": "",
         "lang": "es"
     },
@@ -15,27 +16,32 @@
         "menu": [
             {
                 "nav": "Inicio",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/"
             },
             {
                 "nav": "Marketing Digital",
-                "anchor": "/",
+                "anchor": "active",
                 "link": "/marketing-digital"
             },
             {
                 "nav": "Desarrollo Web",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/desarrollo-web"
             },
             {
                 "nav": "El Equipo",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/equipo"
             },
             {
+                "nav": "Hospedaje",
+                "anchor": "",
+                "link": "/hospedaje"
+            },
+            {
                 "nav": "Contacto",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/contacto"
             }
         ]
@@ -64,6 +70,75 @@
     "banner-2": {
         "text": "te acompañamos en todo el camino ayudandote a crecer",
         "image": "./images/plant.png"
+    },
+    "services": {
+        "id": 1,
+        "title": "Servicios",
+        "subtitle": "",
+        "slogan": "",
+        "projects": [
+            {
+                "name": "Desarrollo de Campañas",
+                "type": "Creamos una campañas a la medida de tu proyecto y así conseguir tus objetivos en medios digitales",
+                "image": "./images/services/s1.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Administración de Anuncios",
+                "type": "Impulsa tus campañas digitales a través de Google Ads y Facebook Ads. Te ayudamos durante todo el proceso",
+                "image": "./images/services/s6.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Generación de Contenidos",
+                "type": "No te quedes desactualiazdo en tus contenidos digitales, te ayudamos a estar siempre sobre las últimas tendencias",
+                "image": "./images/services/s7.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Email Marketing",
+                "type": "Saca el máximo provecho de tus listas de correos, te ayudamos a crear una campañas de Email Marketing ajustada a tu público",
+                "image": "./images/services/s5.svg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Desarrollo de Marca",
+                "type": "Imagen, logo, estrategia te ayudamos en toda la fase para que tu marca se haga un espacio en los medios digitales",
+                "image": "./images/services/s4.svg",
+                "alt": "imagen 1"
+            }
+        ]
+    },
+    "client-type": {
+        "id": 1,
+        "title": "¿A quién esta dirigido?",
+        "subtitle": "",
+        "services": [
+            {
+                "name": "Pequeña Empresa",
+                "type": "¿Presupuestos ajustados? tenemos la respuesta, nos ajustamos a tu presupuesto y ofrecemos soluciones para todos los tamaños. Cuéntanos sobre tu idea y podremos ayudarte a dar el siguiente paso.",
+                "image": "./images/services/5.jpg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Branding Personal",
+                "type": "¿Influencers, artistas, o simplemente un proyecto personal? Con nuestra experiencia te ayudamos a destacar tu talento con esa web que tanto has soñado.",
+                "image": "./images/services/6.jpg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Restaurante o comercios",
+                "type": "¿Quieres presentar tu trabajo profesional? Con nuestras soluciones para portafafolios podrás exponer tu trabajo y estará disponible a un click de distancia",
+                "image": "./images/services/7.jpg",
+                "alt": "imagen 1"
+            },
+            {
+                "name": "Tienda Online (e-commerce)",
+                "type": "¿Vender online? no problema. Te ayudaremos desde inicio a fin para que puedas tener el total control de tu tienda virtual y sacar el máximo provecho.",
+                "image": "./images/services/8.jpg",
+                "alt": "imagen 1"
+            }
+        ]
     },
     "portfolio": {
         "title": "Showcase",
@@ -156,75 +231,6 @@
                 "image": "./images/portfolio/8.jpg",
                 "thumbnail": "./images/portfolio/d8.jpg",
                 "alt": "Miguel Siso"
-            }
-        ]
-    },
-    "services": {
-        "id": 1,
-        "title": "Servicios",
-        "subtitle": "",
-        "slogan": "",
-        "projects": [
-            {
-                "name": "Desarrollo de Campañas",
-                "type": "Desarrollo planes estratégico y campañas de Ads para Facebook y Google, manejo de suscriptores, desarrollo de marcas ",
-                "image": "./images/services/s1.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Administración de Anuncios",
-                "type": "Maquetación, Desarrollo y mantenimiento web. Trabajamos con CMS como Wordpress, Shopify, PrestaShop. También te ayudamos en la creación de Lanndings page para captar leas y creación de Microsites para páginas personales ",
-                "image": "./images/services/s6.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Generación de Contenidos",
-                "type": "Consigue el nombre de tu próxima página web y hospédalo en nuestra plataforma. También gestionamos tus correos en Google o Microsoft 360. Todo en un sólo lugar.",
-                "image": "./images/services/s7.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Email Marketing",
-                "type": "Consigue el nombre de tu próxima página web y hospédalo en nuestra plataforma. También gestionamos tus correos en Google o Microsoft 360. Todo en un sólo lugar.",
-                "image": "./images/services/s5.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Desarrollo de Marca",
-                "type": "Consigue el nombre de tu próxima página web y hospédalo en nuestra plataforma. También gestionamos tus correos en Google o Microsoft 360. Todo en un sólo lugar.",
-                "image": "./images/services/s4.svg",
-                "alt": "imagen 1"
-            }
-        ]
-    },
-    "client-type": {
-        "id": 1,
-        "title": "¿A quién esta dirigido?",
-        "subtitle": "",
-        "services": [
-            {
-                "name": "Pequeña Empresa",
-                "type": "¿Presupuestos ajustados? tenemos la respuesta, nos ajustamos a tu presupuesto y ofrecemos soluciones para todos los tamaños. Cuéntanos sobre tu idea y podremos ayudarte a dar el siguiente paso.",
-                "image": "./images/services/5.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Branding Personal",
-                "type": "¿Influencers, artistas, o simplemente un proyecto personal? Con nuestra experiencia te ayudamos a destacar tu talento con esa web que tanto has soñado.",
-                "image": "./images/services/6.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Restaurante o comercios",
-                "type": "¿Quieres presentar tu trabajo profesional? Con nuestras soluciones para portafafolios podrás exponer tu trabajo y estará disponible a un click de distancia",
-                "image": "./images/services/7.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Tienda Online (e-commerce)",
-                "type": "¿Vender online? no problema. Te ayudaremos desde inicio a fin para que puedas tener el total control de tu tienda virtual y sacar el máximo provecho.",
-                "image": "./images/services/8.jpg",
-                "alt": "imagen 1"
             }
         ]
     },

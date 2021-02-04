@@ -1,82 +1,48 @@
-.price{
-    background-color: #F3F3F3;
-    padding: 4rem;
-    position: relative;
-    &-wrapper{
-        display: flex;
-    justify-content: center;
-    align-content: space-around;
+.price {
+  &-wrapper {
+    width: 90%;
+    display: flex;
     flex-wrap: wrap;
-    padding: 0 0 4rem 0;
-    }
-    &-item{
-        max-width: 90%;
-        min-width: 90%;
-        padding: 1rem;
-        background-color: white;
-        border-radius: 25px;
-        margin: 1rem;
-        position: relative;
-        &--title{
-          text-align: center;
-          margin-top: 1.5rem;
-        }
-        &--description{
-            font-size: 0.9rem;
-            color: $gray-500;
-            text-align: center;
-        }
-        img{
-          max-width: 50px;
-          margin-top: 1rem;
-          position: absolute;
-          top: 0;
-          right: 5%;
-        }
-        &--price{
-          text-align: center;
-          font-family: $headings-font-family;
-          color: $font-text-color;
-          font-weight: 700;
-          font-size:2.5rem;
-          margin-top: 1rem;
-        }
-    }
-    ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0 0 0 2rem;
-        li {
-          list-style-type: none;
-          text-align: left;
-          padding-bottom: 10px;
-          font-size: 0.9rem;
-          i {
-            margin-right: 14px;
+    margin: auto;
+    .item {
+      flex: 0 0 31%;
+      margin: 10px;
+      padding: 25px;
+      display: flex;
+      flex-direction: column;
+      flex-flow: column wrap;
+      border-radius: 4px;
+      background-color: $white;
+      &-title{
+        color: $black;
+        font-size: 2.5rem;
+        font-weight: 700;
+      }
+      &-price{
+        margin-top: 1.5rem;
+      }
+      &-btn{
+        margin-top: auto;
+      }
+      ul{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 1.5rem;
+        margin-bottom: 3rem;
+        font-size: 0.9rem;
+        li{
+          list-style: none;
+          margin-bottom: 0.6rem;
+          i{
+            margin-right: 0.5rem;
+            font-size: 0.8rem;
             color: $primary;
           }
         }
       }
-      .sl-img-7 {
-        position: absolute;
-        right: 0;
-        img {
-          max-width: 130px;
-        }
+      @include media-breakpoint-down(md) {
+        flex: 0 0 100%;
       }
-      .sl-img-6{
-        position: absolute;
-        left: 0;
-        bottom: 10%;
-        img{
-          max-width: 90px;
-        }
-      }
-    @include media-breakpoint-up(lg) {
-        &-item {
-          text-align: center;
-          max-width: calc(90%/3);
-          min-width: calc(90%/3);
-        }
-      }
+    }
+  }
 }

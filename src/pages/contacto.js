@@ -17,20 +17,17 @@ import Cover from "../components/Hero/Cover.js"
 import Form from "../components/Form"
 import Contact from "../components/Contact.js"
 
-// Assets
-import seoImg from '../data/images/seo.jpg'
-
 function ContactPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
   return (
     <Layout nav={contentJson.navigation}>
 
       <Seo
-        page={'inicio'}
+        page={'contacto'}
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={seoImg}
+        image={contentJson.general.seo_image.publicURL}
       />
       <Cover data={contentJson.cover} />
       <Section anchor={'form'} className={'form py-5'} rowClass={'justify-content-md-center'}>

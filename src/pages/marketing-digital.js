@@ -21,23 +21,18 @@ import Services from "../components/Services"
 import Contact from "../components/Contact.js"
 import Portfolio from "../components/Portfolio/Portfolio.js"
 
-// Assets
-import seoImg from '../data/images/seo.jpg'
-
-
 function MarketingPage(props) {
 
   const contentJson = props.data.allDataJson.edges[0].node
 
   return (
     <Layout nav={contentJson.navigation}>
-
       <Seo
-        page={'inicio'}
+        page={'marketing'}
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={seoImg}
+        image={contentJson.general.seo_image.publicURL}
       />
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />

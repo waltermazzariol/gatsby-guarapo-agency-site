@@ -7,7 +7,7 @@ import Line from "./Line"
 import Fade from 'react-reveal/Fade'
 import Col from 'react-bootstrap/Col'
 
-function Title({title, subtitle,slogan}) {
+function Title({title, subtitle, slogan}) {
 
     return (
         <Col lg={12} className="mb-5 mt-5">

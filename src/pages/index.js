@@ -24,48 +24,32 @@ import Portfolio from "../components/Portfolio/Portfolio.js"
 
 // import Form from "../components/Form"
 
-// Assets
-import seoImg from '../data/images/seo.jpg'
-
-
 function IndexPage(props) {
-  console.log(props)
   const contentJson = props.data.allDataJson.edges[0].node
 
   return (
     <Layout nav={contentJson.navigation}>
-
       <Seo
         page={'inicio'}
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={seoImg}
+        image={contentJson.general.seo_image.publicURL}
       />
-
       <Hero data={contentJson.hero} />
-
       <About data={contentJson.about} />
-
       <Banner data={contentJson.banner} />
-
       <BannerPlant data={contentJson.banner_2} />
-
       <ClientType data={contentJson.client_type} />
-
       <BannerPhone data={contentJson.banner_3} />
-
       <Services data={contentJson.services} />
-
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
         <Title title="Nuestros Proyectos" />
         <Portfolio data={contentJson.portfolio} />
       </Section>
-
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
         <Contact data={contentJson.contact} />
       </Section>
-
       <CookiesProvider>
         <CookiesConsent data={contentJson.tags} />
       </CookiesProvider>

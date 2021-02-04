@@ -21,10 +21,6 @@ import Services from "../components/Services"
 import Contact from "../components/Contact.js"
 import Portfolio from "../components/Portfolio/Portfolio.js"
 
-// Assets
-import seoImg from '../data/images/seo.jpg'
-
-
 function WebPage(props) {
   console.log(props.data)
   const contentJson = props.data.allDataJson.edges[0].node
@@ -33,11 +29,11 @@ function WebPage(props) {
     <Layout nav={contentJson.navigation}>
 
       <Seo
-        page={'inicio'}
+        page={'web'}
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={seoImg}
+        image={contentJson.general.seo_image.publicURL}
       />
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />

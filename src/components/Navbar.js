@@ -17,7 +17,7 @@ function NavBar(props) {
               items={['price']}
               rootel={"#mainNav"} offset={-75}>
               {props.nav.menu.map((key) =>
-                <li key={key.nav} className="nav-item">
+                <li key={key.nav} className={`nav-item ${key.anchor}`}>
                   <Link className="nav-link nav-link-ltr" to={key.link}>{key.nav}</Link>
                 </li>
                 )}

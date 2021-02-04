@@ -8,6 +8,9 @@ fragment generalFields on DataJson {
     seo_description
     ua
     lang
+    seo_image{
+      publicURL
+    }
   }
 }`
 
@@ -172,6 +175,23 @@ fragment teamFields on DataJson {
       description     
       image {
         publicURL
+      }
+    }
+}`
+
+export const packagesFields = graphql`
+fragment packagesFields on DataJson {
+  packages {
+      title
+      items{
+        name
+        price
+        time
+        list{
+          text
+        }
+        button_text
+        button_url
       }
     }
 }`

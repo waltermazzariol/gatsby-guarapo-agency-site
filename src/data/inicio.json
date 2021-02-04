@@ -3,6 +3,7 @@
         "path": "/",
         "siteurl": "https://guarapomedia.com",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-image": "./images/seo.jpg",
         "ua": "",
         "lang": "es"
     },
@@ -15,27 +16,32 @@
         "menu": [
             {
                 "nav": "Inicio",
-                "anchor": "/",
+                "anchor": "active",
                 "link": "/"
             },
             {
                 "nav": "Marketing Digital",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/marketing-digital"
             },
             {
                 "nav": "Desarrollo Web",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/desarrollo-web"
             },
             {
                 "nav": "El Equipo",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/equipo"
             },
             {
+                "nav": "Hospedaje",
+                "anchor": "",
+                "link": "/hospedaje"
+            },
+            {
                 "nav": "Contacto",
-                "anchor": "/",
+                "anchor": "",
                 "link": "/contacto"
             }
         ]
@@ -270,6 +276,14 @@
             {
                 "link": "https://facebook.com/GuarapoMedia/",
                 "name": "facebook"
+            },
+            {
+                "link": "https://linkedin.com/GuarapoMedia/",
+                "name": "linkedin"
+            },
+            {
+                "link": "https://dribbbel.com/GuarapoMedia/",
+                "name": "dribbble"
             }
         ],
         "image": "./images/footer.jpg"

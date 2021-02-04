@@ -2,6 +2,8 @@ module.exports = {
   pathPrefix: `/micropat`,
   siteMetadata: {
     author: `@gatsbyjs`,
+    siteUrl: `https://www.guarapomedia.com`,
+
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -49,6 +51,7 @@ module.exports = {
         }
       }
     },
+    `gatsby-plugin-sitemap`
   //   {
   //     resolve: 'gatsby-plugin-mailchimp',
   //     options: {

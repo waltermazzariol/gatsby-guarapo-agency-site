@@ -15,20 +15,17 @@ import Team from "../components/Team.jsx"
 import Contact from "../components/Contact.js"
 import Section from "../components/Common/Section"
 
-// Assets
-import seoImg from '../data/images/seo.jpg'
-
 function TeamPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
   return (
     <Layout nav={contentJson.navigation}>
 
       <Seo
-        page={'inicio'}
+        page={'equipo'}
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={seoImg}
+        image={contentJson.general.seo_image.publicURL}
       />
       <Cover data={contentJson.cover} />
       <Team data={contentJson.team} />

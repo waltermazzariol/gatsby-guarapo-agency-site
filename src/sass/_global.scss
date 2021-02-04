@@ -118,7 +118,7 @@ small {
   color: #777;
   font-weight: 400;
 }
-.small-text{
+.small-text {
   font-size: 0.9rem;
 }
 img {
@@ -331,10 +331,9 @@ img.fluido {
   }
 }
 
-
 // Services
 .services {
-  &-wrapper{
+  &-wrapper {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -348,8 +347,12 @@ img.fluido {
       @include media-breakpoint-down(md) {
         flex: 0 0 45%;
       }
-      li{
-        list-style: none;
+      ul {
+        padding-left: 20px;
+        padding-right: 20px;
+        li {
+          list-style: none;
+        }
       }
       img {
         max-width: 60px;
@@ -365,12 +368,11 @@ img.fluido {
 
 // Team
 .team {
-  &-wrapper{
+  &-wrapper {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
+    margin: auto;
     .item {
       flex: 0 0 31%;
       background-color: #ffffff;
@@ -384,7 +386,7 @@ img.fluido {
       }
     }
   }
-  &-content{
+  &-content {
     padding: 15px;
   }
 }
