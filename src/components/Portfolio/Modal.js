@@ -43,9 +43,13 @@ const ModalLocation = ({ show, onHide, data, currentClient, tags }) => {
                         <i className="fas fa-star"></i>
                       </span>{data[currentClient].tags}
                     </li> : ""}
+                    {data[currentClient].description !== "" ?
+                    <li>
+                      {data[currentClient].description}
+                    </li> : ""}
                 </ul>
                 {data[currentClient].url !== "" ?
-                  <a className="btn btn--primary mt-3 ml-0" href={data[currentClient].url}>Visitar Web</a>
+                  <a className="btn btn--primary my-3 ml-0" href={data[currentClient].url}>Visitar Web</a>
                   : ""}
               </div>
               <div className="col-sm-12 col-md-6 portfolio-modal">

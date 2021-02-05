@@ -6,12 +6,12 @@
 $orange: #f4623a !default;
 $brown: #5c4d42 !default;
 $blue:#525D7D;
+$light-blue: #76EBF2;
 $green: #CCEC80;
 $light-green: #F7FAE1;
 $purple: #DBBCDC;
 $light-pink: #fff5f4;
 $red: #D0011B;
-$light-blue: #E9F8FF;
 $dark-blue: #142850;
 $dark-black: #444;
 $darker-black: #333;
@@ -41,7 +41,7 @@ $navbar-height: 60px;
 $text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 $text-shadow-2: 0 1px 2px rgba(0, 0, 0, 0.5);
 
-$image-color-hover: fade-out($dark-black, 0.6);
+$image-color-hover: fade-out($dark-black, 0.5);
 
 $navbar-color: white;
 $navbar-cta-color: $font-heading-color;

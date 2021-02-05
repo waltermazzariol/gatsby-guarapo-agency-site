@@ -21,12 +21,31 @@
             top: 0;
             bottom: 0;
             left: 0;
-            opacity: 0;
+            opacity: 1;
             background: $image-color-hover;
             transition: opacity 0.25s ease;
             i,
             .title {
                 color: #ffffff;
+                margin-bottom: 0.5rem;
+            }
+            .cat{
+                padding: 4px;
+                border-radius: 4px;
+                font-size: 0.8rem;
+                min-width: 90px;
+                text-transform: capitalize;
+                margin-bottom: 0.5rem;
+                &-web{
+                    background-color: $yellow;
+                }
+                &-marketing{
+                    background-color: $light-blue;
+                }
+            }
+            .subtitle{
+                color: $white;
+                font-size: 0.8rem;
             }
         }
         &:hover {

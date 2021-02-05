@@ -44,7 +44,7 @@ function IndexPage(props) {
       <BannerPhone data={contentJson.banner_3} />
       <Services data={contentJson.services} />
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
-        <Title title="Nuestros Proyectos" />
+        <Title title={contentJson.portfolio.title} />
         <Portfolio data={contentJson.portfolio} />
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>

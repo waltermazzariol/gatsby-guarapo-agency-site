@@ -224,9 +224,11 @@ fragment portfolioFields on DataJson {
     list{
       id
       client
+      description
       url
       city
       year
+      cat
       tags
       image{
         publicURL

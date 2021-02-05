@@ -347,6 +347,9 @@ img.fluido {
       @include media-breakpoint-down(md) {
         flex: 0 0 45%;
       }
+      @include media-breakpoint-down(xs) {
+        flex: 0 0 80%;
+      }
       ul {
         padding-left: 20px;
         padding-right: 20px;
@@ -379,6 +382,7 @@ img.fluido {
       margin: 10px;
       @include media-breakpoint-down(md) {
         flex: 0 0 100%;
+        margin: auto;
       }
       img {
         width: 100%;

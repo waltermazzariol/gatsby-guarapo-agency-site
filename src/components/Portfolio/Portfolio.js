@@ -36,8 +36,11 @@ export default class Portfolio extends React.Component {
               <button className="btn btn-clean" onClick={this.handleModalClick.bind(this, key.id)} target="_blank" rel="noopener noreferrer">
                 <img src={key.thumbnail.publicURL} alt={key.client} />
                 <div className="img-hover">
-                  <i className="fas fa-search-plus mb-3"></i>
                   <div className="title">{key.client}</div>
+                  {key.cat === "Web" ? 
+                  <div className="cat cat-web">{key.cat}</div> :
+                  <div className="cat cat-marketing">{key.cat}</div>}
+                  <div className="subtitle">{key.year}</div>
                 </div>
               </button>
             </Fade>
