@@ -70,8 +70,6 @@ export const data = graphql`
             ...navigationFields
             ...coverFields
             ...formFields
-            ...contactFields
-            ...tagsFields
         }  
       }
     }

@@ -71,9 +71,6 @@ export const imageData = graphql`
         ...clientTypeFields
         ...banner2Fields
         ...servicesFields
-        ...portfolioFields
-        ...contactFields
-        ...tagsFields
         }  
       }
     }
