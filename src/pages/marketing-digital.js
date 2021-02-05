@@ -42,7 +42,7 @@ function MarketingPage(props) {
       <ClientType data={contentJson.client_type} />
       <Services data={contentJson.services} />
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
-        <Title title={contentJson.portfolio.title} />
+        <Title title={generalJson.portfolio.title} />
         <Portfolio data={generalJson.portfolio} />
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
