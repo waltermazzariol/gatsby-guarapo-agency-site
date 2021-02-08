@@ -45,7 +45,7 @@ const ModalLocation = ({ show, onHide, data, currentClient, tags }) => {
                     </li> : ""}
                     {data[currentClient].description !== "" ?
                     <li>
-                      {data[currentClient].description}
+                      {data[currentClient].description.split("\n").map((item, i) => <p key={i}>{item}</p>)}
                     </li> : ""}
                 </ul>
                 {data[currentClient].url !== "" ?

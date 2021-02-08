@@ -3,6 +3,8 @@ import Modal from "./Modal"
 import Fade from 'react-reveal/Fade'
 import Col from 'react-bootstrap/Col'
 
+import { Router, Link } from "@reach/router";
+
 export default class Portfolio extends React.Component {
   constructor(props) {
     super(props)
@@ -54,6 +56,7 @@ export default class Portfolio extends React.Component {
           tags={this.props.data.tags}
         >
         </Modal>
+        
       </>
     )
   }

@@ -20,8 +20,8 @@ function Services(props) {
           </div>
           <div className="d-flex w-100 justify-content-center">
             <button className="btn btn--primary my-3 mr-4">
-              <a href="https://wa.me/34630563184" target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-whatsapp"></i> Contactános</a>
+              <a href="/contacto" target="_blank" rel="noopener noreferrer">
+                Contactános</a>
             </button>
           </div>
         </Fade>
