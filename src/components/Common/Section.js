@@ -5,13 +5,13 @@ import Row from 'react-bootstrap/Row'
 function Section(props) {
 
   return (
-    <section id={props.anchor} className={props.className}>
+    <div id={props.anchor} className={props.className}>
       <Container fluid={props.fluid} >
         <Row noGutters={props.noGutters} className={props.rowClass}>
           {props.children}
         </Row>
       </Container>
-    </section>
+    </div>
   )
 }
 

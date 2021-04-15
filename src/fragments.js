@@ -41,9 +41,6 @@ fragment heroFields on DataJson {
     bgimage {
       publicURL
     }
-    logo_url {
-      publicURL
-    }
     subtitle
     title
     button_url
@@ -55,9 +52,6 @@ export const coverFields = graphql`
 fragment coverFields on DataJson {
   cover {
     bgimage {
-      publicURL
-    }
-    logo_url {
       publicURL
     }
     subtitle

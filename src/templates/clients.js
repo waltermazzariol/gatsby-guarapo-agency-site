@@ -1,10 +1,11 @@
 import React from "react"
 import { CookiesProvider } from 'react-cookie';
+import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import Cover from "../components/Hero/Cover.js"
-import Section from "../components/common/Section"
+import Section from "../components/Common/Section"
 import Contact from "../components/Contact"
 
 // Genneric Component

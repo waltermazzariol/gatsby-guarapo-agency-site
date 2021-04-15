@@ -50,7 +50,6 @@
         "title": "Hospedaje <strong>Web</strong>",
         "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
         "bgimage": "./images/bg_hero.jpg",
-        "logo-url": "./images/logo.svg",
         "button-text": "Conoce más",
         "button-url": "mailto:contacto@guarapomedia.com"
     },

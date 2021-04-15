@@ -51,7 +51,6 @@
         "subtitle": "Posicionamos tu negocio en el Mundo Digital. ",
         "image": "./images/hero_web.png",
         "bgimage": "./images/bg_hero.jpg",
-        "logo-url": "./images/logo.svg",
         "button-text": "Contátanos",
         "button-url": "/contacto"
     },

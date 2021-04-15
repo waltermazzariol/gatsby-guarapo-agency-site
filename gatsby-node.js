@@ -39,10 +39,9 @@ exports.createPages = async ({ graphql, actions }) => {
   `)
 
   result.data.allWorkJson.edges.forEach(({ node }) => {
-      console.log(node)
     createPage({
       path: `${node.parent.relativeDirectory}/${node.parent.name}`,
-      component: path.resolve(`./src/templates/works.js`),
+      component: path.resolve(`./src/templates/clients.js`),
       context: {    
         slug: node.client
       },
