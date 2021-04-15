@@ -23,7 +23,7 @@ function About(props) {
                                 </div>
                             </div>
                             <div className="description mt-4">
-                                {props.data.text.split('\n').map((item, i) => <p key={i} dangerouslySetInnerHTML={{ __html: item }}></p>)}
+                                <div dangerouslySetInnerHTML={{ __html: props.data.text }}></div>
                             </div>
                         </Col>
                     </Fade>

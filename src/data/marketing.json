@@ -15,11 +15,6 @@
         "cta-link": "https://wa.me/34622531989",
         "menu": [
             {
-                "nav": "Inicio",
-                "anchor": "",
-                "link": "/"
-            },
-            {
                 "nav": "Marketing Digital",
                 "anchor": "active",
                 "link": "/marketing-digital"
@@ -28,6 +23,11 @@
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
+            },
+            {
+                "nav": "Portafolio",
+                "anchor": "",
+                "link": "/work"
             },
             {
                 "nav": "El Equipo",
@@ -47,13 +47,13 @@
         ]
     },
     "hero": {
-        "title": "<strong>SOCIALIZAR</strong> El secreto de tu negocio en el futuro",
+        "title": "<strong>SOCIALIZAR</strong> es el secreto de tu negocio para el futuro",
         "subtitle": "Posicionamos tu negocio en el mundo digital. ",
         "image": "./images/hero_marketing.png",
         "bgimage": "./images/bg_hero.jpg",
         "logo-url": "./images/logo.svg",
-        "button-text": "Conoce más",
-        "button-url": "mailto:contacto@guarapomedia.com"
+        "button-text": "Contátanos",
+        "button-url": "/contacto"
     },
     "about": {
         "id": 3,
@@ -64,11 +64,11 @@
     "banner": {
         "text": "El momento es ahora. ¿Estás listo para posicionar tu proyecto?",
         "button-text": "¡Estoy listo!",
-        "button-link": "#contact",
+        "button-link": "/contacto",
         "image": "./images/bg_banner.jpg"
     },
     "banner-2": {
-        "text": "te acompañamos en todo el camino ayudandote a crecer",
+        "text": "te acompañamos en todo el camino ayudándote a crecer",
         "image": "./images/plant.png"
     },
     "services": {

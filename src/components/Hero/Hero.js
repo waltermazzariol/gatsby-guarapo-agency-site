@@ -1,5 +1,6 @@
 import React from "react"
 import Bounce from 'react-reveal/Bounce'
+import { Link } from "gatsby"
 
 import Container from 'react-bootstrap/Container'
 import Line from '../Common/Line'
@@ -21,7 +22,7 @@ function Hero(props) {
             <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: props.data.title }}></h1>
             <Line />
             <div className="hero-subtitle pt-3">{props.data.subtitle}</div>
-            <button className="btn btn--primary my-3 mr-4"><a href={props.data.button_url} target="_blank" rel="noopener noreferrer">{props.data.button_text}</a></button>
+            <Link className="btn btn--primary my-3 mr-4" to={props.data.button_url}>{props.data.button_text}</Link>
           </Bounce>
         </div>
       </div>

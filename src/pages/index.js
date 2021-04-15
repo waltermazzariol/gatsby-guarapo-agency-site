@@ -26,7 +26,7 @@ import Portfolio from "../components/Portfolio/Portfolio.js"
 
 function IndexPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
-
+  const blogJson = props.data.allWorkJson.edges
   return (
     <Layout nav={contentJson.navigation}>
       <Seo
@@ -45,7 +45,7 @@ function IndexPage(props) {
       <Services data={contentJson.services} />
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
         <Title title={contentJson.portfolio.title} />
-        <Portfolio data={contentJson.portfolio} />
+        <Portfolio data={blogJson} />
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
         <Contact data={contentJson.contact} />
@@ -78,6 +78,34 @@ export const imageData = graphql`
         ...banner3Fields
         ...portfolioFields
         }  
+      }
+    }
+    allWorkJson(sort: {fields: date, order: DESC}) {
+      edges {
+        node {
+          id
+        client
+        alt
+        cat
+        city
+        date
+        tags
+        image{
+          publicURL
+        }
+        thumbnail{
+          publicURL
+        }
+        url
+        year
+        description
+          parent {
+            ... on File {
+              relativeDirectory
+              name
+            }
+          }
+        }
       }
     }
   }

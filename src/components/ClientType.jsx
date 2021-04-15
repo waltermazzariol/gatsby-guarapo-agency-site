@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade'
 import Title from "../components/Common/Title"
 import Section from "../components/Common/Section"
 import Col from 'react-bootstrap/Col'
+import { Link } from 'gatsby'
 
 function ClientType(props) {
     return (
@@ -28,10 +29,10 @@ function ClientType(props) {
                         </div>
                     </div>)}
                 <Col className="text-center">
-                    <button className="btn btn--primary my-3 mr-4">
-                        <a href="/contacto" target="_blank" rel="noopener noreferrer">
-                            Contactános</a>
-                    </button>
+                    <Link className="btn btn--primary my-3 mr-4"
+                        to="/contacto" target="_blank" rel="noopener noreferrer">
+                        Contactános
+                    </Link>
                 </Col>
             </div>
         </Section>

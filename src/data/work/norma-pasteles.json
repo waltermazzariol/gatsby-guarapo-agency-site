@@ -1,0 +1,13 @@
+{
+    "date": "20210404",
+    "client": "Norma Pasteles",
+    "city": "Barcelona",
+    "description": "Ubicados en Barcelona, Norma se dedica a ofrecer pasteles artesanales con una variedad de sabores y opciones.\nComo primera etapa presentamos los pasteles, su historia y los diferentes pasos para realizar un pedido, con un site en formato \"One Page\".\nLuego de 1 año buscamos evolucionar el sitio y ampliamos las secciones a los diferentes tipos de pasteles y sabores.\nCómo siguiente paso está en ofrecer opción de pago que permita la venta de pasteles desde el mismo sitio web.\nBasado en React y con el contenido modularizado permite actualizarla con gran facilidad.",
+    "url": "https://normapasteles.com",
+    "year": "2020",
+    "cat": "Web",
+    "tags": "Pequeña Empresa, Respostería",
+    "image": "../images/portfolio/2.jpg",
+    "thumbnail": "../images/portfolio/d2.jpg",
+    "alt": "Norma Pasteles"
+}

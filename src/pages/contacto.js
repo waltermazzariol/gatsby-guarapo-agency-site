@@ -37,10 +37,10 @@ function ContactPage(props) {
         <Col sm={12} md={6}>
             {contentJson.form.contacts.map((key)=> 
                 <div className="mb-4" key={key.id}>
-                    <h5>{key.city}</h5>
-                    <p>{key.name}</p>
-                    <p>{key.phone}</p>
-                    <p>{key.email}</p>
+                    {!!key.city ? <h5>{key.city}</h5>:""}
+                    {!!key.name ?<p className="form-text"><strong>{key.name}</strong></p>:""}
+                    {!!key.number ?<a className="form-text" href={`https://wa.me/${key.phone}`}><i className="fab fa-whatsapp"></i> {key.number}</a>:""}
+                    {!!key.email ?<a className="form-text" href={`mailto:${key.email}`}><i className="far fa-envelope"></i> {key.email}</a>:""}
                 </div>
             )}
         </Col>

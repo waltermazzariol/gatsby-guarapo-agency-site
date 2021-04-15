@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from 'gatsby'
 // import Fade from 'react-reveal/Fade'
 
 import Col from 'react-bootstrap/Col'
@@ -22,14 +23,12 @@ function Banner(props) {
                         <div className="text-white">
                             {props.data.text}
                         </div>
-                        <button className="btn btn--primary my-3 mr-4">
-                            <a
-                                href={props.data.button_link}
-                                target="_blank"
-                                rel="noopener noreferrer">
-                                {props.data.button_text}
-                            </a>
-                        </button>
+                        <Link className="btn btn--primary my-3 mr-4"
+                            to={props.data.button_link}
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            {props.data.button_text}
+                        </Link>
                     </Col>
                 </Row>
             </Container>

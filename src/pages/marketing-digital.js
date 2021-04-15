@@ -25,6 +25,8 @@ function MarketingPage(props) {
 
   const contentJson = props.data.allDataJson.edges[0].node
   const generalJson = props.data.dataJson
+  const blogJson = props.data.allWorkJson.edges
+
 
   return (
     <Layout nav={contentJson.navigation}>
@@ -43,7 +45,7 @@ function MarketingPage(props) {
       <Services data={contentJson.services} />
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
         <Title title={generalJson.portfolio.title} />
-        <Portfolio data={generalJson.portfolio} />
+        <Portfolio data={blogJson} />
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
         <Contact data={generalJson.contact} />
@@ -78,6 +80,34 @@ export const imageData = graphql`
       ...portfolioFields
       ...contactFields
       ...tagsFields
+    }
+    allWorkJson(sort: {fields: date, order: DESC}) {
+      edges {
+        node {
+          id
+        client
+        alt
+        cat
+        city
+        date
+        tags
+        image{
+          publicURL
+        }
+        thumbnail{
+          publicURL
+        }
+        url
+        year
+        description
+          parent {
+            ... on File {
+              relativeDirectory
+              name
+            }
+          }
+        }
+      }
     }
   }
 `

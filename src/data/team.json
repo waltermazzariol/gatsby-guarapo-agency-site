@@ -15,11 +15,6 @@
         "cta-link": "https://wa.me/34622531989",
         "menu": [
             {
-                "nav": "Inicio",
-                "anchor": "",
-                "link": "/"
-            },
-            {
                 "nav": "Marketing Digital",
                 "anchor": "",
                 "link": "/marketing-digital"
@@ -28,6 +23,11 @@
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
+            },
+            {
+                "nav": "Portafolio",
+                "anchor": "",
+                "link": "/work"
             },
             {
                 "nav": "El Equipo",
@@ -90,6 +90,12 @@
             "role": "Graphic Designer",
             "description": "Mari está a cargo de nuestro departamento de Diseño Gráfico para Social Media, ama los GIF y se especializó en Gráfica Publicitaria en Italia en 2014. Ama sus mascotas y está en la dulce espera de una nena llamada Lucía.",
             "image": "./images/team/6.jpg"
+        },
+        {
+            "name": "Daniela Rodriguez",
+            "role": "Graphic Designer",
+            "description": "Creadora de nuestro principales proyectos webs, Daniela se encarga que el clientes siempre quede satisifecho con el producto final. Desde 2017 se encuentra es España, pero eso no impede que siempre esté de lleno en el siguiente proyecto.",
+            "image": "./images/team/daniela.jpg"
         },
         {
             "name": "Argenis Alvarez",

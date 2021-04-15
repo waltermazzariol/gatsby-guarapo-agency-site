@@ -15,11 +15,6 @@
         "cta-link": "https://wa.me/34622531989",
         "menu": [
             {
-                "nav": "Inicio",
-                "anchor": "",
-                "link": "/"
-            },
-            {
                 "nav": "Marketing Digital",
                 "anchor": "",
                 "link": "/marketing-digital"
@@ -28,6 +23,11 @@
                 "nav": "Desarrollo Web",
                 "anchor": "active",
                 "link": "/desarrollo-web"
+            },
+            {
+                "nav": "Portafolio",
+                "anchor": "",
+                "link": "/work"
             },
             {
                 "nav": "El Equipo",
@@ -52,8 +52,8 @@
         "image": "./images/hero_web.png",
         "bgimage": "./images/bg_hero.jpg",
         "logo-url": "./images/logo.svg",
-        "button-text": "Conoce más",
-        "button-url": "mailto:contacto@guarapomedia.com"
+        "button-text": "Contátanos",
+        "button-url": "/contacto"
     },
     "about": {
         "id": 3,
@@ -64,11 +64,11 @@
     "banner": {
         "text": "El momento es ahora. ¿Estás listo para posicionar tu proyecto?",
         "button-text": "¡Estoy listo!",
-        "button-link": "#contact",
+        "button-link": "/contacto",
         "image": "./images/bg_banner.jpg"
     },
     "banner-2": {
-        "text": "te acompañamos en todo el camino ayudandote a crecer",
+        "text": "te acompañamos en todo el camino ayudándote a crecer",
         "image": "./images/plant.png"
     },
     "portfolio": {
@@ -193,7 +193,7 @@
             {
                 "name": "Maquetación",
                 "type": "Tienes un diseño y quieres convertirlo en realidad. ¡Cuenta con nosotros! Tenemos el grupo de desarrolladores capaces de hacer realidad ese proyecto.",
-                "image": "./images/services/s8.svg",
+                "image": "./images/services/s2.svg",
                 "alt": "imagen 1"
             },
             {

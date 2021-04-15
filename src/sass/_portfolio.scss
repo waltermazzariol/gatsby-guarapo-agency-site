@@ -1,5 +1,5 @@
 .portfolio {
-    button {
+    a {
         position: relative;
         display: block;
         width: 100%;
@@ -29,7 +29,7 @@
                 color: #ffffff;
                 margin-bottom: 0.5rem;
             }
-            .cat{
+            .cat {
                 padding: 4px;
                 border-radius: 4px;
                 font-size: 0.8rem;
@@ -37,14 +37,14 @@
                 text-transform: capitalize;
                 margin-bottom: 0.5rem;
                 font-weight: 500;
-                &-web{
+                &-web {
                     background-color: $yellow;
                 }
-                &-marketing{
+                &-marketing {
                     background-color: $light-blue;
                 }
             }
-            .subtitle{
+            .subtitle {
                 color: $white;
                 font-size: 0.8rem;
             }
@@ -63,44 +63,30 @@
     }
 }
 
-.modal-content {
-    .modal-header {
-        background-color: $primary;
-        color: #ffffff;
-        margin-bottom: 1rem;
-        button {
-            color: #ffffff !important;
+.portfolio-modal {
+    img {
+        max-width: 100%;
+        @include BoxShadow(1);
+    }
+    &--title {
+        font-family: $font-family-base;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+    }
+    .fa-ul {
+        margin-left: 1.5em;
+    }
+    &--text {
+        li {
+            margin-bottom: 1rem;
+        }
+        i {
+            color: $dark-black;
         }
     }
-
-    .modal-body {
-        .portfolio-modal {
-            img {
-                max-width: 100%;
-                @include BoxShadow(1);
-            }
-            &--title {
-                font-family: $font-family-base;
-                margin-bottom: 1.5rem;
-                font-weight: 700;
-            }
-            .fa-ul {
-                margin-left: 1.5em;
-            }
-            &--text {
-                li {
-                    margin-bottom: 1rem;
-                    font-size: 0.9rem;
-                }
-                i {
-                    color: $dark-black;
-                }
-            }
-            &--bottom {
-                margin-top: 1rem;
-                border-top: 1px solid #bebebe;
-                padding-top: 1rem;
-            }
-        }
+    &--bottom {
+        margin-top: 1rem;
+        border-top: 1px solid #bebebe;
+        padding-top: 1rem;
     }
 }

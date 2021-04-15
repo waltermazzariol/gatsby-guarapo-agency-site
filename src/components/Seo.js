@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet"
 import ReactGA from 'react-ga'
 
 
-function SEO({page, description, lang, title, metas, image }) {
+function Seo({page, description, lang, title, metas, image }) {
   const trackingId = metas.ua;
   if(trackingId !== ""){
     ReactGA.initialize(trackingId);
@@ -89,18 +89,18 @@ function SEO({page, description, lang, title, metas, image }) {
   )
 }
 
-SEO.defaultProps = {
+Seo.defaultProps = {
   lang: `en`,
   metas: [],
   description: ``,
   title: ``,
 }
 
-SEO.propTypes = {
+Seo.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 }
 
-export default SEO
+export default Seo

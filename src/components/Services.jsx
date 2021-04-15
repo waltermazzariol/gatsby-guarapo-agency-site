@@ -2,6 +2,7 @@ import React from "react"
 import Fade from 'react-reveal/Fade'
 import Section from "../components/Common/Section"
 import Title from "../components/Common/Title"
+import {Link}  from 'gatsby'
 
 function Services(props) {
     return (
@@ -19,10 +20,10 @@ function Services(props) {
               </div>)}
           </div>
           <div className="d-flex w-100 justify-content-center">
-            <button className="btn btn--primary my-3 mr-4">
-              <a href="/contacto" target="_blank" rel="noopener noreferrer">
-                Contactános</a>
-            </button>
+            <Link className="btn btn--primary my-3 mr-4"
+              to="/contacto" target="_blank" rel="noopener noreferrer">
+                Contactános
+            </Link>
           </div>
         </Fade>
       </Section>

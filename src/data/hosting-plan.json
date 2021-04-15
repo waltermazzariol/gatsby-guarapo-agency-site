@@ -15,11 +15,6 @@
         "cta-link": "https://wa.me/34622531989",
         "menu": [
             {
-                "nav": "Inicio",
-                "anchor": "",
-                "link": "/"
-            },
-            {
                 "nav": "Marketing Digital",
                 "anchor": "",
                 "link": "/marketing-digital"
@@ -28,6 +23,11 @@
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
+            },
+            {
+                "nav": "Portafolio",
+                "anchor": "",
+                "link": "/work"
             },
             {
                 "nav": "El Equipo",
@@ -58,7 +58,7 @@
         "title": "¿Necesitas ayuda en tu proyecto?",
         "items": [
             {
-                "name": "Plan Basic",
+                "name": "Plan Light",
                 "price": "60$ ",
                 "time": "/ año",
                 "list": [
@@ -82,10 +82,10 @@
                     }
                 ],
                 "button-text": "reservar",
-                "button-url": ""
+                "button-url": "/contacto"
             },
             {
-                "name": "Plan Medium",
+                "name": "Plan Basic",
                 "price": "90$ ",
                 "time": "/ año",
                 "list": [
@@ -109,7 +109,7 @@
                     }
                 ],
                 "button-text": "reservar",
-                "button-url": ""
+                "button-url": "/contacto"
             },
             {
                 "name": "Plan Pro",
@@ -136,7 +136,7 @@
                     }
                 ],
                 "button-text": "reservar",
-                "button-url": ""
+                "button-url": "/contacto"
             }
         ]
     },

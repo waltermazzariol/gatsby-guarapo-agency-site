@@ -1,7 +1,7 @@
 {
     "general": {
-        "path": "/contacto",
-        "siteurl": "https://guarapomedia.com/contacto",
+        "path": "/work",
+        "siteurl": "https://guarapomedia.com/work",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
         "ua": "",
@@ -26,7 +26,7 @@
             },
             {
                 "nav": "Portafolio",
-                "anchor": "",
+                "anchor": "active",
                 "link": "/work"
             },
             {
@@ -41,54 +41,18 @@
             },
             {
                 "nav": "Contacto",
-                "anchor": "active",
+                "anchor": "",
                 "link": "/contacto"
             }
         ]
     },
     "cover": {
-        "title": "Nuestro <strong>Contacto</strong>",
-        "subtitle": "",
+        "title": "Los <strong>proyectos</strong>",
+        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
         "bgimage": "./images/bg_hero.jpg",
         "logo-url": "./images/logo.svg",
         "button-text": "Conoce más",
         "button-url": "mailto:contacto@guarapomedia.com"
-    },
-    "form": {
-        "title":"¿Necesitas ayuda en tu proyecto?",
-        "description":"Si has llegado hasta aquí es que tienes alguna pregunta, escribenos un mensaje y nos pondremos en contacto.",
-        "name": "Nombre y Apellido",
-        "email": "Email",
-        "phone": "Phone",
-        "message": "Mensaje",
-        "send": "Enviar",
-        "success": "¡Gracias por tu mensaje!",
-        "contacts": [
-            {
-                "id":"1",
-                "city": "España - Barcelona",
-                "name": "Walter Mazzariol",
-                "number": "+34 622 531 989",
-                "phone": "34622531989",
-                "email": "walter@guarapomedia.com"
-            },
-            {
-                "id":"2",
-                "city": "Miami - Usa",
-                "name": "Christian Uzcategui",
-                "number": "",
-                "phone": "",
-                "email": "christian@guarapomedia.com"
-            },
-            {
-                "id":"3",
-                "city": "Caracas - Venezuela",
-                "name": "Natassha Rodriguez",
-                "number": "+58 424 294 1213",
-                "phone": "584242941213",
-                "email": "natassha@guarapomedia.com"
-            }
-        ]
     },
     "contact": {
         "phone": "+34622531989",

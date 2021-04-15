@@ -1,0 +1,13 @@
+{
+    "date": "20210403",
+    "client": "Burbowl",
+    "city": "Miami",
+    "description": "Queremos compartir con ustedes el proyecto de Burbowl, una solución web en Wordpress con diferentes secciones como: Menu, locaciones, información de la franquicia, blog y contactos. También tiene integración con las plataformas de delivery.\nUbicados en Downtown Miami y Coral Gables, BurBowl es un restaurante de comidas rápida que sale de lo común. Platos únicos, ingredientes frescos y ubicado en dos de las mejores zonas de la ciudad de Miami. Desde enero de 2016 hemos estado llevando sus medios digitales al siguiente nivel.",
+    "url": "https://burbowl.com",
+    "year": "2016 - 2021",
+    "cat": "Marketing",
+    "tags": "Pequeña Empresa, Restaurant",
+    "image": "../images/portfolio/3.jpg",
+    "thumbnail": "../images/portfolio/d3.jpg",
+    "alt": "Burbowl"
+}
