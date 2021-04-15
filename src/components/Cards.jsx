@@ -13,9 +13,11 @@ function Cards(props) {
                         <div className="item mb-5" key={key.node.id}>
                             <Link to={key.node.parent.name}>
                                 <img className="mx-auto d-block" src={key.node.thumbnail.publicURL} alt={key.node.alt} />
-                                <div className="work-content">
-                                    <h4 className="text-center">{key.node.client}</h4>
-                                    <div className="text-center small-text mb-3"><b>{key.node.cat}</b></div>
+                                <div className="work-content text-center ">
+                                    <h4>{key.node.client}</h4>
+                                    {key.node.cat === "Web" ? 
+                                    <div className="cat cat-web">{key.node.cat}</div> :
+                                    <div className="cat cat-marketing">{key.node.cat}</div>}
                                 </div>
                             </Link>
                         </div>)}

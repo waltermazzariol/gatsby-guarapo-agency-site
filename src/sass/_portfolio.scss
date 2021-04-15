@@ -29,21 +29,6 @@
                 color: #ffffff;
                 margin-bottom: 0.5rem;
             }
-            .cat {
-                padding: 4px;
-                border-radius: 4px;
-                font-size: 0.8rem;
-                min-width: 90px;
-                text-transform: capitalize;
-                margin-bottom: 0.5rem;
-                font-weight: 500;
-                &-web {
-                    background-color: $yellow;
-                }
-                &-marketing {
-                    background-color: $light-blue;
-                }
-            }
             .subtitle {
                 color: $white;
                 font-size: 0.8rem;
@@ -67,6 +52,7 @@
     img {
         max-width: 100%;
         @include BoxShadow(1);
+        border-radius: 10px;
     }
     &--title {
         font-family: $font-family-base;
@@ -88,5 +74,24 @@
         margin-top: 1rem;
         border-top: 1px solid #bebebe;
         padding-top: 1rem;
+    }
+}
+
+.cat {
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    max-width: 90px;
+    min-width: 90px;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    &-web {
+        background-color: $yellow;
+    }
+    &-marketing {
+        background-color: $light-blue;
     }
 }

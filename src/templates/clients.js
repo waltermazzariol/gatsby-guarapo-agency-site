@@ -46,7 +46,7 @@ function Works(props) {
                   <li>
                     <span className="fa-li">
                       <i className="fas fa-share"></i>
-                    </span><b>{tagsJson.url}:</b> <a href={dataJson.url}>Visitar página</a>
+                    </span><b>{tagsJson.url}:</b> <a href={dataJson.url}>{dataJson.url}</a>
                   </li> : ""}
                 {dataJson.year !== "" ?
                   <li>

@@ -30,7 +30,7 @@ export default class Portfolio extends React.Component {
 
     return (
       <>
-        {this.props.data.map((key) =>
+        {this.props.data.slice(0, 8).map((key) =>
           <Col key={key.node.id} xs={6} md={3}>
             <Fade >
               <Link className="btn btn-clean" to={`/${key.node.parent.relativeDirectory}/${key.node.parent.name}`}>
