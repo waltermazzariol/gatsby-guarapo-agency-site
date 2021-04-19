@@ -28,7 +28,6 @@ function Works(props) {
         page={`${dataJson.parent.relativeDirectory}/${dataJson.parent.name}`}
         title={`${dataJson.client} • Guarapo Media`}
         lang={'es'}
-        image={dataJson.image.publicURL}
       />
       <Cover data={coverData} />
       <div className="portfolio-modal py-5">
