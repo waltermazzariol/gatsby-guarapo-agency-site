@@ -403,15 +403,18 @@ img.fluido {
     flex-wrap: wrap;
     margin: auto;
     .item {
-      flex: 0 0 31%;
+      flex: 0 0 22%;
       background-color: #ffffff;
       margin: 10px;
       transition: all .2s ease-in-out;
       &:hover{
-        transform: scale(1.05);
-        
+        transform: scale(1.05); 
       }
       @include media-breakpoint-down(md) {
+        flex: 0 0 44%;
+        margin: auto;
+      }
+      @include media-breakpoint-down(xs) {
         flex: 0 0 100%;
         margin: auto;
       }
@@ -421,9 +424,25 @@ img.fluido {
       }
     }
   }
-  &-content {
+  &-title{
     padding: 15px;
   }
+  &-cat {
+    margin: 20px 15px 0;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    max-width: 80px;
+    min-width: 80px;
+    text-transform: capitalize;
+    font-weight: 700;
+    &-web {
+        background-color: $yellow;
+    }
+    &-marketing {
+        background-color: $light-blue;
+    }
+}
 }
 
 //Banner Plant

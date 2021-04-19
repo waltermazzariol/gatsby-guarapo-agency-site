@@ -13,7 +13,7 @@ function Services(props) {
             {props.data.projects.map((key, index) =>
               <div className="item3 mb-5" key={index}>
                 <img className="mx-auto d-block my-3" src={key.image.publicURL} alt={key.alt} />
-                <h4 className="text-center">{key.name}</h4>
+                <Link to={key.link}><h4 className="text-center">{key.name}</h4></Link>
                 <ul className="description">
                   {key.type.split('\n').map((item, i) => <li key={i}>{item}</li>)}
                 </ul>

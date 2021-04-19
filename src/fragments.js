@@ -132,7 +132,7 @@ export const servicesFields = graphql`
 fragment servicesFields on DataJson {
   services {
     projects {
-      alt
+      link
       image {
         publicURL
       }

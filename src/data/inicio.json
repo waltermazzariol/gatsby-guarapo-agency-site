@@ -118,19 +118,19 @@
                 "name": "Marketing Digital",
                 "type": "Desarrollo de campañas \nAdministración de anuncios \nGeneración de contenidos \nEmail Marketing \nDesarrollo de marca",
                 "image": "./images/services/s1.svg",
-                "alt": "imagen 1"
+                "link": "/marketing-digital"
             },
             {
                 "name": "Desarrollo Web",
                 "type": "Maquetación \nDesarrollo Web \nMantenimiento Web \nWordpress, Prestashop, Shopify \nLanding Page \nMicrosites",
                 "image": "./images/services/s2.svg",
-                "alt": "imagen 1"
+                "link": "/desarrollo-web"
             },
             {
                 "name": "Dominios y Hosting",
                 "type": "Dominios .com \nHosting \nGoogle My Business \nMicrosoft 360 \nZoho Email",
                 "image": "./images/services/s3.svg",
-                "alt": "imagen 1"
+                "link": "/hospedaje"
             }
         ]
     },

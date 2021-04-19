@@ -47,7 +47,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Open+Sans:400,700','Noto+Sans:400,700']
+          families: ['Roboto:400,700']
         }
       }
     },

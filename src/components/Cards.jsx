@@ -11,14 +11,12 @@ function Cards(props) {
                 <div className="work-wrapper">
                     {props.data.map((key) =>
                         <div className="item mb-5" key={key.node.id}>
-                            <Link to={key.node.parent.name}>
+                            <Link to={key.node.parent.name} className="d-flex flex-column justify-content-center">
                                 <img className="mx-auto d-block" src={key.node.thumbnail.publicURL} alt={key.node.alt} />
-                                <div className="work-content text-center ">
-                                    <h4>{key.node.client}</h4>
-                                    {key.node.cat === "Web" ? 
-                                    <div className="cat cat-web">{key.node.cat}</div> :
-                                    <div className="cat cat-marketing">{key.node.cat}</div>}
-                                </div>
+                                {key.node.cat === "Web" ?
+                                    <div className="work-cat work-cat-web text-center">{key.node.cat}</div> :
+                                    <div className="work-cat work-cat-marketing text-center">{key.node.cat}</div>}
+                                <h4 className="work-title">{key.node.client}</h4>
                             </Link>
                         </div>)}
                 </div>
