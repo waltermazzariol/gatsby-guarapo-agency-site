@@ -29,7 +29,6 @@ function Work(props) {
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={contentJson.general.seo_image.publicURL}
       />
       <Cover data={contentJson.cover} />
       <Cards data={workJson.edges} />

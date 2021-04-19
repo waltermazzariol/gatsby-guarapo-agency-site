@@ -27,7 +27,6 @@ function TeamPage(props) {
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={contentJson.general.seo_image.publicURL}
       />
       <Cover data={contentJson.cover} />
       <Team data={contentJson.team} />

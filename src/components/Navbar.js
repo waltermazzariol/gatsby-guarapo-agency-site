@@ -1,6 +1,7 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
+import Logo from "../data/images/logo.svg"
 
 function NavBar(props) {
   return (
@@ -8,7 +9,7 @@ function NavBar(props) {
       <div className="container">
         <Navbar.Toggle aria-controls="navbarResponsive" />
 
-        <Link className="navbar-brand" to='/'><img src={props.nav.logo_url.publicURL} alt="logo" /></Link>
+        <Link className="navbar-brand" to='/'><img src={Logo} alt="logo" /></Link>
 
         <div className="btn btn-icon btn--primary d-sm-block d-md-block d-lg-none"><a href={props.nav.cta_link} target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp" aria-label="contact button"></i></a></div>
         <Navbar.Collapse id="navbarResponsive">

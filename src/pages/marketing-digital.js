@@ -35,7 +35,6 @@ function MarketingPage(props) {
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={contentJson.general.seo_image.publicURL}
       />
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />

@@ -29,7 +29,6 @@ function ContactPage(props) {
         title={contentJson.navigation.title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
-        image={contentJson.general.seo_image.publicURL}
       />
       <Cover data={contentJson.cover} />
       <Section anchor={'form'} className={'form py-5'} rowClass={'justify-content-md-center'}>

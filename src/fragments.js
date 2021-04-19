@@ -8,9 +8,6 @@ fragment generalFields on DataJson {
     seo_description
     ua
     lang
-    seo_image{
-      publicURL
-    }
   }
 }`
 
@@ -19,10 +16,6 @@ fragment navigationFields on DataJson {
   navigation {
     cta_button
     cta_link
-    logo_active
-    logo_url{
-      publicURL
-    }
     title
     menu{
       nav

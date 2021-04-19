@@ -9,9 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import {Helmet} from "react-helmet"
 import ReactGA from 'react-ga'
+import image from '../data/images/seo.jpg'
 
-
-function Seo({page, description, lang, title, metas, image }) {
+function Seo({page, description, lang, title, metas }) {
   const trackingId = metas.ua;
   if(trackingId !== ""){
     ReactGA.initialize(trackingId);
