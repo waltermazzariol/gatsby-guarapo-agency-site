@@ -420,7 +420,8 @@ img.fluido {
       }
       img {
         width: 100%;
-        padding: 0;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
       }
     }
   }
