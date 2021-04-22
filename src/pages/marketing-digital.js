@@ -32,8 +32,6 @@ function MarketingPage(props) {
     <Layout nav={contentJson.navigation}>
       <Seo
         page={'marketing'}
-        title={contentJson.navigation.title}
-        lang={contentJson.general.lang}
         metas={contentJson.general}
       />
       <Hero data={contentJson.hero} />
@@ -43,7 +41,7 @@ function MarketingPage(props) {
       <ClientType data={contentJson.client_type} />
       <Services data={contentJson.services} />
       <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
-        <Title title={generalJson.portfolio.title} />
+        <Title title="Portafolio" />
         <Portfolio data={blogJson} />
       </Section>
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
@@ -76,7 +74,6 @@ export const imageData = graphql`
       }
     }
     dataJson(general: {path: {eq: "/"}}) {
-      ...portfolioFields
       ...contactFields
       ...tagsFields
     }

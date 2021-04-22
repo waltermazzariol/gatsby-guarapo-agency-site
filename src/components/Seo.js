@@ -11,7 +11,7 @@ import {Helmet} from "react-helmet"
 import ReactGA from 'react-ga'
 import image from '../data/images/seo.jpg'
 
-function Seo({page, description, lang, title, metas }) {
+function Seo({metas, lang, page}) {
   const trackingId = metas.ua;
   if(trackingId !== ""){
     ReactGA.initialize(trackingId);
@@ -19,7 +19,7 @@ function Seo({page, description, lang, title, metas }) {
   }
   
   
-  const metaDescription = description || metas.seo_description
+  const metaDescription = metas.seo_description
   const imageURL = metas.siteurl+image
   const imageURLHeight = '704'
   const imageURLWidth = '704'
@@ -29,8 +29,8 @@ function Seo({page, description, lang, title, metas }) {
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={title}
+      title={metas.seo_title}
+      titleTemplate={metas.seo_title}
       meta={[
         {
           name: `description`,
@@ -38,7 +38,7 @@ function Seo({page, description, lang, title, metas }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: metas.seo_title,
         },
         {
           property: `og:image`,
@@ -78,7 +78,7 @@ function Seo({page, description, lang, title, metas }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metas.seo_title,
         },
         {
           name: `twitter:description`,
@@ -90,7 +90,7 @@ function Seo({page, description, lang, title, metas }) {
 }
 
 Seo.defaultProps = {
-  lang: `en`,
+  lang: `es`,
   metas: [],
   description: ``,
   title: ``,

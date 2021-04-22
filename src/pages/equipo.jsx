@@ -24,7 +24,7 @@ function TeamPage(props) {
 
       <Seo
         page={'equipo'}
-        title={contentJson.navigation.title}
+        title={contentJson.general.seo_title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
       />

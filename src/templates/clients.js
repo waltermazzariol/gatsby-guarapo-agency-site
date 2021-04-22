@@ -16,7 +16,15 @@ function Works(props) {
   const dataJson = props.data.workJson
   const contentJson = props.data.allDataJson.edges[0].node
   const tagsJson = props.data.allDataJson.edges[0].node.tags
-
+  const seo_data = {
+    path: `/${dataJson.parent.name}`,
+    siteurl: `${dataJson.parent.relativeDirectory}/${dataJson.parent.name}`,
+    seo_title: `${dataJson.client} • Guarapo Media`,
+    seo_description: "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+    seo_image: dataJson.thumbnail.publicURL,
+    ua: "",
+    lang: "es"
+  }
   const coverData = {
     bgimage: { publicURL: "/bg_hero.jpg" },
     title: dataJson.client
@@ -26,8 +34,7 @@ function Works(props) {
     <Layout nav={contentJson.navigation}>
       <Seo
         page={`${dataJson.parent.relativeDirectory}/${dataJson.parent.name}`}
-        title={`${dataJson.client} • Guarapo Media`}
-        lang={'es'}
+        metas={seo_data}
       />
       <Cover data={coverData} />
       <div className="portfolio-modal py-5">

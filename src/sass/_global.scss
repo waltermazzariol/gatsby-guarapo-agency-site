@@ -62,7 +62,7 @@ h6 {
 h1 {
   font-size: 3.3125rem;
   line-height: 1.15em;
-  color: $darker-black;
+  color: $dark-black;
 }
 h2 {
   font-size: 3.2rem;
@@ -185,6 +185,18 @@ form {
     &:hover {
       background-color: darken($color: $primary, $amount: 10);
     }
+  }
+  &--text{
+    font-size: 0.8rem;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: $dark-gray;
+    text-transform: uppercase;
+    &:hover{
+        text-decoration: underline;
+        color: $primary;
+        }
   }
 }
 
@@ -406,9 +418,8 @@ img.fluido {
       flex: 0 0 22%;
       background-color: #ffffff;
       margin: 10px;
-      transition: all .2s ease-in-out;
-      &:hover{
-        transform: scale(1.05); 
+      a{
+        height: 100%;
       }
       @include media-breakpoint-down(md) {
         flex: 0 0 44%;
@@ -426,17 +437,18 @@ img.fluido {
     }
   }
   &-title{
-    padding: 15px;
+    padding: 0 15px;
+    margin-bottom: 15px;
   }
   &-cat {
-    margin: 20px 15px 0;
+    margin: 20px 15px 5px;
     padding: 4px;
     border-radius: 4px;
     font-size: 0.7rem;
-    max-width: 80px;
-    min-width: 80px;
+    max-width: 70px;
+    min-width: 70px;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 400;
     &-web {
         background-color: $yellow;
     }

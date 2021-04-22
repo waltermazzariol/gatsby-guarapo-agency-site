@@ -2,15 +2,6 @@
 .hero {
 	background-color: $yellow;
 	margin-top: 60px;
-	.logo{
-		max-width: 150px;
-		&-wrapper{
-			display: flex;
-			justify-content: center;
-			padding-top: 1rem;
-			padding-bottom: 2rem;
-		}
-	}
 	&-wrapper {
 		max-width: 90%;
 		display: flex;
@@ -35,7 +26,7 @@
 			}
 		}
 		.hero-subtitle {
-			color: $primary;
+			color: $dark-gray;
 			font-size: 1.2rem;
 		}
 	}

@@ -5,9 +5,13 @@ fragment generalFields on DataJson {
   general {
     path
     siteurl
+    seo_title
     seo_description
     ua
     lang
+    seo_image {
+        publicURL
+    }
   }
 }`
 
@@ -16,7 +20,9 @@ fragment navigationFields on DataJson {
   navigation {
     cta_button
     cta_link
-    title
+    logo_url {
+        publicURL
+    }
     menu{
       nav
       link

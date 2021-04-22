@@ -2,14 +2,13 @@
     "general": {
         "path": "/contacto",
         "siteurl": "https://guarapomedia.com/contacto",
+        "seo-title": "Contacto • Guarapo Media",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
         "ua": "",
         "lang": "es"
     },
     "navigation": {
-        "title": "Guarapo Media • Agencia de Marketing Digital en Barcelona",
-        "logo-active": true,
         "logo-url": "./images/logo.svg",
         "cta-button": "Chat",
         "cta-link": "https://wa.me/34622531989",

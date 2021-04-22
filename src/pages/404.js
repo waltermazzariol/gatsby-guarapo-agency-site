@@ -25,7 +25,7 @@ const NotFoundPage = (props) => {
 return(
   <Layout nav={contentJson.navigation} >
     <Seo page={'404'}
-      title={contentJson.navigation.title}
+      title={contentJson.general.seo_title}
       lang={contentJson.general.lang}
       metas={contentJson.general}
      />

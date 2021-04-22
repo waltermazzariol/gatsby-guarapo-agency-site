@@ -26,7 +26,7 @@ function ContactPage(props) {
 
       <Seo
         page={'contacto'}
-        title={contentJson.navigation.title}
+        title={contentJson.general.seo_title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
       />

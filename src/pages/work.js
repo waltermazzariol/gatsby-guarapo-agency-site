@@ -26,7 +26,7 @@ function Work(props) {
 
       <Seo
         page={'portfolio'}
-        title={contentJson.navigation.title}
+        title={contentJson.general.seo_title}
         lang={contentJson.general.lang}
         metas={contentJson.general}
       />

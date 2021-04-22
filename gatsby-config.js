@@ -1,7 +1,6 @@
 module.exports = {
-  pathPrefix: `/micropat`,
   siteMetadata: {
-    author: `@gatsbyjs`,
+    author: `@guarapomedia`,
     siteUrl: `https://www.guarapomedia.com`,
 
   },
@@ -52,14 +51,5 @@ module.exports = {
       }
     },
     `gatsby-plugin-sitemap`
-  //   {
-  //     resolve: 'gatsby-plugin-mailchimp',
-  //     options: {
-  //         endpoint: '', // add your MC list endpoint here; see instructions below
-  //     },
-  // },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

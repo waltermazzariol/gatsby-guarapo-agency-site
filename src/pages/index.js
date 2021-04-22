@@ -31,8 +31,6 @@ function IndexPage(props) {
     <Layout nav={contentJson.navigation}>
       <Seo
         page={'inicio'}
-        title={contentJson.navigation.title}
-        lang={contentJson.general.lang}
         metas={contentJson.general}
       />
       <Hero data={contentJson.hero} />

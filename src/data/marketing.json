@@ -2,14 +2,13 @@
     "general": {
         "path": "/marketing",
         "siteurl": "https://guarapomedia.com/marketing",
+        "seo-title": "Marketing Digital • Guarapo Media",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
         "ua": "",
         "lang": "es"
     },
     "navigation": {
-        "title": "Guarapo Media • Agencia de Marketing Digital en Barcelona",
-        "logo-active": true,
         "logo-url": "./images/logo.svg",
         "cta-button": "Chat",
         "cta-link": "https://wa.me/34622531989",
@@ -80,31 +79,35 @@
                 "name": "Desarrollo de Campañas",
                 "type": "Creamos una campañas a la medida de tu proyecto y así conseguir tus objetivos en medios digitales",
                 "image": "./images/services/s1.svg",
-                "alt": "imagen 1"
+                "link": "/marketing-digital"
+
             },
             {
                 "name": "Administración de Anuncios",
                 "type": "Impulsa tus campañas digitales a través de Google Ads y Facebook Ads. Te ayudamos durante todo el proceso",
                 "image": "./images/services/s6.svg",
-                "alt": "imagen 1"
+                "link": "/marketing-digital"
+
             },
             {
                 "name": "Generación de Contenidos",
                 "type": "No te quedes desactualiazdo en tus contenidos digitales, te ayudamos a estar siempre sobre las últimas tendencias",
                 "image": "./images/services/s7.svg",
-                "alt": "imagen 1"
+                "link": "/marketing-digital"
+
             },
             {
                 "name": "Email Marketing",
                 "type": "Saca el máximo provecho de tus listas de correos, te ayudamos a crear una campañas de Email Marketing ajustada a tu público",
                 "image": "./images/services/s5.svg",
-                "alt": "imagen 1"
+                "link": "/marketing-digital"
+
             },
             {
                 "name": "Desarrollo de Marca",
                 "type": "Imagen, logo, estrategia te ayudamos en toda la fase para que tu marca se haga un espacio en los medios digitales",
                 "image": "./images/services/s4.svg",
-                "alt": "imagen 1"
+                "link": "/marketing-digital"
             }
         ]
     },
