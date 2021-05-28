@@ -10,7 +10,7 @@ function Contact(props) {
     <Container>
       <Row className="justify-content-md-center">
 
-        <Col xs={12} md={4} className="text-center">
+        <Col xs={12} md={6} className="text-center">
           <Fade>
           <div className="social-contact">
               {props.data.socialmedia.map((key) =>

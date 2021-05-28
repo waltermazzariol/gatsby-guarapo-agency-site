@@ -22,7 +22,7 @@ function Works(props) {
     seo_title: `${dataJson.client} • Guarapo Media`,
     seo_description: "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
     seo_image: dataJson.thumbnail.publicURL,
-    ua: "",
+    ua: "UA-73261016-1",
     lang: "es"
   }
   const coverData = {
