@@ -64,7 +64,7 @@ function FormContact(props) {
             </Form.Group>
 
             <ReCAPTCHA
-                sitekey="6LdUDtkZAAAAAL5irooSnKse48OhHNUhQYIeHY_V"
+                sitekey="6Ldxyi4bAAAAAOq88jM5zIfu-epnbFiafAjNom5s"
                 onChange={onChange}
             />
             <Button variant="btn btn--primary text-white" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" aria-label="Sumit" className="mt-3">

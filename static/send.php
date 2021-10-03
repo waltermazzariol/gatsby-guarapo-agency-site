@@ -9,7 +9,7 @@ $_POST = json_decode($rest_json, true);
 
 if (isset($_POST['recaptcha'])) {
   $captcha = $_POST['recaptcha'];
-  $privatekey = "6LdUDtkZAAAAAPuURG27zURtPX2cIBdup6pQA4mi";
+  $privatekey = "6Ldxyi4bAAAAAEtChzp2XXt70N1edhIEvhOK2SJy";
   $url = 'https://www.google.com/recaptcha/api/siteverify';
   $data = array(
     'secret' => $privatekey,
