@@ -1,0 +1,44 @@
+// Variables
+
+// Color overrides
+
+// Set a custom color
+$blue:#525D7D;
+$light-blue: #76EBF2;
+$green: #CCEC80;
+$light-green: #F7FAE1;
+$dark-blue: #142850;
+$dark-black: #444;
+$darker-black: #333;
+$font-subtitle-color: #777;
+$light-gray: #dbdbdb;
+$yellow: #FFEA7C;
+
+// Set color for theme
+$main-color: $blue !default;
+$main-color-dark: darken( $main-color, 10% ) !default;
+$font-title-color: $main-color;
+$font-subtitle-color: $font-subtitle-color;
+$font-text-color: $dark-black;
+$body-background: white;
+$divider-color: $main-color;
+
+// Font overrides
+$font-family-serif: 'Roboto', sans-serif !default;
+$headings-font-family: $font-family-serif !default;
+$font-family-base: $font-family-serif !default;
+
+// shadows
+$box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+
+// navbar variables
+$navbar-color: white;
+$navbar-height: 60px;
+$navbar-cta-color: $font-title-color;
+$navbar-cta-bg-color: $main-color;
+$navbar-text-color: $font-title-color;
+$navbar-text-color-hover: rgba(200, 200, 200, 0.2);
+$navbar-font-family: $headings-font-family;
+$navbar-shadow: none;
+$navbar-togle-collapse: white;
+$navbar-togle-collapse-line: #ddd;

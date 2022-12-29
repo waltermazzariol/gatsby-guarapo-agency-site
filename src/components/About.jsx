@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 import Col from 'react-bootstrap/Col'
 import Line from '../components/Common//Line'
 import Section from "../components/Common/Section"
-import imagesAbout from '../images/assets/image1.png'
+import imagesAbout from '../assets/images/image1.png'
 import Img from 'gatsby-image'
 
 

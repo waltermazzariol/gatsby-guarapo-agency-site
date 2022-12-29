@@ -9,9 +9,6 @@ fragment generalFields on DataJson {
     seo_description
     ua
     lang
-    seo_image {
-        publicURL
-    }
   }
 }`
 

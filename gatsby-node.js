@@ -22,7 +22,7 @@ exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
   const result = await graphql(`
     query {
-        allWorkJson(sort: {fields: date, order: DESC}) {
+        allWorkJson(sort: {date: DESC}) {
             edges {
               node {
                client
@@ -41,7 +41,7 @@ exports.createPages = async ({ graphql, actions }) => {
   result.data.allWorkJson.edges.forEach(({ node }) => {
     createPage({
       path: `${node.parent.relativeDirectory}/${node.parent.name}`,
-      component: path.resolve(`./src/templates/clients.js`),
+      component: path.resolve(`./src/templates/clients`),
       context: {    
         slug: node.client
       },

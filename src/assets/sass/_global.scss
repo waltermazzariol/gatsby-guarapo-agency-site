@@ -1,0 +1,469 @@
+// Prevent highlight on mobile
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  &:focus {
+    outline: 0;
+  }
+}
+
+// Global styling for this template
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  text-align: left;
+  color: $font-text-color;
+  margin: 0;
+  @include media-breakpoint-up(md) {
+    body {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings-font-family;
+  line-height: 1.5em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $font-title-color;
+}
+h1,
+h2,
+h3 {
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  font-weight: 400;
+}
+h4,
+h5,
+h6 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+h1 {
+  font-size: 3.3125rem;
+  line-height: 1.15em;
+  color: $dark-black;
+}
+h2 {
+  font-size: 3.2rem;
+  line-height: 1.5em;
+  color: $main-color;
+}
+h3 {
+  font-size: 1.6rem;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $main-color;
+}
+h4 {
+  font-size: 1.125rem;
+  line-height: 1.5em;
+  font-weight: 700;
+  color: $main-color;
+}
+h5 {
+  font-size: 1.0625rem;
+  line-height: 1.55em;
+}
+h6 {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+p,
+b {
+  margin: 0 0 10px;
+  color: $font-text-color;
+  font-family: $font-family-base;
+}
+a {
+  color: $font-text-color;
+  text-decoration: none;
+  background-color: transparent;
+  &:hover,
+  &:focus {
+    color: darken($font-text-color, 10%);
+    text-decoration: none;
+  }
+}
+label {
+  font-size: 14px;
+  line-height: 1.42857;
+  color: $light-gray;
+  font-weight: 400;
+}
+small {
+  font-size: 75%;
+  color: #777;
+  font-weight: 400;
+}
+.small-text {
+  font-size: 0.9rem;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.text-primary {
+  color: $darker-black !important;
+  font-weight: 400;
+}
+
+//Form style
+form {
+  margin-bottom: 1.125rem;
+}
+.form-label {
+  color: $font-text-color;
+}
+.form-control {
+  background-color: #f5f5f5;
+  border-radius: 0px;
+  border-color: transparent;
+}
+.form-text{
+  font-size: 0.9rem;
+}
+
+// Button restyling
+.btn {
+  font-family: $headings-font-family;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  a {
+    color: #ffffff;
+    font-size: 0.85rem;
+    i {
+      color: #ffffff;
+      font-size: 1rem;
+    }
+  }
+  &--primary {
+    background-color: $main-color;
+    font-size: 0.85rem;
+    color: #ffffff;
+    &:hover {
+      background-color: darken($color: $main-color, $amount: 10);
+      font-size: 0.85rem;
+      color: #ffffff;
+    }
+  }
+  &--secundary {
+    background-color: $main-color-dark;
+    &:hover {
+      background-color: darken($color: $main-color-dark, $amount: 10);
+    }
+  }
+  &--outline {
+    border: 1px solid $main-color;
+    background-color: transparent;
+    &:hover {
+      background-color: darken($color: $main-color, $amount: 10);
+    }
+  }
+  &--text{
+    font-size: 0.8rem;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    font-weight: 400;
+    color: $font-subtitle-color;
+    text-transform: uppercase;
+    &:hover{
+        text-decoration: underline;
+        color: $main-color;
+        }
+  }
+}
+
+// Images Responsive
+.box-image {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+  box-shadow: $box-shadow;
+}
+img.fluido {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+// Bootstrap container fluid
+.container-fluid {
+  padding: 0;
+}
+
+// Modal
+.modal-backdrop {
+  background-color: #fff;
+}
+.modal-backdrop.show {
+  opacity: 0.8;
+}
+
+// Backgrounds
+.bg {
+  &--70 {
+    background-image: -webkit-linear-gradient(180deg, #f6f6f6, #f6f6f6 70%, transparent 70%, transparent 100%);
+  }
+  &-black {
+    background: linear-gradient(180deg, rgba(13, 101, 98, 0.5) 0%, rgba(13, 101, 98, 0.5) 0%);
+  }
+  &-gray {
+    background-color: #f6f4f4;
+  }
+  &-yellow {
+    background-color: $yellow;
+    &-top {
+      background: $yellow;
+      bottom: 50%;
+      content: "";
+      display: block;
+      height: 20%;
+      position: absolute;
+      right: 0;
+      transform-origin: 100% 100%;
+      transform: rotate(-6deg);
+      width: 150%;
+    }
+    &-bottom {
+      background: $yellow;
+      bottom: 50%;
+      content: "";
+      display: block;
+      height: 20%;
+      position: absolute;
+      right: 0;
+      transform-origin: 100% 100%;
+      transform: rotate(-6deg);
+      width: 150%;
+    }
+  }
+}
+
+// Custom class
+.phone {
+  position: absolute;
+  right: 0;
+  bottom: -90px;
+  max-width: 300px;
+  z-index: 1;
+}
+.icon-svg {
+  max-height: 45px;
+}
+.diagonal {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  &-180 {
+    top: 0;
+    transform: rotate(180deg);
+    z-index: 0;
+  }
+}
+
+// Wrappers Flex
+.wrapper {
+  max-width: 90%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  &-fluid {
+    max-width: 100%;
+  }
+  &-wrap {
+    flex-wrap: wrap;
+  }
+  &-item {
+    max-width: 50%;
+    margin-bottom: 1rem;
+    img {
+      max-width: 100%;
+    }
+  }
+  &-container {
+    display: flex;
+
+    &-item {
+      max-width: 50%;
+      padding: 1rem;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    &-item {
+      max-width: 100%;
+      margin: 1rem;
+    }
+  }
+}
+.item1 {
+  max-width: 50%;
+  img {
+    max-width: 100%;
+  }
+  @include media-breakpoint-down(md) {
+    max-width: 100%;
+  }
+}
+.item2 {
+  max-width: 50%;
+  img {
+    max-width: 100%;
+  }
+  @include media-breakpoint-down(md) {
+    max-width: 50%;
+  }
+}
+
+// Services
+.services {
+  &-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .item3 {
+      flex: 0 0 30%;
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      border-radius: 4px;
+      margin: 10px;
+      padding: 10px;
+      @include media-breakpoint-down(md) {
+        flex: 0 0 45%;
+      }
+      @include media-breakpoint-down(xs) {
+        flex: 0 0 80%;
+      }
+      ul {
+        padding-left: 40px;
+        padding-right: 20px;
+      }
+      img {
+        max-width: 60px;
+        min-height: 60px;
+        margin: auto;
+      }
+    }
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+// Team
+.team {
+  &-wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    .item {
+      flex: 0 0 31%;
+      background-color: #ffffff;
+      margin: 10px;
+      @include media-breakpoint-down(md) {
+        flex: 0 0 100%;
+        margin: auto;
+      }
+      img {
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+  &-content {
+    padding: 15px;
+  }
+}
+
+// Work
+.work {
+  &-wrapper {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    .item {
+      flex: 0 0 22%;
+      background-color: #ffffff;
+      margin: 10px;
+      a{
+        height: 100%;
+      }
+      @include media-breakpoint-down(md) {
+        flex: 0 0 44%;
+        margin: auto;
+      }
+      @include media-breakpoint-down(xs) {
+        flex: 0 0 100%;
+        margin: auto;
+      }
+      img {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+      }
+    }
+  }
+  &-title{
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  &-cat {
+    margin: 20px 15px 5px;
+    padding: 4px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    max-width: 70px;
+    min-width: 70px;
+    text-transform: capitalize;
+    font-weight: 400;
+    &-web {
+        background-color: $yellow;
+    }
+    &-marketing {
+        background-color: $light-blue;
+    }
+}
+}
+
+//Banner Plant
+.banner1 {
+  background-attachment: scroll !important;
+  @include media-breakpoint-up(lg) {
+    background-attachment: fixed !important;
+  }
+}

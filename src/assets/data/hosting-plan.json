@@ -1,0 +1,173 @@
+{
+    "general": {
+        "path": "/hospedaje-web",
+        "siteurl": "https://guarapomedia.com/hospedaje-web",
+        "seo-title": "Hospedaje Web • Guarapo Media",
+        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-image": "./images/seo.jpg",
+        "ua": "UA-73261016-1",
+        "lang": "es"
+    },
+    "navigation": {
+        "logo-url": "./images/logo.svg",
+        "cta-button": "Chat",
+        "cta-link": "https://wa.me/34622531989",
+        "menu": [
+            {
+                "nav": "Desarrollo Web",
+                "anchor": "",
+                "link": "/desarrollo-web"
+            },
+            {
+                "nav": "Hospedaje Web",
+                "anchor": "",
+                "link": "/hospedaje"
+            },
+            {
+                "nav": "Marketing Digital",
+                "anchor": "",
+                "link": "/marketing-digital"
+            },
+            {
+                "nav": "Portafolio",
+                "anchor": "",
+                "link": "/work"
+            },
+            {
+                "nav": "El Equipo",
+                "anchor": "",
+                "link": "/equipo"
+            },
+            {
+                "nav": "Contacto",
+                "anchor": "",
+                "link": "/contacto"
+            }
+        ]
+    },
+    "cover": {
+        "title": "Hospedaje <strong>Web</strong>",
+        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
+        "bgimage": "./images/bg_hero.jpg",
+        "button-text": "Conoce más",
+        "button-url": "mailto:contacto@guarapomedia.com"
+    },
+    "packages": {
+        "title": "¿Necesitas ayuda en tu proyecto?",
+        "items": [
+            {
+                "name": "Plan Light",
+                "price": "60$ ",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "Hospedaje de 500mb"
+                    },
+                    {
+                        "text": "10gb de Transferencia mensual"
+                    },
+                    {
+                        "text": "Hasta 10 correos electrónicos"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    },
+                    {
+                        "text": "Instalación Wordpress 1 click"
+                    },
+                    {
+                        "text": "Bases de datos MySQL ilimitadas"
+                    }
+                ],
+                "button-text": "reservar",
+                "button-url": "/contacto"
+            },
+            {
+                "name": "Plan Basic",
+                "price": "90$ ",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "Hospedaje de 1gb"
+                    },
+                    {
+                        "text": "20gb de Transferencia mensual"
+                    },
+                    {
+                        "text": "Hasta 20 correos electrónicos"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    },
+                    {
+                        "text": "Instalación Wordpress 1 click"
+                    },
+                    {
+                        "text": "Bases de datos MySQL ilimitadas"
+                    }
+                ],
+                "button-text": "reservar",
+                "button-url": "/contacto"
+            },
+            {
+                "name": "Plan Pro",
+                "price": "115$ ",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "Hospedaje de 2.5gb"
+                    },
+                    {
+                        "text": "30gb de Transferencia mensual"
+                    },
+                    {
+                        "text": "Cuentas de correos electrónicos sin límite"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    },
+                    {
+                        "text": "Instalación Wordpress 1 click"
+                    },
+                    {
+                        "text": "Bases de datos MySQL ilimitadas"
+                    }
+                ],
+                "button-text": "reservar",
+                "button-url": "/contacto"
+            }
+        ]
+    },
+    "contact": {
+        "phone": "+34622531989",
+        "email": "contacto@guarapomedia.com",
+        "address": "Barcelona, España",
+        "socialmedia": [
+            {
+                "link": "https://www.instagram.com/GuarapoMedia/",
+                "name": "instagram"
+            },
+            {
+                "link": "https://twitter.com/GuarapoMedia",
+                "name": "twitter"
+            },
+            {
+                "link": "https://facebook.com/GuarapoMedia/",
+                "name": "facebook"
+            }
+        ],
+        "image": "./images/footer.jpg"
+    },
+    "tags": {
+        "viewmore": "Ver más",
+        "viewless": "Ver menos",
+        "cookie-message": "Usamos cookies propias y de terceros para mejorar tu experiencia como usuario.",
+        "cookie-accept": "Aceptar",
+        "event": "Título",
+        "date": "Fecha",
+        "location": "Locación",
+        "not-found-title": "404 not found",
+        "not-found-message": "You are in a wrong page.. Go back to our home",
+        "not-found-btn": "Home"
+    }
+}

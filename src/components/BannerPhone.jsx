@@ -6,9 +6,9 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-import user from '../images/assets/person.svg'
-import ring from '../images/assets/ring.svg'
-import diagonalTop from '../images/assets/diagonal-top.svg'
+import user from '../assets/images//person.svg'
+import ring from '../assets/images//ring.svg'
+import diagonalTop from '../assets/images//diagonal-top.svg'
 
 function BannerPhone(props) {
     return (

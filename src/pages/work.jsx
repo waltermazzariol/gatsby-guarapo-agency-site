@@ -11,23 +11,25 @@ import CookiesConsent from "../components/Cookies"
 import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import Cover from "../components/Hero/Cover"
-import Team from "../components/Team.jsx"
+import Cards from "../components/Cards.jsx"
 import Contact from "../components/Contact"
 import Section from "../components/Common/Section"
 
-function TeamPage(props) {
+function Work(props) {
   const contentJson = props.data.allDataJson.edges[0].node
   const generalJson = props.data.dataJson
+  const workJson = props.data.allWorkJson
+  console.log(workJson)
 
   return (
     <Layout nav={contentJson.navigation}>
 
       <Seo
-        page={'equipo'}
+        page={'portfolio'}
         metas={contentJson.general}
       />
       <Cover data={contentJson.cover} />
-      <Team data={contentJson.team} />
+      <Cards data={workJson.edges} />
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
         <Contact data={generalJson.contact} />
       </Section>
@@ -38,23 +40,48 @@ function TeamPage(props) {
   )
 }
 
-export default TeamPage
+export default Work
 
 
 export const data = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/equipo"}}}) {
-      edges {
-        node {
-            ...generalFields
-            ...navigationFields
-            ...coverFields
-            ...teamFields
-            ...contactFields
-            ...tagsFields
-        }  
+    allWorkJson(sort: {date: DESC}) {
+        edges {
+          node {
+            id
+          client
+          alt
+          cat
+          city
+          date
+          tags
+          image{
+            publicURL
+          }
+          thumbnail{
+            publicURL
+          }
+          url
+          year
+          description
+            parent {
+              ... on File {
+                relativeDirectory
+                name
+              }
+            }
+          }
+        }
       }
-    }
+      allDataJson(filter: {general: {path: {eq: "/work"}}}) {
+        edges {
+          node {
+          ...generalFields
+          ...navigationFields
+          ...coverFields
+        }  
+        }
+      }
     dataJson(general: {path: {eq: "/"}}) {
       ...contactFields
       ...tagsFields

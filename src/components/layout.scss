@@ -1,6 +1,6 @@
 // Import custom variables (overrides Bootstrap default variables)
-@import "../sass/variables.scss";
-@import "../sass/mixing.scss";
+@import "../assets/sass/variables.scss";
+@import "../assets/sass/mixing.scss";
 // Import font awesome
 @import "~@fortawesome/fontawesome-free/css/all.css";
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
@@ -9,14 +9,13 @@
 @import "~bootstrap/scss/bootstrap";
 
 // Import custom styles
-@import "../sass/global.scss";
-@import "../sass/navbar.scss";
-@import "../sass/hero.scss";
-@import "../sass/slider.scss";
-@import "../sass/about.scss";
-@import "../sass/grid-column.scss";
-@import "../sass/price.scss";
-@import "../sass/contact.scss";
-@import "../sass/cookies.scss";
-@import "../sass/calendar.scss";
-@import "../sass/portfolio.scss";
+@import "../assets/sass/global.scss";
+@import "../assets/sass/navbar.scss";
+@import "../assets/sass/hero.scss";
+@import "../assets/sass/slider.scss";
+@import "../assets/sass/about.scss";
+@import "../assets/sass/price.scss";
+@import "../assets/sass/contact.scss";
+@import "../assets/sass/cookies.scss";
+@import "../assets/sass/calendar.scss";
+@import "../assets/sass/portfolio.scss";

@@ -4,12 +4,12 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
-import Cover from "../components/Hero/Cover.js"
+import Cover from "../components/Hero/Cover"
 import Section from "../components/Common/Section"
 import Contact from "../components/Contact"
 
 // Genneric Component
-import CookiesConsent from "../components/Cookies.js"
+import CookiesConsent from "../components/Cookies"
 
 function Works(props) {
 
