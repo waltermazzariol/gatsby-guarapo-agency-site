@@ -6,7 +6,9 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Update dependencies to gatsby v5
 - Reorder content
-
+- add head support
+- Refresh content
+- Add wansite
 
 ## [1.0.1] - 2021.12.14
 

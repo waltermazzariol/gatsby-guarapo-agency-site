@@ -63,7 +63,7 @@ export function Head(props) {
 
 export const imageData = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/marketing"}}}) {
+    allDataJson(filter: {general: {path: {eq: "/marketing-digital"}}}) {
       edges {
         node {
         ...generalFields

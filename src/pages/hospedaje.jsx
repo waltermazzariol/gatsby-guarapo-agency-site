@@ -43,7 +43,7 @@ export default TeamPage
 export function Head(props) {
     return (
       <Seo
-          page={'hospedaje-web'}
+          page={'hospedaje'}
           metas={props.data.allDataJson.edges[0].node.general}
         />
     )
@@ -51,7 +51,7 @@ export function Head(props) {
 
 export const data = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/hospedaje-web"}}}) {
+    allDataJson(filter: {general: {path: {eq: "/hospedaje"}}}) {
       edges {
         node {
             ...generalFields

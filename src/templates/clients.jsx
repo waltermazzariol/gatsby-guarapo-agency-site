@@ -15,16 +15,7 @@ function Works(props) {
 
   const dataJson = props.data.workJson
   const contentJson = props.data.allDataJson.edges[0].node
-  const tagsJson = props.data.allDataJson.edges[0].node.tags
-  const seo_data = {
-    path: `/${dataJson.parent.name}`,
-    siteurl: `${dataJson.parent.relativeDirectory}/${dataJson.parent.name}`,
-    seo_title: `${dataJson.client} • Guarapo Media`,
-    seo_description: "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
-    seo_image: dataJson.thumbnail.publicURL,
-    ua: "UA-73261016-1",
-    lang: "es"
-  }
+  const tagsJson = props.data.allDataJson.edges[0].node.tags 
   const coverData = {
     bgimage: { publicURL: "/bg_hero.jpg" },
     title: dataJson.client
@@ -32,10 +23,6 @@ function Works(props) {
 
   return (
     <Layout nav={contentJson.navigation}>
-      <Seo
-        page={`${dataJson.parent.relativeDirectory}/${dataJson.parent.name}`}
-        metas={seo_data}
-      />
       <Cover data={coverData} />
       <div className="portfolio-modal py-5">
         <div className="container">
@@ -94,6 +81,24 @@ function Works(props) {
 }
 
 export default Works
+
+export function Head(props) {
+  const seo_data = {
+    path: `/${props.data.workJson.parent.name}`,
+    siteurl: `${props.data.workJson.parent.relativeDirectory}/${props.data.workJson.parent.name}`,
+    seo_title: `${props.data.workJson.client} • Guarapo Media`,
+    seo_description: "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+    seo_image: props.data.workJson.thumbnail.publicURL,
+    ua: "UA-73261016-1",
+    lang: "es"
+  }
+  return (
+    <Seo
+      page={`${props.data.workJson.parent.relativeDirectory}/${props.data.workJson.parent.name}`}
+      metas={seo_data}
+      />
+  )
+}
 
 export const dataJson = graphql`
   query($slug: String!) {

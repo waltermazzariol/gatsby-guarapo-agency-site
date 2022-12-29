@@ -29,10 +29,6 @@ function IndexPage(props) {
   const blogJson = props.data.allWorkJson.edges
   return (
     <Layout nav={contentJson.navigation}>
-      {/* <Seo
-        page={'inicio'}
-        metas={contentJson.general}
-      /> */}
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />
       <Banner data={contentJson.banner} />

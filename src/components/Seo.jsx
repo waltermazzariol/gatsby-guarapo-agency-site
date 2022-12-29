@@ -8,7 +8,7 @@
 import React from "react"
 import ReactGA from "react-ga4"
 
-function Seo({metas, lang}) {
+function Seo({metas}) {
   if (typeof window !== "undefined" && process.env.GATSBY_WORDPRESS_HOST!== 'dev' ) {
     ReactGA.initialize("G-4W167WWE3E");
     ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });

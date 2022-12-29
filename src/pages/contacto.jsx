@@ -23,11 +23,6 @@ function ContactPage(props) {
 
   return (
     <Layout nav={contentJson.navigation}>
-
-      <Seo
-        page={'contacto'}
-        metas={contentJson.general}
-      />
       <Cover data={contentJson.cover} />
       <Section anchor={'form'} className={'form py-5'} rowClass={'justify-content-md-center'}>
         <Title title={contentJson.form.title} subtitle={contentJson.form.description}/>
@@ -57,6 +52,14 @@ function ContactPage(props) {
 
 export default ContactPage
 
+export function Head(props) {
+  return (
+    <Seo
+        page={'contacto'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}
 
 export const data = graphql`
   query{
