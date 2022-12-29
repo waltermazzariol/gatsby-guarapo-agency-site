@@ -17,12 +17,16 @@ function Services(props) {
                 <ul className="description">
                   {key.type.split('\n').map((item, i) => <li key={i}>{item}</li>)}
                 </ul>
+                <Link className="mx-auto  btn btn--primary my-3 mr-4"
+                to={key.link} target="_blank" rel="noopener noreferrer">
+                Leer más
+            </Link>
               </div>)}
           </div>
           <div className="d-flex w-100 justify-content-center">
             <Link className="btn btn--primary my-3 mr-4"
-              to="/contacto" target="_blank" rel="noopener noreferrer">
-                Contactános
+              to="/desarrollo-web" target="_blank" rel="noopener noreferrer">
+                Ver todos los servicios
             </Link>
           </div>
         </Fade>

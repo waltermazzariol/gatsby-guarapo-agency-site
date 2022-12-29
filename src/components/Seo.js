@@ -8,14 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import {Helmet} from "react-helmet"
-import ReactGA from 'react-ga'
+import ReactGA from "react-ga4"
 import image from '../data/images/seo.jpg'
 
-function Seo({metas, lang, page}) {
-  const trackingId = metas.ua;
-  if(trackingId !== ""){
-    ReactGA.initialize(trackingId);
-    ReactGA.pageview(`/${page}`);
+function Seo({metas, lang}) {
+  if (typeof window !== "undefined" && process.env.GATSBY_WORDPRESS_HOST!== 'dev' ) {
+    ReactGA.initialize("G-4W167WWE3E");
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
   }
   
   

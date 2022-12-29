@@ -14,14 +14,19 @@
         "cta-link": "https://wa.me/34622531989",
         "menu": [
             {
-                "nav": "Marketing Digital",
-                "anchor": "",
-                "link": "/marketing-digital"
-            },
-            {
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
+            },
+            {
+                "nav": "Hospedaje Web",
+                "anchor": "",
+                "link": "/hospedaje"
+            },
+            {
+                "nav": "Marketing Digital",
+                "anchor": "",
+                "link": "/marketing-digital"
             },
             {
                 "nav": "Portafolio",
@@ -32,11 +37,6 @@
                 "nav": "El Equipo",
                 "anchor": "",
                 "link": "/equipo"
-            },
-            {
-                "nav": "Hospedaje",
-                "anchor": "",
-                "link": "/hospedaje"
             },
             {
                 "nav": "Contacto",
@@ -114,22 +114,21 @@
         "slogan": "",
         "projects": [
             {
-                "name": "Marketing Digital",
-                "type": "Desarrollo de campañas \nAdministración de anuncios \nGeneración de contenidos \nEmail Marketing \nDesarrollo de marca",
-                "image": "./images/services/s1.svg",
-                "link": "/marketing-digital"
-            },
-            {
+                "name": "Dominios y Hosting",
+                "type": "Dominios .com, .net, .io, .site \nHosting \nGoogle My Business \nMicrosoft 360 \nZoho Email",
+                "image": "./images/services/s3.svg",
+                "link": "/hospedaje"
+            },{
                 "name": "Desarrollo Web",
                 "type": "Maquetación \nDesarrollo Web \nMantenimiento Web \nWordpress, Prestashop, Shopify \nLanding Page \nMicrosites",
                 "image": "./images/services/s2.svg",
                 "link": "/desarrollo-web"
             },
             {
-                "name": "Dominios y Hosting",
-                "type": "Dominios .com \nHosting \nGoogle My Business \nMicrosoft 360 \nZoho Email",
-                "image": "./images/services/s3.svg",
-                "link": "/hospedaje"
+                "name": "Marketing Digital",
+                "type": "Desarrollo de campañas \nAdministración de anuncios \nGeneración de contenidos \nEmail Marketing \nDesarrollo de marca",
+                "image": "./images/services/s1.svg",
+                "link": "/marketing-digital"
             }
         ]
     },
