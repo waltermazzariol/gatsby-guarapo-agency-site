@@ -28,11 +28,6 @@ function WebPage(props) {
 
   return (
     <Layout nav={contentJson.navigation}>
-
-      <Seo
-        page={'web'}
-        metas={contentJson.general}
-      />
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />
       <Banner data={contentJson.banner} />
@@ -55,6 +50,14 @@ function WebPage(props) {
 
 export default WebPage
 
+export function Head(props) {
+  return (
+    <Seo
+        page={'web'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}
 
 export const imageData = graphql`
   query{

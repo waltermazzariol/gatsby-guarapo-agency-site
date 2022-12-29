@@ -19,15 +19,9 @@ function Work(props) {
   const contentJson = props.data.allDataJson.edges[0].node
   const generalJson = props.data.dataJson
   const workJson = props.data.allWorkJson
-  console.log(workJson)
 
   return (
     <Layout nav={contentJson.navigation}>
-
-      <Seo
-        page={'portfolio'}
-        metas={contentJson.general}
-      />
       <Cover data={contentJson.cover} />
       <Cards data={workJson.edges} />
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
@@ -42,6 +36,14 @@ function Work(props) {
 
 export default Work
 
+export function Head(props) {
+  return (
+    <Seo
+        page={'portafolio'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}
 
 export const data = graphql`
   query{

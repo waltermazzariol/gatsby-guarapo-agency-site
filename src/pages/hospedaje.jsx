@@ -23,11 +23,6 @@ function TeamPage(props) {
 
     return (
         <Layout nav={contentJson.navigation}>
-
-            <Seo
-                page={'hospedaje'}
-                metas={contentJson.general}
-            />
             <Cover data={contentJson.cover} />
             <Section className={'price bg-gray'}>
                 <Title title={contentJson.packages.title} />
@@ -45,6 +40,14 @@ function TeamPage(props) {
 
 export default TeamPage
 
+export function Head(props) {
+    return (
+      <Seo
+          page={'hospedaje-web'}
+          metas={props.data.allDataJson.edges[0].node.general}
+        />
+    )
+  }
 
 export const data = graphql`
   query{

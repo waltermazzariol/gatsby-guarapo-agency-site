@@ -29,10 +29,10 @@ function IndexPage(props) {
   const blogJson = props.data.allWorkJson.edges
   return (
     <Layout nav={contentJson.navigation}>
-      <Seo
+      {/* <Seo
         page={'inicio'}
         metas={contentJson.general}
-      />
+      /> */}
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />
       <Banner data={contentJson.banner} />
@@ -56,6 +56,14 @@ function IndexPage(props) {
 
 export default IndexPage
 
+export function Head(props) {
+  return (
+    <Seo
+        page={'inicio'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}
 
 export const imageData = graphql`
   query{

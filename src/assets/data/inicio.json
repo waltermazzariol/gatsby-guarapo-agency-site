@@ -75,38 +75,6 @@
         "bg-image": "./images/bg_phone.jpg",
         "image": "./images/phone.png"
     },
-    "sponsor": {
-        "title": "algunos de los que han confiado en nosotros",
-        "gallery": [
-            {
-                "image": "./images/sponsor/1.png"
-            },
-            {
-                "image": "./images/sponsor/2.png"
-            },
-            {
-                "image": "./images/sponsor/3.png"
-            },
-            {
-                "image": "./images/sponsor/4.png"
-            },
-            {
-                "image": "./images/sponsor/5.png"
-            },
-            {
-                "image": "./images/sponsor/6.png"
-            },
-            {
-                "image": "./images/sponsor/7.png"
-            },
-            {
-                "image": "./images/sponsor/8.png"
-            },
-            {
-                "image": "./images/sponsor/9.png"
-            }
-        ]
-    },
     "services": {
         "id": 1,
         "title": "Servicios",

@@ -21,11 +21,6 @@ function TeamPage(props) {
 
   return (
     <Layout nav={contentJson.navigation}>
-
-      <Seo
-        page={'equipo'}
-        metas={contentJson.general}
-      />
       <Cover data={contentJson.cover} />
       <Team data={contentJson.team} />
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
@@ -40,7 +35,14 @@ function TeamPage(props) {
 
 export default TeamPage
 
-
+export function Head(props) {
+  return (
+    <Seo
+        page={'equipo'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}
 export const data = graphql`
   query{
     allDataJson(filter: {general: {path: {eq: "/equipo"}}}) {

@@ -24,11 +24,6 @@ const NotFoundPage = (props) => {
   const contentJson = props.data.allDataJson.edges[0].node
 return(
   <Layout nav={contentJson.navigation} >
-    <Seo page={'404'}
-      title={contentJson.general.seo_title}
-      lang={contentJson.general.lang}
-      metas={contentJson.general}
-     />
     <Hero data={contentJson.hero} logo={contentJson.navigation.logo_url} />
     <div className="container my-5">
       <div className="row">
@@ -44,3 +39,11 @@ return(
 
 export default NotFoundPage
 
+export function Head(props) {
+  return (
+    <Seo
+        page={'404'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}

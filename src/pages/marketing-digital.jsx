@@ -30,10 +30,6 @@ function MarketingPage(props) {
 
   return (
     <Layout nav={contentJson.navigation}>
-      <Seo
-        page={'marketing'}
-        metas={contentJson.general}
-      />
       <Hero data={contentJson.hero} />
       <About data={contentJson.about} />
       <Banner data={contentJson.banner} />
@@ -56,6 +52,14 @@ function MarketingPage(props) {
 
 export default MarketingPage
 
+export function Head(props) {
+  return (
+    <Seo
+        page={'marketing'}
+        metas={props.data.allDataJson.edges[0].node.general}
+      />
+  )
+}
 
 export const imageData = graphql`
   query{

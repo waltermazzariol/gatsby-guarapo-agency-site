@@ -6,8 +6,6 @@
  */
 
 import React from "react"
-import PropTypes from "prop-types"
-import {Helmet} from "react-helmet"
 import ReactGA from "react-ga4"
 
 function Seo({metas, lang}) {
@@ -22,83 +20,29 @@ function Seo({metas, lang}) {
   const imageURLHeight = '704'
   const imageURLWidth = '704'
 
-  return (
-    <Helmet
-      htmlAttributes={{
-        lang,
-      }}
-      title={metaTitle}
-      titleTemplate={metaTitle}
-      meta={[
-        {
-          name: `description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:title`,
-          content: metaTitle,
-        },
-        {
-          property: `og:image`,
-          content: imageURL,
-        },
-        {
-          property: "og:image:width",
-          content: imageURLWidth,
-        },
-        {
-          property: "og:image:height",
-          content: imageURLHeight,
-        },
-        {
-          property: `og:description`,
-          content: metaDescription,
-        },
-        {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
-          property: `og:url`,
-          content: metas.siteurl,
-        },
-        {
-          name: `twitter:card`,
-          content: `summary`,
-        },
-        {
-          name: `twitter:image`,
-          content: imageURL,
-        },
-        {
-          name: `twitter:creator`,
-          content: metas.author,
-        },
-        {
-          name: `twitter:title`,
-          content: metaTitle,
-        },
-        {
-          name: `twitter:description`,
-          content: metaDescription,
-        },
-      ].concat(metas)}
-    />
-  )
-}
+  return (<>
+    {/* <!-- Primary Meta Tags --> */}
+    <lang>es</lang>
+    <title>{metaTitle}</title>
+    <meta name="title" content={metaTitle} />
+    <meta name="description" content={metaDescription}/>
 
-Seo.defaultProps = {
-  lang: `es`,
-  metas: [],
-  description: ``,
-  title: ``,
-}
+    {/* <!-- Open Graph / Facebook --/> */}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={metas.siteurl} />
+    <meta property="og:title" content={metaTitle} />
+    <meta property="og:description" content={metaDescription} />
+    <meta property="og:image" content={imageURL} />
+    <meta property= "og:image:width" content={imageURLWidth} />
+    <meta property= "og:image:height" content={imageURLHeight} />
 
-Seo.propTypes = {
-  description: PropTypes.string,
-  lang: PropTypes.string,
-  meta: PropTypes.arrayOf(PropTypes.object),
-  title: PropTypes.string.isRequired,
+    {/* <!-- Twitter --/> */}
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={metas.siteurl} />
+    <meta property="twitter:title" content={metaTitle} />
+    <meta property="twitter:description" content={metaDescription} />
+    <meta property="twitter:image" content={imageURL} />
+    </>)
 }
 
 export default Seo
