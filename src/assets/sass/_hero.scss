@@ -1,7 +1,7 @@
 // Styling for the masthead
 .hero {
 	background-color: $yellow;
-	margin-top: 60px;
+	padding-top: 70px;
 	&-wrapper {
 		max-width: 90%;
 		display: flex;
@@ -78,8 +78,8 @@
 
 .cover{
 	background-color: $yellow;
-	margin-top: 60px;
-	min-height: 350px;
+	padding-top: 70px;
+	min-height: 200px;
 	display: flex;
 	width: 100%;
 	&-wrapper {

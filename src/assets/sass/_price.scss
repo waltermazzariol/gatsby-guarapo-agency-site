@@ -46,3 +46,32 @@
     }
   }
 }
+
+.InputGroup{
+display: flex;
+height: 48px;
+border: 2px solid transparent;
+background: $main-color;
+background-size: 165%;
+border-radius: 4px;
+overflow: hidden;
+}
+.InputGroup input{
+  border: 2px solid transparent;
+  height: 50px;
+  background: #ffffff;
+  width: 80%;
+  margin-top: -3px!important;
+  padding-left: 10px;
+  @media (max-width: 768px) {
+    min-width: 200px;
+  }
+}
+.InputGroup a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: 0 0!important;
+  }

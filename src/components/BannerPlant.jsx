@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 
 function BannerPlant(props) {
     return (
-        <Container className="pt-5">
+        <Container className="py-5">
         <div className="d-flex flex-wrap justify-content-around">
           <div className="item1 m-3">
             <img src={props.data.image.publicURL} alt="plant" />

@@ -34,7 +34,7 @@ export default class Portfolio extends React.Component {
           <Col key={key.node.id} xs={6} md={3}>
             <Fade >
               <Link className="btn btn-clean" to={`/${key.node.parent.relativeDirectory}/${key.node.parent.name}`}>
-                <img src={key.node.thumbnail.publicURL} alt={key.node.client} />
+                <img srcSet={key.node.thumbnail.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt={key.node.client} />
                 <div className="img-hover">
                   <div className="title">{key.node.client}</div>
                   {key.node.cat === "Web" ? 

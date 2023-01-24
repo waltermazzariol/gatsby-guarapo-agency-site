@@ -14,7 +14,6 @@ import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero/Hero"
 import About from "../components/About"
-import Banner from "../components/Banner"
 import BannerPlant from "../components/BannerPlant"
 import ClientType from "../components/ClientType"
 import Services from "../components/Services"
@@ -29,12 +28,14 @@ function WebPage(props) {
   return (
     <Layout nav={contentJson.navigation}>
       <Hero data={contentJson.hero} />
+      <Section>
+        <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+      </Section>      
       <About data={contentJson.about} />
-      <Banner data={contentJson.banner} />
       <BannerPlant data={contentJson.banner_2} />
-      <ClientType data={contentJson.client_type} />
       <Services data={contentJson.services} />
-      <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
+      <ClientType data={contentJson.client_type} />
+      <Section anchor={'portfolio'} className={'portfolio '} fluid={true} noGutters={true}>
         <Title title={generalJson.portfolio.title} />
         <Portfolio data={blogJson} />
       </Section>
@@ -92,9 +93,15 @@ export const imageData = graphql`
         tags
         image{
           publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
         }
         thumbnail{
           publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
         }
         url
         year

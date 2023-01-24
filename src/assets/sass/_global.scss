@@ -67,14 +67,12 @@ h1 {
 h2 {
   font-size: 3.2rem;
   line-height: 1.5em;
-  color: $main-color;
 }
 h3 {
   font-size: 1.6rem;
   line-height: 1.4em;
   text-transform: uppercase;
   font-weight: 700;
-  color: $main-color;
 }
 h4 {
   font-size: 1.125rem;
@@ -142,7 +140,7 @@ form {
   border-radius: 0px;
   border-color: transparent;
 }
-.form-text{
+.form-text {
   font-size: 0.9rem;
 }
 
@@ -186,17 +184,17 @@ form {
       background-color: darken($color: $main-color, $amount: 10);
     }
   }
-  &--text{
+  &--text {
     font-size: 0.8rem;
     margin-top: auto;
     margin-bottom: 1rem;
     font-weight: 400;
     color: $font-subtitle-color;
     text-transform: uppercase;
-    &:hover{
-        text-decoration: underline;
-        color: $main-color;
-        }
+    &:hover {
+      text-decoration: underline;
+      color: $main-color;
+    }
   }
 }
 
@@ -233,10 +231,20 @@ img.fluido {
 // Backgrounds
 .bg {
   &--70 {
-    background-image: -webkit-linear-gradient(180deg, #f6f6f6, #f6f6f6 70%, transparent 70%, transparent 100%);
+    background-image: -webkit-linear-gradient(
+      180deg,
+      #f6f6f6,
+      #f6f6f6 70%,
+      transparent 70%,
+      transparent 100%
+    );
   }
   &-black {
-    background: linear-gradient(180deg, rgba(13, 101, 98, 0.5) 0%, rgba(13, 101, 98, 0.5) 0%);
+    background: linear-gradient(
+      180deg,
+      rgba(13, 101, 98, 0.5) 0%,
+      rgba(13, 101, 98, 0.5) 0%
+    );
   }
   &-gray {
     background-color: #f6f4f4;
@@ -420,7 +428,7 @@ img.fluido {
       flex: 0 0 22%;
       background-color: #ffffff;
       margin: 10px;
-      a{
+      a {
         height: 100%;
       }
       @include media-breakpoint-down(md) {
@@ -438,7 +446,7 @@ img.fluido {
       }
     }
   }
-  &-title{
+  &-title {
     padding: 0 15px;
     margin-bottom: 15px;
   }
@@ -452,12 +460,12 @@ img.fluido {
     text-transform: capitalize;
     font-weight: 400;
     &-web {
-        background-color: $yellow;
+      background-color: $yellow;
     }
     &-marketing {
-        background-color: $light-blue;
+      background-color: $light-blue;
     }
-}
+  }
 }
 
 //Banner Plant
@@ -465,5 +473,11 @@ img.fluido {
   background-attachment: scroll !important;
   @include media-breakpoint-up(lg) {
     background-attachment: fixed !important;
+  }
+  &-wrapper{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
 }

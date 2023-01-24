@@ -23,6 +23,9 @@ function Work(props) {
   return (
     <Layout nav={contentJson.navigation}>
       <Cover data={contentJson.cover} />
+      <Section className={'bg-gray'}>
+        <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+      </Section>
       <Cards data={workJson.edges} />
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
         <Contact data={generalJson.contact} />
@@ -59,9 +62,15 @@ export const data = graphql`
           tags
           image{
             publicURL
+            childImageSharp {
+              gatsbyImageData
+            }
           }
           thumbnail{
             publicURL
+            childImageSharp {
+              gatsbyImageData
+            }
           }
           url
           year

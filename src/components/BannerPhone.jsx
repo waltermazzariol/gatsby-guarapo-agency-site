@@ -9,10 +9,10 @@ import Col from 'react-bootstrap/Col'
 import user from '../assets/images//person.svg'
 import ring from '../assets/images//ring.svg'
 import diagonalTop from '../assets/images//diagonal-top.svg'
-
+º
 function BannerPhone(props) {
     return (
-        <section className="container-fluid banner1 mt-5" style={{ background: 'url(' + props.data.bg_image.publicURL + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+        <section className="container-fluid banner1" style={{ background: 'url(' + props.data.bg_image.publicURL + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
         <Container className="py-5">
           <Row>
             <Col sm={12} md={7}>

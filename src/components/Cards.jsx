@@ -11,7 +11,7 @@ function Cards(props) {
                     {props.data.map((key) =>
                         <div className="item mb-5" key={key.node.id}>
                             <Link to={key.node.parent.name} className="d-flex flex-column">
-                                <img className="mx-auto d-block" src={key.node.thumbnail.publicURL} alt={key.node.alt} />
+                                <img className="mx-auto d-block" srcSet={key.node.thumbnail.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt={key.node.alt} />
                                 {key.node.cat === "Web" ?
                                     <div className="work-cat work-cat-web text-center">{key.node.cat}</div> :
                                     <div className="work-cat work-cat-marketing text-center">{key.node.cat}</div>}

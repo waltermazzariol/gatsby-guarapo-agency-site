@@ -24,10 +24,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
-        useMozJpeg: false,
-        stripMetadata: true,
-        defaultQuality: 80,
-      },
+        defaults: {
+          formats: [`webp`],
+          placeholder: `dominantColor`,
+          quality: 100,
+          breakpoints: [450, 800, 1240],
+          backgroundColor: `transparent`
+        }
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,

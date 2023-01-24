@@ -22,7 +22,9 @@ function TeamPage(props) {
   return (
     <Layout nav={contentJson.navigation}>
       <Cover data={contentJson.cover} />
-      <Team data={contentJson.team} />
+      <Section className={'bg-gray'}>
+        <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+      </Section>      <Team data={contentJson.team} />
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
         <Contact data={generalJson.contact} />
       </Section>

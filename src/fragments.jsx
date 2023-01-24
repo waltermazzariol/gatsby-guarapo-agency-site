@@ -33,9 +33,15 @@ fragment heroFields on DataJson {
   hero {
     image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
     }
     bgimage {
       publicURL
+      childImageSharp {
+        gatsbyImageData
+      }
     }
     subtitle
     title
@@ -49,6 +55,9 @@ fragment coverFields on DataJson {
   cover {
     bgimage {
       publicURL
+      childImageSharp {
+        gatsbyImageData
+      }
     }
     subtitle
     title
@@ -65,6 +74,9 @@ fragment bannerFields on DataJson {
     button_link
     image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
     }
   }
 }`
@@ -75,6 +87,9 @@ fragment banner2Fields on DataJson {
     text
     image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
     }
   }
 }`
@@ -86,9 +101,15 @@ fragment banner3Fields on DataJson {
     subtitle
     bg_image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
     }
     image {
       publicURL
+      childImageSharp {
+        gatsbyImageData
+      }
   }
   }
 }`
@@ -97,14 +118,9 @@ export const aboutFields = graphql`
 fragment aboutFields on DataJson {
   about {
     image {
+      publicURL
       childImageSharp {
-        fluid {
-          ...GatsbyImageSharpFluid
-        }
-        resize {
-          width
-          height
-        }
+        gatsbyImageData
       }
     }
     text
@@ -136,6 +152,9 @@ fragment clientTypeFields on DataJson {
       alt
       image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
       }
       name
       type
@@ -153,6 +172,9 @@ fragment teamFields on DataJson {
       description     
       image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
       }
     }
 }`
@@ -210,9 +232,15 @@ fragment portfolioFields on DataJson {
       tags
       image{
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
       }
       thumbnail{
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
       }
       alt
     }
@@ -254,5 +282,14 @@ fragment tagsFields on DataJson {
     tags
     year
     button
+  }
+}`
+
+export const domainsFields = graphql`
+fragment domainsFields on DataJson {
+  domains {
+    title
+    description
+    link
   }
 }`

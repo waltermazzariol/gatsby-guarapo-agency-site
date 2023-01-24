@@ -2,7 +2,7 @@
     "general": {
         "path": "/hospedaje",
         "siteurl": "https://guarapomedia.com/hospedaje",
-        "seo-title": "Hospedaje Web • Guarapo Media",
+        "seo-title": "Hospedaje Web",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
         "ua": "UA-73261016-1",
@@ -80,7 +80,7 @@
                     }
                 ],
                 "button-text": "reservar",
-                "button-url": "/contacto"
+                "button-url": "https://guarapohosting.com/store/hosting-package/plan-light"
             },
             {
                 "name": "Plan Basic",
@@ -107,7 +107,7 @@
                     }
                 ],
                 "button-text": "reservar",
-                "button-url": "/contacto"
+                "button-url": "https://guarapohosting.com/store/hosting-package/plan-basic"
             },
             {
                 "name": "Plan Pro",
@@ -133,10 +133,15 @@
                         "text": "Bases de datos MySQL ilimitadas"
                     }
                 ],
-                "button-text": "reservar",
+                "button-text": "Consultar Disponibilidad",
                 "button-url": "/contacto"
             }
         ]
+    },
+    "domains":{
+        "title": "Reserva tu dominio ahora mismo y comienza a hacer realidad tu proyecto",
+        "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query=",
+        "description": "Consulta la disponibilidad ahora mismo"
     },
     "contact": {
         "phone": "+34622531989",

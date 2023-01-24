@@ -46,8 +46,8 @@
         ]
     },
     "hero": {
-        "title": "Creamos <strong>marcas</strong> <br/>Lo hacemos <strong>social</strong>",
-        "subtitle": "Posicionamos tu negocio en el mundo digital.",
+        "title": "Te <strong>ayudamos</strong> a dar<br/> el siguiente <strong>paso</strong>",
+        "subtitle": "Tenemos todas las herramientas para posicionar tu negocio en el mundo digital.",
         "image": "./images/hero.png",
         "bgimage": "./images/bg_hero.jpg",
         "button-text": "Contáctanos",
@@ -86,17 +86,30 @@
                 "type": "Dominios .com, .net, .io, .site \nHosting \nGoogle My Business \nMicrosoft 360 \nZoho Email",
                 "image": "./images/services/s3.svg",
                 "link": "/hospedaje"
-            },{
+            },
+            {
                 "name": "Desarrollo Web",
                 "type": "Maquetación \nDesarrollo Web \nMantenimiento Web \nWordpress, Prestashop, Shopify \nLanding Page \nMicrosites",
                 "image": "./images/services/s2.svg",
                 "link": "/desarrollo-web"
             },
             {
+                "name": "Microsites",
+                "type": "Nuestro más reciente proyecto. Crea tu microsite desde cero. Sin necesidad de programar o plataformas complicadas. Solo pon el contenido y ¡ya está!",
+                "image": "./images/services/s10.svg",
+                "link": "https://wansite.co"
+            },
+            {
                 "name": "Marketing Digital",
                 "type": "Desarrollo de campañas \nAdministración de anuncios \nGeneración de contenidos \nEmail Marketing \nDesarrollo de marca",
                 "image": "./images/services/s1.svg",
                 "link": "/marketing-digital"
+            },
+            {
+                "name": "Landing Page",
+                "type": "Quieres un lading page para una campaña de Marketing o simplemente mostrar tu trabajo. ¡Aquí estamos para ayudarte!",
+                "image": "./images/services/s9.svg",
+                "link": "/desarrollo-web"
             }
         ]
     },

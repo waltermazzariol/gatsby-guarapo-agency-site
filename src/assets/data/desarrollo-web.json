@@ -2,7 +2,7 @@
     "general": {
         "path": "/desarrollo-web",
         "siteurl": "https://guarapomedia.com/desarollo-web",
-        "seo-title": "Desarrollo Web • Guarapo Media",
+        "seo-title": "Desarrollo Web",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
         "ua": "UA-73261016-1",
@@ -56,7 +56,7 @@
     "about": {
         "id": 3,
         "title": "Saca el mayor provecho de tu Proyecto digital",
-        "text": "Ya sea que tengas un <strong>Wordpress, un Landing Page o un e-commerce.</strong> Te ayudaremos a sacar el máximo provecho de estas herramientas.\n<strong>ESTRATEGÍA, CONVERSIÓN y MÉTRICAS.</strong> Crear una estratégia para alcanzar conversiones (Leads), es la clave para hacer que tu negocio crezca y sea un negocio exitoso.",
+        "text": "Ya sea que tengas un <strong>Wordpress, un Landing Page o un e-commerce.</strong> Te ayudaremos a exprimir al máximo estas herramientas.\n<strong>ESTRATEGÍA, CONVERSIÓN y MÉTRICAS.</strong> Crear una estratégia para alcanzar conversiones (Leads), es la clave para hacer que tu negocio crezca y sea un negocio exitoso.",
         "image": "./images/profile_web.png"
     },
     "banner": {

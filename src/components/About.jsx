@@ -5,8 +5,6 @@ import Col from 'react-bootstrap/Col'
 import Line from '../components/Common//Line'
 import Section from "../components/Common/Section"
 import imagesAbout from '../assets/images/image1.png'
-import Img from 'gatsby-image'
-
 
 function About(props) {
     return (
@@ -31,7 +29,7 @@ function About(props) {
             </Col>
             <Col md="12" lg="5" align="text-center">
                 <Fade>
-                    <Img fluid={props.data.image.childImageSharp.fluid} alt="About Us" />
+                    <img srcSet={props.data.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt="About Us" />
                 </Fade>
             </Col>
         </Section>

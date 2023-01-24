@@ -27,6 +27,7 @@ function Works(props) {
       <div className="portfolio-modal py-5">
         <div className="container">
           <div className="row">
+            <div className="col-12 pb-5"><a href="/">Inicio</a> / {coverData.title}</div>
             <div className="col-sm-12 col-md-6 portfolio-modal--body">
               <ul className="fa-ul portfolio-modal--text">
                 {dataJson.city !== "" ?
@@ -65,7 +66,7 @@ function Works(props) {
             </div>
             <div className="col-sm-12 col-md-6 portfolio-modal">
 
-              <img src={dataJson.image.publicURL} className="img-fluid" alt={dataJson.title} />
+              <img srcSet={dataJson.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} className="img-fluid" alt={dataJson.title} />
             </div>
           </div>
         </div>
@@ -121,9 +122,15 @@ export const dataJson = graphql`
         tags
         image{
           publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
         }
         thumbnail{
           publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
         }
         url
         year

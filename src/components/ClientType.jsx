@@ -7,7 +7,7 @@ import { Link } from 'gatsby'
 
 function ClientType(props) {
     return (
-        <Section className="project mb-5">
+        <Section className="project py-5">
             <div className="d-flex flex-wrap justify-content-around">
                 <Title title={props.data.title} />
                 {props.data.services.map((key, index) =>
@@ -15,7 +15,7 @@ function ClientType(props) {
                         <div className="d-flex">
                             <Fade up>
                                 <div className="item2 p-3" >
-                                    <img className="img-fluid" src={key.image.publicURL} alt={key.name} />
+                                    <img className="img-fluid" srcSet={key.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt={key.name} />
                                 </div>
                                 <div className="item2 p-2" >
                                     <h4>
