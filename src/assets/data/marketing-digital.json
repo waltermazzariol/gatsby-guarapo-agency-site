@@ -10,8 +10,8 @@
     },
     "navigation": {
         "logo-url": "./images/logo.svg",
-        "cta-button": "Chat",
-        "cta-link": "https://wa.me/34622531989",
+        "cta-button": "Empezar",
+        "cta-link": "/contacto",
         "menu": [
             {
                 "nav": "Desarrollo Web",
@@ -37,11 +37,6 @@
                 "nav": "El Equipo",
                 "anchor": "",
                 "link": "/equipo"
-            },
-            {
-                "nav": "Contacto",
-                "anchor": "",
-                "link": "/contacto"
             }
         ]
     },
@@ -50,8 +45,14 @@
         "subtitle": "Posicionamos tu negocio en el mundo digital. ",
         "image": "./images/hero_marketing.png",
         "bgimage": "./images/bg_hero.jpg",
-        "button-text": "Contátanos",
-        "button-url": "/contacto"
+        "button_text": "Contátanos",
+        "button_url": "/contacto",
+        "benefits":[
+            {"text": "Rápido"},
+            {"text": "Fácil"},
+            {"text": "Eficiente"},
+            {"text": "Sin preocupaciones"}
+        ]
     },
     "about": {
         "id": 3,
@@ -61,7 +62,7 @@
     },
     "banner": {
         "text": "El momento es ahora. ¿Estás listo para posicionar tu proyecto?",
-        "button-text": "¡Estoy listo!",
+        "button_text": "¡Estoy listo!",
         "button-link": "/contacto",
         "image": "./images/bg_banner.jpg"
     },
@@ -266,6 +267,12 @@
         "location": "Locación",
         "not-found-title": "404 not found",
         "not-found-message": "You are in a wrong page.. Go back to our home",
-        "not-found-btn": "Home"
+        "not-found-btn": "Home",
+        "form-name": "Nombre y Apellido",
+        "form-email": "Email",
+        "form-phone": "Phone",
+        "form-message": "Mensaje",
+        "form-send": "Enviar",
+        "form-success": "¡Gracias por tu mensaje!"
     }
 }

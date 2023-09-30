@@ -10,8 +10,8 @@
     },
     "navigation": {
         "logo-url": "./images/logo.svg",
-        "cta-button": "Chat",
-        "cta-link": "https://wa.me/34622531989",
+        "cta-button": "Empezar",
+        "cta-link": "/contacto",
         "menu": [
             {
                 "nav": "Desarrollo Web",
@@ -37,40 +37,117 @@
                 "nav": "El Equipo",
                 "anchor": "",
                 "link": "/equipo"
-            },
-            {
-                "nav": "Contacto",
-                "anchor": "",
-                "link": "/contacto"
             }
         ]
     },
     "hero": {
         "title": "Una página <strong>bien pensada</strong> te conecta con tus <strong>clientes</strong>",
-        "subtitle": "Posicionamos tu negocio en el Mundo Digital. ",
-        "image": "./images/hero_web.png",
-        "bgimage": "./images/bg_hero.jpg",
-        "button-text": "Contátanos",
-        "button-url": "/contacto"
+        "subtitle": "¿Qué estás esperando?, con nuestros paquetes puedes conseguir tú página nueva página web ahora mismo y si ya tienes una, no te preocupes, nos encargamos de ponerla al día.",
+        "image": "./images/bg_pieldeoro.webp",
+        "button_text": "Contátanos",
+        "button_url": "/contacto",
+        "benefits":[
+            {"text": "Rápido"},
+            {"text": "Fácil"},
+            {"text": "Eficiente"},
+            {"text": "Sin preocupaciones"}
+        ]
     },
-    "about": {
-        "id": 3,
-        "title": "Saca el mayor provecho de tu Proyecto digital",
-        "text": "Ya sea que tengas un <strong>Wordpress, un Landing Page o un e-commerce.</strong> Te ayudaremos a exprimir al máximo estas herramientas.\n<strong>ESTRATEGÍA, CONVERSIÓN y MÉTRICAS.</strong> Crear una estratégia para alcanzar conversiones (Leads), es la clave para hacer que tu negocio crezca y sea un negocio exitoso.",
-        "image": "./images/profile_web.png"
+    "packages":{
+        "title": "Escoge tu Pack",
+        "items":[
+                       {
+                "name": "Pack Landing Page",
+                "from": "Desde",
+                "price": "350€",
+                "time": "al mes",
+                "list":[
+                    {"text": "Template para redes sociales"},
+                    {"text": "Templae para landing page"},
+                    {"text": "Sin limite de tráfico"},
+                    {"text": "Actualizala cuando necesites"},
+                    {"text": "Conecta tu propio dominio (pronto)"},
+                    {"text": "Publicala hoy mismo"},
+                    {"text": "Muy fácil de usar"}
+                ],
+                "button_text":"Empezar",
+                "button_url": "https://wansite.co",
+                "button_text_second":"",
+                "button_url_second": "",
+                "image": "./images/package/computer.jpg"
+            },
+            {
+                "name": "Pack Basico",
+                "from": "Desde",
+                "price": "700€",
+                "time": "al mes",
+                "list":[
+                    {"text": "Template para redes sociales"},
+                    {"text": "Templae para landing page"},
+                    {"text": "Sin limite de tráfico"},
+                    {"text": "Actualizala cuando necesites"},
+                    {"text": "Conecta tu propio dominio (pronto)"},
+                    {"text": "Publicala hoy mismo"},
+                    {"text": "Muy fácil de usar"}
+                ],
+                "button_text":"Empezar",
+                "button_url": "https://wansite.co",
+                "button_text_second":"",
+                "button_url_second": "",
+                "image": "./images/package/computer.jpg"
+            },
+            {
+                "name": "Pack Empresa",
+                "from": "Desde",
+                "price": "1.000€",
+                "time": "único pago",
+                "list":[
+                    {"text": "Página web básica"},
+                    {"text": "Sección de servicios"},
+                    {"text": "Sección de contacto"},
+                    {"text": "Hosting incluido por el 1er año"},
+                    {"text": "Dominio incluido por el 1er año"},
+                    {"text": "Certificado SSL gratuito"},
+                    {"text": "Entregada en 5 días o menos"}
+            
+                ],
+                "button_text":"Empezar",
+                "button_url": "/contacto",
+                "button_text_second":"",
+                "button_url_second": "",
+                "image": "./images/package/draft.jpg"
+            },
+            {
+                "name": "Pack E-Commerce",
+                "from": "Desde",
+                "price": "1.200€",
+                "time": "único pago",
+                "list":[
+                    {"text": "Página web básica"},
+                    {"text": "Sección de servicios"},
+                    {"text": "Sección de contacto"},
+                    {"text": "Hosting incluido por el 1er año"},
+                    {"text": "Dominio incluido por el 1er año"},
+                    {"text": "Certificado SSL gratuito"},
+                    {"text": "Entregada en 5 días o menos"}
+            
+                ],
+                "button_text":"Empezar",
+                "button_url": "/contacto",
+                "button_text_second":"",
+                "button_url_second": "",
+                "image": "./images/package/draft.jpg"
+            }
+        ]
     },
     "banner": {
-        "text": "El momento es ahora. ¿Estás listo para posicionar tu proyecto?",
-        "button-text": "¡Estoy listo!",
-        "button-link": "/contacto",
-        "image": "./images/bg_banner.jpg"
-    },
-    "banner-2": {
-        "text": "te acompañamos en todo el camino ayudándote a crecer",
-        "image": "./images/plant.png"
+        "title": "Entrar en el mundo digital puede ser abrumador",
+        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, tu negocio! Contáctanos ahora.",
+        "button_text": "Empezar",
+        "button_url": "/contacto"
     },
     "portfolio": {
-        "title": "Showcase",
+        "title": "Proyectos",
         "tags": {
             "client": "Cliente",
             "city": "Ciudad",
@@ -84,8 +161,10 @@
                 "id": 0,
                 "client": "Piel de Oro",
                 "city": "Miami",
+                "description": "El proyecto fue pensado como un Landing Page fresco y moderno que presentara en forma de historia sus diferentes segmentos\nDesde su comienzo la página ha pasando por diferentes etapas hasta convertirse en el punto de encuentro de sus más de 20 locaciones en 5 países diferente.\nLa web funciona en React y contiene diferentes complementos cómo, reserva de citas y un enlace a su e-commerce.",
                 "url": "https://pieldeoro.com",
                 "year": "2020",
+                "cat": "Web",
                 "tags": "Pequeña Empresa, multi-idioma",
                 "image": "./images/portfolio/1.jpg",
                 "thumbnail": "./images/portfolio/d1.jpg",
@@ -94,8 +173,10 @@
                 "id": 1,
                 "client": "Norma Pasteles",
                 "city": "Barcelona",
+                "description": "Ubicados en Barcelona, Norma se dedica a ofrecer pasteles artesanales con una variedad de sabores y opciones.\nComo primera etapa presentamos los pasteles, su historia y los diferentes pasos para realizar un pedido, con un site en formato \"One Page\".\nLuego de 1 año buscamos evolucionar el sitio y ampliamos las secciones a los diferentes tipos de pasteles y sabores.\nCómo siguiente paso está en ofrecer opción de pago que permita la venta de pasteles desde el mismo sitio web.\nBasado en React y con el contenido modularizado permite actualizarla con gran facilidad.",
                 "url": "https://normapasteles.com",
                 "year": "2020",
+                "cat": "Web",
                 "tags": "Pequeña Empresa, Respostería",
                 "image": "./images/portfolio/2.jpg",
                 "thumbnail": "./images/portfolio/d2.jpg",
@@ -104,8 +185,10 @@
                 "id": 2,
                 "client": "Burbowl",
                 "city": "Miami",
+                "description": "Queremos compartir con ustedes el proyecto de Burbowl, una solución web en Wordpress con diferentes secciones como: Menu, locaciones, información de la franquicia, blog y contactos. También tiene integración con las plataformas de delivery.\nUbicados en Downtown Miami y Coral Gables, BurBowl es un restaurante de comidas rápida que sale de lo común. Platos únicos, ingredientes frescos y ubicado en dos de las mejores zonas de la ciudad de Miami. Desde enero de 2016 hemos estado llevando sus medios digitales al siguiente nivel.",
                 "url": "https://burbowl.com",
-                "year": "2018",
+                "year": "2016 - 2021",
+                "cat": "Marketing",
                 "tags": "Pequeña Empresa, Restaurant",
                 "image": "./images/portfolio/3.jpg",
                 "thumbnail": "./images/portfolio/d3.jpg",
@@ -114,134 +197,62 @@
                 "id": 3,
                 "client": "Cultura Nanos",
                 "city": "Madrid",
+                "description": "Cultura Nanos es un centro infantil ubicados en Toledo. El proyecto consistió en crear una web que permitiera mostrar las diferentes actividades que ofrece el centro así como un calendario de actividades. \nLa web está pensada para una perfecta visualización en móviles y permite contacto directo con el centro a través de Whastapp.",
                 "url": "https://culturalnanos.com",
                 "year": "2020",
+                "cat": "Web",
                 "tags": "Pequeña Empresa, Escuela infantil",
                 "image": "./images/portfolio/4.jpg",
                 "thumbnail": "./images/portfolio/d4.jpg",
                 "alt": "Cultura Nanos"
             },{
                 "id": 4,
-                "client": "Picarpolos",
-                "city": "Madrid",
-                "url": "https://picarpolos.com",
-                "year": "2017",
-                "tags": "Pequeña Empresa, Escuela de natación",
-                "image": "./images/portfolio/5.jpg",
-                "thumbnail": "./images/portfolio/d5.jpg",
+                "client": "Gabriel Samra",
+                "city": "Miami",
+                "description": "Ubicado en Coral Gables, Gabriel Samra Salon es el lugar donde la comunidad chic de Miami llega a experimentar su belleza convertirse en una obra de arte en un santuario elegante y acogedor.",
+                "url": "https://instagram.com/gabrielsamrahairsalon",
+                "year": "2017 - 2021",
+                "cat": "Marketing",
+                "tags": "Pequeña Empresa, Salón de belleza",
+                "image": "./images/portfolio/gabriel.jpg",
+                "thumbnail": "./images/portfolio/gabriel.jpg",
                 "alt": "Picarpolos"
             },{
                 "id": 5,
                 "client": "Lifeinvest Wealth",
                 "city": "Panamá",
+                "description": "",
                 "url": "https://lifeinvestwealth.com",
                 "year": "2020",
+                "cat": "Web",
                 "tags": "Empresa, multi-idioma",
                 "image": "./images/portfolio/6.jpg",
                 "thumbnail": "./images/portfolio/d6.jpg",
                 "alt": "Lifeinvest"
             },{
                 "id": 6,
-                "client": "Fundacion BOD",
+                "client": "Guataca",
                 "city": "Caracas",
-                "url": "https://fundacionbod.com.ve",
-                "year": "2017",
-                "tags": "Fundación, blog",
-                "image": "./images/portfolio/7.jpg",
-                "thumbnail": "./images/portfolio/d7.jpg",
-                "alt": "Fundación BOD"
+                "description": "Guataca es una plataforma cuyo objetivo es difundir el talento de músicos venezolanos emergentes, promover sus proyectos, apoyar sus iniciativas en Venezuela y el mundo. Contribuimos con producciones discográficas y, sobre todo, generamos una programación de conciertos, con amplia promoción mediática, buscando la retroalimentación con un público guataquero que hace de cada encuentro una experiencia única.",
+                "url": "https://guatacanights.com",
+                "year": "2014 -2021",
+                "cat": "Marketing",
+                "tags": "Musica, marketing, web, youtube, blog",
+                "image": "./images/portfolio/guataca.jpg",
+                "thumbnail": "./images/portfolio/guataca.jpg",
+                "alt": "Guataca"
             },{
                 "id": 7,
-                "client": "Latin Grammy Winnner, Miguel Siso",
-                "city": "Dublin",
-                "url": "https://miguelsiso.com",
-                "year": "2018",
-                "tags": "Portafolio, multi-idioma",
-                "image": "./images/portfolio/8.jpg",
-                "thumbnail": "./images/portfolio/d8.jpg",
-                "alt": "Miguel Siso"
-            }
-        ]
-    },
-    "services": {
-        "id": 1,
-        "title": "Servicios",
-        "subtitle": "",
-        "slogan": "",
-        "projects": [
-            
-            {
-                "name": "Desarrollo Web",
-                "type": "Desarrollamos y creamos tu sitio Web desde cero, junto a nuestro equpo creativo y diseñadores le damos forma a esa idea.",
-                "image": "./images/services/s2.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Mantenimiento Web",
-                "type": "Tienes una página y quieres darle un cariño. No te preocupes, nos encargamos de que tu web vuelva a verse increíble.",
-                "image": "./images/services/s12.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "CMS",
-                "type": "Wordpress, Shopify, prestashop, Carrd. Sea el que sea tu CMS te ayudamos a tomar el control y mantenerlo 100% actualizado",
-                "image": "./images/services/s11.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Maquetación",
-                "type": "Tienes un diseño y quieres convertirlo en realidad. ¡Cuenta con nosotros! Tenemos el grupo de desarrolladores capaces de hacer realidad ese proyecto.",
-                "image": "./images/services/s2.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Landing Page",
-                "type": "Quieres un lading page para una campaña de Marketing o simplemente mostrar tu trabajo. ¡Aquí estamos para ayudarte!",
-                "image": "./images/services/s9.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Microsites",
-                "type": "Nuestro más reciente proyecto. Crea tu microsite desde cero. Sin necesidad de programar o plataformas complicadas. Solo pon el contenido y ¡ya está!",
-                "image": "./images/services/s10.svg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Dominios y Hosting",
-                "type": "Buscas el nombre ideal de tu proyecto o necesitas alojar tu sitio web en un servidor. Te echamos una mano. ",
-                "image": "./images/services/s3.svg",
-                "alt": "imagen 1"
-            }
-        ]
-    },
-    "client-type": {
-        "id": 1,
-        "title": "¿A quién esta dirigido?",
-        "subtitle": "",
-        "services": [
-            {
-                "name": "Pequeña Empresa",
-                "type": "¿Presupuestos ajustados? tenemos la respuesta, nos ajustamos a tu presupuesto y ofrecemos soluciones para todos los tamaños. Cuéntanos sobre tu idea y podremos ayudarte a dar el siguiente paso.",
-                "image": "./images/services/5.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Branding Personal",
-                "type": "¿Influencers, artistas, o simplemente un proyecto personal? Con nuestra experiencia te ayudamos a destacar tu talento con esa web que tanto has soñado.",
-                "image": "./images/services/6.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Restaurante o comercios",
-                "type": "¿Quieres presentar tu trabajo profesional? Con nuestras soluciones para portafafolios podrás exponer tu trabajo y estará disponible a un click de distancia",
-                "image": "./images/services/7.jpg",
-                "alt": "imagen 1"
-            },
-            {
-                "name": "Tienda Online (e-commerce)",
-                "type": "¿Vender online? no problema. Te ayudaremos desde inicio a fin para que puedas tener el total control de tu tienda virtual y sacar el máximo provecho.",
-                "image": "./images/services/8.jpg",
-                "alt": "imagen 1"
+                "client": "Yamaha musical",
+                "city": "Caracas",
+                "description": "Desde noviembre de 2013 hemos tenido el placer de trabajar con la famosa marca musical, icónica por sus diapasones: Yamaha. Con más de 5 academias musicales en el país, Yamaha sigue apostando por el desarrollo cultural en Venezuela a través de la música. Juntos, hemos llevado a cabo la producción de varios eventos, talleres musicales, asistido juntos a festivales de música y mucho más.\n¡Sigamos creando Kando juntos!",
+                "url": "",
+                "year": "2013 - 2021",
+                "cat": "Marketing",
+                "tags": "Content managment",
+                "image": "./images/portfolio/yamaha.jpg",
+                "thumbnail": "./images/portfolio/yamaha.jpg",
+                "alt": "Yamaha musical"
             }
         ]
     },
@@ -275,6 +286,12 @@
         "location": "Locación",
         "not-found-title": "404 not found",
         "not-found-message": "You are in a wrong page.. Go back to our home",
-        "not-found-btn": "Home"
+        "not-found-btn": "Home",
+        "form-name": "Nombre y Apellido",
+        "form-email": "Email",
+        "form-phone": "Phone",
+        "form-message": "Mensaje",
+        "form-send": "Enviar",
+        "form-success": "¡Gracias por tu mensaje!"
     }
 }

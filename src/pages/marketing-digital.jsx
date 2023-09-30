@@ -31,17 +31,17 @@ function MarketingPage(props) {
     <Layout nav={contentJson.navigation}>
       <Hero data={contentJson.hero} />
       <Section>
-        <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+        <div className="col-12 pt-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
       </Section>
       <About data={contentJson.about} />
       <BannerPlant data={contentJson.banner_2} />
       <ClientType data={contentJson.client_type} />
       <Services data={contentJson.services} />
-      <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} noGutters={true}>
+      <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} >
         <Title title="Portafolio" />
         <Portfolio data={blogJson} />
       </Section>
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
+      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
         <Contact data={generalJson.contact} />
       </Section>
       <CookiesProvider>

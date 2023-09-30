@@ -4,24 +4,33 @@
 
 // Set a custom color
 $blue:#525D7D;
-$light-blue: #76EBF2;
+$light-blue: #CAE5FF;
 $green: #CCEC80;
-$light-green: #F7FAE1;
+$light-green: #A3F5D3;
 $dark-blue: #142850;
 $dark-black: #444;
 $darker-black: #333;
-$font-subtitle-color: #777;
-$light-gray: #dbdbdb;
+$light-gray: #f6f4f4;
 $yellow: #FFEA7C;
 
+$pink: #FFF0E3;
+
+
+
 // Set color for theme
+$first-color: $yellow;
+$second-color: $light-gray;
+$third-color: $light-blue;
 $main-color: $blue !default;
-$main-color-dark: darken( $main-color, 10% ) !default;
+
+$font-subtitle-color: $darker-black;
 $font-title-color: $darker-black;
 $font-subtitle-color: $font-subtitle-color;
-$font-text-color: $dark-black;
+$font-text-color: $darker-black;
 $body-background: white;
+
 $divider-color: $main-color;
+$main-color-dark: darken( $main-color, 10% ) !default;
 
 // Font overrides
 $font-family-serif: 'Roboto', sans-serif !default;

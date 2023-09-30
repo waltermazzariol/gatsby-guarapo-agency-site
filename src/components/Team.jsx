@@ -1,11 +1,9 @@
 import React from "react"
-import Fade from 'react-reveal/Fade'
 import Section from "../components/Common/Section"
 
 function Team(props) {
   return (
     <Section className={'team bg-gray py-5'}>
-      <Fade up>
         <div className="team-wrapper">
           {props.data.map((key, index) =>
             <div className="item mb-5" key={index}>
@@ -17,7 +15,6 @@ function Team(props) {
               </div>
             </div>)}
         </div>
-      </Fade>
     </Section>
   )
 }

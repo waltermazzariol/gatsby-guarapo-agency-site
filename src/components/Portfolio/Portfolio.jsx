@@ -1,6 +1,5 @@
 import React from "react"
-import Fade from 'react-reveal/Fade'
-import Col from 'react-bootstrap/Col'
+import {Container, Row, Col} from 'react-bootstrap'
 import { Link } from 'gatsby'
 
 export default class Portfolio extends React.Component {
@@ -29,10 +28,10 @@ export default class Portfolio extends React.Component {
   render() {
 
     return (
-      <>
+      <Container fluid className="portfolio">
+        <Row className="g-0">
         {this.props.data.slice(0, 8).map((key) =>
-          <Col key={key.node.id} xs={6} md={3}>
-            <Fade >
+          <Col key={key.node.id} xs={6} sm={6} md={3}>
               <Link className="btn btn-clean" to={`/${key.node.parent.relativeDirectory}/${key.node.parent.name}`}>
                 <img srcSet={key.node.thumbnail.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt={key.node.client} />
                 <div className="img-hover">
@@ -43,10 +42,10 @@ export default class Portfolio extends React.Component {
                   <div className="subtitle">{key.node.year}</div>
                 </div>
               </Link>
-            </Fade>
           </Col>
         )}        
-      </>
+      </Row>
+      </Container>
     )
   }
 }

@@ -1,0 +1,22 @@
+.testimonial{
+        img{
+            margin-right: 1.5rem;
+            border-radius: 50px;
+        }
+        &-title{
+            color: #5a5750;
+            font-size: 18px;
+            margin-bottom: 0.5rem;
+        }
+        &-subtitle-link{
+            color: #191b1d;
+            font-size: 18px;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+        }
+        &-subtitle{
+        font-size: 16x;
+        font-style: italic;
+        margin-bottom: 0.5rem;
+        color: #666;}
+    }

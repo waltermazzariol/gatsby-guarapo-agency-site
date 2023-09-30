@@ -1,83 +1,56 @@
 // Styling for the masthead
 .hero {
-	background-color: $yellow;
+	background-color: $first-color;
 	padding-top: 70px;
+	padding-bottom: 15px;
 	&-wrapper {
-		max-width: 90%;
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		flex-wrap: wrap;
-		margin: auto;
-		padding: 3rem 0 3rem;
+		padding: 1rem 0 1rem;
+		position: relative;
 	}
 	&-item {
-		max-width: 100%;
 		img {
+			max-height: 450px;
 			max-width: 100%;
-			max-height: 600px;
 		}
 		h1.hero-title {
-			font-size: 2.4rem;
+			padding-top: 2rem;
+			font-size: 2.5rem;
 			font-weight: 300;
 			margin-bottom: 1rem;
 			strong{
 				font-weight: 700;
 			}
 		}
-		.hero-subtitle {
-			color: $font-subtitle-color;
-			font-size: 1.2rem;
+		@include media-breakpoint-up(lg) {
+				h1.hero-title {
+					font-size: 2.6rem;
+				}
 		}
-	}
-
-	@include media-breakpoint-up(md) {
-		.logo{
-			max-width: 200px;
-			&-wrapper{
-				display: flex;
-				justify-content: center;
-				padding-top: 2rem;
-				padding-bottom: 2rem;
-			}
+		@include media-breakpoint-up(xl) {
+				h1.hero-title {
+					font-size: 2.9rem;
+				}
 		}
-		&-item {
-			max-width: calc(100% / 2);
-			img {
-				max-width: 90%;
+		ul{
+			padding-left: 0px;
+			padding-right: 0px;
+			margin-top: 1rem;
+			margin-bottom: 3rem;
+			font-size: 1rem;
+			li{
+			list-style: none;
+			margin-bottom: 0.6rem;
+			i{
+				margin-right: 1rem;
+				color: $main-color;
 			}
-			h1.hero-title {
-				font-size: 2.5rem;
-			}
-			.hero-subtitle {
-				font-size: 1.15rem;
 			}
 		}
-	}
-
-	@include media-breakpoint-up(lg) {
-		background-attachment: fixed !important;
-		&-item {
-			h1.hero-title {
-				font-size: 3.5rem;
-			}
-			.hero-subtitle {
-				font-size: 1rem;
-			}
-		}
-	}
-	@include media-breakpoint-up(xl) {
-		&-item {
-			h1.hero-title {
-				font-size: 4rem;
-				max-width: 100%;
-			}
-		}
-	}
+	}	
 }
 
 .cover{
-	background-color: $yellow;
+	background-color: $first-color;
 	padding-top: 70px;
 	min-height: 200px;
 	display: flex;

@@ -71,7 +71,7 @@ function Works(props) {
           </div>
         </div>
       </div>
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
+      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
         <Contact data={contentJson.contact} />
       </Section>
       <CookiesProvider>

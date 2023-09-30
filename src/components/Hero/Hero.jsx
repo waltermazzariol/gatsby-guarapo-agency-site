@@ -1,31 +1,33 @@
 import React from "react"
-import Bounce from 'react-reveal/Bounce'
 import { Link } from "gatsby"
 
 import Container from 'react-bootstrap/Container'
-import Line from '../Common/Line'
+import { Row } from "react-bootstrap"
 
 function Hero(props) {
   var bg = props.data.image.publicURL
-  var bghero = props.data.bgimage.publicURL
 
   return (
-    <Container as={"header"} fluid={true} className="hero" style={{ background: 'linear-gradient(to right bottom, rgba(0,0,0,0), rgba(0,0,0,0)), url(' + bghero + ') 40% 0', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
-      <div className="hero-wrapper">
-        <div className="hero-item">
-          <Bounce down>
-            <img src={bg} alt="Tu página web" />
-          </Bounce>
-        </div>
-        <div className="hero-item">
-          <Bounce down>
+    <Container as={"header"} fluid={true} className="hero">
+      <Container className="hero-wrapper">
+        <Row className="g-0 justify-content-center">
+        <div className="hero-item col-10 col-md-6">
             <h1 className="hero-title" dangerouslySetInnerHTML={{ __html: props.data.title }}></h1>
-            <Line />
             <div className="hero-subtitle pt-3">{props.data.subtitle}</div>
-            <Link className="btn btn--primary my-3 mr-4" to={props.data.button_url}>{props.data.button_text}</Link>
-          </Bounce>
+            <Link className="btn btn--primary my-5 me-4" to={props.data.button_url}>{props.data.button_text}</Link>
         </div>
-      </div>
+        <div className="hero-item hero-item-img col-3 d-none d-lg-block justify-content-center">
+            <img src={bg} alt="Tu página web" />
+        </div>
+        <div className="hero-item hero-item-img align-self-center col-10 col-md-3">
+            <ul>
+                {props.data.benefits.map((item,index)=> 
+                    <li key={index} ><i className="fa-solid fa-check"></i>{item.text}</li>
+                )}
+            </ul>
+        </div>
+        </Row>
+      </Container>
     </Container>
   )
 }

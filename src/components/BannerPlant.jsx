@@ -1,5 +1,4 @@
 import React from "react"
-// import Fade from 'react-reveal/Fade'
 import Line from "../components/Common/Line"
 
 import Container from 'react-bootstrap/Container'

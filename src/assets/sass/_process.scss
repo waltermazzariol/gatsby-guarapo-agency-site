@@ -1,0 +1,12 @@
+.process{
+    &-number{
+        @include stroke(2, $darker-black);
+        font-size: 7rem;
+        position: relative;
+        float: left;
+        margin-right: 1rem;
+    }
+    &-img{
+        max-width: 250px;
+    }
+}

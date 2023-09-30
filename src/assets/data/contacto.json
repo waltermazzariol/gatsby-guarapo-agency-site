@@ -10,8 +10,8 @@
     },
     "navigation": {
         "logo-url": "./images/logo.svg",
-        "cta-button": "Chat",
-        "cta-link": "https://wa.me/34622531989",
+        "cta-button": "Empezar",
+        "cta-link": "/contacto",
         "menu": [
             {
                 "nav": "Desarrollo Web",
@@ -37,11 +37,6 @@
                 "nav": "El Equipo",
                 "anchor": "",
                 "link": "/equipo"
-            },
-            {
-                "nav": "Contacto",
-                "anchor": "",
-                "link": "/contacto"
             }
         ]
     },
@@ -49,18 +44,12 @@
         "title": "Nuestro <strong>Contacto</strong>",
         "subtitle": "",
         "bgimage": "./images/bg_hero.jpg",
-        "button-text": "Conoce más",
-        "button-url": "mailto:contacto@guarapomedia.com"
+        "button_text": "Conoce más",
+        "button_url": "mailto:contacto@guarapomedia.com"
     },
     "form": {
         "title":"¿Necesitas ayuda en tu proyecto?",
         "description":"Si has llegado hasta aquí es que tienes alguna pregunta, escribenos un mensaje y nos pondremos en contacto.",
-        "name": "Nombre y Apellido",
-        "email": "Email",
-        "phone": "Phone",
-        "message": "Mensaje",
-        "send": "Enviar",
-        "success": "¡Gracias por tu mensaje!",
         "contacts": [
             {
                 "id":"1",
@@ -118,6 +107,12 @@
         "location": "Locación",
         "not-found-title": "404 not found",
         "not-found-message": "You are in a wrong page.. Go back to our home",
-        "not-found-btn": "Home"
+        "not-found-btn": "Home",
+        "form-name": "Nombre y Apellido",
+        "form-email": "Email",
+        "form-phone": "Phone",
+        "form-message": "Mensaje",
+        "form-send": "Enviar",
+        "form-success": "¡Gracias por tu mensaje!"
     }
 }

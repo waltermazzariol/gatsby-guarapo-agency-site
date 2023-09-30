@@ -1,12 +1,10 @@
 import React from "react"
-import Fade from 'react-reveal/Fade'
 import Section from "../components/Common/Section"
 import { Link } from "gatsby"
 
 function Cards(props) {
     return (
         <Section className={'work bg-gray py-5'}>
-            <Fade up>
                 <div className="work-wrapper">
                     {props.data.map((key) =>
                         <div className="item mb-5" key={key.node.id}>
@@ -19,7 +17,6 @@ function Cards(props) {
                             </Link>
                         </div>)}
                 </div>
-            </Fade>
         </Section>
     )
 }

@@ -59,7 +59,7 @@ function TeamPage(props) {
         </Form>
         </Col>
       </Section>
-      <Section className={"price bg-gray"}>
+      <Section className={"price"}>
         <Title title={contentJson.packages.title} />
         <PriceTable data={contentJson.packages.items} />
       </Section>
@@ -67,7 +67,6 @@ function TeamPage(props) {
         anchor={"contact"}
         className={"contact bg-dark"}
         fluid={true}
-        noGutters={true}
       >
         <Contact data={generalJson.contact} />
       </Section>

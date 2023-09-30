@@ -7,7 +7,7 @@
 	.st1{fill:#FFEA7C;}
 </style>
 <g>
-	<polygon class="st0" points="99.9,-6.8 -7.8,100.9 -0.5,100.9 99.9,0.5 	"/>
-	<polygon class="st1" points="96,3.8 2.8,97 -0.2,100.1 99.8,100.1 99.8,0.1 	"/>
+	<polygon className="st0" points="99.9,-6.8 -7.8,100.9 -0.5,100.9 99.9,0.5 	"/>
+	<polygon className="st1" points="96,3.8 2.8,97 -0.2,100.1 99.8,100.1 99.8,0.1 	"/>
 </g>
 </svg>

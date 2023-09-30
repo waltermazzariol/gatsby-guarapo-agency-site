@@ -41,21 +41,21 @@ function FormContact(props) {
     return (
         <Form>
             <Form.Group controlId="formBasicName">
-                <Form.Label>{props.data.name}</Form.Label>
+                <Form.Label>{props.tags.form_name}</Form.Label>
                 <Form.Control
                     type="text"
                     value={name}
                     onChange={e => setName(e.target.value)} />
             </Form.Group>
             <Form.Group controlId="formBasicEmail">
-            <Form.Label>{props.data.email}</Form.Label>
+            <Form.Label>{props.tags.form_email}</Form.Label>
                 <Form.Control
                     type="email"
                     value={email}
                     onChange={e => setEmail(e.target.value)} />
             </Form.Group>
             <Form.Group controlId="formBasicPassword">
-            <Form.Label>{props.data.message}</Form.Label>
+            <Form.Label>{props.tags.form_message}</Form.Label>
                 <Form.Control
                     as="textarea"
                     rows="3"
@@ -68,12 +68,12 @@ function FormContact(props) {
                 onChange={onChange}
             />
             <Button variant="btn btn--primary text-white" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" aria-label="Sumit" className="mt-3">
-                {props.data.send}
+                {props.tags.form_send}
             </Button>
             <div>
                 {mailSent ?
                     <Alert className="mt-2" variant="success">
-                        {props.data.success}
+                        {props.tags.form_success}
                     </Alert> :
                     ''
                 }

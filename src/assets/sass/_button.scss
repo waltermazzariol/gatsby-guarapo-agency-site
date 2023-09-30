@@ -1,0 +1,57 @@
+// Button restyling
+.btn {
+    font-family: $headings-font-family;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    a {
+      color: #ffffff;
+      font-size: 0.85rem;
+      i {
+        color: #ffffff;
+        font-size: 1rem;
+      }
+    }
+    &--primary {
+      background-color: $main-color;
+      font-size: 0.85rem;
+      color: #ffffff;
+      &:hover {
+        background-color: darken($color: $main-color, $amount: 10);
+        font-size: 0.85rem;
+        color: #ffffff;
+      }
+    }
+    &--secundary {
+      background-color: $main-color-dark;
+      &:hover {
+        background-color: darken($color: $main-color-dark, $amount: 10);
+      }
+    }
+    &--outline {
+      border: 1px solid $main-color;
+      font-size: 0.85rem;
+      background-color: transparent;
+      &:hover {
+        background-color: darken($color: $main-color, $amount: 10);
+        font-size: 0.85rem;
+        color: #ffffff;
+
+      }
+    }
+    &--text {
+      font-size: 0.8rem;
+      margin-top: auto;
+      margin-bottom: 1rem;
+      font-weight: 400;
+      color: $font-subtitle-color;
+      text-transform: uppercase;
+      &:hover {
+        text-decoration: underline;
+        color: $main-color;
+      }
+    }
+  }

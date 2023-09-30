@@ -1,5 +1,4 @@
 import React from "react"
-// import Fade from 'react-reveal/Fade'
 import Line from "../components/Common/Line"
 
 import Container from 'react-bootstrap/Container'
@@ -9,7 +8,7 @@ import Col from 'react-bootstrap/Col'
 import user from '../assets/images//person.svg'
 import ring from '../assets/images//ring.svg'
 import diagonalTop from '../assets/images//diagonal-top.svg'
-º
+
 function BannerPhone(props) {
     return (
         <section className="container-fluid banner1" style={{ background: 'url(' + props.data.bg_image.publicURL + ')', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>

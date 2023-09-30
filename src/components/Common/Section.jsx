@@ -6,7 +6,7 @@ function Section(props) {
   return (
     <div id={props.anchor} className={props.className}>
       <Container fluid={props.fluid} >
-        <Row noGutters={props.noGutters} className={props.rowClass}>
+        <Row className={props.rowClass}>
           {props.children}
         </Row>
       </Container>
@@ -15,8 +15,7 @@ function Section(props) {
 }
 
 Section.defaultProps = {
-  fluid: false,
-  noGutters: false
+  fluid: false
 }
 
 export default Section

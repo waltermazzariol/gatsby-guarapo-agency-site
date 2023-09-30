@@ -1,33 +1,18 @@
 import React from "react";
 import { Link } from "gatsby";
-// import Fade from 'react-reveal/Fade'
 
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
 
-function Banner(props) {
+function Banner({data}) {
   return (
-    <Container >
-      <Row
-        className="banner1"
-        noGutters
-        style={{
-          background: "url(" + props.data.image.publicURL + ")",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
-      >
-        <Col sm="12" className="bg-black banner1-wrapper">
-          <div className="text-white">{props.data.text}</div>
-          <Link
-            className="btn btn--primary my-3 mr-4"
-            to={props.data.button_link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {props.data.button_text}
-          </Link>
+    <Container className="my-5 text-center">
+      <Row >
+        <Col sm="12" className="bg-third-color p-5 border-radius_10">
+          <h3 className="mb-4">{data.title}</h3>
+          <div className="mb-4">{data.text}</div>
+          <Link className="item-btn item-btn_b btn btn--primary" to={data.button_url} rel="noopener noreferrer">{data.button_text}</Link>         
         </Col>
       </Row>
     </Container>

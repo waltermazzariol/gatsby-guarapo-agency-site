@@ -8,6 +8,8 @@
 // Import Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+@import "../assets/sass/mixing.scss";
+
 // Import custom styles
 @import "../assets/sass/global.scss";
 @import "../assets/sass/navbar.scss";
@@ -19,3 +21,8 @@
 @import "../assets/sass/cookies.scss";
 @import "../assets/sass/calendar.scss";
 @import "../assets/sass/portfolio.scss";
+@import "../assets/sass/process.scss";
+@import "../assets/sass/team.scss";
+@import "../assets/sass/button.scss";
+@import "../assets/sass/testimoniales.scss";
+@import "../assets/sass/packages.scss";

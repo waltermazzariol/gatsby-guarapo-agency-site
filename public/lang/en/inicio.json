@@ -1,0 +1,284 @@
+{
+    "general": {
+      "path": "/",
+      "siteurl": "https://guarapomedia.com",
+      "seo-title": "Guarapo Media • Digital Marketing Agency",
+      "seo-description": "We are specialists in web development. We follow you all the way, always focused on achieving the objectives.",
+      "seo-image": "./images/seo.jpg",
+      "ua": "UA-73261016-1",
+      "lang": "en"
+    },
+    "navigation": {
+      "logo-url": "./images/logo.svg",
+      "cta-button": "Chat",
+      "cta-link": "https://wa.me/34622531989",
+      "menu": [
+        {
+          "nav": "Web Development",
+          "anchor": "",
+          "link": "/web-development"
+        },
+        {
+          "nav": "Web Hosting",
+          "anchor": "",
+          "link": "/hosting"
+        },
+        {
+          "nav": "Digital Marketing",
+          "anchor": "",
+          "link": "/digital-marketing"
+        },
+        {
+          "nav": "Portfolio",
+          "anchor": "",
+          "link": "/work"
+        },
+        {
+          "nav": "The Team",
+          "anchor": "",
+          "link": "/team"
+        },
+        {
+          "nav": "Contact",
+          "anchor": "",
+          "link": "/contact"
+        }
+      ]
+    },
+    "hero": {
+      "title": "We create <strong>brands</strong> <br/>We make it <strong>social</strong>",
+      "subtitle": "Position your business in the digital world.",
+      "image": "./images/hero.png",
+      "bgimage": "./images/bg_hero.jpg",
+      "button_text": "Contact Us",
+      "button_url": "/contact"
+    },
+    "about": {
+      "id": 3,
+      "title": "Get the most out of your project",
+      "text": "<p><strong>STRATEGY, CONVERSION and METRICS.</strong> We create a strategy to reach your goals, that is the key to make your business grow and be successful.</p> <p>Whatever your project is, we will help you develop it in the <strong>digital</strong> world.</p>",
+      "image": "./images/profile.png"
+    },
+    "banner": {
+      "text": "The time is now. Are you ready to position your project?",
+      "button_text": "I'm ready!",
+      "button-link": "/contact",
+      "image": "./images/bg_banner.jpg"
+    },
+    "banner-2": {
+      "text": "we accompany you throughout the development of your project",
+      "image": "./images/plant.png"
+    },
+    "banner-3": {
+      "title": "We work with you to achieve <strong>YOUR GOALS</strong>",
+      "subtitle": "Our mission is to create a successful strategy that <strong>helps you position your project in the digital world</strong>, and most importantly <strong>Convert!</strong>",
+      "bg-image": "./images/bg_phone.jpg",
+      "image": "./images/phone.png"
+    },
+    "services": {
+      "id": 1,
+      "title": "Services",
+      "subtitle": "",
+      "slogan": "",
+      "projects": [
+        {
+          "name": "Domains and Hosting",
+          "type": ".com, .net, .io, .site domains \nHosting \nGoogle My Business \nMicrosoft 360 \nZoho Email",
+          "image": "./images/services/s3.svg",
+          "link": "/hospedaje"
+        },
+        {
+          "name": "Web Development",
+          "type": "Layout \nWeb Development \nWeb Maintenance \nWordpress, Prestashop, Shopify \nLanding Page \nMicrosites",
+          "image": "./images/services/s2.svg",
+          "link": "/desarrollo-web"
+        },
+        {
+          "name": "Digital Marketing",
+          "type": "Campaign development \nAds management \nContent generation \nEmail Marketing \nBrand development",
+          "image": "./images/services/s1.svg",
+          "link": "/marketing-digital"
+        }
+      ]
+    },
+    "client-type": {
+      "id": 1,
+      "title": "Who is it for?",
+      "subtitle": "",
+      "services": [
+        {
+          "name": "Small Business",
+          "type": "Tight budgets? We have the answer, we adapt to you and offer technological solutions adapted to your budget. Tell us about your idea and we can help you take the next step.",
+          "image": "./images/services/1.jpg",
+          "alt": "small business"
+        },
+        {
+          "name": "Personal Branding",
+          "type": "Influencers, artists, or just a personal project? With our experience, we help you stand out with the web you have dreamed of.",
+          "image": "./images/services/2.jpg",
+          "alt": "Personal Branding"
+        },
+        {
+          "name": "Digital Portfolio",
+          "type": "Do you want to present your professional work? With our portfolio solutions, you can showcase your work and it will be available at a click away.",
+          "image": "./images/services/3.jpg",
+          "alt": "Digital Portfolio"
+        },
+        {
+          "name": "Online Store (e-commerce)",
+          "type": "Sell online? No problem. We will help you from start to finish so you can have total control of your virtual store and get the most out of it.",
+          "image": "./images/services/4.jpg",
+          "alt": "Online Store"
+        }
+      ]
+    },
+    "portfolio": {
+      "title": "Projects",
+      "tags": {
+        "client": "Client",
+        "city": "City",
+        "url": "Domain",
+        "year": "Year",
+        "tags": "Tags",
+        "close": "Close"
+      },
+      "list": [
+        {
+          "id": 0,
+          "client": "Piel de Oro",
+          "city": "Miami",
+          "description": "The project was thought of as a fresh and modern Landing Page that presented in story form its different segments\nFrom its beginning the page has gone through different stages until becoming the meeting point of its more than 20 locations in 5 different countries.\nThe web works in React and contains different complements such as, appointment booking and a link to its e-commerce.",
+          "url": "https://pieldeoro.com",
+          "year": "2020",
+          "cat": "Web",
+          "tags": "Small Business, multi-language",
+          "image": "./images/portfolio/1.jpg",
+          "thumbnail": "./images/portfolio/d1.jpg",
+          "alt": "Piel de oro"
+        },
+        {
+          "id": 1,
+          "client": "Norma Pasteles",
+          "city": "Barcelona",
+          "description": "Located in Barcelona, Norma is dedicated to offering handmade cakes with a variety of flavors and options.\nAs a first stage we present the cakes, their history and the different steps to place an order, with a \"One Page\" format site.\nAfter 1 year we look for to evolve the site and we extended the sections to the different types of cakes and flavors.\nAs the next step is to offer a payment option that allows the sale of cakes from the same website.\nBased on React and with modular content it allows to update it with great ease.",
+          "url": "https://normapasteles.com",
+          "year": "2020",
+          "cat": "Web",
+          "tags": "Small Business, Bakery",
+          "image": "./images/portfolio/2.jpg",
+          "thumbnail": "./images/portfolio/d2.jpg",
+          "alt": "Norma Pasteles"
+        },
+        {
+          "id": 2,
+          "client": "Burbowl",
+          "city": "Miami",
+          "description": "We want to share with you the Burbowl project, a Wordpress web solution with different sections such as: Menu, locations, franchise information, blog and contacts. It also has integration with the delivery platforms.\nLocated in Downtown Miami and Coral Gables, BurBowl is a fast food restaurant that stands out from the ordinary. Unique dishes, fresh ingredients and located in two of the best areas of the city of Miami. Since January 2016 we have been taking your digital media to the next level.",
+          "url": "https://burbowl.com",
+          "year": "2016 - 2021",
+          "cat": "Marketing",
+          "tags": "Small Business, Restaurant",
+          "image": "./images/portfolio/3.jpg",
+          "thumbnail": "./images/portfolio/d3.jpg",
+          "alt": "Burbowl"
+        },
+        {
+          "id": 3,
+          "client": "Cultura Nanos",
+          "city": "Madrid",
+          "description": "Cultura Nanos is a children's center located in Toledo. The project consisted of creating a website that allowed to show the different activities that the center offers as well as a calendar of activities. \nThe web is designed for perfect visualization on mobile devices and allows direct contact with the center through Whastapp.",
+          "url": "https://culturalnanos.com",
+          "year": "2020",
+          "cat": "Web",
+          "tags": "Small Business, Children's school",
+          "image": "./images/portfolio/4.jpg",
+          "thumbnail": "./images/portfolio/d4.jpg",
+          "alt": "Cultura Nanos"
+        },
+        {
+          "id": 4,
+          "client": "Gabriel Samra",
+          "city": "Miami",
+          "description": "Located in Coral Gables, Gabriel Samra Salon is the place where Miami's chic community comes to experience its beauty and become a work of art in an elegant and welcoming sanctuary.",
+          "url": "https://instagram.com/gabrielsamrahairsalon",
+          "year": "2017 - 2021",
+          "cat": "Marketing",
+          "tags": "Small Business, Beauty Salon",
+          "image": "./images/portfolio/gabriel.jpg",
+          "thumbnail": "./images/portfolio/gabriel.jpg",
+          "alt": "Picarpolos"
+        },
+        {
+          "id": 5,
+          "client": "Lifeinvest Wealth",
+          "city": "Panama",
+          "description": "",
+          "url": "https://lifeinvestwealth.com",
+          "year": "2020",
+          "cat": "Web",
+          "tags": "Company, multi-language",
+          "image": "./images/portfolio/6.jpg",
+          "thumbnail": "./images/portfolio/d6.jpg",
+          "alt": "Lifeinvest"
+        },
+        {
+          "id": 6,
+          "client": "Guataca",
+          "city": "Caracas",
+          "description": "Guataca is a platform whose objective is to spread the talent of emerging Venezuelan musicians, promote their projects, support their initiatives in Venezuela and the world. We contribute with record productions and, above all, generate a concert programming, with extensive media promotion, looking for feedback with a guataquero audience that makes each encounter a unique experience.",
+          "url": "https://guatacanights.com",
+          "year": "2014 -2021",
+          "cat": "Marketing",
+          "tags": "Music, marketing, web, youtube, blog",
+          "image": "./images/portfolio/guataca.jpg",
+          "thumbnail": "./images/portfolio/guataca.jpg",
+          "alt": "Guataca"
+        },
+        {
+          "id": 7,
+          "client": "Yamaha musical",
+          "city": "Caracas",
+          "description": "Since November 2013 we have had the pleasure of working with the famous musical brand, iconic for its tuners: Yamaha. With more than 5 music academies in the country, Yamaha continues to bet on cultural development in Venezuela through music. Together, we have carried out the production of several events, music workshops, attended music festivals together and much more.\nLet's keep creating Kando together!",
+          "url": "",
+          "year": "2013 - 2021",
+          "cat": "Marketing",
+          "tags": "Content managment",
+          "image": "./images/portfolio/yamaha.jpg",
+          "thumbnail": "./images/portfolio/yamaha.jpg",
+          "alt": "Yamaha musical"
+        }
+      ]
+    },
+    "contact": {
+        "phone": "+34622531989",
+        "email": "contacto@guarapomedia.com",
+        "address": "Barcelona, Spain",
+        "socialmedia": [
+            {
+                "link": "https://www.instagram.com/GuarapoMedia/",
+                "name": "instagram"
+            },
+            {
+                "link": "https://twitter.com/GuarapoMedia",
+                "name": "twitter"
+            },
+            {
+                "link": "https://facebook.com/GuarapoMedia/",
+                "name": "facebook"
+            }
+        ],
+        "image": "./images/footer.jpg"
+    },
+    "tags": {
+        "viewmore": "See more",
+        "viewless": "See less",
+        "cookie-message": "We use our own and third-party cookies to improve your user experience.",
+        "cookie-accept": "Accept",
+        "event": "Title",
+        "date": "Date",
+        "location": "Location",
+        "not-found-title": "404 not found",
+        "not-found-message": "You are in a wrong page.. Go back to our home",
+        "not-found-btn": "Home"
+    }
+}

@@ -1,5 +1,4 @@
 import React from "react"
-import Fade from 'react-reveal/Fade'
 import Title from "../components/Common/Title"
 import Section from "../components/Common/Section"
 import Col from 'react-bootstrap/Col'
@@ -13,8 +12,7 @@ function ClientType(props) {
                 {props.data.services.map((key, index) =>
                     <div className="item1 mb-3 p-3 bg--70" key={index}>
                         <div className="d-flex">
-                            <Fade up>
-                                <div className="item2 p-3" >
+                               <div className="item2 p-3" >
                                     <img className="img-fluid" srcSet={key.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt={key.name} />
                                 </div>
                                 <div className="item2 p-2" >
@@ -25,11 +23,10 @@ function ClientType(props) {
                                         {key.type}
                                     </span>
                                 </div>
-                            </Fade>
-                        </div>
+                      </div>
                     </div>)}
                 <Col className="text-center">
-                    <Link className="btn btn--primary my-3 mr-4"
+                    <Link className="btn btn--primary my-3 me-4"
                         to="/contacto" target="_blank" rel="noopener noreferrer">
                         Contactános
                     </Link>

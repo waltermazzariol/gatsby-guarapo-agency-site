@@ -22,9 +22,9 @@ function Seo({metas}) {
 
   return (<>
     {/* <!-- Primary Meta Tags --> */}
-    <lang>es</lang>
     <title>{metaTitle}</title>
     <meta name="title" content={metaTitle} />
+    <meta httpEquiv="Content-Language" content="es" />
     <meta name="description" content={metaDescription}/>
 
     {/* <!-- Open Graph / Facebook --/> */}

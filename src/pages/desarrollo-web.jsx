@@ -13,12 +13,13 @@ import CookiesConsent from "../components/Cookies"
 import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero/Hero"
-import About from "../components/About"
-import BannerPlant from "../components/BannerPlant"
-import ClientType from "../components/ClientType"
-import Services from "../components/Services"
 import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
+import PriceTable from "../components/PriceTable"
+import Process from "../components/process";
+import Banner from "../components/Banner";
+import FormServices from "../components/FormServices";
+
 
 function WebPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
@@ -29,19 +30,44 @@ function WebPage(props) {
     <Layout nav={contentJson.navigation}>
       <Hero data={contentJson.hero} />
       <Section>
-        <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+        <div className="col-12 pt-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
       </Section>      
-      <About data={contentJson.about} />
-      <BannerPlant data={contentJson.banner_2} />
-      <Services data={contentJson.services} />
-      <ClientType data={contentJson.client_type} />
-      <Section anchor={'portfolio'} className={'portfolio '} fluid={true} noGutters={true}>
-        <Title title={generalJson.portfolio.title} />
+      
+      
+       {/* Our Packages */}
+      <Section anchor={'portfolio'}>
+        <Title title={contentJson.packages.title} />
+      </Section>
+      
+      {/* Packs */}
+      <PriceTable data={contentJson.packages.items}/>
+      
+      {/* Our Process */}
+      <Section anchor={'portfolio'}>
+        <Title title={"¿Cómo funciona?"} />
+        <Process />
+      </Section>
+
+      {/* Banner */}
+      <Banner data={contentJson.banner} />
+
+      {/* Form Services*/}
+      <Section anchor={'portfolio'} className={'portfolio'} rowClass="justify-content-center" >
+        <Title title={"Cuéntanos de tu proyecto"} />
+        <div className="col-12 col-md-6">
+          <FormServices data={contentJson.form} tags={generalJson.tags}/>
+        </div>
+      </Section>
+
+      <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
+        <Title title={contentJson.portfolio.title} />
         <Portfolio data={blogJson} />
       </Section>
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
+
+      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} >
         <Contact data={generalJson.contact} />
       </Section>
+      
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>
@@ -68,18 +94,16 @@ export const imageData = graphql`
         ...generalFields
         ...navigationFields
         ...heroFields
-        ...aboutFields
         ...bannerFields
-        ...clientTypeFields
-        ...banner2Fields
-        ...servicesFields
+        ...portfolioFields
+        ...packagesFields
+        ...formFields
         }  
       }
     }
     dataJson(general: {path: {eq: "/"}}) {
       ...contactFields
       ...tagsFields
-      ...portfolioFields
     }
     allWorkJson(sort: {date: DESC}) {
       edges {

@@ -37,16 +37,13 @@ fragment heroFields on DataJson {
           gatsbyImageData
         }
     }
-    bgimage {
-      publicURL
-      childImageSharp {
-        gatsbyImageData
-      }
-    }
     subtitle
     title
     button_url
     button_text
+    benefits{
+      text
+    }
   }
 }`
 
@@ -69,15 +66,10 @@ fragment coverFields on DataJson {
 export const bannerFields = graphql`
 fragment bannerFields on DataJson {
   banner {
+    title
     text
     button_text
-    button_link
-    image {
-        publicURL
-        childImageSharp {
-          gatsbyImageData
-        }
-    }
+    button_url
   }
 }`
 
@@ -179,12 +171,29 @@ fragment teamFields on DataJson {
     }
 }`
 
+export const testimonialsFields = graphql`
+fragment testimonialsFields on DataJson {
+  testimonials {
+      title
+      list{
+        name
+        position
+        image {
+          publicURL
+        }
+        message
+      }
+      
+    }
+}`
+
 export const packagesFields = graphql`
 fragment packagesFields on DataJson {
   packages {
       title
       items{
         name
+        from
         price
         time
         list{
@@ -192,6 +201,11 @@ fragment packagesFields on DataJson {
         }
         button_text
         button_url
+        button_text_second
+        button_url_second
+        image {
+          publicURL
+      }
       }
     }
 }`
@@ -252,12 +266,6 @@ fragment formFields on DataJson {
   form {
     title
     description
-    name
-    email
-    phone
-    message
-    send
-    success
     contacts{
       id
       city
@@ -282,6 +290,12 @@ fragment tagsFields on DataJson {
     tags
     year
     button
+    form_name
+    form_email
+    form_phone
+    form_message
+    form_send
+    form_success
   }
 }`
 

@@ -24,8 +24,8 @@ function ContactPage(props) {
   return (
     <Layout nav={contentJson.navigation}>
       <Cover data={contentJson.cover} />
-      <Section anchor={'form'} className={'form py-5'} rowClass={'justify-content-md-center'}>
-        <div className="col-12 pb-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+      <Section anchor={'form'} className={'form pt-4'} rowclassName={'justify-content-md-center'}>
+        <div className="col-12 pb-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
         <Title title={contentJson.form.title} subtitle={contentJson.form.description}/>
         <Col sm={12} md={6}>
             {contentJson.form.contacts.map((key)=> 
@@ -38,10 +38,10 @@ function ContactPage(props) {
             )}
         </Col>
         <Col sm={12} md={6}>
-          <Form data={contentJson.form} />
+          <Form data={contentJson.form} tags={generalJson.tags}/>
         </Col>
       </Section>
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} noGutters={true}>
+      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
         <Contact data={generalJson.contact} />
       </Section>
       <CookiesProvider>
