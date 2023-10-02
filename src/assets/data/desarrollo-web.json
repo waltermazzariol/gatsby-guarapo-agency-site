@@ -47,10 +47,9 @@
         "button_text": "Contátanos",
         "button_url": "/contacto",
         "benefits":[
-            {"text": "Rápido"},
-            {"text": "Fácil"},
-            {"text": "Eficiente"},
-            {"text": "Sin preocupaciones"}
+            {"text": "Rápido y Fácil"},
+            {"text": "Sin preocupaciones"},
+            {"text": "A tiempo y siempre a tu lado"}
         ]
     },
     "packages":{

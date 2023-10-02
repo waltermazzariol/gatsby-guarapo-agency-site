@@ -42,7 +42,7 @@
     },
     "hero": {
         "title": "Creamos <strong>marcas</strong>,<br/> Lo hacemos <strong>social</strong>",
-        "subtitle": "Te ayudamos a dar los primeros pasos en el mundo digital. Nuestros profesionales te ayudarán durante todo el proceso para que tú no tengas nada por lo que preocuparte.",
+        "subtitle": "Te ayudamos a dar esos primeros pasos en el mundo digital. Nuestros profesionales te acompañarán durante todo el proceso para que tú no tendrás nada por lo que preocuparte.",
         "image": "./images/bg_nanos.webp",
         "button_text": "Empezar",
         "button_url": "/contacto",
@@ -55,6 +55,26 @@
     "packages":{
         "title": "Escoge tu paquete",
         "items":[
+            {
+                "name": "Creamos tu WEB en 5 días",
+                "price": "350€",
+                "time": "único pago",
+                "list":[
+                    {"text": "Página web de una página"},
+                    {"text": "Sección de servicios"},
+                    {"text": "Sección de contacto"},
+                    {"text": "Hosting incluido, 1er año"},
+                    {"text": "Dominio incluido, 1er año"},
+                    {"text": "Emails con tu dominio"},
+                    {"text": "Entregada en 5 días o menos"}
+            
+                ],
+                "button_text":"Empezar",
+                "button_url": "/contacto",
+                "button_text_second":"Ver más",
+                "button_url_second": "/contacto",
+                "image": "./images/package/draft.jpg"
+            },
             {
                 "name": "Alojamos tu página web",
                 "price": "5€",
@@ -73,32 +93,13 @@
                 "button_text_second":"Ver más",
                 "button_url_second": "/contacto",
                 "image": "./images/package/computer.jpg"
-            },
-            {
-                "name": "Creamos tu WEB en 5 días",
-                "price": "350€",
-                "time": "único pago",
-                "list":[
-                    {"text": "Página web básica"},
-                    {"text": "Sección de servicios"},
-                    {"text": "Sección de contacto"},
-                    {"text": "Hosting incluido por el 1er año"},
-                    {"text": "Dominio incluido por el 1er año"},
-                    {"text": "Certificado SSL gratuito"},
-                    {"text": "Entregada en 5 días o menos"}
-            
-                ],
-                "button_text":"Empezar",
-                "button_url": "/contacto",
-                "button_text_second":"Ver más",
-                "button_url_second": "/contacto",
-                "image": "./images/package/draft.jpg"
             }
+            
         ]
     },
     "banner": {
         "title": "Entrar en el mundo digital puede ser abrumador",
-        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, tu negocio! Contáctanos ahora.",
+        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio! Contáctanos ahora.",
         "button_text": "Empezar",
         "button_url": "/contacto"
     },
@@ -109,7 +110,7 @@
                 "name": "Angel Benitez",
                 "position": "Director - Restaurant Burbowl",
                 "image": "./images/testimonials/burbowl.png",
-                "message": "Hemos trabajado de la mano de Guarapo Media desde 2015 en todos nuestros medios digitales tales como redes sociales, pagina web, campañas entre otros."
+                "message": "Guarapo Media nos ha acompañado desde 2015, siendo complices en todos nuestros medios digitales."
             },
             {
                 "name": "Ernesto Rangel",
