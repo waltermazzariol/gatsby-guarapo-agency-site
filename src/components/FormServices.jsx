@@ -76,6 +76,15 @@ function FormServices(props) {
                         onChange={e => setSubject(e.target.value)} />
             </Form.Group>
 
+            <Form.Group  className="mb-3" controlId="formBasicIdeas">
+                <Form.Label>Comparte con nosotros alguna links de páginas web de ejemplo</Form.Label>
+                    <Form.Control
+                        as="textarea"
+                        rows="3"
+                        value={subject}
+                        onChange={e => setSubject(e.target.value)} />
+            </Form.Group>
+
             <ReCAPTCHA
                 sitekey="6Ldxyi4bAAAAAOq88jM5zIfu-epnbFiafAjNom5s"
                 onChange={onChange}

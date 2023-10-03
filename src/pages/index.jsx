@@ -34,17 +34,17 @@ const blogJson = props.data.allWorkJson.edges
 return (
 <Layout nav={contentJson.navigation}>
 
-  {/* Our Packages */}
+  {/* Hero */}
   <Hero data={contentJson.hero} />
 
   {/* Our Packages */}
-  <Section anchor={'portfolio'}>
+  <Section anchor={'package'} className={"mt-5"}>
     <Title title={contentJson.packages.title} />
   </Section>
   <Packages data={contentJson.packages} />
 
   {/* Our Process */}
-  <Section anchor={'portfolio'}>
+  <Section anchor={'process'} className={"mt-5"}>
     <Title title={"¿Cómo funciona?"} />
   </Section>
   <Process />
@@ -54,7 +54,7 @@ return (
 
 
   {/* The team */}
-  <Section anchor={'portfolio'}>
+  <Section anchor={'team'} className={"mt-5"}>
     <Title title={"Aunque sea todo online, contarás con la ayuda de uno de nuestros profesionales"} />
   </Section>
   <Section rowclassName="justify-content-center g-3">
@@ -67,8 +67,8 @@ return (
     </Col>
   </Section>
 
-  {/* Reviews */}
-  <Section anchor={'testimonial'}>
+  {/* Testimonials */}
+  <Section anchor={'testimonial'} className={"mt-5"}>
     {console.log(contentJson)}
     <Title title={contentJson.testimonials.title} />
   </Section>
@@ -78,14 +78,17 @@ return (
         )}
   </Section>
 
-  {/* Our Process */}
-  <Section anchor={'portfolio'}>
+  {/* Portfolio */}
+  <Section anchor={'portfolio'} className={"mt-5"}>
     <Title title={"Ellos confiaron en nosotros. Échale un vistazo a nuestros proyectos más reciente."} />
   </Section>
   <Portfolio data={blogJson} />
+  
+  {/* Contact */}
   <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
     <Contact data={contentJson.contact} />
   </Section>
+  
   <CookiesProvider>
     <CookiesConsent data={contentJson.tags} />
   </CookiesProvider>

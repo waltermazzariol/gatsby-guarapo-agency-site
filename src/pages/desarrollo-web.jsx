@@ -53,7 +53,7 @@ function WebPage(props) {
 
       {/* Form Services*/}
       <Section anchor={'portfolio'} className={'portfolio'} rowClass="justify-content-center" >
-        <Title title={"Cuéntanos de tu proyecto"} />
+        <Title title={"Cuéntanos sobre tu proyecto"} />
         <div className="col-12 col-md-6">
           <FormServices data={contentJson.form} tags={generalJson.tags}/>
         </div>
