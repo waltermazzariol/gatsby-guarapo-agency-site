@@ -2,7 +2,7 @@
     "date": "20220403",
     "client": "Lolas Rentals",
     "city": "Siargao",
-    "description": "",
+    "description": "Online shop para el alquiler de motos, tuk-tuks en la Isla de Siargao Filipinas. Los usuarios pueden elegir la moto que mas le gusta y el sistema comprueba la disponibilidad en el backend para la empresa. Asi ellos pueden tener seguimiento de que motos tienen disponibles y cuales han alquilado. Tambien tiene la opcion para que el usuario reciba el contrato y lo firme digitalmente antes de entregar la moto, esto permite reducir el uso de papel y tener todo en un mismo sitio",
     "url": "https://lolasrentals.com",
     "year": "2022",
     "cat": "Web",

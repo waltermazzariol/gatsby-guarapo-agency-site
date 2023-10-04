@@ -24,7 +24,7 @@ function ContactPage(props) {
   return (
     <Layout nav={contentJson.navigation}>
       <Cover data={contentJson.cover} />
-      <Section anchor={'form'} className={'form pt-4'} rowclassName={'justify-content-md-center'}>
+      <Section anchor={'form'} className={'form pt-4 pb-5'} rowclassName={'justify-content-md-center'}>
         <div className="col-12 pb-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
         <Title title={contentJson.form.title} subtitle={contentJson.form.description}/>
         <Col sm={12} md={6}>
