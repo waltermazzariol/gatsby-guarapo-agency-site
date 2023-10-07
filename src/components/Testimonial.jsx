@@ -1,11 +1,12 @@
 import React from "react"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 function Testimonial({data}) {
   return (
-      <div className="col-4">
+      <div className="col-12 col-md-6 col-lg-4">
         <div className="row">
           <div className="col-2">
-            <img loading="lazy" width={50} height={50} src={data.image.publicURL} alt="Testimonial" />
+            <GatsbyImage image={data.image.childImageSharp.gatsbyImageData} alt="Testimonial" />
           </div>
           <div className="col-10">
             <div className="testimonial-subbtitle-link" href="" target="_blank">

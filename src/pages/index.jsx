@@ -22,10 +22,7 @@ import Portfolio from "../components/Portfolio/Portfolio"
 import Process from "../components/process";
 import Banner from "../components/Banner";
 import { Col } from "react-bootstrap";
-
-import walter from "../assets/data/images/team/1.jpg"
-import christian from "../assets/data/images/team/2.jpg"
-import sergio from "../assets/data/images/team/3.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 import Testimonial from "../components/Testimonial";
 
 function IndexPage(props) {
@@ -45,9 +42,9 @@ return (
 
   {/* Our Process */}
   <Section anchor={'process'} className={"mt-5"}>
-    <Title title={"¿Cómo funciona?"} />
+      <Title title={contentJson.process.title} />
+      <Process data={contentJson.process.list}/>
   </Section>
-  <Process />
 
   {/* Banner */}
   <Banner data={contentJson.banner} />
@@ -58,9 +55,9 @@ return (
     <Title title={"Aunque sea todo online, contarás con la ayuda de uno de nuestros profesionales"} />
   </Section>
   <Section rowclassName="justify-content-center g-3">
-    <Col className="d-flex justify-content-center"><img className="rounded" src={walter} alt="walter" /></Col>
-    <Col className="d-flex justify-content-center"><img className="rounded" src={christian} alt="christian" /></Col>
-    <Col className="d-flex justify-content-center"><img className="rounded" src={sergio} alt="sergio" /></Col>
+    <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/1.jpg"} alt="walter" /></Col>
+    <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/2.jpg"} alt="christian" /></Col>
+    <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/3.jpg"} alt="sergio" /></Col>
     <div className="w-100"></div>
     <Col className="mt-4 d-flex justify-content-center">
     <Link className="item-btn item-btn_b btn btn--primary" to="/equipo" rel="noopener noreferrer"> Conoce al equipo</Link>
@@ -117,6 +114,7 @@ node {
 ...tagsFields
 ...bannerFields
 ...packagesFields
+...processFields
 ...testimonialsFields
 }
 }

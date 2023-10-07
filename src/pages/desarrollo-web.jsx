@@ -44,8 +44,8 @@ function WebPage(props) {
       
       {/* Our Process */}
       <Section anchor={'portfolio'}>
-        <Title title={"¿Cómo funciona?"} />
-        <Process />
+        <Title title={generalJson.process.title} />
+        <Process data={generalJson.process.list}/>
       </Section>
 
       {/* Banner */}
@@ -102,6 +102,7 @@ export const imageData = graphql`
       }
     }
     dataJson(general: {path: {eq: "/"}}) {
+      ...processFields
       ...contactFields
       ...tagsFields
     }

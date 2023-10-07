@@ -1,7 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 function Packages({ data }) {
+
     return (
             <div className="container package">
                     <div className="row g-3 justify-content-center">
@@ -22,7 +24,7 @@ function Packages({ data }) {
                                     </ul>
                                     <Link className="item-btn btn btn--primary me-2" to={key.button_url} rel="noopener noreferrer">{key.button_text}</Link>
                                     {key.button_text_second ? <Link className="item-btn btn btn--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
-                                    <img className="item-img" src={key.image.publicURL} alt="hosting"/>
+                                    <GatsbyImage image={key.image.childImageSharp.gatsbyImageData} alt="hosting" className="item-img" />
                                 </div>
                             </div>
 

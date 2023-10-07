@@ -43,7 +43,7 @@
     "hero": {
         "title": "Creamos <strong>marcas</strong>,<br/> Lo hacemos <strong>social</strong>",
         "subtitle": "Te ayudamos a dar esos primeros pasos en el mundo digital. Nuestros profesionales te acompañarán durante todo el proceso para que tú no tendrás nada por lo que preocuparte.",
-        "image": "./images/bg_nanos.webp",
+        "image": "./images/bg_siargao.webp",
         "button_text": "Empezar",
         "button_url": "/contacto",
         "benefits":[
@@ -95,6 +95,29 @@
                 "image": "./images/package/computer.jpg"
             }
             
+        ]
+    },
+    "process":{
+        "title": "¿Cómo funciona?",
+        "list":[
+            {
+                "id":1,
+                "title": "¡Cuéntanos todo sobre tu idea o proyecto!",
+                "description":"Te haremos algunas preguntas sobre tu proyecto y así poder ofrecerte el mejor producto que mejor se adapte a tus necesidades",
+                "image": "./images/process/step_1.png"
+            },
+            {
+                "id":2,
+                "title": "It's a match!",
+                "description": "Te contactaremos lo antes posible para aclara cualquier duda y preparemos una propuesta que se ajuste a tus necesidades. Como siempre te incluiremos un cronograma de entrega.",
+                "image": "./images/process/step_2.png"
+            },
+            {
+                "id":3,
+                "title": "Relax",
+                "description": "Una vez este aprobado el presupuesto, nos pondremos a trabajar a toda velocidad para que tu proyecto este disponible lo antes posible y con la calidad y la atención que nos caracteriza.",
+                "image": "./images/process/step_3.png"
+            }
         ]
     },
     "banner": {

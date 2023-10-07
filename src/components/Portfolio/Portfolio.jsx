@@ -1,6 +1,8 @@
 import React from "react"
 import {Container, Row, Col} from 'react-bootstrap'
 import { Link } from 'gatsby'
+import { GatsbyImage } from "gatsby-plugin-image"
+
 
 export default class Portfolio extends React.Component {
   constructor(props) {
@@ -33,7 +35,7 @@ export default class Portfolio extends React.Component {
         {this.props.data.slice(0, 8).map((key) =>
           <Col key={key.node.id} xs={6} sm={6} md={3}>
               <Link className="btn btn-clean" to={`/${key.node.parent.relativeDirectory}/${key.node.parent.name}`}>
-                <img srcSet={key.node.thumbnail.childImageSharp.gatsbyImageData.images.fallback.srcSet} alt={key.node.client} />
+                <GatsbyImage image={key.node.thumbnail.childImageSharp.gatsbyImageData} alt={key.node.client} />
                 <div className="img-hover">
                   <div className="title">{key.node.client}</div>
                   {key.node.cat === "Web" ? 

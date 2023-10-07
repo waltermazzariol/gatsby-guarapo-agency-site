@@ -43,7 +43,7 @@
     "hero": {
         "title": "Una página <strong>bien pensada</strong> te conecta con tus <strong>clientes</strong>",
         "subtitle": "¿Qué estás esperando?, con nuestros paquetes puedes conseguir tú página nueva página web ahora mismo y si ya tienes una, no te preocupes, nos encargamos de ponerla al día.",
-        "image": "./images/bg_pieldeoro.webp",
+        "image": "./images/bg_noneculture.webp",
         "button_text": "Contátanos",
         "button_url": "/contacto",
         "benefits":[

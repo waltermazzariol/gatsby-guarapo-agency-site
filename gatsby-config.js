@@ -20,19 +20,20 @@ module.exports = {
         path: `${__dirname}/src/assets/images`,
       },
     },
-    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-plugin-sharp`,
       options: {
         defaults: {
           formats: [`webp`],
-          placeholder: `dominantColor`,
+          placeholder: `none`,
           quality: 100,
           breakpoints: [450, 800, 1240],
           backgroundColor: `transparent`
         }
       }
     },
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

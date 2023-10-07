@@ -127,6 +127,9 @@ fragment servicesFields on DataJson {
       link
       image {
         publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
       }
       name
       type
@@ -180,6 +183,9 @@ fragment testimonialsFields on DataJson {
         position
         image {
           publicURL
+          childImageSharp {
+            gatsbyImageData
+          }
         }
         message
       }
@@ -205,9 +211,30 @@ fragment packagesFields on DataJson {
         button_url_second
         image {
           publicURL
-      }
+          childImageSharp {
+            gatsbyImageData
+          }
+        }
       }
     }
+}`
+
+export const processFields = graphql`
+fragment processFields on DataJson {
+  process {
+    title
+    list {
+      id
+      title
+      description
+      image{
+        publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    }
+  }
 }`
 
 export const contactFields = graphql`
