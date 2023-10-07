@@ -24,7 +24,7 @@ function Packages({ data }) {
                                     </ul>
                                     <Link className="item-btn btn btn--primary me-2" to={key.button_url} rel="noopener noreferrer">{key.button_text}</Link>
                                     {key.button_text_second ? <Link className="item-btn btn btn--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
-                                    <GatsbyImage image={key.image.childImageSharp.gatsbyImageData} alt="hosting" className="item-img" />
+                                    <GatsbyImage image={key.image.childImageSharp.gatsbyImageData} alt="hosting" className="item-img d-none d-md-block" />
                                 </div>
                             </div>
 
