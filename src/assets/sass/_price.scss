@@ -6,9 +6,10 @@
     justify-content: center;
     margin: auto;
     .item {
+      position: relative;
       flex: 0 0 22%;
-      margin: 10px;
-      padding: 25px;
+      margin: 1.5rem 0.5rem;
+      padding: 2rem;
       display: flex;
       flex-direction: column;
       flex-flow: column wrap;
@@ -22,11 +23,29 @@
         color: $light-gray;
         @include stroke(2, $darker-black);
       }
+      &-main-title{
+        margin-bottom: 1rem;
+        margin-top: 0;
+      }
       &-price{
         margin-top: 0.5rem;
       }
       &-btn{
         margin-top: auto;
+      }
+      &-tag{
+        color: $dark-black;
+        background-color: $yellow;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        padding: 10px 15px;
+      }
+      &-tag-wrapper{
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: -10px;
+        left: 0;
       }
       ul{
         padding-left: 0px;

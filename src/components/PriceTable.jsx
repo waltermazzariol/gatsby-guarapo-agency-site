@@ -8,6 +8,7 @@ function Plans({ data }) {
         <div className="price-wrapper mb-5">
                 {data.map((key, index) =>
                     <div key={index} className="item ">
+                        {index === 1 ? <div className="item-tag-wrapper"><span className="item-tag">Mejor opción 😎</span></div> : ""}
                         <h3 className="item-main-title">{key.name}</h3>
                         <div className="item-price">
                             {key.from ? <div className="item-text-left">{key.from}</div> : ""}

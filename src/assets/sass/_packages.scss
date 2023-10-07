@@ -1,13 +1,14 @@
 .package{
     .item {
       position: relative;
-      padding: 3rem 2.5rem;
+      padding: 2.5rem 2rem;
       border-radius: 10px;
       overflow: hidden;
 
       &-main-title{
         max-width: 70%;
         margin-bottom: 1rem;
+        margin-top: 0;
       }
       &-title{  
         font-size: 3rem;

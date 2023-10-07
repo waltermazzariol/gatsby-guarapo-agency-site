@@ -53,7 +53,7 @@
         ]
     },
     "packages":{
-        "title": "Escoge tu paquete",
+        "title": "¡Escoge tu Pack!",
         "items":[
             {
                 "name": "Creamos tu WEB en 5 días",
@@ -72,7 +72,7 @@
                 "button_text":"Empezar",
                 "button_url": "/contacto",
                 "button_text_second":"Ver más",
-                "button_url_second": "/contacto",
+                "button_url_second": "/desarrollo-web/",
                 "image": "./images/package/draft.jpg"
             },
             {
@@ -91,7 +91,7 @@
                 "button_text":"Empezar",
                 "button_url": "/contacto",
                 "button_text_second":"Ver más",
-                "button_url_second": "/contacto",
+                "button_url_second": "/hospedaje",
                 "image": "./images/package/computer.jpg"
             }
             
