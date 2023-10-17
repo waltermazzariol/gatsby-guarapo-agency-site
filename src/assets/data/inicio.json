@@ -14,6 +14,11 @@
         "cta-link": "/contacto",
         "menu": [
             {
+                "nav": "Inicio",
+                "anchor": "",
+                "link": "/"
+            },
+            {
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
@@ -44,8 +49,8 @@
         "title": "Creamos <strong>marcas</strong>,<br/> Lo hacemos <span class='text-underscore'><strong>social</strong></span>",
         "subtitle": "Te ayudamos a dar esos primeros pasos en el mundo digital. Nuestros profesionales te acompañarán durante todo el proceso para que tú no tengas nada por lo que preocuparte.",
         "image": "./images/bg_siargao.webp",
-        "button_text": "Planes",
-        "button_url": "#package",
+        "button_text": "Ver Planes",
+        "button_url": "#paquetes",
         "benefits":[
             {"text": "Rápido y Fácil"},
             {"text": "Sin preocupaciones"},
@@ -122,7 +127,7 @@
     },
     "banner": {
         "title": "Entrar en el mundo digital puede ser abrumador",
-        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio! Contáctanos ahora.",
+        "text": "Por este motivo nos ocupamos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio! Contáctanos ahora.",
         "button_text": "Empezar",
         "button_url": "/contacto"
     },
@@ -146,18 +151,6 @@
                 "position": "Director - Escuela de natación Picarpolos",
                 "image": "./images/testimonials/carlosfafian.jpeg",
                 "message": "Con la ayuda de Guarapo construir nuestra página web fue rápido y muy sencillo. Nuestro clientes ahora pueden encontrar toda la información que necesitan en nuestro sitio web."
-            },
-            {
-                "name": "Jamie Brasco",
-                "position": "",
-                "image": "./images/testimonials/jamie.png",
-                "message": "Excelente servicio, siempre a tiempo y saben cómo hacer el trabajo, una de las pocas compañías que hacen un esfuerzo adicional para hacer las cosas por usted, realmente recomendable, precios razonables y gente muy sensata."
-            },
-            {
-                "name": "Gabriel Samra",
-                "position": "",
-                "image": "./images/testimonials/jamie.png",
-                "message": "Guarapo Media maneja nuestra redes sociales desde hace X año y la verdad es que ha sido increible el trabajo que han hecho, ayudandonos a crecer y llegar a nuestro publico ojetivo."
             }
         ]
     },

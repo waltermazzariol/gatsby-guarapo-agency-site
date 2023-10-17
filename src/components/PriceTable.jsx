@@ -18,12 +18,12 @@ function Plans({ data }) {
                         </div>
                         <ul className="item-list">
                             {key.list.map((item,index)=> 
-                                <li key={index} ><i className="far fa-dot-circle"></i>{item.text}</li>
+                                <li key={index} ><i className="fa-solid fa-check-circle"></i>{item.text}</li>
                             )}
                         </ul>
                         <Link className="item-btn btn btn--primary me-2" to={key.button_url} rel="noopener noreferrer">{key.button_text}</Link>
                         {key.button_text_second ? <Link className="item-btn btn btn--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
-                        <a className="btn btn--text" href="https://google.com">Agendar una llamada</a>
+                        <a className="btn btn--text" href="/contacto">¿Tienes una duda? Escribenos</a>
                     </span>
                 </div>
             )}

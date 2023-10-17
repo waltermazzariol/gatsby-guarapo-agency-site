@@ -36,62 +36,22 @@ function WebPage(props) {
        {/* Our Process */}
        <div className="spacer"></div>
        <Section anchor={'portfolio'}>
-        <Title title={generalJson.process.title} subtitle={generalJson.process.description}/>
-        <Process data={generalJson.process.list}/>
+        <Title title={contentJson.process.title} subtitle={contentJson.process.description}/>
+        <Process data={contentJson.process.list}/>
       </Section>
       
-      {/* Services */}
+      {/* Scope */}
       <div className="spacer"></div>
       <Section anchor={'scope'}>
-        <Title title="Web, Tienda virtual, landing page & más" subtitle={"Todo lo que necesitas en un solo lugar"}/>
+        <Title title={contentJson.scope.title} subtitle={contentJson.scope.description}/>
         <div className="Container scope">
           <div className="row">
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">Website</div>
+            {contentJson.scope.list.map((key,index)=>
+              <div key={index} className="col-12 col-md-4">
+                <div className="scope-underline">{key.text}</div>
             </div>
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">Landing pages</div>
+            )}
             </div>
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">e-Commerce</div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">CMS</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">SEO</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Mobile first</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Google index</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Dominios .com</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Diseño</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Mantenimiento</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Actualización de contenido</div>
-            </div>
-            <div className="col-12 col-md-4">
-             <div className="scope-underline">Copy write</div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">Google Analytics</div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">Microsite</div>
-            </div>
-            <div className="col-12 col-md-4">
-              <div className="scope-underline">Optimización de carga</div>
-            </div>
-          </div>
         </div>
       </Section>
 
@@ -119,7 +79,7 @@ function WebPage(props) {
 
       <div className="spacer"></div>
       <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
-        <Title title={contentJson.portfolio.title} />
+        <Title title={"Portafolio"} subtitle={'Nuestro más reciente trabajo'}/>
         <Portfolio data={blogJson} />
       </Section>
 
@@ -145,7 +105,7 @@ export function Head(props) {
   )
 }
 
-export const imageData = graphql`
+export const contentData = graphql`
   query{
     allDataJson(filter: {general: {path: {eq: "/desarrollo-web"}}}) {
       edges {
@@ -154,18 +114,18 @@ export const imageData = graphql`
         ...navigationFields
         ...heroFields
         ...bannerFields
-        ...portfolioFields
         ...packagesFields
         ...formFields
+        ...processFields
+        ...scopeFields
         }  
       }
     }
     dataJson(general: {path: {eq: "/"}}) {
-      ...processFields
       ...contactFields
       ...tagsFields
     }
-    allWorkJson(sort: {date: DESC}) {
+    allWorkJson(sort: {date: DESC} filter: {cat:{eq: "Web"}}) {
       edges {
         node {
           id

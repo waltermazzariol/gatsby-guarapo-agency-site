@@ -16,6 +16,7 @@ import Contact from "../components/Contact";
 import Section from "../components/Common/Section";
 import Title from "../components/Common/Title";
 import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col"
 
@@ -37,7 +38,7 @@ function TeamPage(props) {
         />
         <Col lg={8}>
         <Form>
-          <Form.Group controlId="formBasicName" className="InputGroup">
+          <InputGroup controlId="formBasicName" className="mb-3 InputGroup">
             <Form.Control
               type="text"
               value={domain}
@@ -54,7 +55,7 @@ function TeamPage(props) {
           >
             Buscar Dominio
           </Button>
-          </Form.Group>
+          </InputGroup>
           
         </Form>
         </Col>

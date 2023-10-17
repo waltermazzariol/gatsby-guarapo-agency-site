@@ -13,12 +13,12 @@ import CookiesConsent from "../components/Cookies"
 import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero/Hero"
-import About from "../components/About"
-import BannerPlant from "../components/BannerPlant"
-import ClientType from "../components/ClientType"
-import Services from "../components/Services"
 import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
+import PriceTable from "../components/PriceTable"
+import Process from "../components/process";
+import Banner from "../components/Banner";
+import FormServices from "../components/FormServices";
 
 function MarketingPage(props) {
 
@@ -29,18 +29,58 @@ function MarketingPage(props) {
 
   return (
     <Layout nav={contentJson.navigation}>
-      <Hero data={contentJson.hero} />
-      <Section>
+    <Hero data={contentJson.hero} />
+    <Section>
         <div className="col-12 pt-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+      </Section>   
+
+      {/* Our Process */}
+       <div className="spacer"></div>
+       <Section anchor={'portfolio'}>
+        <Title title={contentJson.process.title} subtitle={contentJson.process.description}/>
+        <Process data={contentJson.process.list}/>
       </Section>
-      <About data={contentJson.about} />
-      <BannerPlant data={contentJson.banner_2} />
-      <ClientType data={contentJson.client_type} />
-      <Services data={contentJson.services} />
-      <Section anchor={'portfolio'} className={'portfolio bg-gray '} fluid={true} >
-        <Title title="Portafolio" />
+      
+      {/* Scope */}
+      <div className="spacer"></div>
+      <Section anchor={'scope'}>
+        <Title title={contentJson.scope.title} subtitle={contentJson.scope.description}/>
+        <div className="Container scope">
+          <div className="row">
+            {contentJson.scope.list.map((key,index)=>
+              <div key={index} className="col-12 col-md-4">
+                <div className="scope-underline">{key.text}</div>
+            </div>
+            )}
+            </div>
+        </div>
+      </Section>
+
+       {/* Our Packages */}
+       <div className="spacer"></div>
+      <Section anchor={'package'}>
+        <Title title={contentJson.packages.title}  />
+        <PriceTable data={contentJson.packages.items}/>
+      </Section>
+      
+      {/* Banner */}
+      <div className="spacer"></div>
+      <Banner data={contentJson.banner} />
+
+      {/* Form Services*/}
+      <Section anchor={'portfolio'} className={'portfolio'} rowClass="justify-content-center" >
+        <Title title={"¿Tienes alguna duda?"} subtitle={"No dudes en escribirnos, Te prometemos responder ¡Super rápido!⚡️"} />
+        <div className="col-12 col-md-6">
+          <FormServices data={contentJson.form} tags={generalJson.tags}/>
+        </div>
+      </Section>
+
+      <div className="spacer"></div>
+      <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
+      <Title title={"Portafolio"} subtitle={'Nuestro más reciente trabajo'}/>
         <Portfolio data={blogJson} />
       </Section>
+
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
         <Contact data={generalJson.contact} />
       </Section>
@@ -62,7 +102,7 @@ export function Head(props) {
   )
 }
 
-export const imageData = graphql`
+export const contentData = graphql`
   query{
     allDataJson(filter: {general: {path: {eq: "/marketing-digital"}}}) {
       edges {
@@ -70,11 +110,11 @@ export const imageData = graphql`
         ...generalFields
         ...navigationFields
         ...heroFields
-        ...aboutFields
         ...bannerFields
-        ...clientTypeFields
-        ...banner2Fields
-        ...servicesFields
+        ...packagesFields
+        ...formFields
+        ...processFields
+        ...scopeFields
         }  
       }
     }
@@ -82,7 +122,7 @@ export const imageData = graphql`
       ...contactFields
       ...tagsFields
     }
-    allWorkJson(sort: {date: DESC}) {
+    allWorkJson(sort: {date: DESC} filter: {cat:{eq: "Marketing"}}) {
       edges {
         node {
           id

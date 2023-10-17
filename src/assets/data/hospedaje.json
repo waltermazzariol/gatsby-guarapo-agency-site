@@ -14,6 +14,11 @@
         "cta-link": "/contacto",
         "menu": [
             {
+                "nav": "Inicio",
+                "anchor": "",
+                "link": "/"
+            },
+            {
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"

@@ -17,7 +17,8 @@
                 "nav": "Inicio",
                 "anchor": "",
                 "link": "/"
-            },{
+            },
+            {
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
@@ -257,6 +258,51 @@
             }
         ],
         "image": "./images/footer.jpg"
+    },
+    "process":{
+        "title": "¿Cómo trabajamos?",
+        "description": "Te explicamos paso a paso todo nuestro proceso",
+        "list":[
+            {
+                "id":1,
+                "title": "¡Te queremos conocer!",
+                "description":"Te preguntaremos sobre tu proyecto, tus espectativas y tu contenido. Idearemos varias estrategias hasta dar con la que mejor se ajusta a ti y a tu proyecto.",
+                "image": "./images/process/step_1.png"
+            },
+            {
+                "id":2,
+                "title": "Planificación y desarrollo",
+                "description": "Una vez tengamos todo el contenido y la información, nos pondremos manos a la obra hasta tener una página web funcional lo antes posible.",
+                "image": "./images/process/step_2.png"
+            },
+            {
+                "id":3,
+                "title": "Evolución",
+                "description": "Los productos digitales se caracterizan por el time to market y su evolución constante. Asi que no pararemos una vez tengamos la primera versión sino que evolucionaremos hasta obtener los resultados que esperas.",
+                "image": "./images/process/step_3.png"
+            }
+        ]
+    },
+    "scope":{
+        "title": "Web, Tienda virtual, landing page & más",
+        "description": "Todo lo que necesitas en un solo lugar",
+        "list":[
+            {"text": "Website" },
+            {"text": "Landing pages" },
+            {"text": "e-Commerce" },
+            {"text": "CMS" },
+            {"text": "SEO" },
+            {"text": "Mobile first" },
+            {"text": "Google index" },
+            {"text": "Dominios .com" },
+            {"text": "Diseño" },
+            {"text": "Mantenimiento" },
+            {"text": "Actualización de contenido" },
+            {"text": "Copy write" },
+            {"text": "Google Analytics" },
+            {"text": "Microsite" },
+            {"text": "Optimización de carga" }
+        ]
     },
     "tags": {
         "viewmore": "Ver más",

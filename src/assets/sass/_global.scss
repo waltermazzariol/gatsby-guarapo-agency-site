@@ -465,3 +465,16 @@ img.fluido {
 .img-circle{
   border-radius: 50%;
 }
+
+.InputGroup {
+  background: $primary;
+  background-size: 165%;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  display: flex;
+  height: 48px;
+  overflow: hidden;
+  .btn{
+    margin-top: 3px;
+  }
+}

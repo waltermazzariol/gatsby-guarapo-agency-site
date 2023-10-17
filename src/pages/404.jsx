@@ -10,7 +10,6 @@ query {
   allDataJson(filter: {general: {path: {eq: "/"}}}) {
     edges {
       node {
-        ...aboutFields
         ...generalFields
         ...heroFields
         ...navigationFields

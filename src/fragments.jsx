@@ -235,6 +235,17 @@ fragment processFields on DataJson {
   }
 }`
 
+export const scopeFields = graphql`
+fragment scopeFields on DataJson {
+  scope {
+    title
+    description
+    list {
+      text
+    }
+  }
+}`
+
 export const contactFields = graphql`
 fragment contactFields on DataJson {
   contact {

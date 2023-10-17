@@ -35,7 +35,7 @@ return (
   <Hero data={contentJson.hero} />
 
   {/* Our Packages */}
-  <Section anchor={'package'} className={"mt-5"}>
+  <Section anchor={'paquetes'} className={"mt-5"}>
     <Title title={contentJson.packages.title} />
   </Section>
   <Packages data={contentJson.packages}/>
@@ -98,12 +98,11 @@ return (
 )
 }
 
-export const imageData = graphql`
+export const contentData = graphql`
 query{
 allDataJson(filter: {general: {path: {eq: "/"}}}) {
 edges {
 node {
-...aboutFields
 ...contactFields
 ...generalFields
 ...heroFields
