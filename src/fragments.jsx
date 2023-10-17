@@ -127,9 +127,6 @@ fragment servicesFields on DataJson {
       link
       image {
         publicURL
-        childImageSharp {
-          gatsbyImageData
-        }
       }
       name
       type
@@ -223,6 +220,7 @@ export const processFields = graphql`
 fragment processFields on DataJson {
   process {
     title
+    description
     list {
       id
       title

@@ -14,6 +14,10 @@
         "cta-link": "/contacto",
         "menu": [
             {
+                "nav": "Inicio",
+                "anchor": "",
+                "link": "/"
+            },{
                 "nav": "Desarrollo Web",
                 "anchor": "",
                 "link": "/desarrollo-web"
@@ -41,25 +45,25 @@
         ]
     },
     "hero": {
-        "title": "Una página <strong>bien pensada</strong> te conecta con tus <strong>clientes</strong>",
-        "subtitle": "¿Qué estás esperando?, con nuestros paquetes puedes conseguir tú página nueva página web ahora mismo y si ya tienes una, no te preocupes, nos encargamos de ponerla al día.",
+        "title": "Una página <strong>bien pensada</strong> te conecta con tus <span class='text-underscore'><strong>clientes</strong></span>",
+        "subtitle": "¿Qué estás esperando? con nuestro planes puedes conseguir la página web que has estado soñando",
         "image": "./images/bg_noneculture.webp",
-        "button_text": "Contátanos",
-        "button_url": "/contacto",
+        "button_text": "Ver planes",
+        "button_url": "#package",
         "benefits":[
-            {"text": "Rápido y Fácil"},
-            {"text": "Sin preocupaciones"},
-            {"text": "A tiempo y siempre a tu lado"}
+            {"text": "Un plan que se ajusta a ti"},
+            {"text": "Cancela o pausa cuando quieras"},
+            {"text": "Resultados realmente rápidos"}
         ]
     },
     "packages":{
-        "title": "Escoge tu Pack",
+        "title": "Escoge tu Plan",
         "items":[
                        {
-                "name": "Pack Landing Page",
+                "name": "Plan Básico",
                 "from": "Desde",
-                "price": "350€",
-                "time": "al mes",
+                "price": "499€",
+                "time": "",
                 "list":[
                     {"text": "Página web de una página"},
                     {"text": "Sección de servicios"},
@@ -76,10 +80,10 @@
                 "image": "./images/package/computer.jpg"
             },
             {
-                "name": "Pack Basico",
+                "name": "Plan Pro",
                 "from": "Desde",
-                "price": "700€",
-                "time": "al mes",
+                "price": "999€",
+                "time": "",
                 "list":[
                     {"text": "Página web con CMS (Wordpress o otro)"},
                     {"text": "5 secciones"},
@@ -96,31 +100,10 @@
                 "image": "./images/package/computer.jpg"
             },
             {
-                "name": "Pack Empresa",
+                "name": "Plan E-Commerce",
                 "from": "Desde",
-                "price": "1.000€",
-                "time": "único pago",
-                "list":[
-                    {"text": "Página web con CMS (Wordpress o otro)"},
-                    {"text": "5 secciones"},
-                    {"text": "Opción para blog"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Diseño web incluido"}
-            
-                ],
-                "button_text":"Empezar",
-                "button_url": "/contacto",
-                "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/draft.jpg"
-            },
-            {
-                "name": "Pack E-Commerce",
-                "from": "Desde",
-                "price": "1.200€",
-                "time": "único pago",
+                "price": "1.599€",
+                "time": "",
                 "list":[
                     {"text": "Página web con CMS (Wordpress, Shopify, SquareSpace)"},
                     {"text": "5 secciones"},
@@ -141,7 +124,7 @@
     },
     "banner": {
         "title": "Entrar en el mundo digital puede ser abrumador",
-        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, tu negocio! Contáctanos ahora.",
+        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio! Contáctanos ahora.",
         "button_text": "Empezar",
         "button_url": "/contacto"
     },

@@ -1,14 +1,19 @@
 .package{
     .item {
       position: relative;
-      padding: 2.5rem 2rem;
+      padding: 2rem 2rem;
       border-radius: 10px;
-      overflow: hidden;
-
-      &-main-title{
+      height: 100%;
+      &-with-image{
         max-width: 70%;
+      }
+      &-main-title{
         margin-bottom: 1rem;
         margin-top: 0;
+        @include media-breakpoint-down(md) {
+          max-width: 100%;
+          text-align: center;
+        }
       }
       &-title{  
         font-size: 3rem;
@@ -32,6 +37,21 @@
       &-btn{
         margin-top: auto;
       }
+      &-tag{
+        color: $dark-black;
+        background-color: $yellow;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        padding: 10px 15px;
+        font-weight: 700;
+      }
+      &-tag-wrapper{
+        position: absolute;
+        width: 100%;
+        top: -30px;
+        left: 0;
+        transform: rotate(-9deg);
+      }
       &-list{
         padding-left: 0px;
         padding-right: 0px;
@@ -43,7 +63,7 @@
           margin-bottom: 0.6rem;
           i{
             margin-right: 0.5rem;
-            font-size: 0.8rem;
+            font-size: 1.2rem;
             color: $main-color;
           }
         }

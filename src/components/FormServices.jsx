@@ -59,11 +59,10 @@ function FormServices(props) {
             <Form.Group  className="mb-3" controlId="formBasicPacks">
                 <Form.Label>Paquetes</Form.Label>   
                 <Form.Select aria-label="Default select example">
-                    <option>Escoge tu Pack</option>
-                    <option value="1">Landing Page</option>
-                    <option value="2">Básico</option>
-                    <option value="3">Empresa</option>
-                    <option value="4">E-commerce</option>
+                    <option>Escoge tu paquete</option>
+                    <option value="1">Básico</option>
+                    <option value="2">Pro</option>
+                    <option value="3">E-commerce</option>
                 </Form.Select>
             </Form.Group>
 

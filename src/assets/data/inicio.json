@@ -41,11 +41,11 @@
         ]
     },
     "hero": {
-        "title": "Creamos <strong>marcas</strong>,<br/> Lo hacemos <strong>social</strong>",
-        "subtitle": "Te ayudamos a dar esos primeros pasos en el mundo digital. Nuestros profesionales te acompañarán durante todo el proceso para que tú no tendrás nada por lo que preocuparte.",
+        "title": "Creamos <strong>marcas</strong>,<br/> Lo hacemos <span class='text-underscore'><strong>social</strong></span>",
+        "subtitle": "Te ayudamos a dar esos primeros pasos en el mundo digital. Nuestros profesionales te acompañarán durante todo el proceso para que tú no tengas nada por lo que preocuparte.",
         "image": "./images/bg_siargao.webp",
-        "button_text": "Empezar",
-        "button_url": "/contacto",
+        "button_text": "Planes",
+        "button_url": "#package",
         "benefits":[
             {"text": "Rápido y Fácil"},
             {"text": "Sin preocupaciones"},
@@ -53,12 +53,12 @@
         ]
     },
     "packages":{
-        "title": "¡Escoge tu Pack!",
+        "title": "¡Escoge tu Paquete!",
         "items":[
             {
-                "name": "Creamos tu WEB en 5 días",
-                "price": "350€",
-                "time": "único pago",
+                "name": "Desarrollo Página Web",
+                "price": "399€",
+                "time": "",
                 "list":[
                     {"text": "Página web de una página"},
                     {"text": "Sección de servicios"},
@@ -76,17 +76,16 @@
                 "image": "./images/package/draft.jpg"
             },
             {
-                "name": "Alojamos tu página web",
-                "price": "5€",
+                "name": "Marketing Digital",
+                "price": "799€",
                 "time": "al mes",
                 "list":[
-                    {"text": "500MB para tu páginas web"},
-                    {"text": "Transferencia no medida"},
-                    {"text": "1024MB de RAM"},
-                    {"text": "cPanel"},
-                    {"text": "hasta 10 correos electrónicos"},
-                    {"text": "Certificado SSL incluido"},
-                    {"text": "Instalación Wordpress 1 click"}
+                    {"text": "Creación de perfiles"},
+                    {"text": "Estrategia para un mes"},
+                    {"text": "Monitorizacion"},
+                    {"text": "Creación de contenido"},
+                    {"text": "Campañas SEM"},
+                    {"text": "Adquisión de leads"}
                 ],
                 "button_text":"Empezar",
                 "button_url": "/contacto",
@@ -98,24 +97,25 @@
         ]
     },
     "process":{
-        "title": "¿Cómo funciona?",
+        "title": "¿Cómo trabajamos?",
+        "description": "Te explicamos paso a paso todo nuestro proceso",
         "list":[
             {
                 "id":1,
-                "title": "¡Cuéntanos todo sobre tu idea o proyecto!",
-                "description":"Te haremos algunas preguntas sobre tu proyecto y así poder ofrecerte el mejor producto que mejor se adapte a tus necesidades",
+                "title": "¡Te queremos conocer!",
+                "description":"Te preguntaremos sobre tu proyecto, tus espectativas y tu contenido. Idearemos varias estrategias hasta dar con la que mejor se ajusta a ti y a tu proyecto.",
                 "image": "./images/process/step_1.png"
             },
             {
                 "id":2,
-                "title": "It's a match!",
-                "description": "Te contactaremos lo antes posible para aclara cualquier duda y preparemos una propuesta que se ajuste a tus necesidades. Como siempre te incluiremos un cronograma de entrega.",
+                "title": "Planificación y desarrollo",
+                "description": "Una vez tengamos todo el contenido y la información, nos pondremos manos a la obra hasta tener una página web funcional lo antes posible.",
                 "image": "./images/process/step_2.png"
             },
             {
                 "id":3,
-                "title": "Relax",
-                "description": "Una vez este aprobado el presupuesto, nos pondremos a trabajar a toda velocidad para que tu proyecto este disponible lo antes posible y con la calidad y la atención que nos caracteriza.",
+                "title": "Evolución",
+                "description": "Los productos digitales se caracterizan por el time to market y su evolución constante. Asi que no pararemos una vez tengamos la primera versión sino que evolucionaremos hasta obtener los resultados que esperas.",
                 "image": "./images/process/step_3.png"
             }
         ]

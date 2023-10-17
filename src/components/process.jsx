@@ -4,7 +4,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 function Process({ data }) {
 
     return (
-      <div className="container process">
+      <div className="container process mt-5">
           {data.map((key)=>
             <div className="row gx-2 mb-5 justify-content-center" key={key.id}>
               <div className={`col-12 col-md-6 mb-4 ${ key.id % 2 === 0 ? `order-2 order-lg-1`: `order-2`}`}>

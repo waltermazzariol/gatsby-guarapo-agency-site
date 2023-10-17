@@ -38,7 +38,7 @@ return (
   <Section anchor={'package'} className={"mt-5"}>
     <Title title={contentJson.packages.title} />
   </Section>
-  <Packages data={contentJson.packages} />
+  <Packages data={contentJson.packages}/>
 
   {/* Our Process */}
   <Section anchor={'process'} className={"mt-5"}>
@@ -65,15 +65,12 @@ return (
   </Section>
 
   {/* Testimonials */}
-  <Section anchor={'testimonial'} className={"mt-5"}>
-    {console.log(contentJson)}
+  <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3">
     <Title title={contentJson.testimonials.title} />
-  </Section>
-  <Section className="testimonial" rowClass="g-3">
-      {contentJson.testimonials.list.map((key,index) =>
+    {contentJson.testimonials.list.map((key,index) =>
         <Testimonial key={index} data={key} />
-        )}
-  </Section>
+        )}  
+    </Section>
 
   {/* Portfolio */}
   <Section anchor={'portfolio'} className={"mt-5"}>
