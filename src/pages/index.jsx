@@ -42,7 +42,7 @@ return (
 
   {/* Our Process */}
   <Section anchor={'process'} className={"mt-5"}>
-      <Title title={contentJson.process.title} />
+      <Title title={contentJson.process.title} subtitle={contentJson.process.description}/>
       <Process data={contentJson.process.list}/>
   </Section>
 

@@ -58,14 +58,10 @@ function Works(props) {
                   <li>
                     {dataJson.description.split("\n").map((item, i) => <p key={i}>{item}</p>)}
                   </li> : ""}
-                {dataJson.url !== "" ?
-                  <li><a className="btn btn--primary my-3" href={dataJson.url}>{tagsJson.button}</a></li>
-                  : ""}
               </ul>
-
+              <a className="btn btn--primary my-3" href="/contacto">Lo Quiero</a>             
             </div>
             <div className="col-sm-12 col-md-6 portfolio-modal">
-
               <img srcSet={dataJson.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} className="img-fluid" alt={dataJson.title} />
             </div>
           </div>
