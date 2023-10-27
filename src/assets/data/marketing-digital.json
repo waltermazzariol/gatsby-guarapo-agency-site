@@ -46,11 +46,11 @@
         ]
     },
     "hero": {
-        "title": "<strong>SOCIALIZAR</strong> es el secreto de tu negocio para el futuro",
+        "title": "<strong>SOCIALIZAR</strong> y <strong>CONECTAR</strong> con tu audiencia en el mundo digital,<br/>Es el secreto para el futuro de tu <span class='text-underscore'>negocio.</span>",
         "subtitle": "Posicionamos tu negocio en el mundo digital. ",
         "image": "./images/hero_marketing.png",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Contátanos",
+        "button_text": "Contáctanos",
         "button_url": "/contacto",
         "benefits":[
             {"text": "Rápido"},
@@ -65,19 +65,17 @@
                        {
                 "name": "Plan Básico",
                 "from": "Desde",
-                "price": "799€",
+                "price": "599€",
                 "time": "",
                 "list":[
-                    {"text": "Página web de una página"},
-                    {"text": "Sección de servicios"},
+                    {"text": "Contenido mensual para Social Media"},
+                    {"text": "Diseño gráfico"},
                     {"text": "Sección de contacto"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Entregada en 5 días o menos"}
+                    {"text": "Community Management"},
+                    {"text": "Administración de anuncios pagos"}
                 ],
                 "button_text":"Empezar",
-                "button_url": "https://wansite.co",
+                "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"",
                 "button_url_second": "",
                 "image": "./images/package/computer.jpg"
@@ -85,19 +83,18 @@
             {
                 "name": "Plan Pro",
                 "from": "Desde",
-                "price": "999€",
+                "price": "799€",
                 "time": "",
                 "list":[
-                    {"text": "Página web con CMS (Wordpress o otro)"},
-                    {"text": "5 secciones"},
-                    {"text": "Opción para blog"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Diseño web incluido"}
+                    {"text": "Contenido mensual para Social Media"},
+                    {"text": "Diseño gráfico (Entregas rápidas)"},
+                    {"text": "Community Management"},
+                    {"text": "Administración de anuncios pagos"},
+                    {"text": "Reportes de rendimiento mensuales"},
+                    {"text": "1 Landing Page"}
                 ],
                 "button_text":"Empezar",
-                "button_url": "https://wansite.co",
+                "button_url": "https://buy.stripe.com/28oaGfbnccFY46caEH",
                 "button_text_second":"",
                 "button_url_second": "",
                 "image": "./images/package/computer.jpg"
@@ -105,31 +102,31 @@
         ]
     },
     "banner": {
-        "title": "Entrar en el mundo digital puede ser abrumador",
-        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio! Contáctanos ahora.",
-        "button_text": "Empezar",
+        "title": "Manejar tu contenido en medios digitales, puede ser abrumador.",
+        "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
+        "button_text": "Empezar ahora",
         "button_url": "/contacto"
     },
     "process":{
         "title": "¿Cómo trabajamos?",
-        "description": "Te explicamos paso a paso todo nuestro proceso",
+        "description": "Te explicamos paso a paso todo el proceso",
         "list":[
             {
                 "id":1,
-                "title": "¡Te queremos conocer!",
-                "description":"Te preguntaremos sobre tu proyecto, tus espectativas y tu contenido. Idearemos varias estrategias hasta dar con la que mejor se ajusta a ti y a tu proyecto.",
+                "title": "¡Queremos saber de ti!",
+                "description":"Conversemos sobre tu proyecto, tus ideas y expectativas. ¡Crearemos la mejor estrategia ajustada a tus necesidades!",
                 "image": "./images/process/step_1.png"
             },
             {
                 "id":2,
                 "title": "Planificación y desarrollo",
-                "description": "Una vez tengamos todo el contenido y la información, nos pondremos manos a la obra hasta tener una página web funcional lo antes posible.",
+                "description": "Una vez tengamos las ideas claras y toda la información sobre tu proyecto o negocio, ¡nos pondremos manos a la obra!",
                 "image": "./images/process/step_2.png"
             },
             {
                 "id":3,
                 "title": "Evolución",
-                "description": "Los productos digitales se caracterizan por el time to market y su evolución constante. Asi que no pararemos una vez tengamos la primera versión sino que evolucionaremos hasta obtener los resultados que esperas.",
+                "description": "Los productos digitales se caracterizan por el “Time to Market” y su constante evolución. Estaremos contigo de la mano en todo el proceso hasta lograr los objetivos deseados.",
                 "image": "./images/process/step_3.png"
             }
         ]
@@ -138,21 +135,15 @@
         "title": "Web, Tienda virtual, landing page & más",
         "description": "Todo lo que necesitas en un solo lugar",
         "list":[
-            {"text": "Website" },
-            {"text": "Landing pages" },
-            {"text": "e-Commerce" },
-            {"text": "CMS" },
-            {"text": "SEO" },
-            {"text": "Mobile first" },
-            {"text": "Google index" },
-            {"text": "Dominios .com" },
-            {"text": "Diseño" },
-            {"text": "Mantenimiento" },
-            {"text": "Actualización de contenido" },
-            {"text": "Copy write" },
-            {"text": "Google Analytics" },
-            {"text": "Microsite" },
-            {"text": "Optimización de carga" }
+            {"text": "Ads" },
+            {"text": "Contenido" },
+            {"text": "Diseño gráfico" },
+            {"text": "Edición de videos para redes sociales" },
+            {"text": "Community Management" },
+            {"text": "Campañas" },
+            {"text": "Analíticas" },
+            {"text": "Reportes" },
+            {"text": "Consultoría" }
         ]
     },
     "contact": {

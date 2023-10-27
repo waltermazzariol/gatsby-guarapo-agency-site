@@ -75,7 +75,7 @@
                     {"text": "Entregada en 5 días o menos"}
                 ],
                 "button_text":"Empezar",
-                "button_url": "https://wansite.co",
+                "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
                 "button_text_second":"",
                 "button_url_second": "",
                 "image": "./images/package/computer.jpg"
@@ -95,7 +95,7 @@
                     {"text": "Diseño web incluido"}
                 ],
                 "button_text":"Empezar",
-                "button_url": "https://wansite.co",
+                "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
                 "button_text_second":"",
                 "button_url_second": "",
                 "image": "./images/package/computer.jpg"
@@ -116,7 +116,7 @@
             
                 ],
                 "button_text":"Empezar",
-                "button_url": "/contacto",
+                "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
                 "button_text_second":"",
                 "button_url_second": "",
                 "image": "./images/package/draft.jpg"
@@ -124,9 +124,9 @@
         ]
     },
     "banner": {
-        "title": "Entrar en el mundo digital puede ser abrumador",
-        "text": "Por este motivo intentamos de ocuparnos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio! Contáctanos ahora.",
-        "button_text": "Empezar",
+        "title": "Manejar tu contenido en medios digitales, puede ser abrumador.",
+        "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
+        "button_text": "Empezar ahora",
         "button_url": "/contacto"
     },
     "portfolio": {

@@ -3,7 +3,7 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 function Testimonial({data}) {
   return (
-      <div className="col-12 col-md-6 col-lg-4 mb-4">
+      <div className="col-10 col-md-6 col-lg-4 mb-4">
         <div className="row">
           <div className="col-2">
             <GatsbyImage className="img-circle" image={data.image.childImageSharp.gatsbyImageData} alt="Testimonial" />

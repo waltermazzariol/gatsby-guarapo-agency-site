@@ -56,7 +56,7 @@ function FormServices(props) {
                         onChange={e => setEmail(e.target.value)} />
             </Form.Group>
 
-            <Form.Group  className="mb-3" controlId="formBasicPacks">
+            {/* <Form.Group  className="mb-3" controlId="formBasicPacks">
                 <Form.Label>Paquetes</Form.Label>   
                 <Form.Select aria-label="Default select example">
                     <option>Escoge tu paquete</option>
@@ -64,10 +64,10 @@ function FormServices(props) {
                     <option value="2">Pro</option>
                     <option value="3">E-commerce</option>
                 </Form.Select>
-            </Form.Group>
+            </Form.Group> */}
 
             <Form.Group  className="mb-3" controlId="formBasicMessage">
-                <Form.Label>Cuéntanos sobre tu idea</Form.Label>
+                <Form.Label>Cuéntanos tu duda</Form.Label>
                     <Form.Control
                         as="textarea"
                         rows="3"
@@ -75,14 +75,14 @@ function FormServices(props) {
                         onChange={e => setSubject(e.target.value)} />
             </Form.Group>
 
-            <Form.Group  className="mb-3" controlId="formBasicIdeas">
+            {/* <Form.Group  className="mb-3" controlId="formBasicIdeas">
                 <Form.Label>Comparte con nosotros alguna links de páginas web de ejemplo</Form.Label>
                     <Form.Control
                         as="textarea"
                         rows="3"
                         value={subject}
                         onChange={e => setSubject(e.target.value)} />
-            </Form.Group>
+            </Form.Group> */}
 
             <ReCAPTCHA
                 sitekey="6Ldxyi4bAAAAAOq88jM5zIfu-epnbFiafAjNom5s"

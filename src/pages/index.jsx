@@ -52,7 +52,7 @@ return (
 
   {/* The team */}
   <Section anchor={'team'} className={"mt-5"}>
-    <Title title={"Aunque sea todo online, contarás con la ayuda de uno de nuestros profesionales"} />
+    <Title title={"Aunque todo sea virtual, siempre contarás con la ayuda de nuestro equipo."} />
   </Section>
   <Section rowclassName="justify-content-center g-3">
     <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/1.jpg"} alt="walter" /></Col>
@@ -65,8 +65,8 @@ return (
   </Section>
 
   {/* Testimonials */}
-  <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3">
-    <Title title={contentJson.testimonials.title} />
+  <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3 justify-content-center">
+    <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
     {contentJson.testimonials.list.map((key,index) =>
         <Testimonial key={index} data={key} />
         )}  

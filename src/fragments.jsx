@@ -175,6 +175,7 @@ export const testimonialsFields = graphql`
 fragment testimonialsFields on DataJson {
   testimonials {
       title
+      description
       list{
         name
         position

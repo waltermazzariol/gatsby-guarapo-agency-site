@@ -59,7 +59,7 @@ function Works(props) {
                     {dataJson.description.split("\n").map((item, i) => <p key={i}>{item}</p>)}
                   </li> : ""}
               </ul>
-              <a className="btn btn--primary my-3" href="/contacto">Lo Quiero</a>             
+              <a className="btn btn--primary mt-3 mb-5" href="/contacto">Lo Quiero</a>             
             </div>
             <div className="col-sm-12 col-md-6 portfolio-modal">
               <img srcSet={dataJson.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} className="img-fluid" alt={dataJson.title} />

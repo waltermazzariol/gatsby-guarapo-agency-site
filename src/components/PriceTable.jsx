@@ -21,7 +21,7 @@ function Plans({ data }) {
                                 <li key={index} ><i className="fa-solid fa-check-circle"></i>{item.text}</li>
                             )}
                         </ul>
-                        <Link className="item-btn btn btn--primary me-2" to={key.button_url} rel="noopener noreferrer">{key.button_text}</Link>
+                        <a className="item-btn btn btn--primary me-2" href={key.button_url} target="_blank" rel="noopener noreferrer">{key.button_text}</a>
                         {key.button_text_second ? <Link className="item-btn btn btn--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
                         <a className="btn btn--text" href="/contacto">¿Tienes una duda? Escribenos</a>
                     </span>

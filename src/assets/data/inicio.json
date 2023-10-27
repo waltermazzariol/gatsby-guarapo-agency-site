@@ -46,8 +46,8 @@
         ]
     },
     "hero": {
-        "title": "Creamos <strong>marcas</strong>,<br/> Lo hacemos <span class='text-underscore'><strong>social</strong></span>",
-        "subtitle": "Te ayudamos a dar esos primeros pasos en el mundo digital. Nuestros profesionales te acompañarán durante todo el proceso para que tú no tengas nada por lo que preocuparte.",
+        "title": "¡Creamos <strong>marcas!</strong>,<br/> Lo hacemos <span class='text-underscore'><strong>social</strong></span>",
+        "subtitle": "Te ayudamos a lograr tus objetivos en el mundo digital. Nuestro equipo te acompañará en todo el proceso para que no tengas que preocuparte.",
         "image": "./images/bg_siargao.webp",
         "button_text": "Ver Planes",
         "button_url": "#paquetes",
@@ -75,23 +75,21 @@
             
                 ],
                 "button_text":"Empezar",
-                "button_url": "/contacto",
+                "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
                 "button_text_second":"Ver más",
                 "button_url_second": "/desarrollo-web/",
                 "image": "./images/package/draft.jpg"
             },
             {
                 "name": "Marketing Digital",
-                "price": "799€",
+                "price": "599€",
                 "time": "al mes",
                 "list":[
-                    {"text": "Creación de perfiles sociales"},
-                    {"text": "Estrategias"},
-                    {"text": "Monitorización"},
-                    {"text": "Creación de contenido"},
-                    {"text": "Campañas SEM"},
-                    {"text": "Adquisión de leads"},
-                    {"text": "Google Ads"}
+                    {"text": "Contenido mensual para Social Media"},
+                    {"text": "Diseño gráfico"},
+                    {"text": "Sección de contacto"},
+                    {"text": "Community Management"},
+                    {"text": "Administración de anuncios pagos"}
                 ],
                 "button_text":"Empezar",
                 "button_url": "/contacto",
@@ -104,36 +102,37 @@
     },
     "process":{
         "title": "¿Cómo trabajamos?",
-        "description": "Te explicamos paso a paso todo nuestro proceso",
+        "description": "Te explicamos paso a paso todo el proceso",
         "list":[
             {
                 "id":1,
-                "title": "¡Te queremos conocer!",
-                "description":"Te preguntaremos sobre tu proyecto, tus espectativas y tu contenido. Idearemos varias estrategias hasta dar con la que mejor se ajusta a ti y a tu proyecto.",
+                "title": "¡Queremos saber de ti!",
+                "description":"Conversemos sobre tu proyecto, tus ideas y expectativas. ¡Crearemos la mejor estrategia ajustada a tus necesidades!",
                 "image": "./images/process/step_1.png"
             },
             {
                 "id":2,
                 "title": "Planificación y desarrollo",
-                "description": "Una vez tengamos todo el contenido y la información, nos pondremos manos a la obra hasta tener un draft que podamos moldear y ajustar.",
+                "description": "Una vez tengamos las ideas claras y toda la información sobre tu proyecto o negocio, ¡nos pondremos manos a la obra!",
                 "image": "./images/process/step_2.png"
             },
             {
                 "id":3,
                 "title": "Evolución",
-                "description": "Los productos digitales se caracterizan por el time to market y su evolución constante. Asi que no pararemos una vez tengamos la primera versión sino que evolucionaremos hasta obtener los resultados que esperas.",
+                "description": "Los productos digitales se caracterizan por el “Time to Market” y su constante evolución. Estaremos contigo de la mano en todo el proceso hasta lograr los objetivos deseados.",
                 "image": "./images/process/step_3.png"
             }
         ]
     },
     "banner": {
-        "title": "Entrar en el mundo digital puede ser abrumador",
-        "text": "Por este motivo nos ocupamos de todo lo necesario para que tu puedas encargarte de lo que realmente es importante, ¡Tú negocio!",
-        "button_text": "Empezar",
+        "title": "Manejar tu contenido en medios digitales, puede ser abrumador.",
+        "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
+        "button_text": "Empezar ahora",
         "button_url": "/contacto"
     },
     "testimonials":{
-        "title": "¿Qué dicen de nosotros?",
+        "title": "¿Qué dicen nuestros clientes?",
+        "description": "¡Ellos confían en nuestros servicios! Dale una mirada a nuestros proyectos más recientes.",
         "list":[
             {
                 "name": "Angel Benitez",
