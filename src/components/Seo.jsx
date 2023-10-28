@@ -17,8 +17,8 @@ function Seo({metas}) {
   const metaTitle = metas.seo_title
   const metaDescription = metas.seo_description
   const imageURL = "https://guarapomedia.com/seo.jpg"
-  const imageURLHeight = '704'
-  const imageURLWidth = '704'
+  const imageURLHeight = '1200'
+  const imageURLWidth = '1600'
 
   return (<>
     {/* <!-- Primary Meta Tags --> */}
