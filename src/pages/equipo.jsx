@@ -54,7 +54,6 @@ export const data = graphql`
             ...navigationFields
             ...coverFields
             ...teamFields
-            ...contactFields
             ...tagsFields
         }  
       }

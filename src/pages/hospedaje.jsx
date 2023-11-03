@@ -61,11 +61,7 @@ function TeamPage(props) {
         <Title title={contentJson.packages.title} />
         <PriceTable data={contentJson.packages.items} />
       </Section>
-      <Section
-        anchor={"contact"}
-        className={"contact bg-dark"}
-        fluid={true}
-      >
+      <Section anchor={"contact"} className={"contact bg-dark"} fluid={true}>
         <Contact data={generalJson.contact} />
       </Section>
       <CookiesProvider>

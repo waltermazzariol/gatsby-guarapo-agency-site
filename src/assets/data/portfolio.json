@@ -46,43 +46,5 @@
         "bgimage": "./images/bg_hero.jpg",
         "button_text": "Conoce más",
         "button_url": "mailto:contacto@guarapomedia.com"
-    },
-    "contact": {
-        "phone": "+34622531989",
-        "email": "contacto@guarapomedia.com",
-        "address": "Barcelona, España",
-        "socialmedia": [
-            {
-                "link": "https://www.instagram.com/GuarapoMedia/",
-                "name": "instagram"
-            },
-            {
-                "link": "https://twitter.com/GuarapoMedia",
-                "name": "twitter"
-            },
-            {
-                "link": "https://facebook.com/GuarapoMedia/",
-                "name": "facebook"
-            }
-        ],
-        "image": "./images/footer.jpg"
-    },
-    "tags": {
-        "viewmore": "Ver más",
-        "viewless": "Ver menos",
-        "cookie-message": "Usamos cookies propias y de terceros para mejorar tu experiencia como usuario.",
-        "cookie-accept": "Aceptar",
-        "event": "Título",
-        "date": "Fecha",
-        "location": "Locación",
-        "not-found-title": "404 not found",
-        "not-found-message": "You are in a wrong page.. Go back to our home",
-        "not-found-btn": "Home",
-        "form-name": "Nombre y Apellido",
-        "form-email": "Email",
-        "form-phone": "Phone",
-        "form-message": "Mensaje",
-        "form-send": "Enviar",
-        "form-success": "¡Gracias por tu mensaje!"
     }
 }
