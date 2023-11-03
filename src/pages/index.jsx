@@ -74,7 +74,7 @@ return (
 
   {/* Portfolio */}
   <Section anchor={'portfolio'} className={"mt-5"}>
-    <Title title={"Ellos confiaron en nosotros. Échale un vistazo a nuestros proyectos más reciente."} />
+    <Title title={"Ellos confiaron en nosotros"} subtitle={"Échale un vistazo a nuestros proyectos más recientes."} />
   </Section>
   <Portfolio data={blogJson} />
   

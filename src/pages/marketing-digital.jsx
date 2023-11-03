@@ -77,7 +77,7 @@ function MarketingPage(props) {
 
       <div className="spacer"></div>
       <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
-      <Title title={"Portafolio"} subtitle={'Nuestro más reciente trabajo'}/>
+      <Title title={"Ellos confiaron en nosotros"} subtitle={"Échale un vistazo a nuestros proyectos más recientes."} />
         <Portfolio data={blogJson} />
       </Section>
 

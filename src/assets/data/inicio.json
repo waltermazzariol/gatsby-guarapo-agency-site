@@ -46,7 +46,7 @@
         ]
     },
     "hero": {
-        "title": "¡Creamos <strong>marcas!</strong>,<br/> Lo hacemos <span class='text-underscore'><strong>social</strong></span>",
+        "title": "Somos una <strong>Agencia Digital</strong>,<br/> enfocada <span class='text-underscore'><strong>en ti</strong></span>",
         "subtitle": "Te ayudamos a lograr tus objetivos en el mundo digital. Nuestro equipo te acompañará en todo el proceso para que no tengas que preocuparte.",
         "image": "./images/bg_siargao.webp",
         "button_text": "Ver Planes",
@@ -61,7 +61,7 @@
         "title": "¡Escoge tu Paquete!",
         "items":[
             {
-                "name": "Desarrollo Página Web",
+                "name": "Creación de Página Web",
                 "price": "499€",
                 "time": "",
                 "list":[
@@ -81,7 +81,7 @@
                 "image": "./images/package/draft.jpg"
             },
             {
-                "name": "Marketing Digital",
+                "name": "Social Management",
                 "price": "599€",
                 "time": "al mes",
                 "list":[

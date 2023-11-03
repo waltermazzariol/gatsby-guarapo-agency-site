@@ -32,10 +32,7 @@ function TeamPage(props) {
         <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
       </Section>
       <Section className={"price mb-5"} rowClass={'justify-content-center'}>
-        <Title
-          title={contentJson.domains.title}
-          subtitle={contentJson.domains.description}
-        />
+        <Title title={contentJson.domains.title} subtitle={contentJson.domains.description}/>
         <Col lg={8}>
         <Form>
           <InputGroup controlId="formBasicName" className="mb-3 InputGroup">

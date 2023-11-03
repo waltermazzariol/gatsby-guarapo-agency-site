@@ -53,7 +53,7 @@
         "button_url": "mailto:contacto@guarapomedia.com"
     },
     "packages": {
-        "title": "Aloja tu página web ahora mismo",
+        "title": "Aloja tu página web con nuestro servicio de hosting",
         "items": [
             {
                 "name": "Plan Light",
@@ -152,9 +152,9 @@
         ]
     },
     "domains":{
-        "title": "Reserva tu dominio ahora mismo y comienza a hacer realidad tu proyecto",
-        "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query=",
-        "description": "Consulta la disponibilidad ahora mismo"
+        "title": "¡Reserva tu dominio ahora mismo!",
+        "description": "Comienza a hacer realidad tu proyecto, consulta la disponibilidad ahora mismo.",
+        "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query="
     },
     "contact": {
         "phone": "+34622531989",
