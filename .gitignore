@@ -59,6 +59,7 @@ typings/
 .cache/
 public.zip
 content
+public
 
 # Mac files
 .DS_Store
