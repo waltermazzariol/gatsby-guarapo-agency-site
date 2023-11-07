@@ -8,43 +8,6 @@
         "ua": "UA-73261016-1",
         "lang": "es"
     },
-    "navigation": {
-        "logo-url": "./images/logo.svg",
-        "cta-button": "Empezar",
-        "cta-link": "/contacto",
-        "menu": [
-            {
-                "nav": "Inicio",
-                "anchor": "",
-                "link": "/"
-            },
-            {
-                "nav": "Desarrollo Web",
-                "anchor": "",
-                "link": "/desarrollo-web"
-            },
-            {
-                "nav": "Hospedaje Web",
-                "anchor": "",
-                "link": "/hospedaje"
-            },
-            {
-                "nav": "Marketing Digital",
-                "anchor": "",
-                "link": "/marketing-digital"
-            },
-            {
-                "nav": "Portafolio",
-                "anchor": "",
-                "link": "/work"
-            },
-            {
-                "nav": "El Equipo",
-                "anchor": "",
-                "link": "/equipo"
-            }
-        ]
-    },
     "hero": {
         "title": "Una página <strong>bien pensada</strong> te conecta con tus <span class='text-underscore'><strong>clientes</strong></span>",
         "subtitle": "¿Qué estás esperando? con nuestro planes puedes conseguir la página web que has estado soñando",

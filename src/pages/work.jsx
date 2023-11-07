@@ -21,7 +21,7 @@ function Work(props) {
   const workJson = props.data.allWorkJson
 
   return (
-    <Layout nav={contentJson.navigation}>
+    <Layout nav={generalJson.navigation}>
       <Cover data={contentJson.cover} />
       <Section className={'bg-gray'}>
         <div className="col-12 pt-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
@@ -88,7 +88,6 @@ export const data = graphql`
         edges {
           node {
           ...generalFields
-          ...navigationFields
           ...coverFields
         }  
         }
@@ -96,6 +95,7 @@ export const data = graphql`
     dataJson(general: {path: {eq: "/"}}) {
       ...contactFields
       ...tagsFields
+      ...navigationFields
     }
   }
 `

@@ -28,7 +28,7 @@ function MarketingPage(props) {
 
 
   return (
-    <Layout nav={contentJson.navigation}>
+    <Layout nav={generalJson.navigation}>
     <Hero data={contentJson.hero} />
     <Section>
         <div className="col-12 pt-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
@@ -108,7 +108,6 @@ export const contentData = graphql`
       edges {
         node {
         ...generalFields
-        ...navigationFields
         ...heroFields
         ...bannerFields
         ...packagesFields
@@ -121,6 +120,7 @@ export const contentData = graphql`
     dataJson(general: {path: {eq: "/"}}) {
       ...contactFields
       ...tagsFields
+      ...navigationFields
     }
     allWorkJson(sort: {date: DESC} filter: {cat:{eq: "Marketing"}}) {
       edges {

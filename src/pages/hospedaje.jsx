@@ -26,7 +26,7 @@ function TeamPage(props) {
   const [domain, setDomain] = useState("");
 
   return (
-    <Layout nav={contentJson.navigation}>
+    <Layout nav={generalJson.navigation}>
       <Cover data={contentJson.cover} />
       <Section>
         <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
@@ -88,7 +88,6 @@ export const data = graphql`
       edges {
         node {
           ...generalFields
-          ...navigationFields
           ...coverFields
           ...packagesFields
           ...domainsFields
@@ -98,6 +97,7 @@ export const data = graphql`
     dataJson(general: { path: { eq: "/" } }) {
       ...contactFields
       ...tagsFields
+      ...navigationFields
     }
   }
 `;

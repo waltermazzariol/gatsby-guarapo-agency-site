@@ -22,7 +22,7 @@ function ContactPage(props) {
   const generalJson = props.data.dataJson
 
   return (
-    <Layout nav={contentJson.navigation}>
+    <Layout nav={generalJson.navigation}>
       <Cover data={contentJson.cover} />
       <Section anchor={'form'} className={'form pt-4 pb-5'} rowclassName={'justify-content-md-center'}>
         <div className="col-12 pb-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
@@ -68,7 +68,6 @@ export const data = graphql`
       edges {
         node {
             ...generalFields
-            ...navigationFields
             ...coverFields
             ...formFields
         }  
@@ -77,6 +76,7 @@ export const data = graphql`
     dataJson(general: {path: {eq: "/"}}) {
       ...contactFields
       ...tagsFields
+      ...navigationFields
     }
   }
 `
