@@ -94,8 +94,8 @@ export default IndexPage
 
 export function Head(props) {
 return (
-<Seo page={'inicio'} metas={props.data.allDataJson.edges[0].node.general} />
-)
+         <Seo metas={props.data.allDataJson.edges[0].node.general} />
+       )
 }
 
 export const contentData = graphql`

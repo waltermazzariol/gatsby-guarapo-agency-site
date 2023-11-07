@@ -46,8 +46,8 @@
         ]
     },
     "hero": {
-        "title": "Somos una <strong>Agencia Digital</strong>,<br/> enfocada <span class='text-underscore'><strong>en ti</strong></span>",
-        "subtitle": "Te ayudamos a lograr tus objetivos en el mundo digital. Nuestro equipo te acompañará en todo el proceso para que no tengas que preocuparte.",
+        "title": "<strong>Agencia Digital</strong> ",
+        "subtitle": "Diseñamos estrategias que <span class='text-underscore'><strong>convierten</strong></span>",
         "image": "./images/bg_siargao.webp",
         "button_text": "Ver Planes",
         "button_url": "#paquetes",

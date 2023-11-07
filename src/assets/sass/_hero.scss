@@ -21,14 +21,20 @@
 				font-weight: 700;
 			}
 		}
-		@include media-breakpoint-up(lg) {
+		@include media-breakpoint-up(md) {
 				h1.hero-title {
-					font-size: 2.6rem;
+					font-size: 5.5rem;
+				}
+				.hero-subtitle{
+					font-size: 1.5rem;
 				}
 		}
 		@include media-breakpoint-up(xl) {
 				h1.hero-title {
-					font-size: 2.9rem;
+					font-size: 6rem;
+				}
+				.hero-subtitle{
+					font-size: 1.5rem;
 				}
 		}
 		ul{
