@@ -1,7 +1,7 @@
 .package{
     .item {
       position: relative;
-      padding: 2rem 2rem;
+      padding: 1.5rem 2rem;
       border-radius: 10px;
       height: 100%;
       &-with-image{
@@ -47,9 +47,8 @@
       }
       &-tag-wrapper{
         position: absolute;
-        top: -30px;
-        left: 0;
-        transform: rotate(-9deg);
+        top: 2rem;
+        right: 1rem;
       }
       &-list{
         padding-left: 0px;

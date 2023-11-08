@@ -37,11 +37,6 @@
                 "nav": "Portafolio",
                 "anchor": "",
                 "link": "/work"
-            },
-            {
-                "nav": "El Equipo",
-                "anchor": "",
-                "link": "/equipo"
             }
         ]
     },

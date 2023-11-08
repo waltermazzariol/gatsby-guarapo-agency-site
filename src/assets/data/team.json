@@ -8,38 +8,6 @@
         "ua": "UA-73261016-1",
         "lang": "es"
     },
-    "navigation": {
-        "logo-url": "./images/logo.svg",
-        "cta-button": "Empezar",
-        "cta-link": "/contacto",
-        "menu": [
-            {
-                "nav": "Desarrollo Web",
-                "anchor": "",
-                "link": "/desarrollo-web"
-            },
-            {
-                "nav": "Hospedaje Web",
-                "anchor": "",
-                "link": "/hospedaje"
-            },
-            {
-                "nav": "Marketing Digital",
-                "anchor": "",
-                "link": "/marketing-digital"
-            },
-            {
-                "nav": "Portafolio",
-                "anchor": "",
-                "link": "/work"
-            },
-            {
-                "nav": "El Equipo",
-                "anchor": "",
-                "link": "/equipo"
-            }
-        ]
-    },
     "cover": {
         "title": "El <strong>equipo</strong>",
         "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",

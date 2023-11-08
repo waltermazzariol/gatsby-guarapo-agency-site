@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 // Libraries
 import { graphql } from "gatsby"
 import { CookiesProvider } from 'react-cookie';
@@ -21,8 +21,8 @@ import Portfolio from "../components/Portfolio/Portfolio"
 
 import Process from "../components/process";
 import Banner from "../components/Banner";
-import { Col } from "react-bootstrap";
-import { StaticImage } from "gatsby-plugin-image"
+// import { Col } from "react-bootstrap";
+// import { StaticImage } from "gatsby-plugin-image"
 import Testimonial from "../components/Testimonial";
 
 function IndexPage(props) {
@@ -51,7 +51,7 @@ return (
 
 
   {/* The team */}
-  <Section anchor={'team'} className={"mt-5"}>
+  {/* <Section anchor={'team'} className={"mt-5"}>
     <Title title={"Aunque todo sea virtual, siempre contarás con la ayuda de nuestro equipo."} />
   </Section>
   <Section rowclassName="justify-content-center g-3">
@@ -62,7 +62,7 @@ return (
     <Col className="mt-4 d-flex justify-content-center">
     <Link className="item-btn item-btn_b btn btn--primary" to="/equipo" rel="noopener noreferrer"> Conoce al equipo</Link>
     </Col>
-  </Section>
+  </Section> */}
 
   {/* Testimonials */}
   <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3 justify-content-center">
