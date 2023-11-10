@@ -26,7 +26,7 @@ function ClientType(props) {
                       </div>
                     </div>)}
                 <Col className="text-center">
-                    <Link className="btn btn--primary my-3 me-4"
+                    <Link className="button button--primary my-3 me-4"
                         to="/contacto" target="_blank" rel="noopener noreferrer">
                         Contactános
                     </Link>

@@ -14,7 +14,7 @@ function Services(props) {
                 <ul className="description">
                   {key.type.split('\n').map((item, i) => <li key={i}>{item}</li>)}
                 </ul>
-                {key.link ? <a className="mx-auto  btn btn--primary my-3 me-4"
+                {key.link ? <a className="mx-auto  button button--primary my-3 me-4"
                 href={key.link} rel="noopener noreferrer">
                 Leer más
             </a>: ""}

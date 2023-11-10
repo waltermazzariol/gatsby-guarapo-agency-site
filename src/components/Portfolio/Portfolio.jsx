@@ -34,7 +34,7 @@ export default class Portfolio extends React.Component {
         <Row className="g-0">
         {this.props.data.slice(0, 8).map((key) =>
           <Col key={key.node.id} xs={6} sm={6} md={3}>
-              <Link className="btn btn-clean" to={`/${key.node.parent.relativeDirectory}/${key.node.parent.name}`}>
+              <Link className="button" to={`/${key.node.parent.relativeDirectory}/${key.node.parent.name}`}>
                 <GatsbyImage image={key.node.thumbnail.childImageSharp.gatsbyImageData} alt={key.node.client} />
                 <div className="img-hover">
                   <div className="title">{key.node.client}</div>

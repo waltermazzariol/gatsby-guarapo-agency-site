@@ -12,7 +12,7 @@ function Banner({data}) {
         <Col sm="12" className="bg-third-color p-5 border-radius_10">
           <h3 className="mb-4">{data.title}</h3>
           <div className="mb-4" dangerouslySetInnerHTML={{ __html: data.text }}></div>
-          <Link className="item-btn item-btn_b btn btn--primary" to={data.button_url} rel="noopener noreferrer">{data.button_text}</Link>         
+          <Link className="item-btn item-btn_b button button--primary" to={data.button_url} rel="noopener noreferrer">{data.button_text}</Link>         
         </Col>
       </Row>
     </Container>

@@ -5,17 +5,12 @@
 // Set a custom color
 $blue:#525D7D;
 $light-blue: #CAE5FF;
-$green: #CCEC80;
 $light-green: #A3F5D3;
-$dark-blue: #142850;
+$light-gray: #f6f4f4;
+$dark-gray: #dddddd;
 $dark-black: #444;
 $darker-black: #333;
-$light-gray: #f6f4f4;
 $yellow: #FFEA7C;
-
-$pink: #FFF0E3;
-
-
 
 // Set color for theme
 $first-color: $yellow;
@@ -23,9 +18,8 @@ $second-color: $light-gray;
 $third-color: $light-blue;
 $main-color: $blue !default;
 
-$font-subtitle-color: $darker-black;
 $font-title-color: $darker-black;
-$font-subtitle-color: $font-subtitle-color;
+$font-subtitle-color: $dark-black;
 $font-text-color: $darker-black;
 $body-background: white;
 

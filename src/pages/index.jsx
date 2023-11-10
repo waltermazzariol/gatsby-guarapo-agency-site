@@ -34,17 +34,17 @@ return (
   {/* Hero */}
   <Hero data={contentJson.hero} />
 
-  {/* Our Packages */}
-  <Section anchor={'paquetes'} className={"mt-5"}>
-    <Title title={contentJson.packages.title} />
-  </Section>
-  <Packages data={contentJson.packages}/>
-
   {/* Our Process */}
   <Section anchor={'process'} className={"mt-5"}>
       <Title title={contentJson.process.title} subtitle={contentJson.process.description}/>
       <Process data={contentJson.process.list}/>
   </Section>
+
+   {/* Our Packages */}
+   <Section anchor={'paquetes'} className={"mt-5"}>
+    <Title title={contentJson.packages.title} />
+  </Section>
+  <Packages data={contentJson.packages}/>
 
   {/* Banner */}
   <Banner data={contentJson.banner} />
@@ -60,16 +60,18 @@ return (
     <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/3.jpg"} alt="sergio" /></Col>
     <div className="w-100"></div>
     <Col className="mt-4 d-flex justify-content-center">
-    <Link className="item-btn item-btn_b btn btn--primary" to="/equipo" rel="noopener noreferrer"> Conoce al equipo</Link>
+    <Link className="item-btn item-btn_b button button--primary" to="/equipo" rel="noopener noreferrer"> Conoce al equipo</Link>
     </Col>
   </Section> */}
 
   {/* Testimonials */}
   <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3 justify-content-center">
     <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
-    {contentJson.testimonials.list.map((key,index) =>
+    <div className="row">
+      {contentJson.testimonials.list.map((key,index) =>
         <Testimonial key={index} data={key} />
-        )}  
+      )}  
+    </div>
     </Section>
 
   {/* Portfolio */}

@@ -4,16 +4,9 @@
       padding: 1.5rem 2rem;
       border-radius: 10px;
       height: 100%;
-      &-with-image{
-        max-width: 70%;
-      }
       &-main-title{
         margin-bottom: 1rem;
         margin-top: 0;
-        @include media-breakpoint-down(md) {
-          max-width: 100%;
-          text-align: center;
-        }
       }
       &-title{  
         font-size: 3rem;
@@ -40,15 +33,10 @@
       &-tag{
         color: $dark-black;
         background-color: $yellow;
-        border-radius: 4px;
-        font-size: 0.9rem;
+        border-radius: 25px;
+        font-size: 0.75rem;
         padding: 10px 15px;
         font-weight: 700;
-      }
-      &-tag-wrapper{
-        position: absolute;
-        top: 2rem;
-        right: 1rem;
       }
       &-list{
         padding-left: 0px;

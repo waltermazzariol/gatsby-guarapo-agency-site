@@ -4,21 +4,17 @@ import { GatsbyImage } from "gatsby-plugin-image"
 function Testimonial({data}) {
   return (
       <div className="col-10 col-md-6 col-lg-4 mb-4">
-        <div className="row">
-          <div className="col-2">
-            <GatsbyImage className="img-circle" image={data.image.childImageSharp.gatsbyImageData} alt="Testimonial" />
+        <div className="d-flex flex-column testimonial bg-second-color">
+          <div className="testimonial-message mb-4">
+            {data.message}
           </div>
-          <div className="col-10">
-            <div className="testimonial-subbtitle-link" href="" target="_blank">
-              <b>{data.name}</b>
-            </div>
-            <div className="testimonial-subtitle">
-              {data.position}
-            </div>
+          <div className="d-flex flex-row mt-auto">
+              <GatsbyImage className="testimonial-img img-circle" image={data.image.childImageSharp.gatsbyImageData} alt="Testimonial" />
+              <div className="d-flez flex-column">
+                <div className="testimonial-subtitle-link">{data.name}</div>
+                <div className="testimonial-subtitle">{data.position}</div>
+              </div>
           </div>
-        <div className="col-12 testimonial-title">
-          {data.message}
-        </div>
         </div>
       </div>
   )

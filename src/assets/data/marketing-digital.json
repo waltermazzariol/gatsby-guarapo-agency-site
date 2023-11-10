@@ -2,19 +2,20 @@
     "general": {
         "path": "/marketing-digital",
         "siteurl": "https://guarapomedia.com/marketing-digital",
-        "seo-title": "Marketing Digital",
+        "seo-title": "Marketing Digital • Agencia de Marketing Digital",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
-        "ua": "UA-73261016-1",
+        "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
     "hero": {
-        "title": "<strong>SOCIALIZAR</strong> y <strong>CONECTAR</strong> con tu audiencia en el mundo digital,<br/>Es el secreto para el futuro de tu <span class='text-underscore'>negocio.</span>",
-        "subtitle": "Posicionamos tu negocio en el mundo digital. ",
+        "pretitle": "Posicionamos tu negocio en el mundo digital",
+        "title": "<strong>SOCIALIZAR</strong> & <strong>CONECTAR</strong><br/> con tu audiencia<br/>",
+        "subtitle": "es el <span class='text-underscore'>secreto</span> para el futuro de tu negocio.",
         "image": "./images/hero_marketing.png",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Contáctanos",
-        "button_url": "/contacto",
+        "button_text": "Ver Planes",
+        "button_url": "#package",
         "benefits":[
             {"text": "Rápido"},
             {"text": "Fácil"},

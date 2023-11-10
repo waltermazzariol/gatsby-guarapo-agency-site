@@ -1,40 +1,77 @@
 // Styling for the masthead
 .hero {
 	background-color: $first-color;
-	padding-top: 80px;
-	padding-bottom: 25px;
+	padding-top: 7rem;
+	padding-bottom: 5rem;
 	&-wrapper {
 		padding: 1rem 0 1rem;
 		position: relative;
 	}
 	&-item {
-		img {
-			max-height: 450px;
-			max-width: 100%;
+		.icon-left{
+			
+			top:2rem;
+			left: 0;
+			max-width: 25px;
+		}
+		.icon-right{
+			
+			top:2rem;
+			right: 0;
+			max-width: 25px;
+		}
+		.hero-pre-title{
+			font-size: 1rem;
+			margin-bottom: 1.5rem;
+			color: $dark-black;
 		}
 		h1.hero-title {
-			padding-top: 2rem;
+			display: inline;
 			font-size: 2.5rem;
 			font-weight: 300;
-			margin-bottom: 1rem;
+			margin-bottom: 1.5rem;
 			strong{
 				font-weight: 700;
 			}
 		}
+		.hero-subtitle{
+			color: $dark-black;
+			margin-bottom: 2rem;
+		}
 		@include media-breakpoint-up(md) {
 				h1.hero-title {
-					font-size: 5.5rem;
+					font-size: 4.5rem;
 				}
 				.hero-subtitle{
-					font-size: 1.5rem;
+					font-size: 1.3rem;
+				}
+				.icon-left{
+					top:0;
+					left: 1rem;
+					max-width: 40px;
+				}
+				.icon-right{
+					top:0;
+					right: 1rem;
+					max-width: 40px;
 				}
 		}
 		@include media-breakpoint-up(xl) {
 				h1.hero-title {
-					font-size: 6rem;
+					font-size: 5rem;
 				}
 				.hero-subtitle{
 					font-size: 1.5rem;
+				}
+				.icon-left{
+					top:0;
+					left: 2rem;
+					max-width: 50px;
+				}
+				.icon-right{
+					top:0;
+					right: 2rem;
+					max-width: 50px;
 				}
 		}
 		ul{
@@ -81,7 +118,7 @@
 			}
 		}
 		.cover-subtitle {
-			color: $main-color;
+			color: $dark-black;
 			font-size: 1rem;
 		}
 	}
@@ -89,7 +126,7 @@
 	@include media-breakpoint-up(md) {
 		&-item {
 			h1.cover-title {
-				font-size: 2.5rem;
+				font-size: 3rem;
 			}
 			.cover-subtitle {
 				font-size: 1.15rem;

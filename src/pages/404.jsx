@@ -29,7 +29,7 @@ return(
         <div className="col-12 text-center">
           <h1>{contentJson.tags.not_found_title}</h1>
           <p>{contentJson.tags.not_found_message}</p>
-          <a className="btn btn-xl btn-primary" href="/" >{contentJson.tags.not_found_btn}</a>
+          <a className="button button--big button--primary" href="/" >{contentJson.tags.not_found_btn}</a>
         </div>
       </div>
     </div>

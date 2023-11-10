@@ -59,7 +59,7 @@ function Works(props) {
                     {dataJson.description.split("\n").map((item, i) => <p key={i}>{item}</p>)}
                   </li> : ""}
               </ul>
-              <a className="btn btn--primary mt-3 mb-5" href="/contacto">Lo Quiero</a>             
+              <a className="button button--primary mt-3 mb-5" href="/contacto">Lo Quiero</a>             
             </div>
             <div className="col-sm-12 col-md-6 portfolio-modal">
               <img srcSet={dataJson.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} className="img-fluid" alt={dataJson.title} />
@@ -83,15 +83,14 @@ export function Head(props) {
   const seo_data = {
     path: `/${props.data.workJson.parent.name}`,
     siteurl: `${props.data.workJson.parent.relativeDirectory}/${props.data.workJson.parent.name}`,
-    seo_title: `${props.data.workJson.client} • Guarapo Media`,
+    seo_title: `${props.data.workJson.client} • Agencia de Marketing Digital`,
     seo_description: "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
     seo_image: props.data.workJson.thumbnail.publicURL,
-    ua: "UA-73261016-1",
+    ua: "G-Q4Y6R6M0KC",
     lang: "es"
   }
   return (
     <Seo
-      page={`${props.data.workJson.parent.relativeDirectory}/${props.data.workJson.parent.name}`}
       metas={seo_data}
       />
   )

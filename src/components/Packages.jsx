@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import { GatsbyImage } from "gatsby-plugin-image"
 
 function Packages({ data }) {
 
@@ -8,9 +7,8 @@ function Packages({ data }) {
             <div className="container package">
                     <div className="row g-3 justify-content-center">
                         {data.items.map((key,index)=> 
-
                             <div key={index} className="col-md-12 col-lg-6">
-                                <div className="item bg-second-color  overflow-hidden">
+                                <div className="item bg-second-color d-flex flex-column">
                                     <h3 className="item-main-title item-with-image">{key.name}</h3>
                                     <div className="item-price">
                                         <div className="item-text-left">Desde</div>
@@ -22,9 +20,10 @@ function Packages({ data }) {
                                             <li key={index} ><i className="fa-solid fa-check-circle"></i>{item.text}</li>
                                         )}
                                     </ul>
-                                    <Link className="item-btn btn btn--primary me-2" to={key.button_url} rel="noopener noreferrer">{key.button_text}</Link>
-                                    {key.button_text_second ? <Link className="item-btn btn btn--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
-                                    <GatsbyImage image={key.image.childImageSharp.gatsbyImageData} alt="hosting" className="item-img d-none d-md-block" />
+                                    <span className="d-flex mt-auto">
+                                        <a className="item-btn button button--primary me-2" href={key.button_url} rel="noopener noreferrer">{key.button_text}</a>
+                                        {key.button_text_second ? <Link className="item-btn button button--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
+                                    </span>
                                 </div>
                             </div>
 

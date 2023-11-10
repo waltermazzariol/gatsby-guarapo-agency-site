@@ -10,7 +10,7 @@ import ReactGA from "react-ga4"
 
 function Seo({metas}) {
   if (typeof window !== "undefined" && process.env.GATSBY_WORDPRESS_HOST!== 'dev' ) {
-    ReactGA.initialize("G-Q4Y6R6M0KC");
+    ReactGA.initialize(metas.ua);
     ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
   }
   

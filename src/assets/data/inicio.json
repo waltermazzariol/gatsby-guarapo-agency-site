@@ -3,9 +3,9 @@
         "path": "/",
         "siteurl": "https://guarapomedia.com",
         "seo-title": "Guarapo Media • Agencia de Marketing Digital",
-        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar tus objetivos",
         "seo-image": "./images/seo.jpg",
-        "ua": "UA-73261016-1",
+        "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
     "navigation": {
@@ -41,8 +41,9 @@
         ]
     },
     "hero": {
-        "title": "<strong>Agencia Digital</strong> ",
-        "subtitle": "Diseñamos estrategias que <span class='text-underscore'><strong>convierten</strong></span>",
+        "pretitle": "Todo lo que necesitas en un sólo sitio",
+        "title": "<strong>AGENCIA DIGITAL</strong><br/> de Marketing y Desarrollo Web",
+        "subtitle": "Creamos estrategias que <span class='text-underscore'><strong>convierten</strong></span> y te ayudan a llegar a más clientes",
         "image": "./images/bg_siargao.webp",
         "button_text": "Ver Planes",
         "button_url": "#paquetes",
@@ -131,19 +132,19 @@
         "list":[
             {
                 "name": "Angel Benitez",
-                "position": "Director - Restaurant Burbowl",
+                "position": "Restaurant Burbowl",
                 "image": "./images/testimonials/burbowl.png",
                 "message": "Guarapo Media nos ha acompañado desde 2015, siendo complices en todos nuestros medios digitales."
             },
             {
                 "name": "Ernesto Rangel",
-                "position": "Director - Guataca Nights",
+                "position": "Guataca Nights",
                 "image": "./images/testimonials/ernesto.jpeg",
                 "message": "Guarapo Media nos ayudó a mejorar nuestro posicionamiento en Google, un problema que veniamos teniendo desde hace un tiempo sin pode resolver, adicionalmente nos mantienen al día nuestra página web."
             },
             {
                 "name": "Carlos Fafian",
-                "position": "Director - Escuela de natación Picarpolos",
+                "position": "Escuela de natación Picarpolos",
                 "image": "./images/testimonials/carlosfafian.jpeg",
                 "message": "Con la ayuda de Guarapo construir nuestra página web fue rápido y muy sencillo. Nuestro clientes ahora pueden encontrar toda la información que necesitan en nuestro sitio web."
             }

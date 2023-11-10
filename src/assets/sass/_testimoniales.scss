@@ -1,25 +1,26 @@
 .testimonial{
-        img{
-            margin-right: 1.5rem;
-            border-radius: 50px;
+      padding: 1.5rem 2rem;
+      border-radius: 10px;
+      height: 100%;
+        &-img{
+            margin-right: 1rem;
             margin-bottom: 0.5rem;
-            width: 50px;
-            height: 50px;
+            max-width: 50px;
+            max-height: 50px;
         }
-        &-title{
-            color: #5a5750;
-            font-size: 18px;
+        &-message{
+            color: $dark-black;
+            font-size: 0.9rem;
             margin-bottom: 0.5rem;
         }
         &-subtitle-link{
-            color: #191b1d;
-            font-size: 18px;
-            font-style: italic;
-            margin-bottom: 0.5rem;
+            color: $dark-black;
+            font-size: 1rem;
         }
         &-subtitle{
-        font-size: 16x;
-        font-style: italic;
-        margin-bottom: 0.5rem;
-        color: #666;}
+            font-size: 0.8rem;
+            font-style: italic;
+            margin-bottom: 0.5rem;
+            color: $dark-black;
+        }
     }

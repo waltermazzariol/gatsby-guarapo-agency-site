@@ -35,7 +35,7 @@ function TeamPage(props) {
         <Title title={contentJson.domains.title} subtitle={contentJson.domains.description}/>
         <Col lg={8}>
         <Form>
-          <InputGroup controlId="formBasicName" className="mb-3 InputGroup">
+          <InputGroup controlid="formBasicName" className="mb-3 InputGroup">
             <Form.Control
               type="text"
               value={domain}
@@ -43,7 +43,7 @@ function TeamPage(props) {
               placeholder="Introduce el nombre de tu Dominio"
             />
             <Button
-            variant="btn btn--primary text-white"
+            variant="button button--primary text-white"
             type="submit"
             href={"https://guarapohosting.com/cart.php?a=add&domain=register&query="+domain}
             value="Submit"

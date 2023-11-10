@@ -31,6 +31,7 @@ fragment navigationFields on DataJson {
 export const heroFields = graphql`
 fragment heroFields on DataJson {
   hero {
+    pretitle
     image {
         publicURL
         childImageSharp {

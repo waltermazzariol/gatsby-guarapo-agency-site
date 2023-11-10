@@ -40,7 +40,7 @@ function FormServices(props) {
 
     return (
         <Form>
-            <Form.Group  className="mb-3" controlId="formBasicName">
+            <Form.Group  className="mb-3" controlid="formBasicName">
                 <Form.Label>{props.tags.form_name}</Form.Label>
                 <Form.Control
                     type="text"
@@ -48,7 +48,7 @@ function FormServices(props) {
                     onChange={e => setName(e.target.value)} />
             </Form.Group>
 
-            <Form.Group  className="mb-3" controlId="formBasicEmail">
+            <Form.Group  className="mb-3" controlid="formBasicEmail">
                 <Form.Label>{props.tags.form_email}</Form.Label>
                     <Form.Control
                         type="email"
@@ -66,7 +66,7 @@ function FormServices(props) {
                 </Form.Select>
             </Form.Group> */}
 
-            <Form.Group  className="mb-3" controlId="formBasicMessage">
+            <Form.Group  className="mb-3" controlid="formBasicMessage">
                 <Form.Label>Cuéntanos tu duda</Form.Label>
                     <Form.Control
                         as="textarea"
@@ -88,7 +88,7 @@ function FormServices(props) {
                 sitekey="6Ldxyi4bAAAAAOq88jM5zIfu-epnbFiafAjNom5s"
                 onChange={onChange}
             />
-            <Button variant="btn btn--primary text-white" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" aria-label="Sumit" className="mt-3">
+            <Button variant="button button--primary text-white" type="submit" onClick={e => handleFormSubmit(e)} value="Submit" aria-label="Sumit" className="mt-3">
                 {props.tags.form_send}
             </Button>
             <div>

@@ -2,15 +2,16 @@
     "general": {
         "path": "/desarrollo-web",
         "siteurl": "https://guarapomedia.com/desarollo-web",
-        "seo-title": "Desarrollo Web",
+        "seo-title": "Desarrollo Web • Agencia de Marketing Digital",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "./images/seo.jpg",
-        "ua": "UA-73261016-1",
+        "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
     "hero": {
-        "title": "Una página <strong>bien pensada</strong> te conecta con tus <span class='text-underscore'><strong>clientes</strong></span>",
-        "subtitle": "¿Qué estás esperando? con nuestro planes puedes conseguir la página web que has estado soñando",
+        "pretitle": "Consigue la página web que has estado soñando",
+        "title": "Desarrollamos <strong>Páginas Web</strong>",
+        "subtitle": "que conectan con tus <span class='text-underscore'><strong>clientes</strong></span> justo desde el inicio.",
         "image": "./images/bg_noneculture.webp",
         "button_text": "Ver planes",
         "button_url": "#package",
