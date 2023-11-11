@@ -4,7 +4,7 @@
         "siteurl": "https://guarapomedia.com",
         "seo-title": "Guarapo Media • Agencia de Marketing Digital",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar tus objetivos",
-        "seo-image": "./images/seo.jpg",
+        "seo-image": "./images/seo.png",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
@@ -57,7 +57,7 @@
         "title": "¡Escoge tu Paquete!",
         "items":[
             {
-                "name": "Creación de Página Web",
+                "name": "Desaarrollo Web",
                 "price": "499€",
                 "time": "",
                 "list":[
@@ -73,11 +73,10 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
                 "button_text_second":"Ver más",
-                "button_url_second": "/desarrollo-web/",
-                "image": "./images/package/draft.jpg"
+                "button_url_second": "/desarrollo-web/"
             },
             {
-                "name": "Social Management",
+                "name": "Marketing",
                 "price": "599€",
                 "time": "al mes",
                 "list":[
@@ -90,8 +89,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"Ver más",
-                "button_url_second": "/marketing-digital",
-                "image": "./images/package/computer.jpg"
+                "button_url_second": "/marketing-digital"
             }
             
         ]
@@ -115,7 +113,7 @@
             {
                 "id":3,
                 "title": "Evolución",
-                "description": "Los productos digitales se caracterizan por el “Time to Market” y su constante evolución. Estaremos contigo de la mano en todo el proceso hasta lograr los objetivos deseados.",
+                "description": "Los productos digitales se caracterizan por el tiempo que tardan en llegar al mercado y su constante evolución. Estaremos contigo de la mano en todo el proceso hasta lograr los objetivos deseados.",
                 "image": "./images/process/step_3.png"
             }
         ]

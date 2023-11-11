@@ -13,18 +13,18 @@ function Projects({ color }) {
         <div className={`container-fluid project ${color}`}>
             <div className="project-title text-center mb-4"><span className="text-underline">Proyectos recientes</span></div>
             <div className="project-slider project-animation">
-                <img className="project-img" src={project1} alt="" />
-                <img className="project-img" src={project2} alt="" />
-                <img className="project-img" src={project3} alt="" />
-                <img className="project-img" src={project4} alt="" />
-                <img className="project-img" src={project5} alt="" />
-                <img className="project-img" src={project6} alt="" />
-                <img className="project-img" src={project1} alt="" />
-                <img className="project-img" src={project2} alt="" />
-                <img className="project-img" src={project3} alt="" />
-                <img className="project-img" src={project4} alt="" />
-                <img className="project-img" src={project5} alt="" />
-                <img className="project-img" src={project6} alt="" />
+                <img className="project-img" src={project3} alt="None Culture" />
+                <img className="project-img" src={project1} alt="Piel de oro" />
+                <img className="project-img" src={project2} alt="wansite.co" />
+                <img className="project-img" src={project4} alt="EBB flow" />
+                <img className="project-img" src={project5} alt="Guataca nights" />
+                <img className="project-img" src={project6} alt="baquirto de papel" />
+                <img className="project-img" src={project3} alt="None Culture" />
+                <img className="project-img" src={project1} alt="Piel de oro" />
+                <img className="project-img" src={project2} alt="wansite.co" />
+                <img className="project-img" src={project4} alt="EBB flow" />
+                <img className="project-img" src={project5} alt="Guataca nights" />
+                <img className="project-img" src={project6} alt="baquirto de papel" />
             </div>
         </div>
     )

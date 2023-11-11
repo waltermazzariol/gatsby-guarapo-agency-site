@@ -4,7 +4,7 @@
         "siteurl": "https://guarapomedia.com/marketing-digital",
         "seo-title": "Marketing Digital • Agencia de Marketing Digital",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
-        "seo-image": "./images/seo.jpg",
+        "seo-image": "./images/seo.png",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
@@ -41,8 +41,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/computer.jpg"
+                "button_url_second": ""
             },
             {
                 "name": "Plan Pro",
@@ -60,8 +59,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/28oaGfbnccFY46caEH",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/computer.jpg"
+                "button_url_second": ""
             }
         ]
     },

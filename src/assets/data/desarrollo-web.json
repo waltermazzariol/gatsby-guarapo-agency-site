@@ -4,7 +4,7 @@
         "siteurl": "https://guarapomedia.com/desarollo-web",
         "seo-title": "Desarrollo Web • Agencia de Marketing Digital",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
-        "seo-image": "./images/seo.jpg",
+        "seo-image": "./images/seo.png",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
@@ -41,8 +41,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/computer.jpg"
+                "button_url_second": ""
             },
             {
                 "name": "Plan Pro",
@@ -61,8 +60,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/computer.jpg"
+                "button_url_second": ""
             },
             {
                 "name": "Plan E-Commerce",
@@ -82,8 +80,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/draft.jpg"
+                "button_url_second": ""
             }
         ]
     },

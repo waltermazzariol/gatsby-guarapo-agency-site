@@ -16,7 +16,7 @@ function Seo({metas}) {
   
   const metaTitle = metas.seo_title
   const metaDescription = metas.seo_description
-  const imageURL = "https://guarapomedia.com/seo.jpg"
+  const imageURL = `https://guarapomedia.com/${metas.seo_image}`
   const imageURLHeight = '1200'
   const imageURLWidth = '1600'
 

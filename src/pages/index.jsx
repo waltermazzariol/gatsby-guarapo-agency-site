@@ -15,7 +15,7 @@ import Layout from "../components/Layout"
 import Hero from "../components/Hero/Hero"
 
 // import Banner from "../components/Banner"
-import Packages from "../components/Packages"
+import Packages from "../components/PriceTable"
 import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
 
@@ -62,7 +62,7 @@ return (
    <Section anchor={'paquetes'} className={"mt-5"}>
     <Title title={contentJson.packages.title} subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"}/>
   </Section>
-  <Packages data={contentJson.packages}/>
+  <Packages data={contentJson.packages.items}/>
 
   {/* Banner */}
   <Banner data={contentJson.banner} />

@@ -18,7 +18,7 @@ import Portfolio from "../components/Portfolio/Portfolio"
 import PriceTable from "../components/PriceTable"
 import Process from "../components/process";
 import Banner from "../components/Banner";
-import FormServices from "../components/FormServices";
+import FormServices from "../components/Form";
 
 function MarketingPage(props) {
 
@@ -60,7 +60,7 @@ function MarketingPage(props) {
        <div className="spacer"></div>
       <Section anchor={'package'}>
         <Title title={contentJson.packages.title}  subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"}/>
-        <PriceTable data={contentJson.packages.items}/>
+        <PriceTable data={contentJson.packages.items} popular />
       </Section>
       
       {/* Banner */}
