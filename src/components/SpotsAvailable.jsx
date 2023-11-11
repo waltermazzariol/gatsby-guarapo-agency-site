@@ -4,14 +4,14 @@ function SpotAvailable(props) {
     return (
        <div className="spot d-flex flex-column justify-content-center mt-5">
             <div className="d-flex justify-content-center">
-                <span class="spot-fill"></span>
-                <span class="spot-fill"></span>
-                <span class="spot-fill"></span>
-                <span class="spot-fill"></span>
-                <span class="spot-fill"></span>
-                <span class="spot-empty"></span>
+                <span className="spot-fill"></span>
+                <span className="spot-fill"></span>
+                <span className="spot-fill"></span>
+                <span className="spot-fill"></span>
+                <span className="spot-fill"></span>
+                <span className="spot-empty"></span>
             </div>
-            <div className="spot-text">
+            <div className="spot-text text-center">
                 1 CUPO DISPONIBLE
             </div>
        </div>

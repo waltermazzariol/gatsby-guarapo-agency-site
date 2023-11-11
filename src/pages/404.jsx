@@ -41,7 +41,6 @@ export default NotFoundPage
 export function Head(props) {
   return (
     <Seo
-        page={'404'}
         metas={props.data.allDataJson.edges[0].node.general}
       />
   )

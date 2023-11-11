@@ -29,7 +29,7 @@ function TeamPage(props) {
     <Layout nav={generalJson.navigation}>
       <Cover data={contentJson.cover} />
       <Section>
-        <div className="col-12 pt-5"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+      <div className="col-12 pt-4 small"><a href="/">Inicio</a> / Hospedaje Web</div>
       </Section>
       <Section className={"price mb-5"} rowClass={'justify-content-center'}>
         <Title title={contentJson.domains.title} subtitle={contentJson.domains.description}/>

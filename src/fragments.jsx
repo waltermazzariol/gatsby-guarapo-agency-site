@@ -32,12 +32,6 @@ export const heroFields = graphql`
 fragment heroFields on DataJson {
   hero {
     pretitle
-    image {
-        publicURL
-        childImageSharp {
-          gatsbyImageData
-        }
-    }
     subtitle
     title
     button_url
@@ -51,12 +45,6 @@ fragment heroFields on DataJson {
 export const coverFields = graphql`
 fragment coverFields on DataJson {
   cover {
-    bgimage {
-      publicURL
-      childImageSharp {
-        gatsbyImageData
-      }
-    }
     subtitle
     title
     button_url
@@ -71,89 +59,6 @@ fragment bannerFields on DataJson {
     text
     button_text
     button_url
-  }
-}`
-
-export const banner2Fields = graphql`
-fragment banner2Fields on DataJson {
-  banner_2 {
-    text
-    image {
-        publicURL
-        childImageSharp {
-          gatsbyImageData
-        }
-    }
-  }
-}`
-
-export const banner3Fields = graphql`
-fragment banner3Fields on DataJson {
-  banner_3 {
-    title
-    subtitle
-    bg_image {
-        publicURL
-        childImageSharp {
-          gatsbyImageData
-        }
-    }
-    image {
-      publicURL
-      childImageSharp {
-        gatsbyImageData
-      }
-  }
-  }
-}`
-
-export const aboutFields = graphql`
-fragment aboutFields on DataJson {
-  about {
-    image {
-      publicURL
-      childImageSharp {
-        gatsbyImageData
-      }
-    }
-    text
-    title
-  }
-}`
-
-export const servicesFields = graphql`
-fragment servicesFields on DataJson {
-  services {
-    projects {
-      link
-      image {
-        publicURL
-      }
-      name
-      type
-    }
-    title
-    subtitle
-    slogan
-  }
-}`
-
-export const clientTypeFields = graphql`
-fragment clientTypeFields on DataJson {
-  client_type {
-    services {
-      alt
-      image {
-        publicURL
-        childImageSharp {
-          gatsbyImageData
-        }
-      }
-      name
-      type
-    }
-    title
-    subtitle
   }
 }`
 
@@ -208,12 +113,6 @@ fragment packagesFields on DataJson {
         button_url
         button_text_second
         button_url_second
-        image {
-          publicURL
-          childImageSharp {
-            gatsbyImageData
-          }
-        }
       }
     }
 }`

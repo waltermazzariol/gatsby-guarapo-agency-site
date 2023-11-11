@@ -24,14 +24,14 @@
                 "link": "/desarrollo-web"
             },
             {
-                "nav": "Hospedaje Web",
-                "anchor": "",
-                "link": "/hospedaje"
-            },
-            {
                 "nav": "Marketing Digital",
                 "anchor": "",
                 "link": "/marketing-digital"
+            },
+            {
+                "nav": "Hospedaje Web",
+                "anchor": "",
+                "link": "/hospedaje"
             },
             {
                 "nav": "Portafolio",
@@ -128,7 +128,7 @@
     },
     "scope":{
         "title": "Web, Tienda virtual, landing page & más",
-        "description": "Todo lo que necesitas en un solo lugar",
+        "description": "Todo lo que necesitas en un sólo lugar",
         "list":[
             {"text": "Ads" },
             {"text": "Contenido" },

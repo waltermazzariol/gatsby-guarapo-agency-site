@@ -11,7 +11,7 @@ function NavBar(props) {
 
         <Link className="navbar-brand" to='/'><img src={Logo} alt="logo" /></Link>
 
-        <div className="button button--primary d-sm-block d-md-block d-lg-none"><a href={props.nav.cta_link} target="_blank" rel="noopener noreferrer">Empezar</a></div>
+        <Link className="button button--primary d-sm-block d-md-block d-lg-none" to={props.nav.cta_link}>Empezar</Link>
         <Navbar.Collapse id="navbarResponsive">
           <Nav className="navbar-nav ms-auto my-2 my-lg-0">
             <div className="navbar-nav"
@@ -25,7 +25,7 @@ function NavBar(props) {
             </div>
           </Nav>
         </Navbar.Collapse>
-        <div className="button button--primary d-none d-lg-block"><a href={props.nav.cta_link}>Empezar</a></div>
+        <Link className="button button--primary d-none d-lg-block" to={props.nav.cta_link}>Empezar</Link>
       </div>
     </Navbar>
   );

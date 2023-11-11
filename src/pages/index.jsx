@@ -24,6 +24,7 @@ import Banner from "../components/Banner";
 // import { Col } from "react-bootstrap";
 // import { StaticImage } from "gatsby-plugin-image"
 import Testimonial from "../components/Testimonial";
+// import InfiniteSlider from "../components/InfiniteSlider";
 
 function IndexPage(props) {
 const contentJson = props.data.allDataJson.edges[0].node
@@ -32,7 +33,10 @@ return (
 <Layout nav={contentJson.navigation}>
 
   {/* Hero */}
-  <Hero data={contentJson.hero} />
+  <Hero data={contentJson.hero} color="bg-yellow"/>
+ 
+  {/* Inifine Slider */}
+  {/* <InfiniteSlider /> */}
 
   {/* Our Process */}
   <Section anchor={'process'} className={"mt-5"}>
@@ -56,27 +60,12 @@ return (
 
    {/* Our Packages */}
    <Section anchor={'paquetes'} className={"mt-5"}>
-    <Title title={contentJson.packages.title} />
+    <Title title={contentJson.packages.title} subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"}/>
   </Section>
   <Packages data={contentJson.packages}/>
 
   {/* Banner */}
   <Banner data={contentJson.banner} />
-
-
-  {/* The team */}
-  {/* <Section anchor={'team'} className={"mt-5"}>
-    <Title title={"Aunque todo sea virtual, siempre contarás con la ayuda de nuestro equipo."} />
-  </Section>
-  <Section rowclassName="justify-content-center g-3">
-    <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/1.jpg"} alt="walter" /></Col>
-    <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/2.jpg"} alt="christian" /></Col>
-    <Col className="d-flex justify-content-center mb-3"><StaticImage className="rounded" src={"../assets/data/images/team/3.jpg"} alt="sergio" /></Col>
-    <div className="w-100"></div>
-    <Col className="mt-4 d-flex justify-content-center">
-    <Link className="item-btn item-btn_b button button--primary" to="/equipo" rel="noopener noreferrer"> Conoce al equipo</Link>
-    </Col>
-  </Section> */}
 
   {/* Testimonials */}
   <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3 justify-content-center">

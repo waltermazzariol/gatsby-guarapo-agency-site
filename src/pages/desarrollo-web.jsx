@@ -28,9 +28,10 @@ function WebPage(props) {
 
   return (
     <Layout nav={generalJson.navigation}>
-      <Hero data={contentJson.hero} />
+      <Hero data={contentJson.hero} color="bg-light-green"/>
+
       <Section>
-        <div className="col-12 pt-4"><a href="/">Inicio</a> / {contentJson.general.seo_title}</div>
+        <div className="col-12 pt-4 small"><a href="/">Inicio</a> / Desarrollo Web</div>
       </Section>      
       
        {/* Our Process */}
@@ -58,13 +59,10 @@ function WebPage(props) {
        {/* Our Packages */}
        <div className="spacer"></div>
       <Section anchor={'package'}>
-        <Title title={contentJson.packages.title}  />
+        <Title title={contentJson.packages.title} subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"} />
         <PriceTable data={contentJson.packages.items}/>
       </Section>
       
-      
-     
-
       {/* Banner */}
       <div className="spacer"></div>
       <Banner data={contentJson.banner} />
