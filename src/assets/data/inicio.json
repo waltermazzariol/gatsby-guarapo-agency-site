@@ -88,9 +88,9 @@
                     {"text": "Administración de anuncios pagos"}
                 ],
                 "button_text":"Empezar",
-                "button_url": "/contacto",
+                "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"Ver más",
-                "button_url_second": "/hospedaje",
+                "button_url_second": "/marketing-digital",
                 "image": "./images/package/computer.jpg"
             }
             
@@ -125,6 +125,36 @@
         "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
         "button_text": "Empezar ahora",
         "button_url": "/contacto"
+    },
+    "scope":{
+        "title": "Web, Tienda virtual, landing page & más",
+        "description": "Todo lo que necesitas en un solo lugar",
+        "list":[
+            {"text": "Ads" },
+            {"text": "Contenido" },
+            {"text": "Diseño gráfico" },
+            {"text": "Edición de videos para redes sociales" },
+            {"text": "Community Management" },
+            {"text": "Campañas" },
+            {"text": "Analíticas" },
+            {"text": "Reportes" },
+            {"text": "Consultoría" },
+            {"text": "Website" },
+            {"text": "Landing pages" },
+            {"text": "e-Commerce" },
+            {"text": "CMS" },
+            {"text": "SEO" },
+            {"text": "Mobile first" },
+            {"text": "Google index" },
+            {"text": "Dominios .com" },
+            {"text": "Diseño" },
+            {"text": "Mantenimiento" },
+            {"text": "Actualización de contenido" },
+            {"text": "Copy write" },
+            {"text": "Google Analytics" },
+            {"text": "Microsite" },
+            {"text": "Optimización de carga" }
+        ]
     },
     "testimonials":{
         "title": "¿Qué dicen nuestros clientes?",

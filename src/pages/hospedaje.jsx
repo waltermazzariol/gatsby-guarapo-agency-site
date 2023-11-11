@@ -40,7 +40,7 @@ function TeamPage(props) {
               type="text"
               value={domain}
               onChange={(e) => setDomain(e.target.value)}
-              placeholder="Introduce el nombre de tu Dominio"
+              placeholder="Introduce el nombre del dominio .com .net .org .es"
             />
             <Button
             variant="button button--primary text-white"

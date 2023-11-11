@@ -68,11 +68,12 @@ function MarketingPage(props) {
       <Banner data={contentJson.banner} />
 
       {/* Form Services*/}
-      <Section anchor={'portfolio'} className={'portfolio'} rowClass="justify-content-center" >
+      <Section anchor={'form'} rowClass="justify-content-center" >
         <Title title={"¿Tienes alguna duda?"} subtitle={"No dudes en escribirnos, Te prometemos responder ¡Super rápido!⚡️"} />
         <div className="col-12 col-md-6">
           <FormServices data={contentJson.form} tags={generalJson.tags}/>
         </div>
+        <div className="col-12 text-center small">¿No confias en los formularios? Puedes escribir a <a href="mailto:contacto@guarapomedia.com">contacto@guarapomedia.com</a></div>
       </Section>
 
       <div className="spacer"></div>

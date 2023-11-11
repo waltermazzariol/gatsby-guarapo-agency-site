@@ -8,18 +8,6 @@
 		position: relative;
 	}
 	&-item {
-		.icon-left{
-			
-			top:2rem;
-			left: 0;
-			max-width: 25px;
-		}
-		.icon-right{
-			
-			top:2rem;
-			right: 0;
-			max-width: 25px;
-		}
 		.hero-pre-title{
 			font-size: 1rem;
 			margin-bottom: 1.5rem;
@@ -45,16 +33,6 @@
 				.hero-subtitle{
 					font-size: 1.3rem;
 				}
-				.icon-left{
-					top:0;
-					left: 1rem;
-					max-width: 40px;
-				}
-				.icon-right{
-					top:0;
-					right: 1rem;
-					max-width: 40px;
-				}
 		}
 		@include media-breakpoint-up(xl) {
 				h1.hero-title {
@@ -62,16 +40,6 @@
 				}
 				.hero-subtitle{
 					font-size: 1.5rem;
-				}
-				.icon-left{
-					top:0;
-					left: 2rem;
-					max-width: 50px;
-				}
-				.icon-right{
-					top:0;
-					right: 2rem;
-					max-width: 50px;
 				}
 		}
 		ul{
