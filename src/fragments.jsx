@@ -7,6 +7,7 @@ fragment generalFields on DataJson {
     siteurl
     seo_title
     seo_description
+    seo_image
     ua
     lang
   }

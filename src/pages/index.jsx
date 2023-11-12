@@ -70,11 +70,9 @@ return (
   {/* Testimonials */}
   <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3 justify-content-center">
     <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
-    <div className="row">
       {contentJson.testimonials.list.map((key,index) =>
         <Testimonial key={index} data={key} />
       )}  
-    </div>
     </Section>
 
   {/* Portfolio */}

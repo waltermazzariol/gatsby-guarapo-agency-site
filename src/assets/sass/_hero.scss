@@ -1,61 +1,74 @@
 // Styling for the masthead
 .hero {
 	padding-top: 7rem;
+	@include media-breakpoint-up(lg) {
+		padding-top: 9rem;
+	}
 	&-wrapper {
 		padding: 1rem 0 1rem;
-		position: relative;
 	}
-	&-item {
-		.hero-pre-title{
+	&-pre-title{
+		margin-bottom: 1.5rem;
+		color: $dark-black;
+		font-size: 0.9rem;
+	}
+	&-title {
+		display: inline;
+		font-size: 2.5rem;
+		font-weight: 300;
+		margin-bottom: 1.5rem;
+		strong{
+			font-weight: 700;
+		}
+	}
+	&-subtitle{
+		color: $dark-black;
+		margin-bottom: 2rem;
+		font-size: 1.2rem;
+	}
+	&-button{
+		margin-bottom: 3rem;
+	}
+	@include media-breakpoint-up(md) {
+		&-pre-title{
 			font-size: 1rem;
-			margin-bottom: 1.5rem;
-			color: $dark-black;
-		}
-		h1.hero-title {
-			display: inline;
-			font-size: 2.5rem;
-			font-weight: 300;
-			margin-bottom: 1.5rem;
-			strong{
-				font-weight: 700;
-			}
-		}
-		.hero-subtitle{
-			color: $dark-black;
 			margin-bottom: 2rem;
 		}
-		@include media-breakpoint-up(md) {
-				h1.hero-title {
-					font-size: 4.5rem;
-				}
-				.hero-subtitle{
-					font-size: 1.3rem;
-				}
+		&-title {
+			font-size: 4.5rem;
+			margin-bottom: 2rem;
 		}
-		@include media-breakpoint-up(xl) {
-				h1.hero-title {
-					font-size: 5rem;
-				}
-				.hero-subtitle{
-					font-size: 1.5rem;
-				}
-		}
-		ul{
-			padding-left: 0px;
-			padding-right: 0px;
-			margin-top: 1rem;
+		&-subtitle{
+			font-size: 1.3rem;
 			margin-bottom: 3rem;
-			font-size: 1rem;
-			li{
-			list-style: none;
-			margin-bottom: 0.6rem;
-			i{
-				margin-right: 1rem;
-				color: $main-color;
-			}
-			}
 		}
-	}	
+	}
+	@include media-breakpoint-up(lg) {
+		&-pre-title{
+			font-size: 1.2rem;
+		}
+		&-title {
+			font-size: 5rem;
+		}
+		&-subtitle{
+			font-size: 1.5rem;
+		}
+	}
+	ul{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-top: 1rem;
+		margin-bottom: 3rem;
+		font-size: 1rem;
+		li{
+		list-style: none;
+		margin-bottom: 0.6rem;
+		i{
+			margin-right: 1rem;
+			color: $main-color;
+		}
+		}
+	}
 }
 
 .cover{
