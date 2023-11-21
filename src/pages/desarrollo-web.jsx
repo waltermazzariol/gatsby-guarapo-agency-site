@@ -69,7 +69,7 @@ function WebPage(props) {
 
       {/* Form Services*/}
       <Section anchor={'form'} rowClass="justify-content-center" >
-        <Title title={"¿Tienes alguna duda?"} subtitle={"No dudes en escribirnos, Te prometemos responder ¡Super rápido!⚡️"} />
+        <Title title={"¿Tienes alguna duda?"} subtitle={"¡Escríbenos! Te prometemos responder super rápido ⚡️"} />
         <div className="col-12 col-md-6">
           <FormServices data={contentJson.form} tags={generalJson.tags}/>
         </div>
