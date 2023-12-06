@@ -34,7 +34,7 @@ function Works(props) {
                   <li>
                     <span className="fa-li">
                       <i className="fas fa-location-arrow"></i>
-                    </span><b>{tagsJson.city}:</b> <a href={dataJson.city}>{dataJson.city}</a>
+                    </span><b>{tagsJson.city}:</b> {dataJson.city}
                   </li> : ""}
                 {dataJson.url !== "" ?
                   <li>
