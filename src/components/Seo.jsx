@@ -26,6 +26,7 @@ function Seo({metas}) {
     <meta name="title" content={metaTitle} />
     <meta httpEquiv="Content-Language" content="es" />
     <meta name="description" content={metaDescription}/>
+    <html lang="es"/>
 
     {/* <!-- Open Graph / Facebook --/> */}
     <meta property="og:type" content="website" />
