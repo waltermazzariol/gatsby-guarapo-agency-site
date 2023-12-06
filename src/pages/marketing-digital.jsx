@@ -29,7 +29,7 @@ function MarketingPage(props) {
 
   return (
     <Layout nav={generalJson.navigation}>
-    <Hero data={contentJson.hero} color="bg-light-pink"/>
+    <Hero data={contentJson.hero} color="bg-light-blue"/>
     <Section>
     <div className="col-12 pt-4 small"><a href="/">Inicio</a> / Marketing Digital</div>
       </Section>   

@@ -28,7 +28,7 @@ function WebPage(props) {
 
   return (
     <Layout nav={generalJson.navigation}>
-      <Hero data={contentJson.hero} color="bg-light-green"/>
+      <Hero data={contentJson.hero} color="bg-light-purple"/>
 
       <Section>
         <div className="col-12 pt-4 small"><a href="/">Inicio</a> / Desarrollo Web</div>
