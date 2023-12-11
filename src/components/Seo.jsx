@@ -13,7 +13,6 @@ function Seo({metas}) {
     ReactGA.initialize(metas.ua);
     ReactGA.send({ hitType: "pageview", page: window.location.pathname + window.location.search });
   }
-  console.log(metas)
   const metaTitle = metas.seo_title
   const metaDescription = metas.seo_description
   const imageURL = `https://guarapomedia.com/${metas.seo_image}`

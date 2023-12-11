@@ -84,7 +84,7 @@ export function Head(props) {
     path: `/${props.data.workJson.parent.name}`,
     siteurl: `${props.data.workJson.parent.relativeDirectory}/${props.data.workJson.parent.name}`,
     seo_title: `${props.data.workJson.client} • Agencia de Marketing Digital`,
-    seo_description: "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+    seo_description: props.data.workJson.description.substring(0, 160),
     seo_image: props.data.workJson.thumbnail.publicURL,
     ua: "G-Q4Y6R6M0KC",
     lang: "es"
