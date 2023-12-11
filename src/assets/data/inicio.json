@@ -41,7 +41,7 @@
         ]
     },
     "hero": {
-        "pretitle": "Todo lo que necesitas en un sólo sitio",
+        "pretitle": "<i class='small-icon fa-solid fa-bolt'></i> Todo lo que necesitas en un sólo sitio <i class='small-icon fa-solid fa-bolt'></i>",
         "title": "<strong>AGENCIA DIGITAL</strong><br/> de Marketing y Desarrollo Web",
         "subtitle": "Creamos estrategias que <span class='text-underscore'><strong>convierten</strong></span> y te ayudan a llegar a más clientes",
         "image": "./images/bg_siargao.webp",
