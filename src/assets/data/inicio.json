@@ -74,7 +74,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
                 "button_text_second":"Ver más",
-                "button_url_second": "/desarrollo-web/"
+                "button_url_second": "/desarrollo-web#package"
             },
             {
                 "name": "Content creation",
@@ -91,7 +91,7 @@
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"Ver más",
-                "button_url_second": "/marketing-digital"
+                "button_url_second": "/marketing-digital#package"
             }
             
         ]
@@ -127,8 +127,8 @@
         "button_url": "/contacto"
     },
     "scope":{
-        "title": "Web, Tienda virtual, landing page & más",
-        "description": "Todo lo que necesitas en un sólo lugar",
+        "title": "Todo lo que necesitas en un sólo lugar",
+        "description": "Web, Tienda virtual, landing page & más",
         "list":[
             {"text": "Ads" },
             {"text": "Contenido" },

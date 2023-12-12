@@ -9,7 +9,7 @@ function NavBar(props) {
       <div className="container">
         <Navbar.Toggle aria-controls="navbarResponsive" />
 
-        <Link className="navbar-brand" to='/'><img src={Logo} alt="logo" /></Link>
+        <Link className="navbar-brand" to='/'><img src={Logo} alt="logo Guarapo Media" /></Link>
 
         <Link className="button button--primary d-sm-block d-md-block d-lg-none" to={props.nav.cta_link}>Empezar</Link>
         <Navbar.Collapse id="navbarResponsive">

@@ -25,6 +25,7 @@
                 "strikethrough": "90€",
                 "time": "/ año",
                 "list": [
+                    {"text": "1 dominio"},
                     {"text": "Hospedaje de 600mb"},
                     {"text": "10gb de Transferencia mensual"},
                     {"text": "Hasta 10 correos electrónicos"},
@@ -46,6 +47,7 @@
                 "strikethrough": "120€",
                 "time": "/ año",
                 "list": [
+                    {"text": "Hasta 2 dominios"},
                     {"text": "Hospedaje de 1.2gb"},
                     {"text": "20gb de Transferencia mensual"},
                     {"text": "Hasta 20 correos electrónicos"},

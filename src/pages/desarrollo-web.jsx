@@ -16,7 +16,7 @@ import Hero from "../components/Hero/Hero"
 import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
 import PriceTable from "../components/PriceTable"
-import Process from "../components/process";
+import Process from "../components/Process";
 import Banner from "../components/Banner";
 import FormServices from "../components/Form";
 
@@ -57,7 +57,7 @@ function WebPage(props) {
       </Section>
 
        {/* Our Packages */}
-       <div className="spacer"></div>
+      <div className="spacer"></div>
       <Section anchor={'package'}>
         <Title title={contentJson.packages.title} subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"} />
         <PriceTable data={contentJson.packages.items} popular />

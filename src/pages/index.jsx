@@ -19,7 +19,7 @@ import Packages from "../components/PriceTable"
 import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
 
-import Process from "../components/process";
+import Process from "../components/Process";
 import Banner from "../components/Banner";
 // import { Col } from "react-bootstrap";
 // import { StaticImage } from "gatsby-plugin-image"

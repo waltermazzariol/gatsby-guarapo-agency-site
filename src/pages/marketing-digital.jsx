@@ -16,7 +16,7 @@ import Hero from "../components/Hero/Hero"
 import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
 import PriceTable from "../components/PriceTable"
-import Process from "../components/process";
+import Process from "../components/Process";
 import Banner from "../components/Banner";
 import FormServices from "../components/Form";
 
