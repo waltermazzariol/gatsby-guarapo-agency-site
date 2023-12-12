@@ -106,6 +106,7 @@ fragment packagesFields on DataJson {
         name
         from
         price
+        strikethrough
         time
         list{
           text

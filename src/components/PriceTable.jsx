@@ -14,7 +14,7 @@ function Plans({ data, popular }) {
                                 {index === 1 && popular ? <div className="item-tag-wrapper mt-2"><span className="item-tag">Popular 😎</span></div> : ""}
                             </span>
                             <div className="item-price">
-                                <div className="item-text-left">{key.from}</div>
+                                <span className="item-text-left">{key.strikethrough}</span><br/>
                                 <span className="item-title text-left text-color-second-color">{key.price}</span>
                                 <span className="item-text-right">{key.time}</span>
                             </div>

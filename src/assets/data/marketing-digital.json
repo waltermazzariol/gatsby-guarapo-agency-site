@@ -30,7 +30,7 @@
                 "name": "Plan Básico",
                 "from": "Desde",
                 "price": "599€",
-                "time": "",
+                "strikethrough": "699€",
                 "list":[
                     {"text": "Contenido mensual para Social Media"},
                     {"text": "Diseño gráfico"},
@@ -47,7 +47,7 @@
                 "name": "Plan Pro",
                 "from": "Desde",
                 "price": "799€",
-                "time": "",
+                "strikethrough": "999€",
                 "list":[
                     {"text": "Contenido mensual para Social Media"},
                     {"text": "Diseño gráfico (Entregas rápidas)"},

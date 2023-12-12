@@ -22,26 +22,15 @@
                 "name": "Plan Light",
                 "from": "",
                 "price": "60$ ",
+                "strikethrough": "90€",
                 "time": "/ año",
                 "list": [
-                    {
-                        "text": "Hospedaje de 500mb"
-                    },
-                    {
-                        "text": "10gb de Transferencia mensual"
-                    },
-                    {
-                        "text": "Hasta 10 correos electrónicos"
-                    },
-                    {
-                        "text": "Certificado SSL gratuito"
-                    },
-                    {
-                        "text": "Instalación Wordpress 1 click"
-                    },
-                    {
-                        "text": "Bases de datos MySQL ilimitadas"
-                    }
+                    {"text": "Hospedaje de 600mb"},
+                    {"text": "10gb de Transferencia mensual"},
+                    {"text": "Hasta 10 correos electrónicos"},
+                    {"text": "Certificado SSL gratuito"},
+                    {"text": "Instalación Wordpress 1 click"},
+                    {"text": "Bases de datos MySQL ilimitadas"}
                 ],
                 "button_text": "reservar",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-light",
@@ -54,26 +43,15 @@
                 "name": "Plan Basic",
                 "from": "",
                 "price": "90$ ",
+                "strikethrough": "120€",
                 "time": "/ año",
                 "list": [
-                    {
-                        "text": "Hospedaje de 1gb"
-                    },
-                    {
-                        "text": "20gb de Transferencia mensual"
-                    },
-                    {
-                        "text": "Hasta 20 correos electrónicos"
-                    },
-                    {
-                        "text": "Certificado SSL gratuito"
-                    },
-                    {
-                        "text": "Instalación Wordpress 1 click"
-                    },
-                    {
-                        "text": "Bases de datos MySQL ilimitadas"
-                    }
+                    {"text": "Hospedaje de 1.2gb"},
+                    {"text": "20gb de Transferencia mensual"},
+                    {"text": "Hasta 20 correos electrónicos"},
+                    {"text": "Certificado SSL gratuito"},
+                    {"text": "Instalación Wordpress 1 click"},
+                    {"text": "Bases de datos MySQL ilimitadas"}
                 ],
                 "button_text": "reservar",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-basic",
@@ -84,11 +62,12 @@
             {
                 "name": "Plan Pro",
                 "from": "",
-                "price": "115$ ",
+                "price": "350€",
+                "strikethrough": "499€",
                 "time": "/ año",
                 "list": [
                     {
-                        "text": "Hospedaje de 2.5gb"
+                        "text": "Hospedaje de 5gb"
                     },
                     {
                         "text": "30gb de Transferencia mensual"

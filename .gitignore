@@ -60,6 +60,7 @@ typings/
 public.zip
 content
 public
+.v20*
 
 # Mac files
 .DS_Store

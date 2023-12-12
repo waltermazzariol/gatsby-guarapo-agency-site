@@ -28,9 +28,10 @@
                 "name": "Plan Básico",
                 "from": "Desde",
                 "price": "499€",
+                "strikethrough": "699€",
                 "time": "",
                 "list":[
-                    {"text": "Página web de una página"},
+                    {"text": "Landing page"},
                     {"text": "Sección de servicios"},
                     {"text": "Sección de contacto"},
                     {"text": "Hosting incluido, 1er año"},
@@ -47,6 +48,7 @@
                 "name": "Plan Pro",
                 "from": "Desde",
                 "price": "999€",
+                "strikethrough": "1.299€",
                 "time": "",
                 "list":[
                     {"text": "Página web con CMS (Wordpress o otro)"},
@@ -66,6 +68,7 @@
                 "name": "Plan E-Commerce",
                 "from": "Desde",
                 "price": "1.599€",
+                "strikethrough": "1.999€",
                 "time": "",
                 "list":[
                     {"text": "Página web con CMS (Wordpress, Shopify, SquareSpace)"},

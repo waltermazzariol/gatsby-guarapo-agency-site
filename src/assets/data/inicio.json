@@ -57,15 +57,16 @@
         "title": "¡Escoge tu Paquete!",
         "items":[
             {
-                "name": "Desaarrollo Web",
+                "name": "Desarrollo Web",
+                "strikethrough": "699€",
                 "price": "499€",
-                "time": "",
+                "time": "pago único",
                 "list":[
-                    {"text": "Página web de una página"},
+                    {"text": "Landing page"},
                     {"text": "Sección de servicios"},
                     {"text": "Sección de contacto"},
                     {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
+                    {"text": "Dominio .com incluido, 1er año"},
                     {"text": "Emails con tu dominio"},
                     {"text": "Entregada en 5 días o menos"}
             
@@ -76,8 +77,9 @@
                 "button_url_second": "/desarrollo-web/"
             },
             {
-                "name": "Marketing",
+                "name": "Content creation",
                 "price": "599€",
+                "strikethrough": "799€",
                 "time": "al mes",
                 "list":[
                     {"text": "Contenido mensual para Social Media"},
