@@ -21,6 +21,7 @@
       border-radius: 5px;
     }
     &--primary {
+      border: 1px solid $main-color;
       background-color: $main-color;
       font-size: 0.85rem;
       color: #ffffff;

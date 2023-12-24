@@ -21,7 +21,7 @@
             {
                 "name": "Plan Light",
                 "from": "",
-                "price": "60$ ",
+                "price": "60€",
                 "strikethrough": "90€",
                 "time": "/ año",
                 "list": [
@@ -36,14 +36,13 @@
                 "button_text": "reservar",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-light",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/woman.jpg"
+                "button_url_second": ""
                 
             },
             {
                 "name": "Plan Basic",
                 "from": "",
-                "price": "90$ ",
+                "price": "90€",
                 "strikethrough": "120€",
                 "time": "/ año",
                 "list": [
@@ -58,8 +57,7 @@
                 "button_text": "reservar",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-basic",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/woman.jpg"
+                "button_url_second": ""
             },
             {
                 "name": "Plan Pro",
@@ -90,8 +88,7 @@
                 "button_text": "Consultar Disponibilidad",
                 "button_url": "/contacto",
                 "button_text_second":"",
-                "button_url_second": "",
-                "image": "./images/package/woman.jpg"
+                "button_url_second": ""
             }
         ]
     },

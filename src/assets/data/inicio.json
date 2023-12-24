@@ -41,7 +41,7 @@
         ]
     },
     "hero": {
-        "pretitle": "<i class='small-icon fa-solid fa-bolt'></i> Todo lo que necesitas en un sólo sitio <i class='small-icon fa-solid fa-bolt'></i>",
+        "pretitle": "• Todo lo que necesitas en un sólo sitio •",
         "title": "<strong>AGENCIA DIGITAL</strong><br/> de Marketing y Desarrollo Web",
         "subtitle": "Creamos estrategias que <span class='text-underscore'><strong>convierten</strong></span> y te ayudan a llegar a más clientes",
         "image": "./images/bg_siargao.webp",
@@ -144,7 +144,7 @@
             {"text": "e-Commerce" },
             {"text": "CMS" },
             {"text": "SEO" },
-            {"text": "Mobile first" },
+            {"text": "Mobile web" },
             {"text": "Google index" },
             {"text": "Dominios .com" },
             {"text": "Diseño" },
