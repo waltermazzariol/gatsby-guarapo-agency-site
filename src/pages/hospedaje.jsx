@@ -15,11 +15,11 @@ import Cover from "../components/Hero/Cover";
 import Contact from "../components/Contact";
 import Section from "../components/Common/Section";
 import Title from "../components/Common/Title";
+import Domain from "../components/Domain.jsx";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import { Col } from "react-bootstrap";
-import Domain from "../components/domain.jsx";
 
 function TeamPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node;
