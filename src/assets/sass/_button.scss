@@ -1,4 +1,4 @@
-// Button restyling
+
 .button {
     font-family: $headings-font-family;
     padding: 0.5rem 1rem;
@@ -27,7 +27,6 @@
       color: #ffffff;
       &:hover, &:active, &:focus {
         background-color: darken($color: $main-color, $amount: 10);
-        font-size: 0.85rem;
         color: #ffffff;
       }
     }

@@ -1,0 +1,16 @@
+.domain{
+    &-box{
+        position: relative;
+        padding: 1.5rem 2rem;
+        border-radius: 10px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    &-price{
+        font-size: 0.9rem;
+        color: $main-color;
+    }
+}

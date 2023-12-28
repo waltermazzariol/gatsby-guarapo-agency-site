@@ -244,5 +244,9 @@ fragment domainsFields on DataJson {
     title
     description
     link
+    packages{
+      name
+      price
+    }
   }
 }`

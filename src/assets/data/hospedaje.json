@@ -2,14 +2,14 @@
     "general": {
         "path": "/hospedaje",
         "siteurl": "https://guarapomedia.com/hospedaje",
-        "seo-title": "Hospedaje Web • Agencia de Marketing Digital",
+        "seo-title": "Dominios & Hospedaje Web • Agencia de Marketing Digital",
         "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
     "cover": {
-        "title": "Hospedaje <strong>Web</strong>",
+        "title": "Dominios & <strong>Hospedaje Web</strong>",
         "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
         "bgimage": "./images/bg_hero.jpg",
         "button_text": "Conoce más",
@@ -95,6 +95,28 @@
     "domains":{
         "title": "¡Reserva tu dominio ahora mismo!",
         "description": "Comienza a hacer realidad tu proyecto, consulta la disponibilidad ahora mismo.",
-        "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query="
+        "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query=",
+        "packages":[
+            {
+                "name":".com",
+                "price":"20€ 1er año"
+            },
+            {
+                "name":".es",
+                "price":"30€ 1er año"
+            },
+            {
+                "name":".net",
+                "price":"20€ 1er año"
+            },
+            {
+                "name":".org",
+                "price":"20€ 1er año"
+            },
+            {
+                "name":".co",
+                "price":"35€ 1er año"
+            }
+        ]
     }
 }
