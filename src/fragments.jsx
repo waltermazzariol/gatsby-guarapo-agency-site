@@ -94,7 +94,6 @@ fragment testimonialsFields on DataJson {
         }
         message
       }
-      
     }
 }`
 
@@ -154,7 +153,6 @@ fragment contactFields on DataJson {
   contact {
     address
     email
-    phone
     socialmedia {
       link
       name

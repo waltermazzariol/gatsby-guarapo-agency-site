@@ -1,26 +1,98 @@
-.testimonial{
-      padding: 1.5rem 2rem;
-      border-radius: 10px;
-      height: 100%;
-        &-img{
-            margin-right: 1rem;
-            margin-bottom: 0.5rem;
-            max-width: 50px;
-            max-height: 50px;
-        }
-        &-message{
-            color: $dark-black;
-            font-size: 0.9rem;
-            margin-bottom: 0.5rem;
-        }
-        &-subtitle-link{
-            color: $dark-black;
-            font-size: 1rem;
-        }
-        &-subtitle{
-            font-size: 0.8rem;
-            font-style: italic;
-            margin-bottom: 0.5rem;
-            color: $dark-black;
+.testimonial {
+    &-box {
+        padding: 1.5rem 2rem;
+        border-radius: 10px;
+        height: 100%;
+        &:hover{
+            background-color: darken($color: $second-color, $amount: 2);
         }
     }
+    &-img {
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        max-width: 50px;
+        max-height: 50px;
+    }
+
+    &-message {
+        color: $dark-black;
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    &-subtitle-link {
+        color: $dark-black;
+        font-size: 1rem;
+    }
+
+    &-subtitle {
+        font-size: 0.8rem;
+        font-style: italic;
+        margin-bottom: 0.5rem;
+        color: $dark-black;
+    }
+
+    .carousel {
+        position: relative;
+        overflow: hidden;
+        &-fade:before {
+            left: 0;
+            background-image: linear-gradient(90deg,$body-background,hsla(0,0%,100%,0));
+        }
+        &-fade:after {
+            right: 0;
+            background-image: linear-gradient(270deg,$body-background,hsla(0,0%,100%,0));
+        }
+        
+        &-fade:after, &-fade:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 200px;
+            pointer-events: none;
+            z-index: 10;
+            @include media-breakpoint-down(lg) {
+                width: 50px;
+            }
+        }
+
+        &-x {
+            display: inline-flex;
+            animation: carousel-reverse 20s linear infinite;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+
+        &-reverse {
+            display: inline-flex;
+            animation: carousel 20s linear infinite;
+
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
+}
+
+@keyframes carousel-reverse {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%) translateZ(0);
+    }
+}
+
+@keyframes carousel {
+    0% {
+        transform: translateX(-50%) translateZ(0);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

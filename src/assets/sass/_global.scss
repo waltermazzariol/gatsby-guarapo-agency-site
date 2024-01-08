@@ -3,6 +3,7 @@
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
+
   &:focus {
     outline: 0;
   }
@@ -22,6 +23,7 @@ html {
   text-align: left;
   color: $font-text-color;
   margin: 0;
+
   @include media-breakpoint-up(lg) {
     body {
       font-size: 1.1rem;
@@ -38,6 +40,7 @@ h6 {
   font-family: $headings-font-family;
   line-height: 1.5em;
 }
+
 h1,
 h2,
 h3,
@@ -46,6 +49,7 @@ h5,
 h6 {
   color: $font-title-color;
 }
+
 h1,
 h2,
 h3 {
@@ -53,81 +57,97 @@ h3 {
   margin-bottom: 0.8rem;
   font-weight: 400;
 }
+
 h4,
 h5,
 h6 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 h1 {
   font-size: 3.3125rem;
   line-height: 1.15em;
   color: $dark-black;
 }
+
 h2 {
   font-size: 2.9rem;
   line-height: 3.2rem;
   font-weight: 700;
+
   @include media-breakpoint-down(lg) {
     font-size: 2.5rem;
     line-height: 3rem;
 
   }
 }
+
 h3 {
   font-size: 2rem;
   line-height: 1.4em;
   font-weight: 700;
 }
+
 h4 {
   font-size: 1.125rem;
   line-height: 1.5em;
   font-weight: 700;
   color: $main-color;
 }
+
 h5 {
   font-size: 1.0625rem;
   line-height: 1.55em;
 }
+
 h6 {
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 500;
 }
+
 p,
 b {
   margin: 0 0 10px;
   color: $font-text-color;
   font-family: $font-family-base;
 }
+
 a {
   color: $font-text-color;
   text-decoration: none;
   background-color: transparent;
+
   &:hover,
   &:focus {
     color: darken($font-text-color, 10%);
     text-decoration: none;
   }
 }
+
 label {
   font-size: 14px;
   line-height: 1.42857;
   color: $light-gray;
   font-weight: 400;
 }
+
 small {
   font-size: 75%;
   color: #777;
   font-weight: 400;
 }
+
 .small-text {
   font-size: 0.9rem;
 }
+
 img {
   vertical-align: middle;
   border-style: none;
 }
+
 .text-primary {
   color: $darker-black !important;
   font-weight: 400;
@@ -137,14 +157,17 @@ img {
 form {
   margin-bottom: 1.125rem;
 }
+
 .form-label {
   color: $font-text-color;
 }
+
 .form-control {
   background-color: #f5f5f5;
   border-radius: 0px;
   border-color: transparent;
 }
+
 .form-text {
   font-size: 0.9rem;
 }
@@ -156,6 +179,7 @@ form {
   padding-bottom: 100%;
   box-shadow: $box-shadow;
 }
+
 img.fluido {
   position: absolute;
   top: 0px;
@@ -175,6 +199,7 @@ img.fluido {
 .modal-backdrop {
   background-color: #fff;
 }
+
 .modal-backdrop.show {
   opacity: 0.8;
 }
@@ -182,26 +207,26 @@ img.fluido {
 // Backgrounds
 .bg {
   &--70 {
-    background-image: -webkit-linear-gradient(
-      180deg,
-      #f6f6f6,
-      #f6f6f6 70%,
-      transparent 70%,
-      transparent 100%
-    );
+    background-image: -webkit-linear-gradient(180deg,
+        #f6f6f6,
+        #f6f6f6 70%,
+        transparent 70%,
+        transparent 100%);
   }
+
   &-black {
-    background: linear-gradient(
-      180deg,
-      rgba(13, 101, 98, 0.5) 0%,
-      rgba(13, 101, 98, 0.5) 0%
-    );
+    background: linear-gradient(180deg,
+        rgba(13, 101, 98, 0.5) 0%,
+        rgba(13, 101, 98, 0.5) 0%);
   }
+
   &-gray {
     background-color: $light-gray;
   }
+
   &-yellow {
     background-color: $yellow;
+
     &-top {
       background: $yellow;
       bottom: 50%;
@@ -214,6 +239,7 @@ img.fluido {
       transform: rotate(-6deg);
       width: 150%;
     }
+
     &-bottom {
       background: $yellow;
       bottom: 50%;
@@ -227,66 +253,79 @@ img.fluido {
       width: 150%;
     }
   }
-  &-light-blue{
-    background-color: $light-blue!important;
+
+  &-light-blue {
+    background-color: $light-blue !important;
   }
-  &-light-pink{
-    background-color: $light-pink!important;
+
+  &-light-pink {
+    background-color: $light-pink !important;
   }
-  &-light-green{
-    background-color: $light-green!important;
+
+  &-light-green {
+    background-color: $light-green !important;
   }
-  &-light-purple{
-    background-color: $light-purple!important;
+
+  &-light-purple {
+    background-color: $light-purple !important;
   }
-  &-first-color{
+
+  &-first-color {
     background-color: $first-color;
   }
-  &-second-color{
+
+  &-second-color {
     background-color: $second-color;
   }
-  &-third-color{
+
+  &-third-color {
     background-color: $third-color;
   }
 }
 
-.text{
-  &-underscore{
+.text {
+  &-underscore {
     position: relative;
-    &:after{
+
+    &:after {
       content: '';
       background-image: url(/underscore.svg);
       background-repeat: no-repeat;
       position: absolute;
       width: 100%;
-      height : 6px;
+      height: 6px;
       bottom: -5px;
       left: 0;
     }
 
   }
-  &-underline{
+
+
+  &-underline {
     position: relative;
-    &:after{
+
+    &:after {
       content: '';
       background-image: url(/underline.svg);
       background-repeat: no-repeat;
       position: absolute;
       width: 100%;
-      height : 6px;
+      height: 6px;
       bottom: -7px;
       left: 0;
     }
 
   }
-  &-color{
-    &-first-color{
+  &-color {
+    &-first-color {
       color: $first-color;
     }
-    &-second-color{
+
+    &-second-color {
       color: $second-color;
     }
-    &-third-color{
+
+    &-third-color {
       color: $third-color;
     }
   }
@@ -299,21 +338,26 @@ img.fluido {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+
     .item {
       flex: 0 0 22%;
       background-color: #ffffff;
       margin: 10px;
+
       a {
         height: 100%;
       }
+
       @include media-breakpoint-down(lg) {
         flex: 0 0 44%;
         margin: auto;
       }
+
       @include media-breakpoint-down(md) {
         flex: 0 0 100%;
         margin: auto;
       }
+
       img {
         width: 100%;
         aspect-ratio: 1 / 1;
@@ -321,10 +365,12 @@ img.fluido {
       }
     }
   }
+
   &-title {
     padding: 0 15px;
     margin-bottom: 15px;
   }
+
   &-cat {
     margin: 20px 15px 5px;
     padding: 4px;
@@ -334,25 +380,27 @@ img.fluido {
     min-width: 70px;
     text-transform: capitalize;
     font-weight: 400;
+
     &-web {
       background-color: $yellow;
     }
+
     &-marketing {
       background-color: $light-blue;
     }
   }
 }
 
-.border-radius_10{
+.border-radius_10 {
   border-radius: 10px;
 }
 
-.spacer{
+.spacer {
   width: 100%;
   margin-top: 36px;
 }
 
-.img-circle{
+.img-circle {
   border-radius: 50%;
 }
 
@@ -364,12 +412,35 @@ img.fluido {
   display: flex;
   height: 48px;
   overflow: hidden;
-  .btn{
+
+  .btn {
     margin-top: 3px;
   }
 }
 
-.small-icon{
+.small-icon {
   font-size: 0.8rem;
   color: $font-text-color;
 }
+
+.text-size-large{
+  font-size: 1.25rem;
+  line-height: 1.4;
+  @media (min-width: 768px){
+   font-size: 1.5rem;
+   }	
+ }
+ 
+ .text-size-medium{
+   font-size: 1.1rem;
+   line-height: 1.4;
+   @media (min-width: 768px){
+     font-size: 1.25rem;
+     }	
+ }
+ 
+ .text-size-small{
+   font-size: .85rem;
+   line-height: 1.4;
+   color: $dark-black;
+ }

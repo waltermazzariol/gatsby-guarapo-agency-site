@@ -68,11 +68,20 @@ return (
   <Banner data={contentJson.banner} />
 
   {/* Testimonials */}
-  <Section anchor={'testimonial'} className={"mt-5"} rowClass="g-3 justify-content-center">
+  <Section anchor={'testimonial'} className={"mt-5 testimonial"} rowClass="g-3 justify-content-center">
     <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
-      {contentJson.testimonials.list.map((key,index) =>
-        <Testimonial key={index} data={key} />
-      )}  
+      <div className="carousel carousel-fade">
+        <div className="carousel-x g-2">
+          {contentJson.testimonials.list.slice(0, 6).map((key,index) =>
+            <Testimonial key={index} data={key} />
+            )}  
+        </div>
+        <div className="carousel-reverse g-2">
+          {contentJson.testimonials.list.slice(7, 13).map((key,index) =>
+            <Testimonial key={index} data={key} />
+            )}  
+        </div>
+      </div>
     </Section>
 
   {/* Portfolio */}

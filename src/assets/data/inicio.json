@@ -41,7 +41,7 @@
         ]
     },
     "hero": {
-        "pretitle": "• Todo lo que necesitas en un sólo sitio •",
+        "pretitle": "Todo lo que necesitas en un sólo sitio",
         "title": "<strong>AGENCIA DIGITAL</strong><br/> de Marketing y Desarrollo Web",
         "subtitle": "Creamos estrategias que <span class='text-underscore'><strong>convierten</strong></span> y te ayudan a llegar a más clientes",
         "image": "./images/bg_siargao.webp",
@@ -177,11 +177,76 @@
                 "position": "Escuela de natación Picarpolos",
                 "image": "./images/testimonials/carlosfafian.jpeg",
                 "message": "Con la ayuda de Guarapo construir nuestra página web fue rápido y muy sencillo. Nuestro clientes ahora pueden encontrar toda la información que necesitan en nuestro sitio web."
+            },
+            {
+                "name": "Violeta Gladstone",
+                "position": "Florista",
+                "image": "./images/testimonials/violeta.png",
+                "message": "Mi web ha quedado preciosa y funciona de maravilla. Muchas gracias y repetimos!"
+            },
+            {
+                "name": "Mireia Segarra Escolà",
+                "position": "Florista",
+                "image": "./images/testimonials/mireia.png",
+                "message": "Muy contenta con el trabajo de mi página web y con el posterior seguimiento!!! Trabajan muy bien!! Dudas, consultas, actualizaciones...siempre 100% disponibles!! Da gusto trabajar así, os la recomiendo!! Gracias!"
+            },
+            {
+                "name": "Angel Benitez",
+                "position": "Restaurant Burbowl",
+                "image": "./images/testimonials/burbowl.png",
+                "message": "Guarapo Media nos ha acompañado desde 2015, siendo cómplices en todos nuestros medios digitales y consiguiendo los mejores resultados en campañas y estrategias. Cuentan con un gran equipo de profesionales siempre dispuestos a colaborar con la mejor actitud."
+            },
+            {
+                "name": "Ernesto Rangel",
+                "position": "Guataca Nights",
+                "image": "./images/testimonials/ernesto.jpeg",
+                "message": "Guarapo Media nos ayudó a mejorar nuestro posicionamiento en Google, un problema que veniamos teniendo desde hace un tiempo sin pode resolver, adicionalmente nos mantienen al día nuestra página web."
+            },
+            {
+                "name": "Jamie Brasco",
+                "position": "Barcelona",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Outstanding service, always on time and know how to do the job, one of the few companies that go the extra mile to get things done for you, really recommendable, reasonable prices and very down to earth friendly guys."
+            },
+            {
+                "name": "Jesús Osorio",
+                "position": "Emprendedor",
+                "image": "./images/testimonials/jesusosorio.png",
+                "message": "Me hicieron landing page para un trabajo de la uni, me gusto mucho el diseño y se puede apreciar el profesionalismo, los recomiendo 100%"
+            },
+            {
+                "name": "Jesus Valera",
+                "position": "Profesor",
+                "image": "./images/testimonials/jesus.png",
+                "message": "Me hicieron un trabajo en mi WordPress, la verdad fueron rápidos e hicieron un buen trabajo!"
+            },
+            {
+                "name": "Juan Manual Acosta",
+                "position": "Escuela de natación Picarpolos",
+                "image": "./images/testimonials/juanmanuel.png",
+                "message": "Excelente atención personalizada. Entienden lo que uno quiere. Excelente producto y calidad profesional."
+            },
+            {
+                "name": "Jamie Brasco",
+                "position": "Barcelona",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Outstanding service, always on time and know how to do the job, one of the few companies that go the extra mile to get things done for you, really recommendable, reasonable prices and very down to earth friendly guys."
+            },
+            {
+                "name": "Jesús Osorio",
+                "position": "Emprendedor",
+                "image": "./images/testimonials/jesusosorio.png",
+                "message": "Me hicieron landing page para un trabajo de la uni, me gusto mucho el diseño y se puede apreciar el profesionalismo, los recomiendo 100%"
+            },
+            {
+                "name": "Jesus Valera",
+                "position": "Profesor",
+                "image": "./images/testimonials/jesus.png",
+                "message": "Me hicieron un trabajo en mi WordPress, la verdad fueron rápidos e hicieron un buen trabajo!"
             }
         ]
     },
     "contact": {
-        "phone": "+34622531989",
         "email": "contacto@guarapomedia.com",
         "address": "Barcelona, España",
         "socialmedia": [
