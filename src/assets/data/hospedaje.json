@@ -25,8 +25,7 @@
                 "strikethrough": "90€",
                 "time": "/ año",
                 "list": [
-                    {"text": "1 dominio"},
-                    {"text": "Hospedaje de 600mb"},
+                    {"text": "Hospedaje de 600 mb"},
                     {"text": "10gb de Transferencia mensual"},
                     {"text": "Hasta 10 correos electrónicos"},
                     {"text": "Certificado SSL gratuito"},
@@ -46,8 +45,7 @@
                 "strikethrough": "120€",
                 "time": "/ año",
                 "list": [
-                    {"text": "Hasta 2 dominios"},
-                    {"text": "Hospedaje de 1.2gb"},
+                    {"text": "Hospedaje de 1.200 mb"},
                     {"text": "20gb de Transferencia mensual"},
                     {"text": "Hasta 20 correos electrónicos"},
                     {"text": "Certificado SSL gratuito"},
@@ -62,12 +60,12 @@
             {
                 "name": "Plan Pro",
                 "from": "",
-                "price": "350€",
-                "strikethrough": "499€",
+                "price": "120€",
+                "strikethrough": "150€",
                 "time": "/ año",
                 "list": [
                     {
-                        "text": "Hospedaje de 5gb"
+                        "text": "Hospedaje de 3.000 mb"
                     },
                     {
                         "text": "30gb de Transferencia mensual"
@@ -99,23 +97,23 @@
         "packages":[
             {
                 "name":".com",
-                "price":"20€ 1er año"
+                "price":"20€ 1er año / 30€ renovación"
             },
             {
                 "name":".es",
-                "price":"30€ 1er año"
+                "price":"30€ 1er año / 40€ renovación"
             },
             {
                 "name":".net",
-                "price":"20€ 1er año"
+                "price":"20€ 1er año / 30€ renovación"
             },
             {
                 "name":".org",
-                "price":"20€ 1er año"
+                "price":"20€ 1er año / 30€ renovación"
             },
             {
                 "name":".co",
-                "price":"35€ 1er año"
+                "price":"35€ 1er año / 45€ renovación"
             }
         ]
     }
