@@ -65,7 +65,7 @@ function TeamPage(props) {
           </Form>
         </Col>
       </Section>
-      <Section rowClass={"g-5 justify-content-center"}>
+      <Section rowClass={"gy-5 justify-content-center"}>
         <Domain data={contentJson.domains.packages} />
       </Section>
       <Section className={"price"}>

@@ -34,9 +34,6 @@ return (
 
   {/* Hero */}
   <Hero data={contentJson.hero} color="bg-yellow"/>
- 
-  {/* Inifine Slider */}
-  {/* <InfiniteSlider /> */}
 
   {/* Our Process */}
   <Section anchor={'process'} className={"mt-5"}>
@@ -45,21 +42,21 @@ return (
   </Section>
 
   {/* Scope */}
-      <Section anchor={'scope mt-5'}>
-        <Title title={contentJson.scope.title} subtitle={contentJson.scope.description}/>
-        <div className="Container scope">
-          <div className="row">
-            {contentJson.scope.list.map((key,index)=>
-              <div key={index} className="col-12 col-md-4">
-                <div className="scope-underline">{key.text}</div>
-            </div>
-            )}
-            </div>
+  <Section anchor={'scope mt-5'}>
+    <Title title={contentJson.scope.title} subtitle={contentJson.scope.description}/>
+    <div className="Container scope">
+      <div className="row">
+        {contentJson.scope.list.map((key,index)=>
+          <div key={index} className="col-12 col-md-4">
+            <div className="scope-underline">{key.text}</div>
         </div>
+        )}
+        </div>
+    </div>
   </Section>
 
-   {/* Our Packages */}
-   <Section anchor={'paquetes'} className={"mt-5"}>
+  {/* Our Packages */}
+  <Section anchor={'paquetes'} className={"mt-5"}>
     <Title title={contentJson.packages.title} subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"}/>
   </Section>
   <Packages data={contentJson.packages.items}/>
