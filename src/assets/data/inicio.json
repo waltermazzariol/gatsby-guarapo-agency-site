@@ -2,143 +2,145 @@
     "general": {
         "path": "/",
         "siteurl": "https://guarapomedia.com",
-        "seo-title": "Guarapo Media • Agencia de Marketing Digital",
-        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar tus objetivos",
+        "seo-title": "Guarapo Media • Digital Marketing Agency",
+        "seo-description": "We specialize in web development. We accompany you every step of the way, always focused on achieving your goals",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
-        "lang": "es"
+        "lang": "en"
     },
     "navigation": {
         "logo-url": "./images/logo.svg",
-        "cta-button": "Empezar",
-        "cta-link": "/contacto",
+        "cta-button": "Start",
+        "cta-link": "/contact",
         "menu": [
             {
-                "nav": "Inicio",
+                "nav": "Home",
                 "anchor": "",
                 "link": "/"
             },
             {
-                "nav": "Desarrollo Web",
+                "nav": "Web Development",
                 "anchor": "",
-                "link": "/desarrollo-web"
+                "link": "/web-development"
             },
             {
-                "nav": "Marketing Digital",
+                "nav": "Digital Marketing",
                 "anchor": "",
-                "link": "/marketing-digital"
+                "link": "/digital-marketing"
             },
             {
-                "nav": "Dominios & Hospedaje",
+                "nav": "Hosting & Domains",
                 "anchor": "",
-                "link": "/hospedaje"
+                "link": "/hosting"
             },
             {
-                "nav": "Portafolio",
+                "nav": "Portfolio",
                 "anchor": "",
                 "link": "/work"
             }
         ]
     },
     "hero": {
-        "pretitle": "Todo lo que necesitas en un sólo sitio",
-        "title": "<strong>AGENCIA DIGITAL</strong><br/> de Marketing y Desarrollo Web",
-        "subtitle": "Creamos estrategias que <span class='text-underscore'><strong>convierten</strong></span> y te ayudan a llegar a más clientes",
+        "pretitle": "Everything you need in one place",
+        "title": "<strong>DIGITAL AGENCY</strong><br/> for Marketing and Web Development",
+        "subtitle": "We create strategies that <span class='text-underscore'><strong>convert</strong></span> and help you reach more customers",
         "image": "./images/bg_siargao.webp",
-        "button_text": "Ver Planes",
-        "button_url": "#paquetes",
+        "button_text": "View Plans",
+        "button_url": "#packages",
         "benefits":[
-            {"text": "Rápido y Fácil"},
-            {"text": "Sin preocupaciones"},
-            {"text": "A tiempo y siempre a tu lado"}
+            {"text": "Fast and Easy"},
+            {"text": "No worries"},
+            {"text": "On time and always by your side"}
         ]
     },
     "packages":{
-        "title": "¡Escoge tu Paquete!",
+        "title": "Choose Your Package!",
+        "description": "Select the perfect plan for you",
+        "tagline": "Do you have any question? let us know",
         "items":[
             {
-                "name": "Desarrollo Web",
-                "strikethrough": "699€",
-                "price": "499€",
-                "time": "pago único",
+                "name": "Web Development",
+                "strikethrough": "€699",
+                "price": "€499",
+                "time": "one-time payment",
                 "list":[
                     {"text": "Landing page"},
-                    {"text": "Sección de servicios"},
-                    {"text": "Sección de contacto"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio .com incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Entregada en 5 días o menos"}
+                    {"text": "Services section"},
+                    {"text": "Contact section"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": ".com domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Delivered in 5 days or less"}
             
                 ],
-                "button_text":"Empezar",
+                "button_text":"Start",
                 "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
-                "button_text_second":"Ver más",
-                "button_url_second": "/desarrollo-web#package"
+                "button_text_second":"See more",
+                "button_url_second": "/web-development#package"
             },
             {
-                "name": "Content creation",
-                "price": "599€",
-                "strikethrough": "799€",
-                "time": "al mes",
+                "name": "Content Creation",
+                "price": "€599",
+                "strikethrough": "€799",
+                "time": "per month",
                 "list":[
-                    {"text": "Contenido mensual para Social Media"},
-                    {"text": "Diseño gráfico"},
-                    {"text": "Sección de contacto"},
+                    {"text": "Monthly content for Social Media"},
+                    {"text": "Graphic design"},
+                    {"text": "Contact section"},
                     {"text": "Community Management"},
-                    {"text": "Administración de anuncios pagos"}
+                    {"text": "Paid ads management"}
                 ],
-                "button_text":"Empezar",
+                "button_text":"Start",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
-                "button_text_second":"Ver más",
-                "button_url_second": "/marketing-digital#package"
+                "button_text_second":"See more",
+                "button_url_second": "/digital-marketing#package"
             }
             
         ]
     },
     "process":{
-        "title": "¿Cómo trabajamos?",
-        "description": "Te explicamos paso a paso todo el proceso",
+        "title": "How do we work?",
+        "description": "We explain the process step by step",
         "list":[
             {
                 "id":1,
-                "title": "¡Queremos saber de ti!",
-                "description":"Conversemos sobre tu proyecto, tus ideas y expectativas. ¡Crearemos la mejor estrategia ajustada a tus necesidades!",
+                "title": "We want to hear from you!",
+                "description":"Let's talk about your project, your ideas, and expectations. We'll create the best strategy tailored to your needs!",
                 "image": "./images/process/step_1.png"
             },
             {
                 "id":2,
-                "title": "Planificación y desarrollo",
-                "description": "Una vez tengamos las ideas claras y toda la información sobre tu proyecto o negocio, ¡nos pondremos manos a la obra!",
+                "title": "Planning and development",
+                "description": "Once we have a clear idea and all the information about your project or business, we'll get to work!",
                 "image": "./images/process/step_2.png"
             },
             {
                 "id":3,
-                "title": "Evolución",
-                "description": "Los productos digitales se caracterizan por el tiempo que tardan en llegar al mercado y su constante evolución. Estaremos contigo de la mano en todo el proceso hasta lograr los objetivos deseados.",
+                "title": "Evolution",
+                "description": "Digital products are characterized by the time they take to reach the market and their constant evolution. We'll be with you every step of the way until we achieve the desired goals.",
                 "image": "./images/process/step_3.png"
             }
         ]
     },
     "banner": {
-        "title": "Manejar tu contenido en medios digitales, puede ser abrumador.",
-        "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
-        "button_text": "Empezar ahora",
-        "button_url": "/contacto"
+        "title": "Managing your content on digital media can be overwhelming.",
+        "text": "We take care of creating content, managing your accounts, handling your Ads, and positioning your brand. Focus on what really matters: your business!",
+        "button_text": "Start now",
+        "button_url": "/contact"
     },
     "scope":{
-        "title": "Todo lo que necesitas en un sólo lugar",
-        "description": "Web, Tienda virtual, landing page & más",
+        "title": "Everything you need in one place",
+        "description": "Web, Virtual store, landing page & more",
         "list":[
             {"text": "Ads" },
-            {"text": "Contenido" },
-            {"text": "Diseño gráfico" },
-            {"text": "Edición de videos para redes sociales" },
+            {"text": "Content" },
+            {"text": "Graphic design" },
+            {"text": "Video editing for social networks" },
             {"text": "Community Management" },
-            {"text": "Campañas" },
-            {"text": "Analíticas" },
-            {"text": "Reportes" },
-            {"text": "Consultoría" },
+            {"text": "Campaigns" },
+            {"text": "Analytics" },
+            {"text": "Reports" },
+            {"text": "Consulting" },
             {"text": "Website" },
             {"text": "Landing pages" },
             {"text": "e-Commerce" },
@@ -146,61 +148,49 @@
             {"text": "SEO" },
             {"text": "Mobile web" },
             {"text": "Google index" },
-            {"text": "Dominios .com" },
-            {"text": "Diseño" },
-            {"text": "Mantenimiento" },
-            {"text": "Actualización de contenido" },
+            {"text": ".com domains" },
+            {"text": "Design" },
+            {"text": "Maintenance" },
+            {"text": "Content update" },
             {"text": "Copywriting" },
             {"text": "Google Analytics" },
             {"text": "Microsite" },
-            {"text": "Optimización de carga" }
+            {"text": "Load optimization" }
         ]
     },
     "testimonials":{
-        "title": "¿Qué dicen nuestros clientes?",
-        "description": "¡Ellos confían en nuestros servicios! Dale una mirada a nuestros proyectos más recientes.",
+        "title": "What do our clients say?",
+        "description": "They trust our services! Take a look at our most recent projects.",
         "list":[
             {
                 "name": "Angel Benitez",
                 "position": "Restaurant Burbowl",
                 "image": "./images/testimonials/burbowl.png",
-                "message": "Guarapo Media nos ha acompañado desde 2015, siendo cómplices en todos nuestros medios digitales y consiguiendo los mejores resultados en campañas y estrategias. Cuentan con un gran equipo de profesionales siempre dispuestos a colaborar con la mejor actitud."
+                "message": "Guarapo Media has been with us since 2015, being complicit in all our digital media and achieving the best results in campaigns and strategies. They have a great team of professionals always ready to collaborate with the best attitude."
             },
             {
                 "name": "Ernesto Rangel",
                 "position": "Guataca Nights",
                 "image": "./images/testimonials/ernesto.jpeg",
-                "message": "Guarapo Media nos ayudó a mejorar nuestro posicionamiento en Google, un problema que veniamos teniendo desde hace un tiempo sin pode resolver, adicionalmente nos mantienen al día nuestra página web."
+                "message": "Guarapo Media helped us improve our Google positioning, a problem we had been having for a while without being able to solve, additionally they keep our website up to date."
             },
             {
                 "name": "Carlos Fafian",
-                "position": "Escuela de natación Picarpolos",
+                "position": "Swimming school Picarpolos",
                 "image": "./images/testimonials/carlosfafian.jpeg",
-                "message": "Con la ayuda de Guarapo construir nuestra página web fue rápido y muy sencillo. Nuestro clientes ahora pueden encontrar toda la información que necesitan en nuestro sitio web."
+                "message": "With Guarapo's help, building our website was quick and very simple. Our customers can now find all the information they need on our website."
             },
             {
                 "name": "Violeta Gladstone",
-                "position": "Florista",
+                "position": "Florist",
                 "image": "./images/testimonials/violeta.png",
-                "message": "Mi web ha quedado preciosa y funciona de maravilla. Muchas gracias y repetimos!"
+                "message": "My website is beautiful and works wonderfully. Thank you very much, we'll do it again!"
             },
             {
                 "name": "Mireia Segarra Escolà",
-                "position": "Florista",
+                "position": "Florist",
                 "image": "./images/testimonials/mireia.png",
-                "message": "Muy contenta con el trabajo de mi página web y con el posterior seguimiento!!! Trabajan muy bien!! Dudas, consultas, actualizaciones...siempre 100% disponibles!! Da gusto trabajar así, os la recomiendo!! Gracias!"
-            },
-            {
-                "name": "Angel Benitez",
-                "position": "Restaurant Burbowl",
-                "image": "./images/testimonials/burbowl.png",
-                "message": "Guarapo Media nos ha acompañado desde 2015, siendo cómplices en todos nuestros medios digitales y consiguiendo los mejores resultados en campañas y estrategias. Cuentan con un gran equipo de profesionales siempre dispuestos a colaborar con la mejor actitud."
-            },
-            {
-                "name": "Ernesto Rangel",
-                "position": "Guataca Nights",
-                "image": "./images/testimonials/ernesto.jpeg",
-                "message": "Guarapo Media nos ayudó a mejorar nuestro posicionamiento en Google, un problema que veniamos teniendo desde hace un tiempo sin pode resolver, adicionalmente nos mantienen al día nuestra página web."
+                "message": "Very happy with the work on my website and with the follow-up!!! They work very well!! Doubts, queries, updates...always 100% available!! It's a pleasure to work like this, I recommend them!! Thanks!"
             },
             {
                 "name": "Jamie Brasco",
@@ -210,45 +200,27 @@
             },
             {
                 "name": "Jesús Osorio",
-                "position": "Emprendedor",
+                "position": "Entrepreneur",
                 "image": "./images/testimonials/jesusosorio.png",
-                "message": "Me hicieron landing page para un trabajo de la uni, me gusto mucho el diseño y se puede apreciar el profesionalismo, los recomiendo 100%"
+                "message": "They made a landing page for a university project, I really liked the design and you can appreciate the professionalism, I recommend them 100%"
             },
             {
                 "name": "Jesus Valera",
-                "position": "Profesor",
+                "position": "Teacher",
                 "image": "./images/testimonials/jesus.png",
-                "message": "Me hicieron un trabajo en mi WordPress, la verdad fueron rápidos e hicieron un buen trabajo!"
+                "message": "They did a job on my WordPress, they were fast and did a good job!"
             },
             {
                 "name": "Juan Manual Acosta",
-                "position": "Escuela de natación Picarpolos",
+                "position": "Swimming school Picarpolos",
                 "image": "./images/testimonials/juanmanuel.png",
-                "message": "Excelente atención personalizada. Entienden lo que uno quiere. Excelente producto y calidad profesional."
-            },
-            {
-                "name": "Jamie Brasco",
-                "position": "Barcelona",
-                "image": "./images/testimonials/jamie.png",
-                "message": "Outstanding service, always on time and know how to do the job, one of the few companies that go the extra mile to get things done for you, really recommendable, reasonable prices and very down to earth friendly guys."
-            },
-            {
-                "name": "Jesús Osorio",
-                "position": "Emprendedor",
-                "image": "./images/testimonials/jesusosorio.png",
-                "message": "Me hicieron landing page para un trabajo de la uni, me gusto mucho el diseño y se puede apreciar el profesionalismo, los recomiendo 100%"
-            },
-            {
-                "name": "Jesus Valera",
-                "position": "Profesor",
-                "image": "./images/testimonials/jesus.png",
-                "message": "Me hicieron un trabajo en mi WordPress, la verdad fueron rápidos e hicieron un buen trabajo!"
+                "message": "Excellent personalized attention. They understand what one wants. Excellent product and professional quality."
             }
         ]
     },
     "contact": {
-        "email": "contacto@guarapomedia.com",
-        "address": "Barcelona, España",
+        "email": "contact@guarapomedia.com",
+        "address": "Barcelona, Spain",
         "socialmedia": [
             {
                 "link": "https://www.instagram.com/GuarapoMedia/",
@@ -274,26 +246,59 @@
         "image": "./images/footer.jpg"
     },
     "tags": {
-        "viewmore": "Ver más",
-        "viewless": "Ver menos",
-        "cookie-message": "Usamos cookies propias y de terceros para mejorar tu experiencia como usuario.",
-        "cookie-accept": "Aceptar",
-        "event": "Título",
-        "date": "Fecha",
-        "location": "Locación",
+        "viewmore": "See more",
+        "viewless": "See less",
+        "cookie-message": "We use our own and third-party cookies to improve your user experience.",
+        "cookie-accept": "Accept",
+        "event": "Title",
+        "date": "Date",
+        "location": "Location",
         "not-found-title": "404 not found",
-        "not-found-message": "You are in a wrong page.. Go back to our home",
+        "not-found-message": "You are on a wrong page.. Go back to our home",
         "not-found-btn": "Home",
-        "city": "Ciudad",
+        "city": "City",
         "url": "Link",
-        "tags": "Etiquetas",
-        "year": "Año",
-        "button": "Ver página",
-        "form-name": "Nombre y Apellido",
+        "tags": "Tags",
+        "year": "Year",
+        "button": "View page",
+        "form-name": "Name and Surname",
         "form-email": "Email",
         "form-phone": "Phone",
-        "form-message": "Mensaje",
-        "form-send": "Enviar",
-        "form-success": "¡Gracias por tu mensaje!"
+        "form-message": "Message",
+        "form-send": "Send",
+        "form-success": "Thank you for your message!",
+        "portfolio-title": "They trust on us!",
+        "portfolio-subtitle": "Check our most recent work"
+    },
+    "form": {
+        "title":"Need help with your project?",
+        "description":"If you've made it this far, it means you have a question. Send us a message and we will get in touch.",
+        "tagline": "Don't trust on the forms? Email us to contacto@guarapomedia.com",
+        "contacts": [
+            {
+                "id":"1",
+                "city": "Barcelona - Spain",
+                "name": "Walter Mazzariol",
+                "number": "",
+                "phone": "",
+                "email": "walter@guarapomedia.com"
+            },
+            {
+                "id":"2",
+                "city": "Miami - USA",
+                "name": "Christian Uzcategui",
+                "number": "",
+                "phone": "",
+                "email": "christian@guarapomedia.com"
+            },
+            {
+                "id":"3",
+                "city": "Caracas - Venezuela",
+                "name": "Natassha Rodriguez",
+                "number": "",
+                "phone": "",
+                "email": "natassha@guarapomedia.com"
+            }
+        ]
     }
 }

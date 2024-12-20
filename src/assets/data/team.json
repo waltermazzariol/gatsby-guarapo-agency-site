@@ -1,67 +1,67 @@
 {
     "general": {
         "path": "/equipo",
-        "siteurl": "https://guarapomedia.com/equipo",
-        "seo-title": "El equipo • Agencia de Marketing Digital",
-        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "siteurl": "https://guarapomedia.com/team",
+        "seo-title": "The Team • Digital Marketing Agency",
+        "seo-description": "We are specialists in web development. We accompany you all the way, always focused on achieving objectives",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
-        "lang": "es"
+        "lang": "en"
     },
     "cover": {
-        "title": "El <strong>equipo</strong>",
-        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
+        "title": "The <strong>Team</strong>",
+        "subtitle": "With more than 10 years of experience, we help you develop your online business.",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Conoce más",
+        "button_text": "Learn more",
         "button_url": "mailto:contacto@guarapomedia.com"
     },
     "team": [
         {
             "name": "Walter Mazzariol",
-            "role": "Cofundador - Project Manager",
-            "description": "Es nuestro “IT Guy”, formado en Ing. de Sistemas, es la cabeza de todos los proyectos que incluyan Desarrollo Web. Esa “magia” que los clientes definen como “haz que se mueva más el menú y con un colorcito”. Es también apasionado por la música venezolana y acostumbra perder sus Smartphones con frecuencia.",
+            "role": "Co-founder - Project Manager",
+            "description": "He's our “IT Guy”, with a degree in Systems Engineering, he's the head of all projects involving Web Development. That “magic” clients describe as “make the menu move more and add some color”. He's also passionate about Venezuelan music and tends to lose his Smartphones frequently.",
             "image": "./images/team/1.jpg"
         },
         {
             "name": "Christian Uzcategui",
-            "role": "Cofundador - Social Media Manager",
-            "description": "Formado en Comunicación Digital y Publicidad, es la cabeza de Social Media en la agencia desde nuestros inicios. Próximo a ser un adulto contemporáneo (aunque se niega a aceptarlo) ama las motos y nunca sabemos dónde está aunque siempre está “en línea”. Sin una locación en específico.",
+            "role": "Co-founder - Social Media Manager",
+            "description": "With a background in Digital Communication and Advertising, he has been the head of Social Media in the agency since our beginnings. Approaching contemporary adulthood (though he refuses to accept it), he loves motorcycles and we never know where he is even though he's always “online”. Without a specific location.",
             "image": "./images/team/2.jpg"
         },
         {
             "name": "Sergio Mazzariol",
-            "role": "Confundador - Web Developer",
-            "description": "Sergio… ¡Ay, Sergio! Es nuestro segundo al mando en el departamento de Desarrollo Web, con una carrera de Ingeniería en computación, tiene ideas y soluciones únicas. Es un duro en su área y en su vida cotidiana (aunque a veces ninguno la tenemos) no se pierde ningún festival electrónico donde a veces dura días bailando…",
+            "role": "Co-founder - Web Developer",
+            "description": "Sergio… Oh, Sergio! He's our second in command in the Web Development department, with a degree in Computer Engineering, he has unique ideas and solutions. He's tough in his area and in his daily life (although sometimes none of us have one) he doesn't miss any electronic festival where he sometimes spends days dancing...",
             "image": "./images/team/3.jpg"
         },
         {
             "name": "Natassha Rodriguez",
             "role": "Content Manager",
-            "description": "Especialista en Comunicación Social, Natassha es todo un personaje (Te sugerimos ver su Instagram) Es uno de nuestros mejores creativos en la agencia y está a cargo de las principales marcas del área musical en nuestro portafolio. Siempre está buscando cualquier excusa para tomar un café y ser una “Social Media Hack”.",
+            "description": "A specialist in Social Communication, Natassha is quite a character (We suggest checking her Instagram). She's one of our top creatives in the agency and is in charge of the main brands in the musical area of our portfolio. Always looking for any excuse to have a coffee and be a “Social Media Hack”.",
             "image": "./images/team/4.jpg"
         },
         {
             "name": "Yelitza Murillo",
-            "role": "Fotógrafa",
-            "description": "Formada en la academia Roberto Mata en Caracas. Su propuesta fotográfica no necesita juegos de luces adicionales, pues con todo la que ella refleja, basta. Dicen que los mejores perfumes vienen en frascos pequeños, y ella es un concentrado de creatividad y picardía. Está obsesionada con la ortografía y es nuestra “typo hunter”.",
+            "role": "Photographer",
+            "description": "Trained at the Roberto Mata academy in Caracas. Her photographic proposal does not need additional light games, since everything she reflects is enough. They say the best perfumes come in small bottles, and she is a concentrate of creativity and mischief. She's obsessed with spelling and is our “typo hunter”.",
             "image": "./images/team/5.jpg"
         },
         {
             "name": "Mariangela Peluso",
             "role": "Graphic Designer",
-            "description": "Mari está a cargo de nuestro departamento de Diseño Gráfico para Social Media, ama los GIF y se especializó en Gráfica Publicitaria en Italia en 2014. Ama sus mascotas y está en la dulce espera de una nena llamada Lucía.",
+            "description": "Mari is in charge of our Graphic Design department for Social Media, loves GIFs, and specialized in Advertising Graphics in Italy in 2014. She loves her pets and is sweetly expecting a baby girl named Lucía.",
             "image": "./images/team/6.jpg"
         },
         {
             "name": "Daniela Rodriguez",
             "role": "Graphic Designer",
-            "description": "Creadora de nuestro principales proyectos web, Daniela se encarga de que el cliente siempre quede satisfecho con el producto final. Desde 2017 se encuentra es España, pero eso no impede que siempre esté de lleno en el siguiente proyecto.",
+            "description": "Creator of our main web projects, Daniela ensures that the client is always satisfied with the final product. Since 2017, she has been in Spain, but that does not prevent her from always being fully involved in the next project.",
             "image": "./images/team/daniela.jpg"
         },
         {
             "name": "Argenis Alvarez",
             "role": "UX Designer/ Consultant",
-            "description": "Formado en Diseño Gráfico en los 90’s, especializado en UX - UI es quien siempre atiende a nuestras consultas de Millenials. Siempre actualizado y pensando “¿Ahora con qué me van a salir?”",
+            "description": "With a degree in Graphic Design in the 90’s, specialized in UX - UI, he's the one who always attends to our Millennial queries. Always up-to-date and thinking “What are they going to come up with now?”",
             "image": "./images/team/7.jpg"
         }
     ]

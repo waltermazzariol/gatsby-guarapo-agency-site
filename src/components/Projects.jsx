@@ -13,7 +13,7 @@ function Projects({ color }) {
 
     return (<>
         <div className={`container-fluid project ${color}`}>
-            <div className="project-title text-center mb-2"><span className="text-underline">Proyectos recientes</span></div>
+            <div className="project-title text-center mb-2"><span className="text-underline">Recent Projects</span></div>
             <div className="project-slider-wrapper">
                 <div className="project-slider project-animation">
                     <button className="project-btn" onClick={()=>setShow({"show":true, "img":project3, "alt":"None Culture"})}><img className="project-img" src={project3} alt="None Culture" /></button>

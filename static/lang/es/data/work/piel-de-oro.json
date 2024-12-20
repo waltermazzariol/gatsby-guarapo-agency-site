@@ -1,0 +1,13 @@
+{
+    "date": "20210405",
+    "client": "Piel de Oro",
+    "city": "Miami",
+    "description": "El proyecto fue pensado como un Landing Page fresco y moderno que presentara en forma de historia sus diferentes segmentos\nDesde su comienzo la página ha pasando por diferentes etapas hasta convertirse en el punto de encuentro de sus más de 20 locaciones en 5 países diferente.\nLa web funciona en React y contiene diferentes complementos cómo, reserva de citas y un enlace a su e-commerce.",
+    "url": "https://pieldeoro.com",
+    "year": "2020",
+    "cat": "Web",
+    "tags": "Pequeña Empresa, multi-idioma",
+    "image": "../images/portfolio/1.jpg",
+    "thumbnail": "../images/portfolio/d1.jpg",
+    "alt": "Piel de oro"
+}

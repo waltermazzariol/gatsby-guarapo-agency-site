@@ -1,0 +1,13 @@
+{
+    "date": "20230503",
+    "client": "Siargao Vibes",
+    "city": "Siargao",
+    "description": "Una web/directorio que fue realizada con el objetivo de promocionar las actividades, restaurantes, eventos, artistas y más de la isla de Siargao en Filipinas.",
+    "url": "https://siargaovibes.com",
+    "year": "2023",
+    "cat": "Web",
+    "tags": "Pequeña Empresa",
+    "image": "../images/portfolio/siargaovibes_pg.jpg",
+    "thumbnail": "../images/portfolio/siargaovibes_sq.jpg",
+    "alt": "lolasrentals"
+}

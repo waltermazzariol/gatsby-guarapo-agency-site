@@ -57,9 +57,9 @@ return (
 
   {/* Our Packages */}
   <Section anchor={'paquetes'} className={"mt-5"}>
-    <Title title={contentJson.packages.title} subtitle={"Selecciona el paquete que mejor se adapte a tu proyecto"}/>
+    <Title title={contentJson.packages.title} subtitle={contentJson.packages.description}/>
   </Section>
-  <Packages data={contentJson.packages.items}/>
+  <Packages data={contentJson.packages.items} tagline={contentJson.packages.tagline}/>
 
   {/* Banner */}
   <Banner data={contentJson.banner} />
@@ -83,7 +83,7 @@ return (
 
   {/* Portfolio */}
   <Section anchor={'portfolio'} className={"mt-5"}>
-    <Title title={"Ellos confiaron en nosotros"} subtitle={"Échale un vistazo a nuestros proyectos más recientes."} />
+    <Title title={contentJson.tags.portfolio_title} subtitle={contentJson.tags.portfolio_subtitle} />
   </Section>
   <Portfolio data={blogJson} />
   

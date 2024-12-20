@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-function Plans({ data, popular }) {
+function Plans({ data, popular, tagline="Do you have any question? let us know" }) {
 
     return (
         <div className="container package mb-5">
@@ -28,7 +28,7 @@ function Plans({ data, popular }) {
                                     <a className="item-btn button button--primary me-2" href={key.button_url} target="_blank" rel="noopener noreferrer">{key.button_text}</a>
                                     {key.button_text_second ? <Link className="item-btn button button--outline" to={key.button_url_second} rel="noopener noreferrer">{key.button_text_second}</Link> : "" }
                                 </span>
-                                <a className="button button--text" href="#form">¿Tienes una duda? Escríbenos</a>
+                                <a className="button button--text" href="#form">{tagline}</a>
                             </span>
                         </span>
                     </div>

@@ -101,6 +101,8 @@ export const packagesFields = graphql`
 fragment packagesFields on DataJson {
   packages {
       title
+      description
+      tagline
       items{
         name
         from
@@ -203,6 +205,7 @@ fragment formFields on DataJson {
   form {
     title
     description
+    tagline
     contacts{
       id
       city
@@ -233,6 +236,8 @@ fragment tagsFields on DataJson {
     form_message
     form_send
     form_success
+    portfolio_title
+    portfolio_subtitle
   }
 }`
 
@@ -242,6 +247,8 @@ fragment domainsFields on DataJson {
     title
     description
     link
+    button
+    placeholder
     packages{
       name
       price

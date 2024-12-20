@@ -2,17 +2,17 @@
     "general": {
         "path": "/work",
         "siteurl": "https://guarapomedia.com/work",
-        "seo-title": "Portafolio • Agencia de Marketing Digital",
-        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-title": "Portfolio • Digital Marketing Agency",
+        "seo-description": "We are specialists in web development. We accompany you all the way, always focused on achieving objectives",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
-        "lang": "es"
+        "lang": "en"
     },
     "cover": {
-        "title": "Nuestros <strong>proyectos</strong>",
-        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
+        "title": "Our <strong>projects</strong>",
+        "subtitle": "With more than 10 years of experience, we help you develop your online business.",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Conoce más",
+        "button_text": "Learn more",
         "button_url": "mailto:contacto@guarapomedia.com"
     }
 }

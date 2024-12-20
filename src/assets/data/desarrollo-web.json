@@ -1,170 +1,176 @@
 {
     "general": {
         "path": "/desarrollo-web",
-        "siteurl": "https://guarapomedia.com/desarollo-web",
-        "seo-title": "Desarrollo Web • Agencia de Marketing Digital",
-        "seo-description": "Crea la página web de tus sueños con Guarapo Media. Nuestro equipo experto en desarrollo web diseña sitios atractivos, rápidos y optimizados para SEO. Aumenta tu visibilidad y atrae más clientes. ¡Empieza ahora!",
+        "siteurl": "https://guarapomedia.com/web-development",
+        "seo-title": "Web Development • Digital Marketing Agency",
+        "seo-description": "Create the website of your dreams with Guarapo Media. Our expert web development team designs attractive, fast, and SEO-optimized sites. Increase your visibility and attract more customers. Start now!",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
-        "lang": "es"
+        "lang": "en"
     },
     "hero": {
-        "pretitle": "Consigue la página web que has estado soñando",
-        "title": "Desarrollamos <strong>Páginas Web</strong>",
-        "subtitle": "que conectan con tus <span class='text-underscore'><strong>clientes</strong></span> justo desde el inicio.",
+        "pretitle": "Get the website you've been dreaming of",
+        "title": "We Develop <strong>Websites</strong>",
+        "subtitle": "that connect with your <span class='text-underscore'><strong>customers</strong></span> right from the start.",
         "image": "./images/bg_noneculture.webp",
-        "button_text": "Ver planes",
+        "button_text": "View plans",
         "button_url": "#package",
-        "benefits":[
-            {"text": "Un plan que se ajusta a ti"},
-            {"text": "Cancela o pausa cuando quieras"},
-            {"text": "Resultados realmente rápidos"}
+        "benefits": [
+            {"text": "A plan that fits you"},
+            {"text": "Cancel or pause whenever you want"},
+            {"text": "Really fast results"}
         ]
     },
-    "packages":{
-        "title": "Escoge tu Plan",
-        "items":[
-                       {
-                "name": "Plan Básico",
-                "from": "Desde",
-                "price": "499€",
-                "strikethrough": "699€",
+    "packages": {
+        "title": "Choose Your Plan",
+        "description": "Select the perfect plan for you",
+        "tagline": "Do you have any question? let us know",
+        "items": [
+            {
+                "name": "Basic Plan",
+                "from": "From",
+                "price": "€499",
+                "strikethrough": "€699",
                 "time": "",
-                "list":[
+                "list": [
                     {"text": "Landing page"},
-                    {"text": "Sección de servicios"},
-                    {"text": "Sección de contacto"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Entregada en 5 días o menos"}
+                    {"text": "Services section"},
+                    {"text": "Contact section"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": "Domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Delivered in 5 days or less"}
                 ],
-                "button_text":"Empezar",
+                "button_text": "Start",
                 "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
-                "button_text_second":"",
+                "button_text_second": "",
                 "button_url_second": ""
             },
             {
-                "name": "Plan Pro",
-                "from": "Desde",
-                "price": "999€",
-                "strikethrough": "1.299€",
+                "name": "Pro Plan",
+                "from": "From",
+                "price": "€999",
+                "strikethrough": "€1,299",
                 "time": "",
-                "list":[
-                    {"text": "Página web con CMS (Wordpress o otro)"},
-                    {"text": "5 secciones"},
-                    {"text": "Opción para blog"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Diseño web incluido"}
+                "list": [
+                    {"text": "Website with CMS (Wordpress or another)"},
+                    {"text": "5 sections"},
+                    {"text": "Option for blog"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": "Domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Web design included"}
                 ],
-                "button_text":"Empezar",
+                "button_text": "Start",
                 "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
-                "button_text_second":"",
+                "button_text_second": "",
                 "button_url_second": ""
             },
             {
-                "name": "Plan E-Commerce",
-                "from": "Desde",
-                "price": "1.599€",
-                "strikethrough": "1.999€",
+                "name": "E-Commerce Plan",
+                "from": "From",
+                "price": "€1,599",
+                "strikethrough": "€1,999",
                 "time": "",
-                "list":[
-                    {"text": "Página web con CMS (Wordpress, Shopify, SquareSpace)"},
-                    {"text": "5 secciones"},
-                    {"text": "Opción para blog"},
-                    {"text": "Hosting incluido, 1er año"},
-                    {"text": "Dominio incluido, 1er año"},
-                    {"text": "Emails con tu dominio"},
-                    {"text": "Diseño web incluido"}
-            
+                "list": [
+                    {"text": "Website with CMS (Wordpress, Shopify, SquareSpace)"},
+                    {"text": "5 sections"},
+                    {"text": "Option for blog"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": "Domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Web design included"}
                 ],
-                "button_text":"Empezar",
+                "button_text": "Start",
                 "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
-                "button_text_second":"",
+                "button_text_second": "",
                 "button_url_second": ""
             }
         ]
     },
     "banner": {
-        "title": "Manejar tu contenido en medios digitales, puede ser abrumador.",
-        "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
-        "button_text": "Empezar ahora",
-        "button_url": "/contacto"
+        "title": "Managing your content on digital media can be overwhelming.",
+        "text": "We take care of creating content, managing your accounts, handling your Ads, and positioning your brand. Focus on what really matters: your business!",
+        "button_text": "Start now",
+        "button_url": "/contact"
     },
     "portfolio": {
-        "title": "Proyectos",
+        "title": "Projects",
         "tags": {
-            "client": "Cliente",
-            "city": "Ciudad",
-            "url": "Dominio",
-            "year": "Año",
-            "tags": "Etiquetas",
-            "close": "Cerrar"
+            "client": "Client",
+            "city": "City",
+            "url": "Domain",
+            "year": "Year",
+            "tags": "Tags",
+            "close": "Close"
         },
         "list": [
             {
                 "id": 0,
                 "client": "Piel de Oro",
                 "city": "Miami",
-                "description": "El proyecto fue pensado como un Landing Page fresco y moderno que presentara en forma de historia sus diferentes segmentos\nDesde su comienzo la página ha pasando por diferentes etapas hasta convertirse en el punto de encuentro de sus más de 20 locaciones en 5 países diferente.\nLa web funciona en React y contiene diferentes complementos cómo, reserva de citas y un enlace a su e-commerce.",
+                "description": "The project was envisioned as a fresh and modern Landing Page that presented its different segments in a story-like manner. Since its inception, the page has gone through different stages, becoming the meeting point for its more than 20 locations in 5 different countries. The website runs on React and includes various plugins, such as appointment booking and a link to its e-commerce.",
                 "url": "https://pieldeoro.com",
                 "year": "2020",
                 "cat": "Web",
-                "tags": "Pequeña Empresa, multi-idioma",
+                "tags": "Small Business, multi-language",
                 "image": "./images/portfolio/1.jpg",
                 "thumbnail": "./images/portfolio/d1.jpg",
                 "alt": "Piel de oro"
-            },{
+            },
+            {
                 "id": 1,
                 "client": "Norma Pasteles",
                 "city": "Barcelona",
-                "description": "Ubicados en Barcelona, Norma se dedica a ofrecer pasteles artesanales con una variedad de sabores y opciones.\nComo primera etapa presentamos los pasteles, su historia y los diferentes pasos para realizar un pedido, con un site en formato \"One Page\".\nLuego de 1 año buscamos evolucionar el sitio y ampliamos las secciones a los diferentes tipos de pasteles y sabores.\nCómo siguiente paso está en ofrecer opción de pago que permita la venta de pasteles desde el mismo sitio web.\nBasado en React y con el contenido modularizado permite actualizarla con gran facilidad.",
+                "description": "Located in Barcelona, Norma specializes in offering artisanal cakes with a variety of flavors and options. As the first stage, we presented the cakes, their story, and the different steps to place an order, with a site in \"One Page\" format. After 1 year, we sought to evolve the site and expanded the sections to the different types of cakes and flavors. The next step is to offer a payment option that allows selling cakes directly from the website. Based on React and with modular content, it allows for easy updates.",
                 "url": "https://normapasteles.com",
                 "year": "2020",
                 "cat": "Web",
-                "tags": "Pequeña Empresa, Respostería",
+                "tags": "Small Business, Bakery",
                 "image": "./images/portfolio/2.jpg",
                 "thumbnail": "./images/portfolio/d2.jpg",
                 "alt": "Norma Pasteles"
-            },{
+            },
+            {
                 "id": 2,
                 "client": "Burbowl",
                 "city": "Miami",
-                "description": "Queremos compartir con ustedes el proyecto de Burbowl, una solución web en Wordpress con diferentes secciones como: Menu, locaciones, información de la franquicia, blog y contactos. También tiene integración con las plataformas de delivery.\nUbicados en Downtown Miami y Coral Gables, BurBowl es un restaurante de comidas rápida que sale de lo común. Platos únicos, ingredientes frescos y ubicado en dos de las mejores zonas de la ciudad de Miami. Desde enero de 2016 hemos estado llevando sus medios digitales al siguiente nivel.",
+                "description": "We want to share with you the Burbowl project, a web solution on Wordpress with different sections such as: Menu, locations, franchise information, blog, and contacts. It also has integration with delivery platforms. Located in Downtown Miami and Coral Gables, BurBowl is a fast food restaurant that stands out from the ordinary. Unique dishes, fresh ingredients, and located in two of the best areas of Miami. Since January 2016, we have been taking their digital media to the next level.",
                 "url": "https://burbowl.com",
                 "year": "2016 - 2021",
                 "cat": "Marketing",
-                "tags": "Pequeña Empresa, Restaurant",
+                "tags": "Small Business, Restaurant",
                 "image": "./images/portfolio/3.jpg",
                 "thumbnail": "./images/portfolio/d3.jpg",
                 "alt": "Burbowl"
-            },{
+            },
+            {
                 "id": 3,
                 "client": "Cultura Nanos",
                 "city": "Madrid",
-                "description": "Cultura Nanos es un centro infantil ubicados en Toledo. El proyecto consistió en crear una web que permitiera mostrar las diferentes actividades que ofrece el centro así como un calendario de actividades. \nLa web está pensada para una perfecta visualización en móviles y permite contacto directo con el centro a través de Whastapp.",
+                "description": "Cultura Nanos is a children's center located in Toledo. The project consisted of creating a website that would allow showcasing the different activities offered by the center as well as an activities calendar. The website is designed for perfect viewing on mobile devices and allows direct contact with the center through WhatsApp.",
                 "url": "https://culturalnanos.com",
                 "year": "2020",
                 "cat": "Web",
-                "tags": "Pequeña Empresa, Escuela infantil",
+                "tags": "Small Business, Children's school",
                 "image": "./images/portfolio/4.jpg",
                 "thumbnail": "./images/portfolio/d4.jpg",
                 "alt": "Cultura Nanos"
-            },{
+            },
+            {
                 "id": 4,
                 "client": "Gabriel Samra",
                 "city": "Miami",
-                "description": "Ubicado en Coral Gables, Gabriel Samra Salon es el lugar donde la comunidad chic de Miami llega a experimentar su belleza convertirse en una obra de arte en un santuario elegante y acogedor.",
+                "description": "Located in Coral Gables, Gabriel Samra Salon is the place where Miami's chic community comes to experience beauty transformed into a work of art in an elegant and welcoming sanctuary.",
                 "url": "https://instagram.com/gabrielsamrahairsalon",
                 "year": "2017 - 2021",
                 "cat": "Marketing",
-                "tags": "Pequeña Empresa, Salón de belleza",
+                "tags": "Small Business, Beauty Salon",
                 "image": "./images/portfolio/gabriel.jpg",
                 "thumbnail": "./images/portfolio/gabriel.jpg",
                 "alt": "Picarpolos"
-            },{
+            },
+            {
                 "id": 5,
                 "client": "Lifeinvest Wealth",
                 "city": "Panamá",
@@ -172,80 +178,82 @@
                 "url": "https://lifeinvestwealth.com",
                 "year": "2020",
                 "cat": "Web",
-                "tags": "Empresa, multi-idioma",
+                "tags": "Company, multi-language",
                 "image": "./images/portfolio/6.jpg",
                 "thumbnail": "./images/portfolio/d6.jpg",
                 "alt": "Lifeinvest"
-            },{
+            },
+            {
                 "id": 6,
                 "client": "Guataca",
                 "city": "Caracas",
-                "description": "Guataca es una plataforma cuyo objetivo es difundir el talento de músicos venezolanos emergentes, promover sus proyectos, apoyar sus iniciativas en Venezuela y el mundo. Contribuimos con producciones discográficas y, sobre todo, generamos una programación de conciertos, con amplia promoción mediática, buscando la retroalimentación con un público guataquero que hace de cada encuentro una experiencia única.",
+                "description": "Guataca is a platform whose objective is to spread the talent of emerging Venezuelan musicians, promote their projects, support their initiatives in Venezuela and the world. We contribute to record productions and, above all, generate a program of concerts, with broad media promotion, seeking feedback with a Guataquero audience that makes each encounter a unique experience.",
                 "url": "https://guatacanights.com",
                 "year": "2014 -2021",
                 "cat": "Marketing",
-                "tags": "Musica, marketing, web, youtube, blog",
+                "tags": "Music, marketing, web, youtube, blog",
                 "image": "./images/portfolio/guataca.jpg",
                 "thumbnail": "./images/portfolio/guataca.jpg",
                 "alt": "Guataca"
-            },{
+            },
+            {
                 "id": 7,
                 "client": "Yamaha musical",
                 "city": "Caracas",
-                "description": "Desde noviembre de 2013 hemos tenido el placer de trabajar con la famosa marca musical, icónica por sus diapasones: Yamaha. Con más de 5 academias musicales en el país, Yamaha sigue apostando por el desarrollo cultural en Venezuela a través de la música. Juntos, hemos llevado a cabo la producción de varios eventos, talleres musicales, asistido juntos a festivales de música y mucho más.\n¡Sigamos creando Kando juntos!",
+                "description": "Since November 2013, we have had the pleasure of working with the famous musical brand, iconic for its tuning forks: Yamaha. With more than 5 musical academies in the country, Yamaha continues to bet on cultural development in Venezuela through music. Together, we have carried out the production of various events, musical workshops, attended music festivals together, and much more. Let's keep creating Kando together!",
                 "url": "",
                 "year": "2013 - 2021",
                 "cat": "Marketing",
-                "tags": "Content managment",
+                "tags": "Content management",
                 "image": "./images/portfolio/yamaha.jpg",
                 "thumbnail": "./images/portfolio/yamaha.jpg",
                 "alt": "Yamaha musical"
             }
         ]
     },
-    "process":{
-        "title": "Todo lo que necesitas en un sólo lugar",
-        "description": "Web, Tienda virtual, landing page & más",
-        "list":[
+    "process": {
+        "title": "Everything you need in one place",
+        "description": "Web, Virtual store, landing page & more",
+        "list": [
             {
-                "id":1,
-                "title": "¡Te queremos conocer!",
-                "description":"Te preguntaremos sobre tu proyecto, tus espectativas y tu contenido. Idearemos varias estrategias hasta dar con la que mejor se ajusta a ti y a tu proyecto.",
+                "id": 1,
+                "title": "We want to meet you!",
+                "description": "We will ask you about your project, your expectations, and your content. We will devise various strategies until we find the one that best fits you and your project.",
                 "image": "./images/process/step_1.png"
             },
             {
-                "id":2,
-                "title": "Planificación y desarrollo",
-                "description": "Una vez tengamos todo el contenido y la información, nos pondremos manos a la obra hasta tener una página web funcional lo antes posible.",
+                "id": 2,
+                "title": "Planning and development",
+                "description": "Once we have all the content and information, we will get to work to have a functional website as soon as possible.",
                 "image": "./images/process/step_2.png"
             },
             {
-                "id":3,
-                "title": "Evolución",
-                "description": "Los productos digitales se caracterizan por el time to market y su evolución constante. Asi que no pararemos una vez tengamos la primera versión sino que evolucionaremos hasta obtener los resultados que esperas.",
+                "id": 3,
+                "title": "Evolution",
+                "description": "Digital products are characterized by the time to market and their constant evolution. So, we will not stop once we have the first version but will evolve until we achieve the results you expect.",
                 "image": "./images/process/step_3.png"
             }
         ]
     },
-    "scope":{
-        "title": "Web, Tienda virtual, landing page & más",
-        "description": "Todo lo que necesitas en un sólo lugar",
-        "list":[
-            {"text": "Website" },
-            {"text": "Landing pages" },
-            {"text": "e-Commerce" },
-            {"text": "CMS" },
-            {"text": "SEO" },
-            {"text": "Mobile web" },
-            {"text": "Google rank" },
-            {"text": "Dominios .com" },
-            {"text": "Diseño" },
-            {"text": "Mantenimiento" },
-            {"text": "Actualización de contenido" },
-            {"text": "Copywriting" },
-            {"text": "Google Analytics" },
-            {"text": "Microsite" },
-            {"text": "Optimización de carga" }
+    "scope": {
+        "title": "Web, Virtual store, landing page & more",
+        "description": "Everything you need in one place",
+        "list": [
+            {"text": "Website"},
+            {"text": "Landing pages"},
+            {"text": "e-Commerce"},
+            {"text": "CMS"},
+            {"text": "SEO"},
+            {"text": "Mobile web"},
+            {"text": "Google rank"},
+            {"text": "Domains .com"},
+            {"text": "Design"},
+            {"text": "Maintenance"},
+            {"text": "Content update"},
+            {"text": "Copywriting"},
+            {"text": "Google Analytics"},
+            {"text": "Microsite"},
+            {"text": "Load optimization"}
         ]
     }
 }

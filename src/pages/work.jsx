@@ -24,7 +24,7 @@ function Work(props) {
     <Layout nav={generalJson.navigation}>
       <Cover data={contentJson.cover} />
       <Section className={'bg-gray'}>
-      <div className="col-12 pt-4 small"><a href="/">Inicio</a> / Portafolio</div>
+      <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
       </Section>
       <Cards data={workJson.edges} />
       <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} >
