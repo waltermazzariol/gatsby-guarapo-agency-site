@@ -13,6 +13,6 @@ function Section({anchor, className, fluid=false, rowClass, children}) {
     </div>
   )
 }
-
+ 
 
 export default Section
