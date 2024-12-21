@@ -1,21 +1,18 @@
 import React from "react"
 import {Container, Row} from 'react-bootstrap'
 
-function Section(props) {
+function Section({anchor, className, fluid=false, rowClass, children}) {
 
   return (
-    <div id={props.anchor} className={props.className}>
-      <Container fluid={props.fluid} >
-        <Row className={props.rowClass}>
-          {props.children}
+    <div id={anchor} className={className}>
+      <Container fluid={fluid} >
+        <Row className={rowClass}>
+          {children}
         </Row>
       </Container>
     </div>
   )
 }
 
-Section.defaultProps = {
-  fluid: false
-}
 
 export default Section

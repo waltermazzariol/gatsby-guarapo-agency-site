@@ -69,12 +69,12 @@ return (
     <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
       <div className="carousel carousel-fade">
         <div className="carousel-x g-2">
-          {contentJson.testimonials.list.slice(0, 6).map((key,index) =>
+          {contentJson.testimonials.list.slice(0, 4).map((key,index) =>
             <Testimonial key={index} data={key} />
             )}  
         </div>
         <div className="carousel-reverse g-2">
-          {contentJson.testimonials.list.slice(7, 13).map((key,index) =>
+          {contentJson.testimonials.list.slice(5, 13).map((key,index) =>
             <Testimonial key={index} data={key} />
             )}  
         </div>
