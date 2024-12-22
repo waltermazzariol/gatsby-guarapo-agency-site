@@ -5,17 +5,17 @@ import { graphql } from "gatsby";
 import { CookiesProvider } from "react-cookie";
 
 // Genneric Component
-import CookiesConsent from "../components/Cookies.jsx";
+import CookiesConsent from "../components/Cookies";
 
 // Core components
-import Seo from "../components/Seo.jsx";
-import Layout from "../components/Layout.jsx";
-import PriceTable from "../components/PriceTable.jsx";
-import Cover from "../components/Hero/Cover.jsx";
-import Contact from "../components/Contact.jsx";
-import Section from "../components/Common/Section.jsx";
-import Title from "../components/Common/Title.jsx";
-import Domain from "../components/Domain.jsx";
+import Seo from "../components/Seo";
+import Layout from "../components/Layout";
+import PriceTable from "../components/PriceTable";
+import Cover from "../components/Hero/Cover";
+import Contact from "../components/Contact";
+import Section from "../components/Common/Section";
+import Title from "../components/Common/Title";
+import Domain from "../components/Domain";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
