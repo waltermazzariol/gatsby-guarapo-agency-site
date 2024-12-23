@@ -1,0 +1,113 @@
+{
+    "general": {
+        "path": "/digital-marketing",
+        "siteurl": "https://guarapomedia.com/digital-marketing",
+        "seo-title": "Digital Marketing • Digital Marketing Agency",
+        "seo-description": "Discover how Guarapo Media, with over 10 years of experience, boosts your online business. Customized strategies for SEO, SEM, social media, and more to maximize your ROI. Transform your digital presence today!",
+        "seo-image": "seo.png",
+        "ua": "G-Q4Y6R6M0KC",
+        "lang": "en"
+    },
+    "hero": {
+        "pretitle": "We position your business in the digital world",
+        "title": "<strong>SOCIALIZE</strong> & <strong>CONNECT</strong><br/> with your audience<br/>",
+        "subtitle": "is the <span class='text-underscore'>secret</span> to the future of your business.",
+        "image": "./images/hero_marketing.png",
+        "bgimage": "./images/bg_hero.jpg",
+        "button_text": "View Plans",
+        "button_url": "#package",
+        "benefits":[
+            {"text": "Fast"},
+            {"text": "Easy"},
+            {"text": "Efficient"},
+            {"text": "Worry-free"}
+        ]
+    },
+    "packages":{
+        "title": "Choose Your Plan",
+        "description": "Select the perfect plan for you",
+        "tagline": "Do you have any question? let us know",
+        "items":[
+            {
+                "name": "Basic Plan",
+                "from": "From",
+                "price": "€599",
+                "strikethrough": "€699",
+                "list":[
+                    {"text": "Monthly content for Social Media"},
+                    {"text": "Graphic design"},
+                    {"text": "Contact section"},
+                    {"text": "Community Management"},
+                    {"text": "Paid ads management"}
+                ],
+                "button_text":"Start",
+                "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
+                "button_text_second":"",
+                "button_url_second": ""
+            },
+            {
+                "name": "Pro Plan",
+                "from": "From",
+                "price": "€799",
+                "strikethrough": "€999",
+                "list":[
+                    {"text": "Monthly content for Social Media"},
+                    {"text": "Graphic design (Fast deliveries)"},
+                    {"text": "Community Management"},
+                    {"text": "Paid ads management"},
+                    {"text": "Monthly performance reports"},
+                    {"text": "1 Landing Page"}
+                ],
+                "button_text":"Start",
+                "button_url": "https://buy.stripe.com/28oaGfbnccFY46caEH",
+                "button_text_second":"",
+                "button_url_second": ""
+            }
+        ]
+    },
+    "banner": {
+        "title": "Managing your content on digital media can be overwhelming.",
+        "text": "We take care of creating content, managing your accounts, handling your Ads, and positioning your brand. Focus on what really matters: your business!",
+        "button_text": "Start now",
+        "button_url": "/contact"
+    },
+    "process":{
+        "title": "How do we work?",
+        "description": "We explain step by step the entire process",
+        "list":[
+            {
+                "id":1,
+                "title": "We want to know about you!",
+                "description":"Let's talk about your project, your ideas, and expectations. We will create the best strategy tailored to your needs!",
+                "image": "./images/process/step_1.png"
+            },
+            {
+                "id":2,
+                "title": "Planning and development",
+                "description": "Once we have clear ideas and all the information about your project or business, we will get to work!",
+                "image": "./images/process/step_2.png"
+            },
+            {
+                "id":3,
+                "title": "Evolution",
+                "description": "Digital products are characterized by the “Time to Market” and their constant evolution. We will be with you hand in hand throughout the process until achieving the desired objectives.",
+                "image": "./images/process/step_3.png"
+            }
+        ]
+    },
+    "scope":{
+        "title": "Everything you need in one place",
+        "description": "Web, Virtual store, landing page & more",
+        "list":[
+            {"text": "Ads" },
+            {"text": "Content" },
+            {"text": "Graphic Design" },
+            {"text": "Video Editing for Social Networks" },
+            {"text": "Community Management" },
+            {"text": "Campaigns" },
+            {"text": "Analytics" },
+            {"text": "Reports" },
+            {"text": "Consulting" }
+        ]
+    }
+}

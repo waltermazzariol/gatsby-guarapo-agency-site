@@ -6,16 +6,16 @@ import { CookiesProvider } from 'react-cookie';
 import Col from "react-bootstrap/Col"
 
 // Genneric Component
-import CookiesConsent from "../components/Cookies"
+import CookiesConsent from "../../components/Cookies"
 
 // Core components
-import Seo from "../components/Seo"
-import Layout from "../components/Layout"
-import Section from "../components/Common/Section"
-import Title from "../components/Common/Title"
-import Cover from "../components/Hero/Cover"
-import Form from "../components/Form"
-import Contact from "../components/Contact"
+import Seo from "../../components/Seo"
+import Layout from "../../components/Layout"
+import Section from "../../components/Common/Section"
+import Title from "../../components/Common/Title"
+import Cover from "../../components/Hero/Cover"
+import Form from "../../components/Form"
+import Contact from "../../components/Contact"
 
 function ContactPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
@@ -64,7 +64,7 @@ export function Head(props) {
 
 export const data = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/contact"}}}) {
+    allDataJson(filter: {general: {path: {eq: "/es/contacto"}}}) {
       edges {
         node {
             ...generalFields
@@ -73,7 +73,7 @@ export const data = graphql`
         }  
       }
     }
-    dataJson(general: {path: {eq: "/"}}) {
+    dataJson(general: {path: {eq: "/es/"}}) {
       ...contactFields
       ...tagsFields
       ...navigationFields

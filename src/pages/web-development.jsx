@@ -106,7 +106,7 @@ export function Head(props) {
 
 export const contentData = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/desarrollo-web"}}}) {
+    allDataJson(filter: {general: {path: {eq: "/web-development"}}}) {
       edges {
         node {
         ...generalFields

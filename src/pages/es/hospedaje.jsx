@@ -5,23 +5,23 @@ import { graphql } from "gatsby";
 import { CookiesProvider } from "react-cookie";
 
 // Genneric Component
-import CookiesConsent from "../components/Cookies";
+import CookiesConsent from "../../components/Cookies";
 
 // Core components
-import Seo from "../components/Seo";
-import Layout from "../components/Layout";
-import PriceTable from "../components/PriceTable";
-import Cover from "../components/Hero/Cover";
-import Contact from "../components/Contact";
-import Section from "../components/Common/Section";
-import Title from "../components/Common/Title";
-import Domain from "../components/Domain";
+import Seo from "../../components/Seo";
+import Layout from "../../components/Layout";
+import PriceTable from "../../components/PriceTable";
+import Cover from "../../components/Hero/Cover";
+import Contact from "../../components/Contact";
+import Section from "../../components/Common/Section";
+import Title from "../../components/Common/Title";
+import Domain from "../../components/Domain";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Button from "react-bootstrap/Button";
 import { Col } from "react-bootstrap";
-import FormServices from "../components/Form";
-import Portfolio from "../components/Portfolio/Portfolio"
+import FormServices from "../../components/Form";
+import Portfolio from "../../components/Portfolio/Portfolio"
 
 function TeamPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node;
@@ -111,7 +111,7 @@ export function Head(props) {
 
 export const data = graphql`
   query {
-    allDataJson(filter: { general: { path: { eq: "/hosting" } } }) {
+    allDataJson(filter: { general: { path: { eq: "/es/hospedaje" } } }) {
       edges {
         node {
           ...generalFields
@@ -121,7 +121,7 @@ export const data = graphql`
         }
       }
     }
-    dataJson(general: { path: { eq: "/" } }) {
+    dataJson(general: { path: { eq: "/es/" } }) {
       ...contactFields
       ...tagsFields
       ...navigationFields

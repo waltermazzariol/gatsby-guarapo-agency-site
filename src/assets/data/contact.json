@@ -1,27 +1,27 @@
 {
     "general": {
-        "path": "/es/contacto",
+        "path": "/contact",
         "siteurl": "https://guarapomedia.com/contacto",
-        "seo-title": "Contacto • Agencia de Marketing Digital",
-        "seo-description": "Somos especialistas en desarrollo web. Te acompañamos en todo el camino, siempre enfocado en alcanzar los objetivos",
+        "seo-title": "Contact • Digital Marketing Agency",
+        "seo-description": "We specialize in web development. We accompany you every step of the way, always focused on achieving your goals",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
-        "lang": "es"
+        "lang": "en"
     },
     "cover": {
-        "title": "Nuestro <strong>Contacto</strong>",
+        "title": "Our <strong>Contact</strong>",
         "subtitle": "",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Conoce más",
-        "button_url": "mailto:contacto@guarapomedia.com"
+        "button_text": "Learn more",
+        "button_url": "mailto:contact@guarapomedia.com"
     },
     "form": {
-        "title":"¿Necesitas ayuda en tu proyecto?",
-        "description":"Si has llegado hasta aquí es que tienes alguna pregunta, escribenos un mensaje y nos pondremos en contacto.",
+        "title":"Need help with your project?",
+        "description":"If you've made it this far, it means you have a question. Send us a message and we will get in touch.",
         "contacts": [
             {
                 "id":"1",
-                "city": "Barcelona - España",
+                "city": "Barcelona - Spain",
                 "name": "Walter Mazzariol",
                 "number": "",
                 "phone": "",
@@ -29,7 +29,7 @@
             },
             {
                 "id":"2",
-                "city": "Miami - Usa",
+                "city": "Miami - USA",
                 "name": "Christian Uzcategui",
                 "number": "",
                 "phone": "",
@@ -39,8 +39,8 @@
                 "id":"3",
                 "city": "Caracas - Venezuela",
                 "name": "Natassha Rodriguez",
-                "number": "+58 424 294 1213",
-                "phone": "584242941213",
+                "number": "",
+                "phone": "",
                 "email": "natassha@guarapomedia.com"
             }
         ]

@@ -1,7 +1,7 @@
 import React from "react"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-function Process({ data }) {
+function Process({ data=[] }) {
 
     return (
       <div className="container process mt-5">

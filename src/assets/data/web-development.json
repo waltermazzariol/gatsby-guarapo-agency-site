@@ -1,0 +1,259 @@
+{
+    "general": {
+        "path": "/web-development",
+        "siteurl": "https://guarapomedia.com/web-development",
+        "seo-title": "Web Development • Digital Marketing Agency",
+        "seo-description": "Create the website of your dreams with Guarapo Media. Our expert web development team designs attractive, fast, and SEO-optimized sites. Increase your visibility and attract more customers. Start now!",
+        "seo-image": "seo.png",
+        "ua": "G-Q4Y6R6M0KC",
+        "lang": "en"
+    },
+    "hero": {
+        "pretitle": "Get the website you've been dreaming of",
+        "title": "We Develop <strong>Websites</strong>",
+        "subtitle": "that connect with your <span class='text-underscore'><strong>customers</strong></span> right from the start.",
+        "image": "./images/bg_noneculture.webp",
+        "button_text": "View plans",
+        "button_url": "#package",
+        "benefits": [
+            {"text": "A plan that fits you"},
+            {"text": "Cancel or pause whenever you want"},
+            {"text": "Really fast results"}
+        ]
+    },
+    "packages": {
+        "title": "Choose Your Plan",
+        "description": "Select the perfect plan for you",
+        "tagline": "Do you have any question? let us know",
+        "items": [
+            {
+                "name": "Basic Plan",
+                "from": "From",
+                "price": "€499",
+                "strikethrough": "€699",
+                "time": "",
+                "list": [
+                    {"text": "Landing page"},
+                    {"text": "Services section"},
+                    {"text": "Contact section"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": "Domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Delivered in 5 days or less"}
+                ],
+                "button_text": "Start",
+                "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
+                "button_text_second": "",
+                "button_url_second": ""
+            },
+            {
+                "name": "Pro Plan",
+                "from": "From",
+                "price": "€999",
+                "strikethrough": "€1,299",
+                "time": "",
+                "list": [
+                    {"text": "Website with CMS (Wordpress or another)"},
+                    {"text": "5 sections"},
+                    {"text": "Option for blog"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": "Domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Web design included"}
+                ],
+                "button_text": "Start",
+                "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
+                "button_text_second": "",
+                "button_url_second": ""
+            },
+            {
+                "name": "E-Commerce Plan",
+                "from": "From",
+                "price": "€1,599",
+                "strikethrough": "€1,999",
+                "time": "",
+                "list": [
+                    {"text": "Website with CMS (Wordpress, Shopify, SquareSpace)"},
+                    {"text": "5 sections"},
+                    {"text": "Option for blog"},
+                    {"text": "Hosting included, 1st year"},
+                    {"text": "Domain included, 1st year"},
+                    {"text": "Emails with your domain"},
+                    {"text": "Web design included"}
+                ],
+                "button_text": "Start",
+                "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
+                "button_text_second": "",
+                "button_url_second": ""
+            }
+        ]
+    },
+    "banner": {
+        "title": "Managing your content on digital media can be overwhelming.",
+        "text": "We take care of creating content, managing your accounts, handling your Ads, and positioning your brand. Focus on what really matters: your business!",
+        "button_text": "Start now",
+        "button_url": "/contact"
+    },
+    "portfolio": {
+        "title": "Projects",
+        "tags": {
+            "client": "Client",
+            "city": "City",
+            "url": "Domain",
+            "year": "Year",
+            "tags": "Tags",
+            "close": "Close"
+        },
+        "list": [
+            {
+                "id": 0,
+                "client": "Piel de Oro",
+                "city": "Miami",
+                "description": "The project was envisioned as a fresh and modern Landing Page that presented its different segments in a story-like manner. Since its inception, the page has gone through different stages, becoming the meeting point for its more than 20 locations in 5 different countries. The website runs on React and includes various plugins, such as appointment booking and a link to its e-commerce.",
+                "url": "https://pieldeoro.com",
+                "year": "2020",
+                "cat": "Web",
+                "tags": "Small Business, multi-language",
+                "image": "./images/portfolio/1.jpg",
+                "thumbnail": "./images/portfolio/d1.jpg",
+                "alt": "Piel de oro"
+            },
+            {
+                "id": 1,
+                "client": "Norma Pasteles",
+                "city": "Barcelona",
+                "description": "Located in Barcelona, Norma specializes in offering artisanal cakes with a variety of flavors and options. As the first stage, we presented the cakes, their story, and the different steps to place an order, with a site in \"One Page\" format. After 1 year, we sought to evolve the site and expanded the sections to the different types of cakes and flavors. The next step is to offer a payment option that allows selling cakes directly from the website. Based on React and with modular content, it allows for easy updates.",
+                "url": "https://normapasteles.com",
+                "year": "2020",
+                "cat": "Web",
+                "tags": "Small Business, Bakery",
+                "image": "./images/portfolio/2.jpg",
+                "thumbnail": "./images/portfolio/d2.jpg",
+                "alt": "Norma Pasteles"
+            },
+            {
+                "id": 2,
+                "client": "Burbowl",
+                "city": "Miami",
+                "description": "We want to share with you the Burbowl project, a web solution on Wordpress with different sections such as: Menu, locations, franchise information, blog, and contacts. It also has integration with delivery platforms. Located in Downtown Miami and Coral Gables, BurBowl is a fast food restaurant that stands out from the ordinary. Unique dishes, fresh ingredients, and located in two of the best areas of Miami. Since January 2016, we have been taking their digital media to the next level.",
+                "url": "https://burbowl.com",
+                "year": "2016 - 2021",
+                "cat": "Marketing",
+                "tags": "Small Business, Restaurant",
+                "image": "./images/portfolio/3.jpg",
+                "thumbnail": "./images/portfolio/d3.jpg",
+                "alt": "Burbowl"
+            },
+            {
+                "id": 3,
+                "client": "Cultura Nanos",
+                "city": "Madrid",
+                "description": "Cultura Nanos is a children's center located in Toledo. The project consisted of creating a website that would allow showcasing the different activities offered by the center as well as an activities calendar. The website is designed for perfect viewing on mobile devices and allows direct contact with the center through WhatsApp.",
+                "url": "https://culturalnanos.com",
+                "year": "2020",
+                "cat": "Web",
+                "tags": "Small Business, Children's school",
+                "image": "./images/portfolio/4.jpg",
+                "thumbnail": "./images/portfolio/d4.jpg",
+                "alt": "Cultura Nanos"
+            },
+            {
+                "id": 4,
+                "client": "Gabriel Samra",
+                "city": "Miami",
+                "description": "Located in Coral Gables, Gabriel Samra Salon is the place where Miami's chic community comes to experience beauty transformed into a work of art in an elegant and welcoming sanctuary.",
+                "url": "https://instagram.com/gabrielsamrahairsalon",
+                "year": "2017 - 2021",
+                "cat": "Marketing",
+                "tags": "Small Business, Beauty Salon",
+                "image": "./images/portfolio/gabriel.jpg",
+                "thumbnail": "./images/portfolio/gabriel.jpg",
+                "alt": "Picarpolos"
+            },
+            {
+                "id": 5,
+                "client": "Lifeinvest Wealth",
+                "city": "Panamá",
+                "description": "",
+                "url": "https://lifeinvestwealth.com",
+                "year": "2020",
+                "cat": "Web",
+                "tags": "Company, multi-language",
+                "image": "./images/portfolio/6.jpg",
+                "thumbnail": "./images/portfolio/d6.jpg",
+                "alt": "Lifeinvest"
+            },
+            {
+                "id": 6,
+                "client": "Guataca",
+                "city": "Caracas",
+                "description": "Guataca is a platform whose objective is to spread the talent of emerging Venezuelan musicians, promote their projects, support their initiatives in Venezuela and the world. We contribute to record productions and, above all, generate a program of concerts, with broad media promotion, seeking feedback with a Guataquero audience that makes each encounter a unique experience.",
+                "url": "https://guatacanights.com",
+                "year": "2014 -2021",
+                "cat": "Marketing",
+                "tags": "Music, marketing, web, youtube, blog",
+                "image": "./images/portfolio/guataca.jpg",
+                "thumbnail": "./images/portfolio/guataca.jpg",
+                "alt": "Guataca"
+            },
+            {
+                "id": 7,
+                "client": "Yamaha musical",
+                "city": "Caracas",
+                "description": "Since November 2013, we have had the pleasure of working with the famous musical brand, iconic for its tuning forks: Yamaha. With more than 5 musical academies in the country, Yamaha continues to bet on cultural development in Venezuela through music. Together, we have carried out the production of various events, musical workshops, attended music festivals together, and much more. Let's keep creating Kando together!",
+                "url": "",
+                "year": "2013 - 2021",
+                "cat": "Marketing",
+                "tags": "Content management",
+                "image": "./images/portfolio/yamaha.jpg",
+                "thumbnail": "./images/portfolio/yamaha.jpg",
+                "alt": "Yamaha musical"
+            }
+        ]
+    },
+    "process": {
+        "title": "Everything you need in one place",
+        "description": "Web, Virtual store, landing page & more",
+        "list": [
+            {
+                "id": 1,
+                "title": "We want to meet you!",
+                "description": "We will ask you about your project, your expectations, and your content. We will devise various strategies until we find the one that best fits you and your project.",
+                "image": "./images/process/step_1.png"
+            },
+            {
+                "id": 2,
+                "title": "Planning and development",
+                "description": "Once we have all the content and information, we will get to work to have a functional website as soon as possible.",
+                "image": "./images/process/step_2.png"
+            },
+            {
+                "id": 3,
+                "title": "Evolution",
+                "description": "Digital products are characterized by the time to market and their constant evolution. So, we will not stop once we have the first version but will evolve until we achieve the results you expect.",
+                "image": "./images/process/step_3.png"
+            }
+        ]
+    },
+    "scope": {
+        "title": "Web, Virtual store, landing page & more",
+        "description": "Everything you need in one place",
+        "list": [
+            {"text": "Website"},
+            {"text": "Landing pages"},
+            {"text": "e-Commerce"},
+            {"text": "CMS"},
+            {"text": "SEO"},
+            {"text": "Mobile web"},
+            {"text": "Google rank"},
+            {"text": "Domains .com"},
+            {"text": "Design"},
+            {"text": "Maintenance"},
+            {"text": "Content update"},
+            {"text": "Copywriting"},
+            {"text": "Google Analytics"},
+            {"text": "Microsite"},
+            {"text": "Load optimization"}
+        ]
+    }
+}

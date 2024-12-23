@@ -5,36 +5,36 @@ import { graphql } from "gatsby"
 import { CookiesProvider } from 'react-cookie';
 
 // Genneric Component
-import Section from "../components/Common/Section"
-import Title from "../components/Common/Title"
-import CookiesConsent from "../components/Cookies"
+import Section from "../../components/Common/Section"
+import Title from "../../components/Common/Title"
+import CookiesConsent from "../../components/Cookies"
 
 // Core components
-import Seo from "../components/Seo"
-import Layout from "../components/Layout"
-import Hero from "../components/Hero/Hero"
-import Contact from "../components/Contact"
-import Portfolio from "../components/Portfolio/Portfolio"
-import PriceTable from "../components/PriceTable"
-import Process from "../components/Process";
-import Banner from "../components/Banner";
-import FormServices from "../components/Form";
+import Seo from "../../components/Seo"
+import Layout from "../../components/Layout"
+import Hero from "../../components/Hero/Hero"
+import Contact from "../../components/Contact"
+import Portfolio from "../../components/Portfolio/Portfolio"
+import PriceTable from "../../components/PriceTable"
+import Process from "../../components/Process";
+import Banner from "../../components/Banner";
+import FormServices from "../../components/Form";
 
-function MarketingPage(props) {
 
+function WebPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node
   const generalJson = props.data.dataJson
   const blogJson = props.data.allWorkJson.edges
 
-
   return (
     <Layout nav={generalJson.navigation}>
-    <Hero data={contentJson.hero} color="bg-light-purple"/>
-    <Section>
-      <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
-    </Section>   
+      <Hero data={contentJson.hero} color="bg-light-blue"/>
 
-      {/* Our Process */}
+      <Section>
+        <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
+      </Section>      
+      
+       {/* Our Process */}
        <div className="spacer"></div>
        <Section anchor={'portfolio'}>
         <Title title={contentJson.process.title} subtitle={contentJson.process.description}/>
@@ -57,9 +57,9 @@ function MarketingPage(props) {
       </Section>
 
        {/* Our Packages */}
-       <div className="spacer"></div>
+      <div className="spacer"></div>
       <Section anchor={'package'}>
-        <Title title={contentJson.packages.title}  subtitle={contentJson.packages.description}/>
+        <Title title={contentJson.packages.title} subtitle={contentJson.packages.description} />
         <PriceTable data={contentJson.packages.items} popular />
       </Section>
       
@@ -79,12 +79,13 @@ function MarketingPage(props) {
       <div className="spacer"></div>
       <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
       <Title title={generalJson.tags.portfolio_title} subtitle={generalJson.tags.portfolio_subtitle} />
-        <Portfolio data={blogJson} />
+       <Portfolio data={blogJson} />
       </Section>
 
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
+      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} >
         <Contact data={generalJson.contact} />
       </Section>
+      
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>
@@ -92,12 +93,12 @@ function MarketingPage(props) {
   )
 }
 
-export default MarketingPage
+export default WebPage
 
 export function Head(props) {
   return (
     <Seo
-        page={'marketing'}
+        page={'web'}
         metas={props.data.allDataJson.edges[0].node.general}
       />
   )
@@ -105,7 +106,7 @@ export function Head(props) {
 
 export const contentData = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/digital-marketing"}}}) {
+    allDataJson(filter: {general: {path: {eq: "/es/desarrollo-web"}}}) {
       edges {
         node {
         ...generalFields
@@ -117,13 +118,13 @@ export const contentData = graphql`
         }  
       }
     }
-    dataJson(general: {path: {eq: "/"}}) {
+    dataJson(general: {path: {eq: "/es/"}}) {
       ...contactFields
       ...tagsFields
       ...navigationFields
       ...formFields
     }
-    allWorkJson(sort: {date: DESC} filter: {cat:{eq: "Marketing"}}) {
+    allWorkJson(sort: {date: DESC} filter: {cat:{eq: "Web"}}) {
       edges {
         node {
           id

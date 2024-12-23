@@ -1,10 +1,10 @@
 import React from "react";
 import { Col } from "react-bootstrap";
 
-function Domain({data}) {
+function Domain({data=[]}) {
   return (
     <>
-      {data?.map((key, index) => (
+      {data.map((key, index) => (
         <Col key={index} xs={6} lg={2}>
           <span className="domain-box bg-second-color">
             <h3>{key.name}</h3>

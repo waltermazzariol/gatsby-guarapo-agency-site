@@ -5,20 +5,20 @@ import { graphql } from "gatsby"
 import { CookiesProvider } from 'react-cookie';
 
 // Genneric Component
-import Section from "../components/Common/Section"
-import Title from "../components/Common/Title"
-import CookiesConsent from "../components/Cookies"
+import Section from "../../components/Common/Section"
+import Title from "../../components/Common/Title"
+import CookiesConsent from "../../components/Cookies"
 
 // Core components
-import Seo from "../components/Seo"
-import Layout from "../components/Layout"
-import Hero from "../components/Hero/Hero"
-import Contact from "../components/Contact"
-import Portfolio from "../components/Portfolio/Portfolio"
-import PriceTable from "../components/PriceTable"
-import Process from "../components/Process";
-import Banner from "../components/Banner";
-import FormServices from "../components/Form";
+import Seo from "../../components/Seo"
+import Layout from "../../components/Layout"
+import Hero from "../../components/Hero/Hero"
+import Contact from "../../components/Contact"
+import Portfolio from "../../components/Portfolio/Portfolio"
+import PriceTable from "../../components/PriceTable"
+import Process from "../../components/Process";
+import Banner from "../../components/Banner";
+import FormServices from "../../components/Form";
 
 function MarketingPage(props) {
 
@@ -105,7 +105,7 @@ export function Head(props) {
 
 export const contentData = graphql`
   query{
-    allDataJson(filter: {general: {path: {eq: "/digital-marketing"}}}) {
+    allDataJson(filter: {general: {path: {eq: "/es/marketing-digital"}}}) {
       edges {
         node {
         ...generalFields
@@ -117,7 +117,7 @@ export const contentData = graphql`
         }  
       }
     }
-    dataJson(general: {path: {eq: "/"}}) {
+    dataJson(general: {path: {eq: "/es/"}}) {
       ...contactFields
       ...tagsFields
       ...navigationFields

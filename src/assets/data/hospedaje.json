@@ -1,108 +1,121 @@
 {
     "general": {
-        "path": "/hospedaje",
-        "siteurl": "https://guarapomedia.com/hosting",
-        "seo-title": "Web Hosting • Guarapo Media",
-        "seo-description": "We are specialists in web development. We follow you all the way, always focused on achieving the objectives.",
-        "seo-image": "./images/seo.jpg",
+        "path": "/es/hospedaje",
+        "siteurl": "https://guarapomedia.com/hospedaje",
+        "seo-title": "Dominios & Hospedaje Web • Agencia de Marketing Digital",
+        "seo-description": "Obtén el mejor hosting y dominio para tu sitio web con Guarapo Media. Velocidad, seguridad y soporte 24/7 para garantizar que tu sitio esté siempre en línea y funcionando a la perfección. ¡Optimiza tu presencia online con nosotros!",
+        "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
-        "lang": "en"
+        "lang": "es"
     },
     "cover": {
-        "title": "Domains & <strong>Web Hosting</strong>",
-        "subtitle": "With more than 10 years of experience, we help you develop your online business.",
+        "title": "Dominios & <strong>Hospedaje Web</strong>",
+        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Learn more",
+        "button_text": "Conoce más",
         "button_url": "mailto:contacto@guarapomedia.com"
     },
     "packages": {
-        "title": "Host your website with our hosting service",
+        "title": "Aloja tu página web con nuestro servicio de hosting",
         "items": [
             {
-                "name": "Light Plan",
+                "name": "Plan Light",
                 "from": "",
-                "price": "€90",
-                "strikethrough": "€120",
-                "time": "/ year",
+                "price": "90€",
+                "strikethrough": "120€",
+                "time": "/ año",
                 "list": [
-                    {"text": "600 mb Hosting"},
-                    {"text": "10gb Monthly Transfer"},
-                    {"text": "Up to 10 email accounts"},
-                    {"text": "Free SSL Certificate"},
-                    {"text": "1-click Wordpress Installation"},
-                    {"text": "Unlimited MySQL databases"}
+                    {"text": "Hospedaje de 600 mb"},
+                    {"text": "10gb de Transferencia mensual"},
+                    {"text": "Hasta 10 correos electrónicos"},
+                    {"text": "Certificado SSL gratuito"},
+                    {"text": "Instalación Wordpress 1 click"},
+                    {"text": "Bases de datos MySQL ilimitadas"}
                 ],
-                "button_text": "book",
+                "button_text": "reservar",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-light",
                 "button_text_second":"",
                 "button_url_second": ""
+                
             },
             {
-                "name": "Basic Plan",
+                "name": "Plan Basic",
                 "from": "",
-                "price": "€120",
-                "strikethrough": "€140",
-                "time": "/ year",
+                "price": "120€",
+                "strikethrough": "140€",
+                "time": "/ año",
                 "list": [
-                    {"text": "1,200 mb Hosting"},
-                    {"text": "20gb Monthly Transfer"},
-                    {"text": "Up to 20 email accounts"},
-                    {"text": "Free SSL Certificate"},
-                    {"text": "1-click Wordpress Installation"},
-                    {"text": "Unlimited MySQL databases"}
+                    {"text": "Hospedaje de 1.200 mb"},
+                    {"text": "20gb de Transferencia mensual"},
+                    {"text": "Hasta 20 correos electrónicos"},
+                    {"text": "Certificado SSL gratuito"},
+                    {"text": "Instalación Wordpress 1 click"},
+                    {"text": "Bases de datos MySQL ilimitadas"}
                 ],
-                "button_text": "book",
+                "button_text": "reservar",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-basic",
                 "button_text_second":"",
                 "button_url_second": ""
             },
             {
-                "name": "Pro Plan",
+                "name": "Plan Pro",
                 "from": "",
-                "price": "€160",
-                "strikethrough": "€180",
-                "time": "/ year",
+                "price": "160€",
+                "strikethrough": "180€",
+                "time": "/ año",
                 "list": [
-                    {"text": "3,000 mb Hosting"},
-                    {"text": "30gb Monthly Transfer"},
-                    {"text": "Unlimited email accounts"},
-                    {"text": "Free SSL Certificate"},
-                    {"text": "1-click Wordpress Installation"},
-                    {"text": "Unlimited MySQL databases"}
+                    {
+                        "text": "Hospedaje de 3.000 mb"
+                    },
+                    {
+                        "text": "30gb de Transferencia mensual"
+                    },
+                    {
+                        "text": "Cuentas de correos electrónicos sin límite"
+                    },
+                    {
+                        "text": "Certificado SSL gratuito"
+                    },
+                    {
+                        "text": "Instalación Wordpress 1 click"
+                    },
+                    {
+                        "text": "Bases de datos MySQL ilimitadas"
+                    }
                 ],
-                "button_text": "Check Availability",
-                "button_url": "/contact",
+                "button_text": "Consultar Disponibilidad",
+                "button_url": "/contacto",
                 "button_text_second":"",
                 "button_url_second": ""
             }
         ]
     },
-    "domains": {
-        "title": "Reserve your domain right now!",
-        "description": "Start making your project a reality, check availability right now.",
+    "domains":{
+        "title": "¡Reserva tu dominio ahora mismo!",
+        "description": "Comienza a hacer realidad tu proyecto, consulta la disponibilidad ahora mismo.",
         "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query=",
-        "button": "Search Domain",
+        "button": "Buscar Dominio",
         "placeholder":"Type your domain name .com .net .org .es",
-        "packages": [
+        "packages":[
             {
-                "name": ".com",
-                "price": "€20 1st year / €30 renewal"
+                "name":".com",
+                "price":"20€ 1er año / 30€ renovación"
             },
             {
-                "name": ".es",
-                "price": "€30 1st year / €40 renewal"
+                "name":".es",
+                "price":"30€ 1er año / 40€ renovación"
             },
             {
-                "name": ".net",
-                "price": "€20 1st year / €30 renewal"
+                "name":".net",
+                "price":"20€ 1er año / 30€ renovación"
             },
             {
-                "name": ".org",
-                "price": "€20 1st year / €30 renewal"
+                "name":".org",
+                "price":"20€ 1er año / 30€ renovación"
             },
             {
-                "name": ".co",
-                "price": "€35 1st year / €45 renewal"
+                "name":".co",
+                "price":"35€ 1er año / 45€ renovación"
             }
         ]
     }
