@@ -24,7 +24,7 @@
     "packages":{
         "title": "Escoge tu Plan",
         "description": "Selecciona el paquete que mejor se adapte a tu proyecto",
-        "tagline": "Do you have any question? let us know",
+        "tagline": "¿Tienes alguna pregunta? Déjanos saber",
         "items":[
                        {
                 "name": "Plan Básico",

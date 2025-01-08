@@ -56,7 +56,7 @@ return (
   </Section>
 
   {/* Our Packages */}
-  <Section anchor={'paquetes'} className={"mt-5"}>
+  <Section anchor={'packages'} className={"mt-5"}>
     <Title title={contentJson.packages.title} subtitle={contentJson.packages.description}/>
   </Section>
   <Packages data={contentJson.packages.items} tagline={contentJson.packages.tagline}/>

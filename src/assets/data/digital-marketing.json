@@ -30,35 +30,37 @@
         "items":[
             {
                 "name": "Basic Plan",
-                "from": "From",
-                "price": "€599",
-                "strikethrough": "€699",
+                "from": "This plan is perfect for businesses starting their online journey.",
+                "price": "€399",
+                "strikethrough": "€499",
                 "list":[
-                    {"text": "Monthly content for Social Media"},
-                    {"text": "Graphic design"},
-                    {"text": "Contact section"},
-                    {"text": "Community Management"},
-                    {"text": "Paid ads management"}
+                    {"text": "Monthly content creation for Social Media (Posts, Reels, Stories)"},
+                    {"text": "Social media profile optimization"},
+                    {"text": "Contact section setup"},
+                    {"text": "Community Management (interacting with your audience)"},
+                    {"text": "Paid ads management to boost your campaigns"},
+                    {"text": "Exclusive Bonus: A custom Wansite to centralize all your important links in one place"}
                 ],
-                "button_text":"Start",
+                "button_text":"Start Now",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"",
                 "button_url_second": ""
             },
             {
                 "name": "Pro Plan",
-                "from": "From",
-                "price": "€799",
-                "strikethrough": "€999",
+                "from": "Ideal for businesses seeking a more comprehensive and performance-focused approach.",
+                "price": "€699",
+                "strikethrough": "€799",
                 "list":[
-                    {"text": "Monthly content for Social Media"},
-                    {"text": "Graphic design (Fast deliveries)"},
-                    {"text": "Community Management"},
-                    {"text": "Paid ads management"},
-                    {"text": "Monthly performance reports"},
-                    {"text": "1 Landing Page"}
+                    {"text": "Monthly content creation for Social Media (Posts, Reels, Stories)"},
+                    {"text": "Social media profile optimization"},
+                    {"text": "Community Management (engaging with your audience)"},
+                    {"text": "Paid ads management to maximize your reach"},
+                    {"text": "Monthly performance reports to track and improve results"},
+                    {"text": "A custom landing page tailored to your goals, with basic SEO and ongoing maintenance for optimal performance"},
+                    {"text": "Exclusive Bonus: A custom Wansite to centralize all your important links in one place"}
                 ],
-                "button_text":"Start",
+                "button_text":"Start Now",
                 "button_url": "https://buy.stripe.com/28oaGfbnccFY46caEH",
                 "button_text_second":"",
                 "button_url_second": ""

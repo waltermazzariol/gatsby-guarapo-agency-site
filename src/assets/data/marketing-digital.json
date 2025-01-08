@@ -26,39 +26,40 @@
     "packages":{
         "title": "Escoge tu Plan",
         "description": "Selecciona el paquete que mejor se adapte a tu proyecto",
-        "tagline": "Do you have any question? let us know",
+        "tagline": "¿Tienes alguna pregunta? Déjanos saber",
         "items":[
                        {
                 "name": "Plan Básico",
-                "from": "Desde",
-                "price": "599€",
-                "strikethrough": "699€",
+                "from": "Esta plan es perfecto para pequeñas empresas empezando su viaje online",
+                "price": "€399",
+                "strikethrough": "€499",
                 "list":[
-                    {"text": "Contenido mensual para Social Media"},
-                    {"text": "Diseño gráfico"},
+                    {"text": "Contenido mensual para Social Media (Posts, Reels, Stories)"},
+                    {"text": "Optimizacion perfiles de redes sociales"},
                     {"text": "Sección de contacto"},
                     {"text": "Community Management"},
-                    {"text": "Administración de anuncios pagos"}
+                    {"text": "Anuncios pagos para optimizar el alcance"},
+                    {"text": "Bono Exclusivo: Wansite.co personalizado con todos tu links centralizados en un sólo sitio"}
                 ],
-                "button_text":"Empezar",
+                "button_text":"Empezar Ahora",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
                 "button_text_second":"",
                 "button_url_second": ""
             },
             {
                 "name": "Plan Pro",
-                "from": "Desde",
-                "price": "799€",
-                "strikethrough": "999€",
+                "from": "Ideal para empresas que buscan un enfoque más integral y centrado en el rendimiento.",
+                "price": "€699",
+                "strikethrough": "€799",
                 "list":[
-                    {"text": "Contenido mensual para Social Media"},
-                    {"text": "Diseño gráfico (Entregas rápidas)"},
+                    {"text": "Contenido mensual para Social Media (Posts, Reels, Stories)"},
+                    {"text": "Optimizacion perfiles de redes sociales"},
                     {"text": "Community Management"},
-                    {"text": "Administración de anuncios pagos"},
-                    {"text": "Reportes de rendimiento mensuales"},
-                    {"text": "1 Landing Page"}
+                    {"text": "Anuncios pagos para optimizar el alcance"},
+                    {"text": "Landing Page personalizada con tus metas, con SEO basico y mantenimiento para un óptimo rendimiento"},
+                    {"text": "Bono Exclusivo: Wansite.co personalizado con todos tu links centralizados en un sólo sitio"}
                 ],
-                "button_text":"Empezar",
+                "button_text":"Empezar Ahora",
                 "button_url": "https://buy.stripe.com/28oaGfbnccFY46caEH",
                 "button_text_second":"",
                 "button_url_second": ""

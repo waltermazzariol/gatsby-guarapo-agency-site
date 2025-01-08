@@ -60,7 +60,7 @@ function MarketingPage(props) {
        <div className="spacer"></div>
       <Section anchor={'package'}>
         <Title title={contentJson.packages.title}  subtitle={contentJson.packages.description}/>
-        <PriceTable data={contentJson.packages.items} popular />
+        <PriceTable data={contentJson.packages.items} popular tagline={contentJson.packages.tagline}/>
       </Section>
       
       {/* Banner */}

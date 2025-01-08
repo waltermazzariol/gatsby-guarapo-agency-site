@@ -61,7 +61,7 @@
     "packages":{
         "title": "¡Escoge tu Paquete!",
         "description": "Selecciona el paquete que mejor se adapte a tu proyecto",
-        "tagline": "Do you have any question? let us know",
+        "tagline": "¿Tienes alguna pregunta? Déjanos saber",
         "items":[
             {
                 "name": "Desarrollo Web",
@@ -85,15 +85,16 @@
             },
             {
                 "name": "Content creation",
-                "price": "599€",
-                "strikethrough": "799€",
+                "price": "399€",
+                "strikethrough": "499€",
                 "time": "al mes",
                 "list":[
-                    {"text": "Contenido mensual para Social Media"},
-                    {"text": "Diseño gráfico"},
+                    {"text": "Contenido mensual para Social Media (Posts, Reels, Stories)"},
+                    {"text": "Optimizacion perfiles de redes sociales"},
                     {"text": "Sección de contacto"},
                     {"text": "Community Management"},
-                    {"text": "Administración de anuncios pagos"}
+                    {"text": "Anuncios pagos para optimizar el alcance"},
+                    {"text": "Bono Exclusivo: Wansite.co personalizado con todos tu links centralizados en un sólo sitio"}
                 ],
                 "button_text":"Empezar",
                 "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
