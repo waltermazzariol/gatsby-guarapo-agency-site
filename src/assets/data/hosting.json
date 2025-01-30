@@ -86,19 +86,19 @@
         "packages": [
             {
                 "name": ".com",
-                "price": "€20 1st year / €30 renewal"
+                "price": "€25 1st year / €35 renewal"
             },
             {
                 "name": ".es",
-                "price": "€30 1st year / €40 renewal"
+                "price": "€30 1st year / €35 renewal"
             },
             {
                 "name": ".net",
-                "price": "€20 1st year / €30 renewal"
+                "price": "€25 1st year / €35 renewal"
             },
             {
                 "name": ".org",
-                "price": "€20 1st year / €30 renewal"
+                "price": "€25 1st year / €35 renewal"
             },
             {
                 "name": ".co",

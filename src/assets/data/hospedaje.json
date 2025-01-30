@@ -99,19 +99,19 @@
         "packages":[
             {
                 "name":".com",
-                "price":"20€ 1er año / 30€ renovación"
+                "price":"25€ 1er año / 35€ renovación"
             },
             {
                 "name":".es",
-                "price":"30€ 1er año / 40€ renovación"
+                "price":"30€ 1er año / 35€ renovación"
             },
             {
                 "name":".net",
-                "price":"20€ 1er año / 30€ renovación"
+                "price":"25€ 1er año / 35€ renovación"
             },
             {
                 "name":".org",
-                "price":"20€ 1er año / 30€ renovación"
+                "price":"25€ 1er año / 35€ renovación"
             },
             {
                 "name":".co",
