@@ -2,7 +2,7 @@
     "date": "20210404",
     "client": "Norma Pasteles",
     "city": "Barcelona",
-    "description": "Ubicados en Barcelona, Norma se dedica a ofrecer pasteles artesanales con una variedad de sabores y opciones.\nComo primera etapa presentamos los pasteles, su historia y los diferentes pasos para realizar un pedido, con un site en formato \"One Page\".\nLuego de 1 año buscamos evolucionar el sitio y ampliamos las secciones a los diferentes tipos de pasteles y sabores.\nCómo siguiente paso está en ofrecer opción de pago que permita la venta de pasteles desde el mismo sitio web.\nBasado en React y con el contenido modularizado permite actualizarla con gran facilidad.",
+    "description": "Located in Barcelona, Norma specializes in offering artisanal cakes with a variety of flavors and options.\nAs a first stage, we presented the cakes, their history, and the different steps to place an order, with a site in \"One Page\" format.\nAfter 1 year, we sought to evolve the site and expanded the sections to include different types of cakes and flavors.\nThe next step is to offer payment options that allow cake sales directly from the website.\nBased on React and with modularized content, it allows for easy updates.",
     "url": "https://normapasteles.com",
     "year": "2020",
     "cat": "Web",

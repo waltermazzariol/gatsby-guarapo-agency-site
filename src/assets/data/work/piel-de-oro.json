@@ -2,7 +2,7 @@
     "date": "20210405",
     "client": "Piel de Oro",
     "city": "Miami",
-    "description": "El proyecto fue pensado como un Landing Page fresco y moderno que presentara en forma de historia sus diferentes segmentos\nDesde su comienzo la página ha pasando por diferentes etapas hasta convertirse en el punto de encuentro de sus más de 20 locaciones en 5 países diferente.\nLa web funciona en React y contiene diferentes complementos cómo, reserva de citas y un enlace a su e-commerce.",
+    "description": "The project was conceived as a fresh and modern Landing Page that would present its different segments in a story format.\nSince its beginning, the page has gone through different stages until becoming the meeting point for its more than 20 locations across 5 different countries.\nThe website runs on React and contains different features such as appointment booking and a link to their e-commerce.",
     "url": "https://pieldeoro.com",
     "year": "2020",
     "cat": "Web",

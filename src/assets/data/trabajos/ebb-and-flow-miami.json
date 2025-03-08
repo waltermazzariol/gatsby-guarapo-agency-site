@@ -1,0 +1,13 @@
+{
+    "date": "20210415",
+    "client": "Ebb and Flow Miami",
+    "city": "Miami",
+    "description": "Ebb and Flow es un centro comercial ubicado en el centro histórico de Little River. La web se realizo en Wordpress y permite la edición de su contenido. No se utilizaron plantilla y fue maquetado desde el incio, ofreciendo un gran performance en velocidad de carga. También se encuentra optimizado para SEO en sus diferentes páginas\n Esperamos les agrade el resultado",
+    "url": "https://ebbandflow.miami/",
+    "year": "2021",
+    "cat": "Web",
+    "tags": "Pequeña Empresa, Shopping center",
+    "image": "../images/portfolio/ebbandflow_web.jpg",
+    "thumbnail": "../images/portfolio/ebbandflow.jpg",
+    "alt": "Ebb and Flow Miami"
+}
