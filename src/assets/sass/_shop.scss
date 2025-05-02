@@ -1,0 +1,121 @@
+// Work
+.work {
+    &-wrapper {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+  
+      .item {
+        flex: 0 0 22%;
+        background-color: #ffffff;
+        margin: 10px;
+        border-radius: 10px;
+  
+        a {
+          height: 100%;
+        }
+  
+        @include media-breakpoint-down(lg) {
+          flex: 0 0 44%;
+          margin: auto;
+        }
+  
+        @include media-breakpoint-down(md) {
+          flex: 0 0 100%;
+          margin: auto;
+        }
+  
+        img {
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+        }
+      }
+    }
+  
+    &-title {
+      padding: 0 15px;
+      margin-bottom: 15px;
+    }
+  
+    &-cat {
+      margin: 20px 15px 5px;
+      padding: 4px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      max-width: 70px;
+      min-width: 70px;
+      text-transform: capitalize;
+      font-weight: 400;
+  
+      &-web {
+        background-color: $yellow;
+      }
+  
+      &-marketing {
+        background-color: $light-blue;
+      }
+    }
+  }
+  
+
+// Shop
+.shop {
+    &-wrapper {
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+  
+      .item {
+        flex: 0 0 30%;
+        background-color: #ffffff;
+        margin: 10px;
+        border-radius: 10px;
+  
+        a {
+          height: 100%;
+        }
+  
+        @include media-breakpoint-down(lg) {
+          flex: 0 0 30%;
+          margin: auto;
+        }
+  
+        @include media-breakpoint-down(md) {
+          flex: 0 0 100%;
+          margin: auto;
+        }
+  
+        img {
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+        }
+      }
+    }
+  
+    &-title {
+      padding: 0 15px;
+      margin-bottom: 15px;
+    }
+    &-tags{
+        padding: 0 15px;
+    }
+    &-cat {
+      padding: 4px;
+      border-radius: 4px;
+      font-size: 0.865rem;
+      max-width: 70px;
+      min-width: 70px;
+      text-transform: capitalize;
+      font-weight: 400;
+  
+      &-web {
+        background-color: $yellow;
+        font-size: 0.865rem;
+      }
+    }
+  }
+  

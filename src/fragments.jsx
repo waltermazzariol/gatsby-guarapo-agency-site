@@ -120,6 +120,25 @@ fragment packagesFields on DataJson {
     }
 }`
 
+export const shopFields = graphql`
+fragment shopFields on DataJson {
+  shop {
+    id
+    title
+    link
+    image{
+        publicURL
+        childImageSharp {
+          gatsbyImageData
+        }
+      }
+    description
+    price
+    category
+    tags
+  }
+}`
+
 export const processFields = graphql`
 fragment processFields on DataJson {
   process {

@@ -65,8 +65,8 @@
         "items":[
             {
                 "name": "Desarrollo Web",
-                "strikethrough": "699€",
-                "price": "499€",
+                "strikethrough": "899€",
+                "price": "699€",
                 "time": "pago único",
                 "list":[
                     {"text": "Landing page"},

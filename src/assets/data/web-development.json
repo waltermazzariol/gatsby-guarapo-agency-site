@@ -29,8 +29,8 @@
             {
                 "name": "Basic Plan",
                 "from": "From",
-                "price": "€499",
-                "strikethrough": "€699",
+                "price": "€699",
+                "strikethrough": "€899",
                 "time": "",
                 "list": [
                     {"text": "Landing page"},
@@ -42,15 +42,15 @@
                     {"text": "Delivered in 5 days or less"}
                 ],
                 "button_text": "Start",
-                "button_url": "https://buy.stripe.com/fZe8y73UKgWefOU6oo",
+                "button_url": "https://buy.stripe.com/fZe15F9f449s9qw4gl",
                 "button_text_second": "",
                 "button_url_second": ""
             },
             {
                 "name": "Pro Plan",
                 "from": "From",
-                "price": "€999",
-                "strikethrough": "€1,299",
+                "price": "€1.299",
+                "strikethrough": "€1,599",
                 "time": "",
                 "list": [
                     {"text": "Website with CMS (Wordpress or another)"},
@@ -62,15 +62,15 @@
                     {"text": "Web design included"}
                 ],
                 "button_text": "Start",
-                "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
+                "button_url": "https://buy.stripe.com/4gwg0z2QG7lEauAdQW",
                 "button_text_second": "",
                 "button_url_second": ""
             },
             {
                 "name": "E-Commerce Plan",
                 "from": "From",
-                "price": "€1,599",
-                "strikethrough": "€1,999",
+                "price": "€2,299",
+                "strikethrough": "€2,599",
                 "time": "",
                 "list": [
                     {"text": "Website with CMS (Wordpress, Shopify, SquareSpace)"},
@@ -82,7 +82,7 @@
                     {"text": "Web design included"}
                 ],
                 "button_text": "Start",
-                "button_url": "https://buy.stripe.com/fZe6pZ76WeO6328145",
+                "button_url": "https://buy.stripe.com/9AQ01B8b035oauA7sz",
                 "button_text_second": "",
                 "button_url_second": ""
             }

@@ -65,8 +65,8 @@
         "items":[
             {
                 "name": "Web Development",
-                "strikethrough": "€699",
-                "price": "€499",
+                "strikethrough": "€899",
+                "price": "€699",
                 "time": "one-time payment",
                 "list":[
                     {"text": "Landing page"},

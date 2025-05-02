@@ -1,0 +1,60 @@
+{
+    "general": {
+        "path": "/shop",
+        "siteurl": "https://guarapomedia.com/shop",
+        "seo-title": "Shop • Digital Marketing Agency",
+        "seo-description": "We are specialists in web development. We accompany you all the way, always focused on achieving objectives",
+        "seo-image": "seoen.png",
+        "ua": "G-Q4Y6R6M0KC",
+        "lang": "en"
+    },
+    "cover": {
+        "title": "Our <strong>projects</strong>",
+        "subtitle": "With more than 10 years of experience, we help you develop your online business.",
+        "bgimage": "./images/bg_hero.jpg",
+        "button_text": "Learn more",
+        "button_url": "mailto:contacto@guarapomedia.com"
+    },
+    "shop": [
+        {
+            "id": 1,
+            "title": "Startpage - HTML template",
+            "link": "/shop",
+            "image": "./images/shop/startpage.webp",
+            "description": "Startpage is a modern and clean HTML template designed for startups and small businesses. It features a sleek design with a focus on user experience and functionality.",
+            "price": "$19",
+            "category": "HTML",
+            "tags": ["HTML", "Template", "Startups", "Small Businesses"]
+        },
+        {
+            "id": 2,
+            "title": "iPhone Wallpaper - iPod classic",
+            "link": "/shop",
+            "image": "./images/shop/iphone-wallpaper.png",
+            "description": "iPhone Wallpaper - iPod classic is a beautiful and elegant wallpaper design for iPhone and iPod classic devices. It features a classic iPod design with a modern and sleek look.",
+            "price": "$19",
+            "category": "Wallpapers",
+            "tags": ["iPhone", "Wallpaper", "iPod", "Classic"]
+        },
+        {
+            "id": 3,
+            "title": "Culinaire – A simple One-Page HTML Template for Restaurant",
+            "link": "/shop",
+            "image": "./images/shop/culinaire.webp",
+            "description": "Culinaire is a simple and elegant One-Page HTML Template designed for restaurants. It features a clean and modern design with a focus on user experience and functionality.",
+            "price": "$19",
+            "category": "HTML",
+            "tags": ["HTML", "Template", "Restaurants", "One-Page"]
+        },
+        {
+            "id": 4,
+            "title": "Walter - A Simple One-Page personal portfolio Gatsby template",
+            "link": "/shop",
+            "image": "./images/shop/walter.webp",
+            "description": "Walter is a simple and elegant One-Page Gatsby template designed for personal portfolios. It features a clean and modern design with a focus on user experience and functionality.",
+            "price": "$19",
+            "category": "Gatsby",
+            "tags": ["Gatsby", "Template", "Personal Portfolio", "One-Page"]
+        }
+    ]
+}
