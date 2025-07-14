@@ -2,24 +2,26 @@
     "general": {
         "path": "/es/hospedaje",
         "siteurl": "https://guarapomedia.com/hospedaje",
-        "seo-title": "Dominios & Hospedaje Web • Agencia de Marketing Digital",
-        "seo-description": "Obtén el mejor hosting y dominio para tu sitio web con Guarapo Media. Velocidad, seguridad y soporte 24/7 para garantizar que tu sitio esté siempre en línea y funcionando a la perfección. ¡Optimiza tu presencia online con nosotros!",
+        "seo-title": "Web Hosting Rápidos y confiable• Guarapo Media",
+        "seo-description": "Obtén hosting web rápido y confiable con Guarapo Media. Garantía de 99.9% de tiempo de actividad y soluciones de hosting premium desde €90/año.",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
     "cover": {
-        "title": "Dominios & <strong>Hospedaje Web</strong>",
-        "subtitle": "Con más de 10 años de experiencia te ayudamos a desarrollar tu negocio online.",
+        "subtitle": "Únete a cientos de clientes satisfechos con nuestra garantía de 99.9% de tiempo de actividad y servidores de alta velocidad",
+        "title": "Hosting Web <strong>Premium</strong><br/> para freelancers y pequeños negocios",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Conoce más",
+        "button_text": "Comienza tu sitio web hoy",
         "button_url": "mailto:contacto@guarapomedia.com"
     },
     "packages": {
-        "title": "Aloja tu página web con nuestro servicio de hosting",
+        "title": "Escoge tu plan de hosting perfecto",
+        "description": "Todos los planes incluyen todo lo que necesitas para lanzar tu sitio web",
+        "tagline": "¿Necesitas ayuda para elegir? Contacta a nuestros expertos!",
         "items": [
             {
-                "name": "Plan Light",
+                "name": "Starter",
                 "from": "",
                 "price": "90€",
                 "strikethrough": "120€",
@@ -39,7 +41,7 @@
                 
             },
             {
-                "name": "Plan Basic",
+                "name": "Professional",
                 "from": "",
                 "price": "120€",
                 "strikethrough": "140€",
@@ -58,7 +60,7 @@
                 "button_url_second": ""
             },
             {
-                "name": "Plan Pro",
+                "name": "Business",
                 "from": "",
                 "price": "160€",
                 "strikethrough": "180€",
@@ -117,6 +119,46 @@
                 "name":".co",
                 "price":"35€ 1er año / 45€ renovación"
             }
+        ]
+    },
+    "testimonials": {
+        "title": "Confiado por Cientos de Clientes",
+        "description": "Mira lo que dicen nuestros clientes sobre nuestros servicios de hosting",
+        "list": [
+            {
+                "name": "Angel Benitez",
+                "position": "Propietario de Restaurante",
+                "image": "./images/testimonials/burbowl.png",
+                "message": "El hosting de Guarapo Media ha sido súper confiable para el sitio web de nuestro restaurante. Los tiempos de carga rápidos y cero tiempo de inactividad significa que más clientes pueden encontrarnos en línea!"
+            },
+            {
+                "name": "Ernesto Rangel",
+                "position": "Organizador de Eventos",
+                "image": "./images/testimonials/ernesto.jpeg",
+                "message": "El servicio de hosting es excelente. Nuestro sitio web de eventos maneja perfectamente los picos de tráfico, y el equipo de soporte siempre está ahí cuando los necesitamos."
+            },
+            {
+                "name": "Violeta Gladstone",
+                "position": "Florista",
+                "image": "./images/testimonials/violeta.png",
+                "message": "El sitio web de mi florería funciona hermosamente en su hosting. La configuración fue muy fácil, ¡y mis clientes aman lo rápido que carga el sitio!"
+            },
+            {
+                "name": "Jamie Brasco",
+                "position": "Propietario de Negocio",
+                "image": "./images/testimonials/jamie.png",
+                "message": "¡Servicio de hosting excepcional! El tiempo de actividad es increíble y el equipo de soporte va más allá de lo esperado. ¡Altamente recomendado!"
+            }
+        ]
+    },
+    "guarantee": {
+        "title": "Garantía de Devolución de Dinero de 30 Días",
+        "description": "Prueba nuestro hosting sin riesgo durante 30 días. Si no estás completamente satisfecho, te devolvemos tu dinero - sin preguntas.",
+        "features": [
+            {"text": "Garantía de 99.9% de Tiempo de Actividad"},
+            {"text": "Soporte Experto 24/7"},
+            {"text": "Servicio de Migración Gratuito"},
+            {"text": "Devolución de Dinero de 30 Días"}
         ]
     }
 }

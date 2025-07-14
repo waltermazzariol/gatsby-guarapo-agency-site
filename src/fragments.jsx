@@ -274,3 +274,14 @@ fragment domainsFields on DataJson {
     }
   }
 }`
+
+export const guaranteeFields = graphql`
+fragment guaranteeFields on DataJson {
+  guarantee {
+    title
+    description
+    features {
+      text
+    }
+  }
+}`

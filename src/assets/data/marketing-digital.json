@@ -31,8 +31,8 @@
                        {
                 "name": "Plan Básico",
                 "from": "Esta plan es perfecto para pequeñas empresas empezando su viaje online",
-                "price": "€399",
-                "strikethrough": "€499",
+                "price": "€599",
+                "strikethrough": "€799",
                 "list":[
                     {"text": "Contenido mensual para Social Media (Posts, Reels, Stories)"},
                     {"text": "Optimizacion perfiles de redes sociales"},
@@ -49,8 +49,8 @@
             {
                 "name": "Plan Pro",
                 "from": "Ideal para empresas que buscan un enfoque más integral y centrado en el rendimiento.",
-                "price": "€699",
-                "strikethrough": "€799",
+                "price": "€799",
+                "strikethrough": "€999",
                 "list":[
                     {"text": "Contenido mensual para Social Media (Posts, Reels, Stories)"},
                     {"text": "Optimizacion perfiles de redes sociales"},

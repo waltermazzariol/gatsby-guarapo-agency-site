@@ -31,8 +31,8 @@
             {
                 "name": "Basic Plan",
                 "from": "This plan is perfect for businesses starting their online journey.",
-                "price": "€399",
-                "strikethrough": "€499",
+                "price": "€599",
+                "strikethrough": "€799",
                 "list":[
                     {"text": "Monthly content creation for Social Media (Posts, Reels, Stories)"},
                     {"text": "Social media profile optimization"},
@@ -49,8 +49,8 @@
             {
                 "name": "Pro Plan",
                 "from": "Ideal for businesses seeking a more comprehensive and performance-focused approach.",
-                "price": "€699",
-                "strikethrough": "€799",
+                "price": "€799",
+                "strikethrough": "€999",
                 "list":[
                     {"text": "Monthly content creation for Social Media (Posts, Reels, Stories)"},
                     {"text": "Social media profile optimization"},

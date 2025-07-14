@@ -22,8 +22,10 @@ import Button from "react-bootstrap/Button";
 import { Col } from "react-bootstrap";
 import FormServices from "../components/Form";
 import Portfolio from "../components/Portfolio/Portfolio"
+import Testimonial from "../components/Testimonial";
+// import Guarantee from "../components/Guarantee";
 
-function TeamPage(props) {
+function HostingPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node;
   const generalJson = props.data.dataJson;
   const blogJson = props.data.allWorkJson.edges
@@ -35,6 +37,14 @@ function TeamPage(props) {
       <Section>
          <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
       </Section>
+
+      {/* Packages */}
+      <Section className={"price mt-5"}>
+        <Title title={contentJson.packages.title} subtitle={contentJson.packages.description}/>
+        <PriceTable data={contentJson.packages.items}  tagline={contentJson.packages.tagline} popular/>
+      </Section>
+
+      {/* Domains */}
       <Section className={"price mb-5"} rowClass={"justify-content-center"}>
         <Title
           title={contentJson.domains.title}
@@ -66,28 +76,45 @@ function TeamPage(props) {
           </Form>
         </Col>
       </Section>
+
       <Section rowClass={"gy-5 justify-content-center"}>
         <Domain data={contentJson.domains.packages} />
       </Section>
-      <Section className={"price"}>
-        <Title title={contentJson.packages.title} />
-        <PriceTable data={contentJson.packages.items} />
-      </Section>
+
        {/* Form Services*/}
-       <Section anchor={'form'} rowClass="justify-content-center" >
+       <Section anchor={'form'} className={"mt-5"} rowClass="justify-content-center" >
         <Title title={generalJson.form.title} subtitle={generalJson.form.description} />
         <div className="col-12 col-md-6">
           <FormServices data={generalJson.form} tags={generalJson.tags}/>
         </div>
         <div className="col-12 text-center small">{generalJson.form.tagline}</div>
       </Section>
+     
 
+      {/* Testimonials */}
+  <Section anchor={'testimonial'} className={"mt-5 testimonial"} rowClass="g-3 justify-content-center">
+    <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
+      <div className="carousel carousel-fade">
+        <div className="carousel-x g-2">
+          {contentJson.testimonials.list.slice(0, 4).map((key,index) =>
+            <Testimonial key={index} data={key} />
+            )}  
+        </div>
+        <div className="carousel-reverse g-2">
+          {contentJson.testimonials.list.slice(5, 13).map((key,index) =>
+            <Testimonial key={index} data={key} />
+            )}  
+        </div>
+      </div>
+    </Section>
+      
       <div className="spacer"></div>
       <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
-      <Title title={generalJson.tags.portfolio_title} subtitle={generalJson.tags.portfolio_subtitle} />
+    
         <Portfolio data={blogJson} />
       </Section>
-
+      
+      
       <Section anchor={"contact"} className={"contact bg-dark"} fluid={true}>
         <Contact data={generalJson.contact} />
       </Section>
@@ -98,12 +125,12 @@ function TeamPage(props) {
   );
 }
 
-export default TeamPage;
+export default HostingPage;
 
 export function Head(props) {
   return (
     <Seo
-      page={"hospedaje"}
+      page={"Hosting"}
       metas={props.data.allDataJson.edges[0].node.general}
     />
   );
@@ -118,6 +145,8 @@ export const data = graphql`
           ...coverFields
           ...packagesFields
           ...domainsFields
+          ...guaranteeFields
+          ...testimonialsFields
         }
       }
     }

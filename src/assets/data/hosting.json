@@ -2,35 +2,38 @@
     "general": {
         "path": "/hosting",
         "siteurl": "https://guarapomedia.com/hosting",
-        "seo-title": "Web Hosting • Guarapo Media",
-        "seo-description": "We are specialists in web development. We follow you all the way, always focused on achieving the objectives.",
+        "seo-title": "Fast & Reliable Web Hosting • Guarapo Media",
+        "seo-description": "Get lightning-fast web hosting with 99.9% uptime guarantee. Start your online presence with our premium hosting solutions from €90/year.",
         "seo-image": "seoen.jpg",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "en"
     },
     "cover": {
-        "title": "Domains & <strong>Web Hosting</strong>",
-        "subtitle": "With more than 10 years of experience, we help you develop your online business.",
+        "subtitle": "Join hundreds of satisfied customers with our 99.9% uptime guarantee and blazing-fast servers",
+        "title": "Premium <strong>Web Hosting</strong><br/> for freelancers and small businesses",
         "bgimage": "./images/bg_hero.jpg",
-        "button_text": "Learn more",
+        "button_text": "Start Your Website Today",
         "button_url": "mailto:contacto@guarapomedia.com"
     },
     "packages": {
-        "title": "Host your website with our hosting service",
+        "title": "Choose Your Perfect Hosting Plan",
+        "description": "All plans include everything you need to launch your website",
+        "tagline": "Need help choosing? Contact our experts!",
         "items": [
             {
-                "name": "Light Plan",
+                "name": "Starter",
                 "from": "",
                 "price": "€90",
                 "strikethrough": "€120",
                 "time": "/ year",
                 "list": [
-                    {"text": "600 mb Hosting"},
-                    {"text": "10gb Monthly Transfer"},
-                    {"text": "Up to 10 email accounts"},
+                    {"text": "2.000 MB SSD Storage"},
+                    {"text": "10 GB Monthly Bandwidth"},
+                    {"text": "Up to 10 Email Accounts"},
                     {"text": "Free SSL Certificate"},
-                    {"text": "1-click Wordpress Installation"},
-                    {"text": "Unlimited MySQL databases"}
+                    {"text": "1-Click WordPress Install"},
+                    {"text": "Daily Backups"},
+                    {"text": "24/7 Support"}
                 ],
                 "button_text": "Order Now",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-light",
@@ -38,18 +41,19 @@
                 "button_url_second": ""
             },
             {
-                "name": "Basic Plan",
+                "name": "Professional",
                 "from": "",
                 "price": "€120",
                 "strikethrough": "€140",
                 "time": "/ year",
                 "list": [
-                    {"text": "1,200 mb Hosting"},
-                    {"text": "20gb Monthly Transfer"},
-                    {"text": "Up to 20 email accounts"},
+                    {"text": "2.500 MB SSD Storage"},
+                    {"text": "20 GB Monthly Bandwidth"},
+                    {"text": "Up to 20 Email Accounts"},
                     {"text": "Free SSL Certificate"},
-                    {"text": "1-click Wordpress Installation"},
-                    {"text": "Unlimited MySQL databases"}
+                    {"text": "1-Click WordPress Install"},
+                    {"text": "Daily Backups"},
+                    {"text": "Priority Support"}
                 ],
                 "button_text": "Order Now",
                 "button_url": "https://guarapohosting.com/store/hosting-package/plan-basic",
@@ -57,18 +61,19 @@
                 "button_url_second": ""
             },
             {
-                "name": "Pro Plan",
+                "name": "Business",
                 "from": "",
                 "price": "€160",
                 "strikethrough": "€180",
                 "time": "/ year",
                 "list": [
-                    {"text": "3,000 mb Hosting"},
-                    {"text": "30gb Monthly Transfer"},
-                    {"text": "Unlimited email accounts"},
+                    {"text": "3.000 MB SSD Storage"},
+                    {"text": "30 GB Monthly Bandwidth"},
+                    {"text": "Unlimited Email Accounts"},
                     {"text": "Free SSL Certificate"},
-                    {"text": "1-click Wordpress Installation"},
-                    {"text": "Unlimited MySQL databases"}
+                    {"text": "1-Click WordPress Install"},
+                    {"text": "Daily Backups"},
+                    {"text": "Priority Support"}
                 ],
                 "button_text": "Check Availability",
                 "button_url": "/contact",
@@ -78,11 +83,11 @@
         ]
     },
     "domains": {
-        "title": "Reserve your domain right now!",
-        "description": "Start making your project a reality, check availability right now.",
+        "title": "Get Your Perfect Domain Name",
+        "description": "Secure your brand online with a professional domain name",
         "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query=",
-        "button": "Search Domain",
-        "placeholder":"Type your domain name .com .net .org .es",
+        "button": "Check Domain",
+        "placeholder":"Enter your domain name (e.g., mybusiness.com)",
         "packages": [
             {
                 "name": ".com",
@@ -104,6 +109,46 @@
                 "name": ".co",
                 "price": "€35 1st year / €45 renewal"
             }
+        ]
+    },
+    "testimonials": {
+        "title": "Trusted by Hundreds of Customers",
+        "description": "See what our customers say about our hosting services",
+        "list": [
+            {
+                "name": "Angel Benitez",
+                "position": "Restaurant Owner",
+                "image": "./images/testimonials/burbowl.png",
+                "message": "Guarapo Media hosting has been rock solid for our restaurant website. Fast loading times and zero downtime means more customers can find us online!"
+            },
+            {
+                "name": "Ernesto Rangel",
+                "position": "Event Organizer",
+                "image": "./images/testimonials/ernesto.jpeg",
+                "message": "The hosting service is excellent. Our event website handles traffic spikes perfectly, and the support team is always there when we need them."
+            },
+            {
+                "name": "Violeta Gladstone",
+                "position": "Florist",
+                "image": "./images/testimonials/violeta.png",
+                "message": "My flower shop website runs beautifully on their hosting. The setup was so easy, and my customers love how fast the site loads!"
+            },
+            {
+                "name": "Jamie Brasco",
+                "position": "Business Owner",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Outstanding hosting service! The uptime is incredible and the support team goes above and beyond. Highly recommended!"
+            }
+        ]
+    },
+    "guarantee": {
+        "title": "30-Day Money-Back Guarantee",
+        "description": "Try our hosting risk-free for 30 days. If you're not completely satisfied, we'll refund your money - no questions asked.",
+        "features": [
+            {"text": "99.9% Uptime Guarantee"},
+            {"text": "24/7 Expert Support"},
+            {"text": "Free Migration Service"},
+            {"text": "30-Day Money Back"}
         ]
     }
 }
