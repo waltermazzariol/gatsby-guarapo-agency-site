@@ -38,12 +38,6 @@ function HostingPage(props) {
          <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
       </Section>
 
-      {/* Packages */}
-      <Section className={"price mt-5"}>
-        <Title title={contentJson.packages.title} subtitle={contentJson.packages.description}/>
-        <PriceTable data={contentJson.packages.items}  tagline={contentJson.packages.tagline} popular/>
-      </Section>
-
       {/* Domains */}
       <Section className={"price mb-5"} rowClass={"justify-content-center"}>
         <Title
@@ -81,6 +75,12 @@ function HostingPage(props) {
         <Domain data={contentJson.domains.packages} />
       </Section>
 
+       {/* Packages */}
+       <Section className={"price mt-5"}>
+        <Title title={contentJson.packages.title} subtitle={contentJson.packages.description}/>
+        <PriceTable data={contentJson.packages.items}  tagline={contentJson.packages.tagline} popular/>
+      </Section>
+
        {/* Form Services*/}
        <Section anchor={'form'} className={"mt-5"} rowClass="justify-content-center" >
         <Title title={generalJson.form.title} subtitle={generalJson.form.description} />
@@ -110,7 +110,6 @@ function HostingPage(props) {
       
       <div className="spacer"></div>
       <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
-    
         <Portfolio data={blogJson} />
       </Section>
       

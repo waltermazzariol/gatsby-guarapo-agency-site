@@ -2,102 +2,25 @@
     "general": {
         "path": "/es/hospedaje",
         "siteurl": "https://guarapomedia.com/hospedaje",
-        "seo-title": "Web Hosting Rápidos y confiable• Guarapo Media",
+        "seo-title": "Web Hosting Rápidos y confiable • Guarapo Media",
         "seo-description": "Obtén hosting web rápido y confiable con Guarapo Media. Garantía de 99.9% de tiempo de actividad y soluciones de hosting premium desde €90/año.",
         "seo-image": "seo.png",
         "ua": "G-Q4Y6R6M0KC",
         "lang": "es"
     },
     "cover": {
-        "subtitle": "Únete a cientos de clientes satisfechos con nuestra garantía de 99.9% de tiempo de actividad y servidores de alta velocidad",
-        "title": "Hosting Web <strong>Premium</strong><br/> para freelancers y pequeños negocios",
+        "subtitle": "¿No sabes qué es un hosting? No te preocupes. Te ayudaremos.",
+        "title": "Consigue que<br/> <strong>Tu Negocio Esté Online</strong><br/> Con un Nombre Que Te Enamore",
         "bgimage": "./images/bg_hero.jpg",
         "button_text": "Comienza tu sitio web hoy",
         "button_url": "mailto:contacto@guarapomedia.com"
     },
-    "packages": {
-        "title": "Escoge tu plan de hosting perfecto",
-        "description": "Todos los planes incluyen todo lo que necesitas para lanzar tu sitio web",
-        "tagline": "¿Necesitas ayuda para elegir? Contacta a nuestros expertos!",
-        "items": [
-            {
-                "name": "Starter",
-                "from": "",
-                "price": "90€",
-                "strikethrough": "120€",
-                "time": "/ año",
-                "list": [
-                    {"text": "Hospedaje de 600 mb"},
-                    {"text": "10gb de Transferencia mensual"},
-                    {"text": "Hasta 10 correos electrónicos"},
-                    {"text": "Certificado SSL gratuito"},
-                    {"text": "Instalación Wordpress 1 click"},
-                    {"text": "Bases de datos MySQL ilimitadas"}
-                ],
-                "button_text": "reservar",
-                "button_url": "https://guarapohosting.com/store/hosting-package/plan-light",
-                "button_text_second":"",
-                "button_url_second": ""
-                
-            },
-            {
-                "name": "Professional",
-                "from": "",
-                "price": "120€",
-                "strikethrough": "140€",
-                "time": "/ año",
-                "list": [
-                    {"text": "Hospedaje de 1.200 mb"},
-                    {"text": "20gb de Transferencia mensual"},
-                    {"text": "Hasta 20 correos electrónicos"},
-                    {"text": "Certificado SSL gratuito"},
-                    {"text": "Instalación Wordpress 1 click"},
-                    {"text": "Bases de datos MySQL ilimitadas"}
-                ],
-                "button_text": "reservar",
-                "button_url": "https://guarapohosting.com/store/hosting-package/plan-basic",
-                "button_text_second":"",
-                "button_url_second": ""
-            },
-            {
-                "name": "Business",
-                "from": "",
-                "price": "160€",
-                "strikethrough": "180€",
-                "time": "/ año",
-                "list": [
-                    {
-                        "text": "Hospedaje de 3.000 mb"
-                    },
-                    {
-                        "text": "30gb de Transferencia mensual"
-                    },
-                    {
-                        "text": "Cuentas de correos electrónicos sin límite"
-                    },
-                    {
-                        "text": "Certificado SSL gratuito"
-                    },
-                    {
-                        "text": "Instalación Wordpress 1 click"
-                    },
-                    {
-                        "text": "Bases de datos MySQL ilimitadas"
-                    }
-                ],
-                "button_text": "Consultar Disponibilidad",
-                "button_url": "/contacto",
-                "button_text_second":"",
-                "button_url_second": ""
-            }
-        ]
-    },
     "domains":{
-        "title": "¡Reserva tu dominio ahora mismo!",
-        "description": "Comienza a hacer realidad tu proyecto, consulta la disponibilidad ahora mismo.",
+        "title": "¡Reserva el dominio perfecto!",
+        "description": "",
         "link": "https://guarapohosting.com/cart.php?a=add&domain=register&query=",
         "button": "Buscar Dominio",
-        "placeholder":"Type your domain name .com .net .org .es",
+        "placeholder":"Introduce tu nombre de dominio (ej. miempresa.com",
         "packages":[
             {
                 "name":".com",
@@ -121,9 +44,86 @@
             }
         ]
     },
+    "packages": {
+        "title": "Servicio personalizado, sin jerga técnica, ayuda real",
+        "description": "Soporte personalizado (pequeños negocios ayudando a pequeños negocios)",
+        "tagline": "¿Necesitas ayuda para elegir? Contáctanos ahora!",
+        "items": [
+            {
+                "name": "Starter",
+                "from": "",
+                "price": "90€",
+                "strikethrough": "120€",
+                "time": "/ año",
+                "list": [
+                    {"text": "2.000 MB SSD Storage"},
+                    {"text": "10 Email Accounts"},
+                    {"text": "SSL Certificate"},
+                    {"text": "Instalación Wordpress 1 click"},
+                    {"text": "Backups dDiarios"},
+                    {"text": "Soporte 24/7"}
+                ],
+                "button_text": "Reservar",
+                "button_url": "https://guarapohosting.com/store/hosting-package/plan-light",
+                "button_text_second":"",
+                "button_url_second": ""
+                
+            },
+            {
+                "name": "Professional",
+                "from": "",
+                "price": "120€",
+                "strikethrough": "140€",
+                "time": "/ año",
+                "list": [
+                    {"text": "2.500 MB SSD Storage"},
+                    {"text": "20 Email Accounts"},
+                    {"text": "SSL Certificate"},
+                    {"text": "1-Click WordPress Install"},
+                    {"text": "Backups Diarios"},
+                    {"text": "Soporte 24/7"}
+                ],
+                "button_text": "Reservar",
+                "button_url": "https://guarapohosting.com/store/hosting-package/plan-basic",
+                "button_text_second":"",
+                "button_url_second": ""
+            },
+            {
+                "name": "Business",
+                "from": "",
+                "price": "160€",
+                "strikethrough": "180€",
+                "time": "/ año",
+                "list": [
+                    {
+                        "text": "3.000 MB SSD Storage"
+                    },
+                    {
+                        "text": "Email Accounts"
+                    },
+                    {
+                        "text": "SSL Certificate"
+                    },
+                    {
+                        "text": "1-Click WordPress Install"
+                    },
+                    {
+                        "text": "Backups Diarios"
+                    },
+                    {
+                        "text": "Soporte 24/7"
+                    }
+                ],
+                "button_text": "Consultar Disponibilidad",
+                "button_url": "/contacto",
+                "button_text_second":"",
+                "button_url_second": ""
+            }
+        ]
+    },
     "testimonials": {
-        "title": "Confiado por Cientos de Clientes",
-        "description": "Mira lo que dicen nuestros clientes sobre nuestros servicios de hosting",
+        "title": "Ellos Confiaron En Nosotros",
+        "description": "Mira lo que dicen nuestros clientes sobre nuestros servicios de hosting y dominos",
         "list": [
             {
                 "name": "Angel Benitez",
@@ -136,7 +136,7 @@
                 "position": "Organizador de Eventos",
                 "image": "./images/testimonials/ernesto.jpeg",
                 "message": "El servicio de hosting es excelente. Nuestro sitio web de eventos maneja perfectamente los picos de tráfico, y el equipo de soporte siempre está ahí cuando los necesitamos."
-            },
+            },            
             {
                 "name": "Violeta Gladstone",
                 "position": "Florista",
@@ -148,6 +148,65 @@
                 "position": "Propietario de Negocio",
                 "image": "./images/testimonials/jamie.png",
                 "message": "¡Servicio de hosting excepcional! El tiempo de actividad es increíble y el equipo de soporte va más allá de lo esperado. ¡Altamente recomendado!"
+            },
+            {
+                "name": "Carlos Fafian",
+                "position": "Director de Escuela",
+                "image": "./images/testimonials/jamie.png",
+                "message": "No teníamos idea de cómo hacer un sitio web, pero Guarapo se encargó de todo. Ahora los padres pueden encontrarnos fácilmente en línea. ¡Lo hicieron tan simple para nosotros!"
+            },
+            {
+                "name": "Gerardo G.",
+                "position": "Editor",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Nuestro sitio necesita manejar eventos, noticias y videos. Guarapo Hosting mantiene el sitio rápido y siempre en línea. ¡Además, cuando necesitamos ayuda, ¡realmente respondieron!"
+            },
+            {
+                "name": "Claudia S.",
+                "position": "Propietario de Negocio",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Necesitábamos un sitio para estudiantes, inscripciones y información de clases. Guarapo nos dio soporte personalizado y hizo que la parte técnica fuera invisible — ¡justo como nos gusta!"
+            },{
+                "name": "Angel Benitez",
+                "position": "Propietario de Restaurante",
+                "image": "./images/testimonials/burbowl.png",
+                "message": "El hosting de Guarapo Media ha sido súper confiable para el sitio web de nuestro restaurante. Los tiempos de carga rápidos y cero tiempo de inactividad significa que más clientes pueden encontrarnos en línea!"
+            },
+            {
+                "name": "Ernesto Rangel",
+                "position": "Organizador de Eventos",
+                "image": "./images/testimonials/ernesto.jpeg",
+                "message": "El servicio de hosting es excelente. Nuestro sitio web de eventos maneja perfectamente los picos de tráfico, y el equipo de soporte siempre está ahí cuando los necesitamos."
+            },            
+            {
+                "name": "Violeta Gladstone",
+                "position": "Florista",
+                "image": "./images/testimonials/violeta.png",
+                "message": "El sitio web de mi florería funciona hermosamente en su hosting. La configuración fue muy fácil, ¡y mis clientes aman lo rápido que carga el sitio!"
+            },
+            {
+                "name": "Jamie Brasco",
+                "position": "Propietario de Negocio",
+                "image": "./images/testimonials/jamie.png",
+                "message": "¡Servicio de hosting excepcional! El tiempo de actividad es increíble y el equipo de soporte va más allá de lo esperado. ¡Altamente recomendado!"
+            },
+            {
+                "name": "Carlos Fafian",
+                "position": "Director de Escuela",
+                "image": "./images/testimonials/jamie.png",
+                "message": "No teníamos idea de cómo hacer un sitio web, pero Guarapo se encargó de todo. Ahora los padres pueden encontrarnos fácilmente en línea. ¡Lo hicieron tan simple para nosotros!"
+            },
+            {
+                "name": "Gerardo G.",
+                "position": "Editor",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Nuestro sitio necesita manejar eventos, noticias y videos. Guarapo Hosting mantiene el sitio rápido y siempre en línea. ¡Además, cuando necesitamos ayuda, ¡realmente respondieron!"
+            },
+            {
+                "name": "Claudia S.",
+                "position": "Propietario de Negocio",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Necesitábamos un sitio para estudiantes, inscripciones y información de clases. Guarapo nos dio soporte personalizado y hizo que la parte técnica fuera invisible — ¡justo como nos gusta!"
             }
         ]
     },

@@ -36,11 +36,7 @@ function TeamPage(props) {
       <Section>
          <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
       </Section>
-      {/* Packages */}
-      <Section className={"price"}>
-        <Title title={contentJson.packages.title} />
-        <PriceTable data={contentJson.packages.items} />
-      </Section>
+     
 
       {/* Domains */}
       <Section className={"price mb-5"} rowClass={"justify-content-center"}>
@@ -77,6 +73,13 @@ function TeamPage(props) {
       <Section rowClass={"gy-5 justify-content-center"}>
         <Domain data={contentJson.domains.packages} />
       </Section>
+
+       {/* Packages */}
+       <Section className={"price"}>
+        <Title title={contentJson.packages.title} />
+        <PriceTable data={contentJson.packages.items} popular={true} tagline={contentJson.packages.tagline} />
+      </Section>
+
        {/* Form Services*/}
        <Section anchor={'form'} rowClass="justify-content-center" >
         <Title title={generalJson.form.title} subtitle={generalJson.form.description} />
