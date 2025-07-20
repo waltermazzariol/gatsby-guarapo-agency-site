@@ -41,7 +41,7 @@ export default class Portfolio extends React.Component {
                   {key.node.cat === "Web" ? 
                   <div className="cat cat-web">{key.node.cat}</div> :
                   <div className="cat cat-marketing">{key.node.cat}</div>}
-                  <div className="subtitle">{key.node.year}</div>
+                  {/* <div className="subtitle">{key.node.year}</div> */}
                 </div>
               </Link>
           </Col>

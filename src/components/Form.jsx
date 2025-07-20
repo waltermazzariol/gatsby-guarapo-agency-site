@@ -62,7 +62,7 @@ function FormContact(props) {
                     value={subject}
                     onChange={e => setSubject(e.target.value)} />
             </Form.Group>
-
+            <div className="mt-3"></div>
             <ReCAPTCHA
                 sitekey="6Ldxyi4bAAAAAOq88jM5zIfu-epnbFiafAjNom5s"
                 onChange={onChange}

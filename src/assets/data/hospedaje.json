@@ -144,28 +144,28 @@
                 "message": "El sitio web de mi florería funciona hermosamente en su hosting. La configuración fue muy fácil, ¡y mis clientes aman lo rápido que carga el sitio!"
             },
             {
-                "name": "Jamie Brasco",
-                "position": "Propietario de Negocio",
-                "image": "./images/testimonials/jamie.png",
-                "message": "¡Servicio de hosting excepcional! El tiempo de actividad es increíble y el equipo de soporte va más allá de lo esperado. ¡Altamente recomendado!"
-            },
-            {
                 "name": "Carlos Fafian",
                 "position": "Director de Escuela",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/carlosfafian.jpeg",
                 "message": "No teníamos idea de cómo hacer un sitio web, pero Guarapo se encargó de todo. Ahora los padres pueden encontrarnos fácilmente en línea. ¡Lo hicieron tan simple para nosotros!"
             },
             {
                 "name": "Gerardo G.",
                 "position": "Editor",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/gerardo.jpg",
                 "message": "Nuestro sitio necesita manejar eventos, noticias y videos. Guarapo Hosting mantiene el sitio rápido y siempre en línea. ¡Además, cuando necesitamos ayuda, ¡realmente respondieron!"
             },
             {
                 "name": "Claudia S.",
                 "position": "Propietario de Negocio",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/claudia.jpg",
                 "message": "Necesitábamos un sitio para estudiantes, inscripciones y información de clases. Guarapo nos dio soporte personalizado y hizo que la parte técnica fuera invisible — ¡justo como nos gusta!"
+            },
+            {
+                "name": "Gerardo G.",
+                "position": "Editor",
+                "image": "./images/testimonials/gerardo.jpg",
+                "message": "Nuestro sitio necesita manejar eventos, noticias y videos. Guarapo Hosting mantiene el sitio rápido y siempre en línea. ¡Además, cuando necesitamos ayuda, ¡realmente respondieron!"
             },{
                 "name": "Angel Benitez",
                 "position": "Propietario de Restaurante",
@@ -177,6 +177,12 @@
                 "position": "Organizador de Eventos",
                 "image": "./images/testimonials/ernesto.jpeg",
                 "message": "El servicio de hosting es excelente. Nuestro sitio web de eventos maneja perfectamente los picos de tráfico, y el equipo de soporte siempre está ahí cuando los necesitamos."
+            },
+            {
+                "name": "Claudia S.",
+                "position": "Propietario de Negocio",
+                "image": "./images/testimonials/claudia.jpg",
+                "message": "Necesitábamos un sitio para estudiantes, inscripciones y información de clases. Guarapo nos dio soporte personalizado y hizo que la parte técnica fuera invisible — ¡justo como nos gusta!"
             },            
             {
                 "name": "Violeta Gladstone",
@@ -185,28 +191,10 @@
                 "message": "El sitio web de mi florería funciona hermosamente en su hosting. La configuración fue muy fácil, ¡y mis clientes aman lo rápido que carga el sitio!"
             },
             {
-                "name": "Jamie Brasco",
-                "position": "Propietario de Negocio",
-                "image": "./images/testimonials/jamie.png",
-                "message": "¡Servicio de hosting excepcional! El tiempo de actividad es increíble y el equipo de soporte va más allá de lo esperado. ¡Altamente recomendado!"
-            },
-            {
                 "name": "Carlos Fafian",
                 "position": "Director de Escuela",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/carlosfafian.jpeg",
                 "message": "No teníamos idea de cómo hacer un sitio web, pero Guarapo se encargó de todo. Ahora los padres pueden encontrarnos fácilmente en línea. ¡Lo hicieron tan simple para nosotros!"
-            },
-            {
-                "name": "Gerardo G.",
-                "position": "Editor",
-                "image": "./images/testimonials/jamie.png",
-                "message": "Nuestro sitio necesita manejar eventos, noticias y videos. Guarapo Hosting mantiene el sitio rápido y siempre en línea. ¡Además, cuando necesitamos ayuda, ¡realmente respondieron!"
-            },
-            {
-                "name": "Claudia S.",
-                "position": "Propietario de Negocio",
-                "image": "./images/testimonials/jamie.png",
-                "message": "Necesitábamos un sitio para estudiantes, inscripciones y información de clases. Guarapo nos dio soporte personalizado y hizo que la parte técnica fuera invisible — ¡justo como nos gusta!"
             }
         ]
     },

@@ -1,0 +1,53 @@
+.rating-info-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+
+.avatar-wrapper {
+    display: flex;
+    margin-right: 0.5rem;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ccc;
+    border: 2px solid #fff;
+    margin-left: -10px;
+    overflow: hidden;
+    
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+.rating-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.rating-score {
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+
+.stars {
+    color: #f5c518;
+    font-size: 1rem;
+}
+
+.rating-text {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #555;
+} 

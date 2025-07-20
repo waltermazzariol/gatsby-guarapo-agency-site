@@ -23,6 +23,7 @@ import { Col } from "react-bootstrap";
 import FormServices from "../../components/Form";
 import Portfolio from "../../components/Portfolio/Portfolio"
 import Testimonial from "../../components/Testimonial";
+import RatingInfo from "../../components/RatingInfo";
 
 function TeamPage(props) {
   const contentJson = props.data.allDataJson.edges[0].node;
@@ -32,7 +33,7 @@ function TeamPage(props) {
 
   return (
     <Layout nav={generalJson.navigation}>
-      <Cover data={contentJson.cover} />
+      <Cover data={contentJson.cover} rating={contentJson.testimonials.list}/>
       <Section>
          <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
       </Section>
@@ -91,6 +92,9 @@ function TeamPage(props) {
       {/* Testimonials */}
       <Section anchor={'testimonial'} className={"mt-5 testimonial"} rowClass="g-3 justify-content-center">
     <Title title={contentJson.testimonials.title} subtitle={contentJson.testimonials.description}/>
+    <div className="d-flex justify-content-center">
+     <RatingInfo data={contentJson.testimonials.list} />
+    </div>
       <div className="carousel carousel-fade">
         <div className="carousel-x g-2">
           {contentJson.testimonials.list.slice(0, 4).map((key,index) =>

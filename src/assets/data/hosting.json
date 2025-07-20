@@ -112,12 +112,7 @@
         "title": "Trusted by incredible Customers",
         "description": "See what our customers say about our hosting services",
         "list": [
-            {
-                "name": "Angel Benitez",
-                "position": "Restaurant Owner",
-                "image": "./images/testimonials/burbowl.png",
-                "message": "Guarapo Media hosting has been rock solid for our restaurant website. Fast loading times and zero downtime means more customers can find us online!"
-            },
+            
             {
                 "name": "Ernesto Rangel",
                 "position": "Event Organizer",
@@ -125,36 +120,35 @@
                 "message": "The hosting service is excellent. Our event website handles traffic spikes perfectly, and the support team is always there when we need them."
             },
             {
-                "name": "Violeta Gladstone",
-                "position": "Florist",
-                "image": "./images/testimonials/violeta.png",
-                "message": "My flower shop website runs beautifully on their hosting. The setup was so easy, and my customers love how fast the site loads!"
-            },
-            {
-                "name": "Jamie Brasco",
-                "position": "Business Owner",
-                "image": "./images/testimonials/jamie.png",
-                "message": "Outstanding hosting service! The uptime is incredible and the support team goes above and beyond. Highly recommended!"
-            },
-            {
-                "name": "Carlos Fafian",
-                "position": "School Director",
-                "image": "./images/testimonials/jamie.png",
-                "message": "We had no idea how to make a website, but Guarapo took care of everything. Now parents can find us online easily. They made it so simple for us."
-            },
-            {
                 "name": "Gerardo G.",
                 "position": "Editor",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/gerardo.jpg",
                 "message": "Our site needs to handle events, news, and videos. Guarapo Hosting keeps it fast and always online. Plus, when we needed help, they actually answered!"
             },
             {
                 "name": "Claudia S.",
                 "position": "Business Owner",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/claudia.jpg",
                 "message": "We needed a site for students, signups, and class info. Guarapo gave us personalized support and made the tech part invisible — just how we like it."
             },
             {
+                "name": "Violeta Gladstone",
+                "position": "Florist",
+                "image": "./images/testimonials/violeta.png",
+                "message": "My flower shop website runs beautifully on their hosting. The setup was so easy, and my customers love how fast the site loads!"
+            },
+            {
+                "name": "Jamie Brasco",
+                "position": "Business Owner",
+                "image": "./images/testimonials/jamie.png",
+                "message": "Outstanding hosting service! The uptime is incredible and the support team goes above and beyond. Highly recommended!"
+            },
+            {
+                "name": "Carlos Fafian",
+                "position": "School Director",
+                "image": "./images/testimonials/carlosfafian.jpeg",
+                "message": "We had no idea how to make a website, but Guarapo took care of everything. Now parents can find us online easily. They made it so simple for us."
+            },{
                 "name": "Angel Benitez",
                 "position": "Restaurant Owner",
                 "image": "./images/testimonials/burbowl.png",
@@ -181,19 +175,19 @@
             {
                 "name": "Carlos Fafian",
                 "position": "School Director",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/carlosfafian.jpeg",
                 "message": "We had no idea how to make a website, but Guarapo took care of everything. Now parents can find us online easily. They made it so simple for us."
             },
             {
                 "name": "Gerardo G.",
                 "position": "Editor",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/gerardo.jpg",
                 "message": "Our site needs to handle events, news, and videos. Guarapo Hosting keeps it fast and always online. Plus, when we needed help, they actually answered!"
             },
             {
                 "name": "Claudia S.",
                 "position": "Business Owner",
-                "image": "./images/testimonials/jamie.png",
+                "image": "./images/testimonials/claudia.jpg",
                 "message": "We needed a site for students, signups, and class info. Guarapo gave us personalized support and made the tech part invisible — just how we like it."
             }
         ]
