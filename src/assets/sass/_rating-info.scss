@@ -15,7 +15,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: $light-gray;
     border: 2px solid #fff;
     margin-left: -10px;
     overflow: hidden;
@@ -49,5 +49,5 @@
 .rating-text {
     margin: 0;
     font-size: 0.875rem;
-    color: #555;
+    color: $dark-black;
 } 
