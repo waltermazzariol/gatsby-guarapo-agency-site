@@ -213,19 +213,19 @@
                 "id":1,
                 "title": "¡Te queremos conocer!",
                 "description":"Te preguntaremos sobre tu proyecto, tus espectativas y tu contenido. Idearemos varias estrategias hasta dar con la que mejor se ajusta a ti y a tu proyecto.",
-                "image": "./images/process/step_1.png"
+                "image": "./images/process/step_1.webp"
             },
             {
                 "id":2,
                 "title": "Planificación y desarrollo",
                 "description": "Una vez tengamos todo el contenido y la información, nos pondremos manos a la obra hasta tener una página web funcional lo antes posible.",
-                "image": "./images/process/step_2.png"
+                "image": "./images/process/step_2.webp"
             },
             {
                 "id":3,
                 "title": "Evolución",
                 "description": "Los productos digitales se caracterizan por el time to market y su evolución constante. Asi que no pararemos una vez tengamos la primera versión sino que evolucionaremos hasta obtener los resultados que esperas.",
-                "image": "./images/process/step_3.png"
+                "image": "./images/process/step_3.webp"
             }
         ]
     },

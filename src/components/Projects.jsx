@@ -1,10 +1,10 @@
 import React, {useState} from "react"
-import project1 from "../assets/data/images/projects/1.jpeg"
-import project2 from "../assets/data/images/projects/2.jpeg"
-import project3 from "../assets/data/images/projects/3.jpeg"
-import project4 from "../assets/data/images/projects/4.jpeg"
-import project5 from "../assets/data/images/projects/5.jpeg"
-import project6 from "../assets/data/images/projects/6.jpeg"
+import project1 from "../assets/data/images/projects/1.webp"
+import project2 from "../assets/data/images/projects/2.webp"
+import project3 from "../assets/data/images/projects/3.webp"
+import project4 from "../assets/data/images/projects/4.webp"
+import project5 from "../assets/data/images/projects/5.webp"
+import project6 from "../assets/data/images/projects/6.webp"
 import { Modal } from "react-bootstrap"
 
 

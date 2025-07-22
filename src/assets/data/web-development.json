@@ -219,19 +219,19 @@
                 "id": 1,
                 "title": "We want to meet you!",
                 "description": "We will ask you about your project, your expectations, and your content. We will devise various strategies until we find the one that best fits you and your project.",
-                "image": "./images/process/step_1.png"
+                "image": "./images/process/step_1.webp"
             },
             {
                 "id": 2,
                 "title": "Planning and development",
                 "description": "Once we have all the content and information, we will get to work to have a functional website as soon as possible.",
-                "image": "./images/process/step_2.png"
+                "image": "./images/process/step_2.webp"
             },
             {
                 "id": 3,
                 "title": "Evolution",
                 "description": "Digital products are characterized by the time to market and their constant evolution. So, we will not stop once we have the first version but will evolve until we achieve the results you expect.",
-                "image": "./images/process/step_3.png"
+                "image": "./images/process/step_3.webp"
             }
         ]
     },

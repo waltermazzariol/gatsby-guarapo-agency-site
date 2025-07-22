@@ -49,7 +49,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Roboto:300,400,700']
+          families: ['Roboto:300,400,700&display=swap']
         }
       }
     },

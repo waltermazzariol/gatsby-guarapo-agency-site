@@ -112,19 +112,19 @@
                 "id":1,
                 "title": "¡Queremos saber de ti!",
                 "description":"Conversemos sobre tu proyecto, tus ideas y expectativas. ¡Crearemos la mejor estrategia ajustada a tus necesidades!",
-                "image": "./images/process/step_1.png"
+                "image": "./images/process/step_1.webp"
             },
             {
                 "id":2,
                 "title": "Planificación y desarrollo",
                 "description": "Una vez tengamos las ideas claras y toda la información sobre tu proyecto o negocio, ¡nos pondremos manos a la obra!",
-                "image": "./images/process/step_2.png"
+                "image": "./images/process/step_2.webp"
             },
             {
                 "id":3,
                 "title": "Evolución",
                 "description": "Los productos digitales se caracterizan por el tiempo que tardan en llegar al mercado y su constante evolución. Estaremos contigo de la mano en todo el proceso hasta lograr los objetivos deseados.",
-                "image": "./images/process/step_3.png"
+                "image": "./images/process/step_3.webp"
             }
         ]
     },

@@ -81,19 +81,19 @@
                 "id":1,
                 "title": "We want to know about you!",
                 "description":"Let's talk about your project, your ideas, and expectations. We will create the best strategy tailored to your needs!",
-                "image": "./images/process/step_1.png"
+                "image": "./images/process/step_1.webp"
             },
             {
                 "id":2,
                 "title": "Planning and development",
                 "description": "Once we have clear ideas and all the information about your project or business, we will get to work!",
-                "image": "./images/process/step_2.png"
+                "image": "./images/process/step_2.webp"
             },
             {
                 "id":3,
                 "title": "Evolution",
                 "description": "Digital products are characterized by the “Time to Market” and their constant evolution. We will be with you hand in hand throughout the process until achieving the desired objectives.",
-                "image": "./images/process/step_3.png"
+                "image": "./images/process/step_3.webp"
             }
         ]
     },
