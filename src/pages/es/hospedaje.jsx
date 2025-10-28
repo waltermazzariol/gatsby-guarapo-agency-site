@@ -78,7 +78,7 @@ function TeamPage(props) {
        {/* Packages */}
        <Section className={"price"}>
         <Title title={contentJson.packages.title} />
-        <PriceTable data={contentJson.packages.items} popular={true} tagline={contentJson.packages.tagline} />
+        <PriceTable data={contentJson.packages.items} price popular={true} tagline={contentJson.packages.tagline} />
       </Section>
 
        {/* Form Services*/}

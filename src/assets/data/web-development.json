@@ -42,7 +42,7 @@
                     {"text": "Delivered in 5 days or less"}
                 ],
                 "button_text": "Start",
-                "button_url": "https://buy.stripe.com/fZe15F9f449s9qw4gl",
+                "button_url": "#form",
                 "button_text_second": "",
                 "button_url_second": ""
             },
@@ -62,7 +62,7 @@
                     {"text": "Web design included"}
                 ],
                 "button_text": "Start",
-                "button_url": "https://buy.stripe.com/4gwg0z2QG7lEauAdQW",
+                "button_url": "#form",
                 "button_text_second": "",
                 "button_url_second": ""
             },
@@ -82,7 +82,7 @@
                     {"text": "Web design included"}
                 ],
                 "button_text": "Start",
-                "button_url": "https://buy.stripe.com/9AQ01B8b035oauA7sz",
+                "button_url": "#form",
                 "button_text_second": "",
                 "button_url_second": ""
             }

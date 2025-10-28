@@ -81,7 +81,7 @@ function HostingPage(props) {
        {/* Packages */}
        <Section className={"price mt-5"}>
         <Title title={contentJson.packages.title} subtitle={contentJson.packages.description}/>
-        <PriceTable data={contentJson.packages.items}  tagline={contentJson.packages.tagline} popular/>
+        <PriceTable data={contentJson.packages.items} price tagline={contentJson.packages.tagline} popular/>
       </Section>
 
        {/* Form Services*/}

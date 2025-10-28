@@ -42,7 +42,7 @@
                     {"text": "Exclusive Bonus: A custom Wansite to centralize all your important links in one place"}
                 ],
                 "button_text":"Start Now",
-                "button_url": "https://buy.stripe.com/28o01BgHwfSabyE6os",
+                "button_url": "#form",
                 "button_text_second":"",
                 "button_url_second": ""
             },
@@ -61,7 +61,7 @@
                     {"text": "Exclusive Bonus: A custom Wansite to centralize all your important links in one place"}
                 ],
                 "button_text":"Start Now",
-                "button_url": "https://buy.stripe.com/28oaGfbnccFY46caEH",
+                "button_url": "#form",
                 "button_text_second":"",
                 "button_url_second": ""
             }
