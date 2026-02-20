@@ -1,4 +1,4 @@
-
+@use 'sass:color';
 .button {
     font-family: $headings-font-family;
     padding: 0.5rem 1rem;
@@ -26,14 +26,14 @@
       font-size: 0.85rem;
       color: #ffffff;
       &:hover, &:active, &:focus {
-        background-color: darken($color: $main-color, $amount: 10);
+        background-color: color.adjust($main-color, $lightness: -10%);
         color: #ffffff;
       }
     }
     &--secundary {
       background-color: $main-color-dark;
       &:hover {
-        background-color: darken($color: $main-color-dark, $amount: 10);
+        background-color: color.adjust($main-color-dark, $lightness: -10%);
       }
     }
     &--outline {
@@ -41,7 +41,7 @@
       font-size: 0.85rem;
       background-color: transparent;
       &:hover {
-        background-color: darken($color: $main-color, $amount: 10);
+        background-color: color.adjust($main-color, $lightness: -10%);
         font-size: 0.85rem;
         color: #ffffff;
 
