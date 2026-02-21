@@ -1,0 +1,13 @@
+{
+    "date": "20250220",
+    "client": "Hola Atelier",
+    "city": "Rockville",
+    "description": "Hola Atelier is a Spanish immersion childcare and preschool program located in Rockville, Maryland. They serve children ages 8 weeks to 5 years old using an educational approach inspired by Reggio Emilia methodology, combining immersive Spanish language learning with play-based, child-centered pedagogy.",
+    "url": "https://holatelierlearning.com",
+    "year": "2025",
+    "cat": "Web",
+    "tags": "Preschool, Education",
+    "image": "../images/portfolio/holaatelier_pg.jpg",
+    "thumbnail": "../images/portfolio/holaatelier_sq.jpg",
+    "alt": "Hola Atelier"
+}

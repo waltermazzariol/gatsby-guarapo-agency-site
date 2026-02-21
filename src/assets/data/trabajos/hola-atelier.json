@@ -1,0 +1,13 @@
+{
+    "date": "20250220",
+    "client": "Hola Atelier",
+    "city": "Rockville",
+    "description": "Hola Atelier es un programa de cuidado infantil y preescolar con inmersión en español ubicado en Rockville, Maryland. Atienden a niños desde las 8 semanas hasta los 5 años de edad utilizando un enfoque educativo inspirado en la metodología Reggio Emilia, combinando el aprendizaje inmersivo del idioma español con una pedagogía lúdica y centrada en el niño.",
+    "url": "https://holatelierlearning.com",
+    "year": "2025",
+    "cat": "Web",
+    "tags": "Preescolar, Educación",
+    "image": "../images/portfolio/holaatelier_pg.png",
+    "thumbnail": "../images/portfolio/holaatelier_sq.png",
+    "alt": "Hola Atelier"
+}
