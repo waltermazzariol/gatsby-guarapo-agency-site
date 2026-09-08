@@ -19,29 +19,21 @@
         "title":"¿Necesitas ayuda en tu proyecto?",
         "description":"Si has llegado hasta aquí es que tienes alguna pregunta, escribenos un mensaje y nos pondremos en contacto.",
         "contacts": [
-            {
+             {
                 "id":"1",
-                "city": "Barcelona - España",
+                "city": "",
                 "name": "Walter Mazzariol",
                 "number": "",
                 "phone": "",
-                "email": "walter@guarapomedia.com"
-            },
-            {
-                "id":"2",
-                "city": "Miami - Usa",
-                "name": "Christian Uzcategui",
-                "number": "",
-                "phone": "",
-                "email": "christian@guarapomedia.com"
+                "email": "contacto@guarapomedia.com"
             },
             {
                 "id":"3",
-                "city": "Caracas - Venezuela",
-                "name": "Natassha Rodriguez",
-                "number": "+58 424 294 1213",
-                "phone": "584242941213",
-                "email": "natassha@guarapomedia.com"
+                "city": "",
+                "name": "Stefano Mazzariol",
+                "number": "",
+                "phone": "+1 (312) 723-5865",
+                "email": "stefano@guarapomedia.com"
             }
         ]
     }

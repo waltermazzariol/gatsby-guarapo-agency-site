@@ -39,6 +39,11 @@
                 "link": "/work"
             },
             {
+                "nav": "Contacto",
+                "anchor": "",
+                "link": "/es/contacto"
+            },
+            {
                 "nav": "English",
                 "anchor": "",
                 "link": "/"

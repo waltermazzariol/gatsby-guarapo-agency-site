@@ -21,27 +21,19 @@
         "contacts": [
             {
                 "id":"1",
-                "city": "Barcelona - Spain",
+                "city": "",
                 "name": "Walter Mazzariol",
                 "number": "",
                 "phone": "",
-                "email": "walter@guarapomedia.com"
-            },
-            {
-                "id":"2",
-                "city": "Miami - USA",
-                "name": "Christian Uzcategui",
-                "number": "",
-                "phone": "",
-                "email": "christian@guarapomedia.com"
+                "email": "contacto@guarapomedia.com"
             },
             {
                 "id":"3",
-                "city": "Caracas - Venezuela",
-                "name": "Natassha Rodriguez",
+                "city": "",
+                "name": "Stefano Mazzariol",
                 "number": "",
-                "phone": "",
-                "email": "natassha@guarapomedia.com"
+                "phone": "+1 (312) 723-5865",
+                "email": "stefano@guarapomedia.com"
             }
         ]
     }

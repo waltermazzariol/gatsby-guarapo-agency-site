@@ -55,7 +55,7 @@
       }
     }
   }
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(xl) {
     &-collapse {
       position: absolute;
       top: 54px;
