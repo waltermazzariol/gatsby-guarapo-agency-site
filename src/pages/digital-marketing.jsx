@@ -13,7 +13,6 @@ import CookiesConsent from "../components/Cookies"
 import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import Hero from "../components/Hero/Hero"
-import Contact from "../components/Contact"
 import Portfolio from "../components/Portfolio/Portfolio"
 import PriceTable from "../components/PriceTable"
 import Process from "../components/Process";
@@ -28,7 +27,7 @@ function MarketingPage(props) {
 
 
   return (
-    <Layout nav={generalJson.navigation}>
+    <Layout nav={generalJson.navigation} contact={generalJson.contact}>
     <Hero data={contentJson.hero} color="bg-light-purple"/>
     <Section>
       <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
@@ -82,9 +81,6 @@ function MarketingPage(props) {
         <Portfolio data={blogJson} />
       </Section>
 
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
-        <Contact data={generalJson.contact} />
-      </Section>
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>

@@ -172,11 +172,13 @@ fragment scopeFields on DataJson {
 export const contactFields = graphql`
 fragment contactFields on DataJson {
   contact {
-    address
-    email
     socialmedia {
       link
       name
+    }
+    locations {
+      city
+      email
     }
   }
 }`

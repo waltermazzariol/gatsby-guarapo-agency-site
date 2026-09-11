@@ -11,7 +11,7 @@
     "navigation": {
         "logo-url": "./images/logo.svg",
         "cta-button": "Get started",
-        "cta-link": "/contact",
+        "cta-link": "#contact",
         "menu": [
             {
                 "nav": "Home",
@@ -41,7 +41,7 @@
              {
                 "nav": "Contact",
                 "anchor": "",
-                "link": "/contact"
+                "link": "#contact"
             },
             {
                 "nav": "Español",
@@ -137,7 +137,7 @@
         "title": "Managing your content on digital media can be overwhelming.",
         "text": "We take care of creating content, managing your accounts, handling your Ads, and positioning your brand. Focus on what really matters: your business!",
         "button_text": "Start now",
-        "button_url": "/contact"
+        "button_url": "#contact"
     },
     "scope":{
         "title": "Everything you need in one place",
@@ -230,8 +230,20 @@
         ]
     },
     "contact": {
-        "email": "contact@guarapomedia.com",
-        "address": "Barcelona, Spain",
+        "locations": [
+            {
+                "city": "Barcelona, Spain",
+                "email": "contacto@guarapomedia.com"
+            },
+            {
+                "city": "Venezuela",
+                "email": "stefano@guarapomedia.com"
+            },
+            {
+                "city": "Bogota, Colombia",
+                "email": "christian@guarapomedia.com"
+            }
+        ],
         "socialmedia": [
             {
                 "link": "https://www.instagram.com/GuarapoMedia/",

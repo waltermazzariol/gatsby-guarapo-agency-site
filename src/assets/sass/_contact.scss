@@ -12,6 +12,15 @@
       }
     }
   }
+  .locations {
+    margin-top: 0.5rem;
+    > div {
+      margin-bottom: 1.5rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
   ul {
     list-style-type: none;
     padding-left: 0;

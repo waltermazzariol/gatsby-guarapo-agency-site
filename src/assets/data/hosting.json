@@ -102,7 +102,7 @@
                     {"text": "24/7 Support"}
                 ],
                 "button_text": "Check Availability",
-                "button_url": "/contact",
+                "button_url": "#contact",
                 "button_text_second":"",
                 "button_url_second": ""
             }

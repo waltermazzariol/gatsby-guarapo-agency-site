@@ -12,7 +12,6 @@ import Seo from "../components/Seo"
 import Layout from "../components/Layout"
 import Cover from "../components/Hero/Cover"
 import ShopCard from "../components/ShopCard.jsx"
-import Contact from "../components/Contact"
 import Section from "../components/Common/Section"
 
 const shop = [
@@ -63,15 +62,12 @@ function Work(props) {
   const generalJson = props.data.dataJson
 
   return (
-    <Layout nav={generalJson.navigation}>
+    <Layout nav={generalJson.navigation} contact={generalJson.contact}>
       <Cover data={contentJson.cover} />
       <Section className={'bg-gray'}>
         <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
       </Section>
       <ShopCard data={contentJson.shop} />
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} >
-        <Contact data={generalJson.contact} />
-      </Section>
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>

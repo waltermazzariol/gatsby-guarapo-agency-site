@@ -115,7 +115,7 @@
                     }
                 ],
                 "button_text": "Consultar Disponibilidad",
-                "button_url": "/contacto",
+                "button_url": "#contact",
                 "button_text_second":"",
                 "button_url_second": ""
             }

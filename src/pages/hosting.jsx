@@ -12,7 +12,6 @@ import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import PriceTable from "../components/PriceTable";
 import Cover from "../components/Hero/Cover";
-import Contact from "../components/Contact";
 import Section from "../components/Common/Section";
 import Title from "../components/Common/Title";
 import Domain from "../components/Domain";
@@ -33,7 +32,7 @@ function HostingPage(props) {
   const [domain, setDomain] = useState("");
 
   return (
-    <Layout nav={generalJson.navigation}>
+    <Layout nav={generalJson.navigation} contact={generalJson.contact}>
       <Cover data={contentJson.cover} rating={contentJson.testimonials.list}/>
     <div className="spacer"></div>
       <Section>
@@ -118,11 +117,7 @@ function HostingPage(props) {
       <Section anchor={'portfolio'} className={'portfolio'} fluid={true} rowClass={"g-0"}>
         <Portfolio data={blogJson} />
       </Section>
-      
-      
-      <Section anchor={"contact"} className={"contact bg-dark"} fluid={true}>
-        <Contact data={generalJson.contact} />
-      </Section>
+
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>

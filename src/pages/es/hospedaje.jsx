@@ -12,7 +12,6 @@ import Seo from "../../components/Seo";
 import Layout from "../../components/Layout";
 import PriceTable from "../../components/PriceTable";
 import Cover from "../../components/Hero/Cover";
-import Contact from "../../components/Contact";
 import Section from "../../components/Common/Section";
 import Title from "../../components/Common/Title";
 import Domain from "../../components/Domain";
@@ -32,7 +31,7 @@ function TeamPage(props) {
   const [domain, setDomain] = useState("");
 
   return (
-    <Layout nav={generalJson.navigation}>
+    <Layout nav={generalJson.navigation} contact={generalJson.contact}>
       <Cover data={contentJson.cover} rating={contentJson.testimonials.list}/>
       <Section>
          <div className="col-12 pt-4 small"><a href="/">Home</a> {contentJson.general.path}</div>
@@ -114,9 +113,6 @@ function TeamPage(props) {
         <Portfolio data={blogJson} />
       </Section>
 
-      <Section anchor={"contact"} className={"contact bg-dark"} fluid={true}>
-        <Contact data={generalJson.contact} />
-      </Section>
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>

@@ -13,7 +13,6 @@ import CookiesConsent from "../../components/Cookies"
 import Seo from "../../components/Seo"
 import Layout from "../../components/Layout"
 import Hero from "../../components/Hero/Hero"
-import Contact from "../../components/Contact"
 import Portfolio from "../../components/Portfolio/Portfolio"
 import PriceTable from "../../components/PriceTable"
 import Process from "../../components/Process";
@@ -27,7 +26,7 @@ function WebPage(props) {
   const blogJson = props.data.allWorkJson.edges
 
   return (
-    <Layout nav={generalJson.navigation}>
+    <Layout nav={generalJson.navigation} contact={generalJson.contact}>
       <Hero data={contentJson.hero} color="bg-light-blue"/>
 
       <Section>
@@ -82,10 +81,6 @@ function WebPage(props) {
        <Portfolio data={blogJson} />
       </Section>
 
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true} >
-        <Contact data={generalJson.contact} />
-      </Section>
-      
       <CookiesProvider>
         <CookiesConsent data={generalJson.tags} />
       </CookiesProvider>

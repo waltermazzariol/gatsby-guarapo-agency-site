@@ -8,6 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Navbar from "./Navbar"
+import Section from "./Common/Section"
+import Contact from "./Contact"
 import "./layout.scss"
 import logo from "../assets/images//guarapo_logo.svg"
 
@@ -62,9 +64,14 @@ export default class Layout extends React.Component {
         id="page-top">
         <Navbar nav={this.props.nav}/>
         <main>{this.props.children}</main>
-        <footer className="footer">
-          <div className="container">
-            <div className="footer-text">Copyright &copy; 2014 - {(new Date().getFullYear())} - <a href="https://guarapomedia.com" target="_blank" rel="noopener noreferrer"><img src={logo} className="icon icon-logo" alt="Logo Guarapo Media" /></a></div>
+        <footer>
+          <Section anchor="contact" className="contact bg-dark" fluid={true}>
+            <Contact data={this.props.contact} />
+          </Section>
+          <div className="footer">
+            <div className="container">
+              <div className="footer-text">Copyright &copy; 2014 - {(new Date().getFullYear())} - <a href="https://guarapomedia.com" target="_blank" rel="noopener noreferrer"><img src={logo} className="icon icon-logo" alt="Logo Guarapo Media" /></a></div>
+            </div>
           </div>
         </footer>
       </div>
@@ -75,4 +82,5 @@ export default class Layout extends React.Component {
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string,
+  contact: PropTypes.object.isRequired,
 }

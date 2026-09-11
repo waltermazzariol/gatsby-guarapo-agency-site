@@ -16,7 +16,6 @@ import Hero from "../../components/Hero/Hero"
 
 // import Banner from "../../components/Banner"
 import Packages from "../../components/PriceTable"
-import Contact from "../../components/Contact"
 import Portfolio from "../../components/Portfolio/Portfolio"
 
 import Process from "../../components/Process";
@@ -30,7 +29,7 @@ function IndexPage(props) {
 const contentJson = props.data.allDataJson.edges[0].node
 const blogJson = props.data.allWorkJson.edges
 return (
-<Layout nav={contentJson.navigation}>
+<Layout nav={contentJson.navigation} contact={contentJson.contact}>
 
   {/* Hero */}
   <Hero data={contentJson.hero} color="bg-yellow"/>
@@ -86,12 +85,7 @@ return (
     <Title title={contentJson.tags.portfolio_title} subtitle={contentJson.tags.portfolio_subtitle} />
   </Section>
   <Portfolio data={blogJson} />
-  
-  {/* Contact */}
-  <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
-    <Contact data={contentJson.contact} />
-  </Section>
-  
+
   <CookiesProvider>
     <CookiesConsent data={contentJson.tags} />
   </CookiesProvider>

@@ -5,8 +5,6 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/Seo"
 import Cover from "../components/Hero/Cover"
-import Section from "../components/Common/Section"
-import Contact from "../components/Contact"
 
 // Genneric Component
 import CookiesConsent from "../components/Cookies"
@@ -22,7 +20,7 @@ function Works(props) {
   }
 
   return (
-    <Layout nav={contentJson.navigation}>
+    <Layout nav={contentJson.navigation} contact={contentJson.contact}>
       <Cover data={coverData} />
       <div className="portfolio-modal py-5">
         <div className="container">
@@ -59,7 +57,7 @@ function Works(props) {
                     {dataJson.description.split("\n").map((item, i) => <p key={i}>{item}</p>)}
                   </li> : ""}
               </ul>
-              <a className="button button--primary mt-3 mb-5" href="/contacto">Lo Quiero</a>             
+              <a className="button button--primary mt-3 mb-5" href="#contact">Lo Quiero</a>
             </div>
             <div className="col-sm-12 col-md-6 portfolio-modal">
               <img srcSet={dataJson.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} className="img-fluid" alt={dataJson.title} />
@@ -67,9 +65,6 @@ function Works(props) {
           </div>
         </div>
       </div>
-      <Section anchor={'contact'} className={'contact bg-dark'} fluid={true}>
-        <Contact data={contentJson.contact} />
-      </Section>
       <CookiesProvider>
         <CookiesConsent data={contentJson.tags} />
       </CookiesProvider>

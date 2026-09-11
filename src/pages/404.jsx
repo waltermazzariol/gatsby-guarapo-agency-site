@@ -14,6 +14,7 @@ query {
         ...heroFields
         ...navigationFields
         ...tagsFields
+        ...contactFields
       }
     }
   }
@@ -22,7 +23,7 @@ query {
 const NotFoundPage = (props) => {
   const contentJson = props.data.allDataJson.edges[0].node
 return(
-  <Layout nav={contentJson.navigation} >
+  <Layout nav={contentJson.navigation} contact={contentJson.contact}>
     <Hero data={contentJson.hero} logo={contentJson.navigation.logo_url} />
     <div className="container my-5">
       <div className="row">

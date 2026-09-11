@@ -11,7 +11,7 @@
     "navigation": {
         "logo-url": "./images/logo.svg",
         "cta-button": "Empezar",
-        "cta-link": "/es/contacto",
+        "cta-link": "#contact",
         "menu": [
             {
                 "nav": "Inicio",
@@ -41,7 +41,7 @@
             {
                 "nav": "Contacto",
                 "anchor": "",
-                "link": "/es/contacto"
+                "link": "#contact"
             },
             {
                 "nav": "English",
@@ -137,7 +137,7 @@
         "title": "Manejar tu contenido en medios digitales, puede ser abrumador.",
         "text": "Nosotros nos encargamos de crear contenido, administrar tus cuentas, manejar tus Ads, y posicionar tu marca. Encárgate de lo que realmente importa: ¡tu negocio!",
         "button_text": "Empezar ahora",
-        "button_url": "/contacto"
+        "button_url": "#contact"
     },
     "scope":{
         "title": "Todo lo que necesitas en un sólo lugar",
@@ -260,8 +260,20 @@
         ]
     },
     "contact": {
-        "email": "contacto@guarapomedia.com",
-        "address": "Barcelona, España",
+        "locations": [
+            {
+                "city": "Barcelona, España",
+                "email": "contacto@guarapomedia.com"
+            },
+            {
+                "city": "Venezuela",
+                "email": "stefano@guarapomedia.com"
+            },
+            {
+                "city": "Bogotá, Colombia",
+                "email": "christian@guarapomedia.com"
+            }
+        ],
         "socialmedia": [
             {
                 "link": "https://www.instagram.com/GuarapoMedia/",
