@@ -19,7 +19,10 @@ function NavBar(props) {
               rootel={"#mainNav"} offset={-75}>
               {props.nav.menu.map((key) =>
                 <li key={key.nav} className={`nav-item ${key.anchor}`}>
-                  <Link className="nav-link nav-link-ltr" to={key.link}>{key.nav}</Link>
+                  {key.link.startsWith("http") ?
+                    <a className="nav-link nav-link-ltr" href={key.link} target="_blank" rel="noopener noreferrer">{key.nav}</a> :
+                    <Link className="nav-link nav-link-ltr" to={key.link}>{key.nav}</Link>
+                  }
                 </li>
                 )}
             </div>

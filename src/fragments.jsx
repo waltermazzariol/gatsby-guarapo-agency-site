@@ -262,28 +262,3 @@ fragment tagsFields on DataJson {
   }
 }`
 
-export const domainsFields = graphql`
-fragment domainsFields on DataJson {
-  domains {
-    title
-    description
-    link
-    button
-    placeholder
-    packages{
-      name
-      price
-    }
-  }
-}`
-
-export const guaranteeFields = graphql`
-fragment guaranteeFields on DataJson {
-  guarantee {
-    title
-    description
-    features {
-      text
-    }
-  }
-}`
