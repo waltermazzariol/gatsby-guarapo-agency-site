@@ -1,0 +1,13 @@
+{
+    "date": "20260923",
+    "client": "Wantap",
+    "city": "Global",
+    "description": "Wantap es una plataforma de tarjetas de lealtad digitales que permite a cafés, barberías, restaurantes y otros negocios locales reemplazar las tarjetas de cartón por tarjetas digitales en Apple Wallet y Google Wallet, sin necesidad de descargar una app. El sitio explica el producto, los precios, la calculadora de ROI y una demo en vivo.",
+    "url": "https://wantap.co",
+    "year": "2026",
+    "cat": "Web",
+    "tags": "SaaS, Tarjetas de lealtad",
+    "image": "../images/portfolio/wantap_pg.jpg",
+    "thumbnail": "../images/portfolio/wantap_sq.jpg",
+    "alt": "Wantap"
+}
