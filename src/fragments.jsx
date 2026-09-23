@@ -251,6 +251,8 @@ fragment tagsFields on DataJson {
     tags
     year
     button
+    want_it
+    breadcrumb_home
     form_name
     form_email
     form_phone

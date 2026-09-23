@@ -25,7 +25,7 @@ function Works(props) {
       <div className="portfolio-modal py-5">
         <div className="container">
           <div className="row">
-            <div className="col-12 pb-5"><a href="/">Inicio</a> / {coverData.title}</div>
+            <div className="col-12 pb-5"><a href="/">{tagsJson.breadcrumb_home}</a> / {coverData.title}</div>
             <div className="col-sm-12 col-md-6 portfolio-modal--body">
               <ul className="fa-ul portfolio-modal--text">
                 {dataJson.city !== "" ?
@@ -57,7 +57,7 @@ function Works(props) {
                     {dataJson.description.split("\n").map((item, i) => <p key={i}>{item}</p>)}
                   </li> : ""}
               </ul>
-              <a className="button button--primary mt-3 mb-5" href="#contact">Lo Quiero</a>
+              <a className="button button--primary mt-3 mb-5" href="#contact">{tagsJson.want_it}</a>
             </div>
             <div className="col-sm-12 col-md-6 portfolio-modal">
               <img srcSet={dataJson.image.childImageSharp.gatsbyImageData.images.fallback.srcSet} className="img-fluid" alt={dataJson.title} />
